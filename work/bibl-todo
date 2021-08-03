@@ -1,1 +1,29 @@
+Les fichiers XCIT-1-7.txt contiennent les chaînes de caractères correspondant aux références citées, brutes dans un premier champ et étiquetées dans un deuxième. Elles sont classées par ordre d'apparition. Ces fichiers serviront à repérer et donc encoder ces mêmes chaînes dans la source xml.
 
+Chaque ligne des fichiers XCIT correspond à une référence et contient les 1 champs suivants :
+. champ 1 : Entre \t$1\t et \t$2\t : La chaîne de caractères à chercher dans le fichier xml du tome correspondant
+. champ 2 : Entre\t$2\t et \t$3\t : La référence bibliographique "entière", non élidée mais toujours sous forme abrégée. Les segments ajoutés sont encadrés par <add>, les supprimés par <del>, les l.c. explicités par <supplied reason="lc">, les ll.cc. par <supplied reason="llcc">. 
+. champ 3 : Entre \t$3\t et \t$4\t : identifiant attribué à la référence qui devrait servir à numéroter le <bibl> principal de chaque ligne.TODO: À DÉCIDER
+. champ 4 : Entre \t$4\t et \t$5\t : lemme de l'entrée entrée où se trouve cette référence.
+
+La stratégie prévue est de programmer une suite de recherche-remplace CONTRÔLÉE, tome après tome, navigant entre XCIT-[1-7].xml et son correspondant xdge[1-7].xml , consistant à 
+1. XCIT	-([1-7]).txt : mémoriser le contenu du champ 4 (lemme)
+2. xdge\1.xml  : trouver son équivalent exact, balises comprises : positionnement en début d'article
+3. XCIT-\1.xml : mémoriser le contenu du champ 1 
+4. xdge\1.xml : trouver son équivalent exact, balises comprises 
+5. xdge\1.xml : la remplacer par le contenu du champ 3
+
+PROBLEME à résoudre de chevauchements des balises  pour les cas tels que <supplied reason="llcc">...</supplied> : il faut trouver un autre système de balisage et trouver ce qui serait le plus adapté. L'affichage souhaité des "l.c." et "ll.cc." est le même : par défaut, afficher le <bibl> tel quel (avec l.c. ou ll.cc.) et expliciter quand mouseover.
+Il y aura sans doute de nombreuses autres erreurs de validité. Repérer et corriger avant ou après intégration ?
+
+ Outre l'enrichissment de la source xml du DGE, ces listes de références ont été pensées pour résoudre toutes les références bibliographiques citées, dans trois buts principaux:
+- stocker l'intégralité des <bibl>, <author>, <title> pour garantir recherches exhaustives et exactes, suggestion en liste déroulante, etc.
+- permettre un affichage secondaire explicitant une citation élidée (cas de l.c.)
+- lier les auteurs et les ouvrages cités à leur fiche biblio complète (édition suivie, date de l'auteur, genre, etc.) contenue dans les "Listas I-III" (sous le répertoire lst)
+	- Lista I : auteurs et oeuvres
+	- Lista II : papyrus et ostraca
+	- Lista III : inscriptions
+	- Lista IV : toutes les abréviations
+
+xcit-explications-frederic.txt
+Affichage de xcit-explications-frederic.txt en cours...
