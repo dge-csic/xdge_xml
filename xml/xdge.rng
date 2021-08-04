@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///D:/www/algone/xrem/rng2html.xsl"?>
+<grammar ns="http://www.tei-c.org/ns/1.0" xmlns="http://relaxng.org/ns/structure/1.0"
+  datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
+  xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+  xmlns:h="http://www.w3.org/1999/xhtml">
+
+
+  <a:documentation xmlns="http://www.w3.org/1999/xhtml">
+    <h1>DGE encoding schema</h1>
+    <p>This documented schema validates the <a href="http://www.tei-c.org/Guidelines/P5/">XML TEI
+        P5</a> source of the DGE. </p>
+  </a:documentation>
+  <define name="entry">
+    <element name="entry">
+      <a:documentation xmlns="http://www.w3.org/1999/xhtml">
+        <div>
+          <p>A dictionary article<!--(TODO: with a mandatory id attribute )-->. Different structure
+            types of articles: indicated for proper names ("NP") in an optional "type" attribute.
+            <!--SUPPRIME: The mandatory "sortKey" attribute contains the inverse form of
+        the principal lemma (majuscule et certains diacritiques conservés mais suppression des
+        esprits, crochets, parenthèses, aspirations, obèle, point en haut, etc), to build the
+        inverse list of the lemmas-->.
+            One entry must contain a morphology block. The "body" of the entry is generally made of
+            sense(s) followed sometimes by reference to another entry and etymological
+            information.</p>
+        </div>
+      </a:documentation>
+      <!--TODO: documenter les choix adoptés pour générer les identifiants -->
+      <attribute name="xml:id">
+        <data type="NCName"/>
+      </attribute>
+      <optional>
+        <attribute name="type">
+          <choice>
+            <value>NP</value>
+            <value>afix</value>
+          </choice>
+        </attribute>
+      </optional>
+      <ref name="form"/>
+      <optional>
+        <ref name="dictScrap"/>
+      </optional>
+      <oneOrMore>
+        <ref name="sense"/>
+      </oneOrMore>
+      <optional>
+        <ref name="bibl"/>
+      </optional>
+      <optional>
+        <ref name="etym"/>
+      </optional>
+    </element>
+  </define>
+  <define name="entry-ref">
+    <element name="entry">
+      <a:documentation xmlns="http://www.w3.org/1999/xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          <p> Some articles have no tranlsation section(s): these entries point only to another main
+            entry. </p>
+        </div>
+      </a:documentation>
+      <!--TODO: documenter les choix adoptés pour générer les identifiants -->
+      <attribute name="xml:id">
+        <data type="NCName"/>
+      </attribute>
+      <attribute name="type">
+        <value>xr</value>
+      </attribute>
+      <optional>
+        <attribute name="subtype">
+          <value>NP</value>
+        </attribute>
+      </optional>
+      <ref name="form"/>
+      <oneOrMore>
+        <ref name="xr"/>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="entry-dmic">
+    <element name="entry">
+      <a:documentation xmlns="http://www.w3.org/1999/xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          <p> </p>
+        </div>
+      </a:documentation>
+      <attribute name="xml:id">
+        <data type="NCName"/>
+      </attribute>
+      <attribute name="type">
+        <value>dmic</value>
+      </attribute>
+      <optional>
+        <attribute name="subtype">
+          <value>NP</value>
+        </attribute>
+      </optional>
+      <ref name="form"/>
+      <ref name="bibl"/>
+    </element>
+  </define>
+  <define name="form">
+    <element name="form">
+      <a:documentation xmlns="http://www.w3.org/1999/xhtml">Each article contains a morphological
+        header. Its minimal content is the lemma (with the indication of its ending (genitive) and
+        determinant for nouns, and feminine (when different from masculine) and neutral endings for
+        adjectives). This header may contain as well some sub-sections (&lt;form&gt; as well with a
+        "type" attribut) for more specific morphological descriptions (cf. infra).</a:documentation>
+      <ref name="orth"/>
+      <optional>
+        <ref name="gramGrp"/>
+      </optional>
+      <optional>
+        <ref name="hi"/>
+      </optional>
+      <zeroOrMore>
+        <ref name="orth"/>
+      </zeroOrMore>
+      <optional>
+        <ref name="gramGrp"/>
+      </optional>
+      <optional>
+        <ref name="alolema"/>
+      </optional>
+      <zeroOrMore>
+        <ref name="morphpart"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="gramGrp">
+    <a:documentation> Regroupe les informations grammaticales du lemme (principal ou allolemme).
+      Notamment : génitif et déterminant des substantifs, nominatif féminin et neutre pour les
+      adjectifs.</a:documentation>
+    <element name="gramGrp">
+      <text/>
+    </element>
+  </define>
+  <define name="alolema">
+    <element name="form">
+      <a:documentation>Morphological and bibliographical section for one or more alolema(ta). Can
+        contain other &lt;form>.</a:documentation>
+      <attribute name="type">
+        <value>alolema</value>
+      </attribute>
+      <zeroOrMore>
+        <choice>
+          <text/>
+          <ref name="hi"/>
+        </choice>
+      </zeroOrMore>
+      <ref name="orth"/>
+      <optional>
+        <ref name="gramGrp"/>
+      </optional>
+      <zeroOrMore>
+        <choice>
+          <text/>
+          <ref name="orth"/>
+          <ref name="gramGrp"/>
+          <ref name="hi"/>
+          <ref name="foreign"/>
+          <ref name="xr"/>
+          <ref name="morphpart"/>
+        </choice>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="morphpart">
+    <element name="form">
+      <a:documentation>Sub-sections of morphological information (when inside a &lt;form>).
+        Different types, precised by an attribute.</a:documentation>
+      <attribute name="type">
+        <choice>
+          <value>prosodia</value>
+          <value>grafia</value>
+          <value>morfologia</value>
+        </choice>
+      </attribute>
+      <zeroOrMore>
+        <choice>
+          <text/>
+          <ref name="hi"/>
+          <ref name="foreign"/>
+          <ref name="xr"/>
+        </choice>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="orth">
+    <element name="orth">
+      <a:documentation>
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          <p>Orthographic form(s) of the headword: principal lemma (mandatory); secondary lemmas can
+            be present; one or more variants ("alolema"). Excepted the latin variants (in italic),
+            all these forms are in bold. Certain non alphabetic characters are included in the
+            tag:</p>
+          <ul>
+            <li>Asterisk (*): indicates that the lemma is a hypothetical or reconstructed form that
+              is not attested.</li>
+            <li>Dagger (†): indicates that the lemma is dubious or corrupt.</li>
+            <li>Number preceding the homograph lemma: used to distinguish identical forms (with
+              identical endings) which etymology is different.</li>
+            <li>Middle dot (·) following the lemma: indicates that the article is an ancient
+              lexicographic gloss in greek and not a translation in spanish.</li>
+            <li>Dash (-) preceding of following the abbreviated variants.</li>
+          </ul>
+        </div>
+      </a:documentation>
+      <attribute name="type">
+        <choice>
+          <value>lemma</value>
+          <value>variant</value>
+          <value>latin</value>
+        </choice>
+      </attribute>
+      <zeroOrMore>
+        <choice>
+          <text/>
+          <element name="hi">
+            <attribute name="rend">
+              <value>sup</value>
+            </attribute>
+            <text/>
+          </element>
+        </choice>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="dictScrap">
+    <element name="dictScrap">
+      <a:documentation>Corps de l'article. Parfois ne contient qu'une référence croisée. Peut
+        contenir d'autres &lt;dictScrap>. The @n numbering attribute is a hierarchichal label,
+        unique inside an entry.</a:documentation>
+      <optional>
+        <attribute name="n">
+          <data type="NMTOKEN"/>
+        </attribute>
+      </optional>
+      <optional>
+        <element name="usg">
+          <text/>
+        </element>
+      </optional>
+      <zeroOrMore>
+        <choice>
+          <text/>
+          <ref name="def"/>
+          <ref name="cit"/>
+          <ref name="xr"/>
+          <ref name="hi"/>
+          <ref name="foreign"/>
+          <ref name="dictScrap"/>
+          <ref name="num"> </ref>
+        </choice>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="sense">
+    <element name="sense">
+      <optional>
+        <attribute name="n">
+          <data type="NMTOKEN"/>
+        </attribute>
+      </optional>
+      <optional>
+        <ref name="num"/>
+      </optional>
+      <zeroOrMore>
+        <choice>
+          <ref name="hi"/>
+          <ref name="xr"/>
+          <ref name="foreign"/>
+          <ref name="def"/>
+          <ref name="gloss"/>
+          <ref name="cit"/>
+          <ref name="ref"/>
+          <text/>
+        </choice>
+      </zeroOrMore>
+      <zeroOrMore>
+        <ref name="sense"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="num">
+    <element name="num">
+      <a:documentation>Sense number. The "void" attribute is only used for nicer display
+        <!-- TODO: attribut à supprimer plus tard--></a:documentation>
+      <optional>
+        <attribute name="type">
+          <value>start</value>
+        </attribute>
+      </optional>
+      <text/>
+    </element>
+  </define>
+  <define name="usg">
+    <element name="usg">
+      <optional>
+        <attribute name="type">
+          <choice>
+            <text/>
+          </choice>
+        </attribute>
+      </optional>
+      <text/>
+    </element>
+  </define>
+  <define name="gloss">
+    <element name="gloss">
+      <a:documentation>utilisé pour les articles ne contenant pas de traduction</a:documentation>
+      <zeroOrMore>
+        <choice>
+          <text/>
+          <ref name="ref"/>
+        </choice>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="def">
+    <element name="def">
+      <a:documentation xmlns="http://www.w3.org/1999/xhtml"> Marque strictement la traduction du
+        lemme (en excluant tout ce qui peut être compris entre deux traductions successives).
+        Cependant, quand l'une des traductions est abrégée, il n'a qu'un seul élément encadrant le
+        tout. (mixed content with space preserved). La traduction suit généralement le numéro de
+        sens ou de sous-sens correspondant, mais il existe une catégorie de lemmes pour lesquels la
+        même traduction est valide pour plusieurs sens, et c'est pourquoi elle précède le premier
+        numéro de sens. Cela arrive surtout pour les noms propres. L'élément optionnel &lt;hi
+        rend="roman"&gt; correspond au complément de traduction.
+        <!--  TODO: Les gloses de lexicographes
+        (repérables par le lemme suivi d'un point en haut) devraient être traitées différemment :
+        prévoir un autre code ou un attribut (dans ce cas-ci, prévoir que les caractères grecs
+        puissent être utilisés dans l’élément), mais semble préférable de chercher un autre code, par
+        exemple &lt;cit type="gloss"&gt;-->. </a:documentation>
+      <!-- ???? <attribute>
+        <name ns="http://www.w3.org/XML/1998/namespace">space</name>
+        <value>preserve</value>
+      </attribute>
+      -->
+      <zeroOrMore>
+        <choice>
+          <text/>
+          <element name="hi">
+            <attribute name="rend">
+              <choice>
+                <value>roman</value>
+                <value>sup</value>
+              </choice>
+            </attribute>
+            <text/>
+            <optional>
+              <ref name="xr"/>
+            </optional>
+          </element>
+          <ref name="xr"/>
+        </choice>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="hi">
+    <element name="hi">
+      <attribute name="rend">
+        <choice>
+          <value>sup</value>
+          <value>sub</value>
+          <value>roman</value>
+          <value>italic</value>
+        </choice>
+      </attribute>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="hi"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="cit">
+    <element name="cit">
+      <a:documentation>Citation (contexte grec + sa traduction, parfois seulement l'un des
+        deux)</a:documentation>
+      <zeroOrMore>
+        <choice>
+          <text/>
+          <ref name="hi"/>
+          <ref name="xr"/>
+          <ref name="quote"/>
+          <ref name="usg"/>
+          <ref name="bibl"/>
+        </choice>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="bibl">
+    <element name="bibl">
+      <a:documentation>Référence bibliographique. Utilisé également pour les références au DMic
+        (Diccionario Micénico).</a:documentation>
+      <optional>
+        <attribute name="type"/>
+      </optional>
+      <zeroOrMore>
+        <choice>
+          <text/>
+          <ref name="hi"/>
+          <element name="title">
+            <text/>
+          </element>
+          <ref name="xr"/>
+        </choice>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="quote">
+    <element name="quote">
+      <a:documentation>Contexte grec cité ou sa traduction (en italique) espagnole. Contenu mêlé,
+        car contient parfois un complément de traduction en caractères droits et entre parenthèses.
+        Les deux quote se distinguent par leur attribut</a:documentation>
+      <attribute>
+        <name ns="http://www.w3.org/XML/1998/namespace">lang</name>
+        <choice>
+          <value>grc</value>
+          <value>lat</value>
+          <value>spa</value>
+        </choice>
+      </attribute>
+      <zeroOrMore>
+        <choice>
+          <text/>
+          <ref name="hi"/>
+          <ref name="xr"/>
+        </choice>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="foreign">
+    <element name="foreign">
+      <a:documentation>Utilisé temporairement pour identifier les segments de texte grec dans une
+        référence bibliographique, et ainsi ne pas les confondre avec le reste des mots grecs pas
+        encore balisés (notamment des sous-lemmes). Sont inclus ou exclus les signes de ponctuation
+        selon qu'ils appartiennent ou non à la séquence en grec (virgule, points de suspension à
+        n'importe quelle position etc.) ou du mot grec (par exemple abrégé), ou non.
+        <!--  TODO: supprimer cet élément de "form", "def", "etym", "orth", etc.--></a:documentation>
+      <attribute>
+        <name ns="http://www.w3.org/XML/1998/namespace">lang</name>
+        <value>grc</value>
+      </attribute>
+      <text/>
+    </element>
+  </define>
+  <define name="etym">
+    <element name="etym">
+      <a:documentation>Section étymologique optionnelle. Toujours la dernière section d'un article.
+        Encadrée par des doubles crochets (&#12314; et &#12315;) dans la version
+        papier.</a:documentation>
+      <zeroOrMore>
+        <choice>
+          <text/>
+          <ref name="hi"/>
+          <ref name="foreign"/>
+          <ref name="xr"/>
+        </choice>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="xr">
+    <element name="xr">
+      <a:documentation>Toute référence croisée pointant vers un lemme ou une section particulière
+        (de ce volume ou d'un autre). Les articles de renvoi, contenant les variantes
+        alphabétiquement éloignées du lemme principal, sont encodés comme une référence croisée,
+        pointant vers l’entrée principale, &lt;ref></a:documentation>
+      <zeroOrMore>
+        <choice>
+          <ref name="lbl"/>
+          <text/>
+          <ref name="ref"/>
+        </choice>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="lbl">
+    <element name="lbl">
+      <a:documentation>Étiquette souvent une abréviation, par exemple, "cf.". Ne pas confondre avec les indications d'usage. TODO: développer</a:documentation>
+      <text/>
+    </element>
+  </define>
+  <define name="ref">
+    <element name="ref">
+      <a:documentation>Correspond à un lemme grec en référence croisée, ou à un numéro de section,
+        ou les deux</a:documentation>
+      <optional>
+        <attribute name="target">
+          <data type="anyURI"/>
+        </attribute>
+      </optional>
+      <zeroOrMore>
+        <choice>
+          <element name="hi">
+            <attribute name="rend">
+              <value>bold</value>
+            </attribute>
+            <text/>
+          </element>
+          <text/>
+        </choice>
+      </zeroOrMore>
+    </element>
+  </define>
+  <start>
+    <choice>
+      <ref name="entry"/>
+      <element name="TEI">
+        <a:documentation>Global TEI structure</a:documentation>
+        <attribute name="xml:lang"/>
+        <attribute name="xml:id"/>
+        <ref name="teiHeader"/>
+        <element name="text">
+          <element name="body">
+            <oneOrMore>
+              <choice>
+                <ref name="entry"/>
+                <ref name="entry-ref"/>
+                <ref name="entry-dmic"/>
+              </choice>
+            </oneOrMore>
+          </element>
+        </element>
+      </element>
+    </choice>
+  </start>
+  <define name="teiHeader">
+    <optional>
+      <element name="teiHeader">
+        <oneOrMore>
+          <ref name="anyTEI"/>
+        </oneOrMore>
+      </element>
+    </optional>
+  </define>
+  <define name="anyTEI">
+    <a:documentation>Motif récursif pour autoriser tout contenu TEI sans validation de
+      structure.</a:documentation>
+    <element ns="http://www.tei-c.org/ns/1.0">
+      <anyName/>
+      <zeroOrMore>
+        <attribute>
+          <anyName/>
+        </attribute>
+      </zeroOrMore>
+      <zeroOrMore>
+        <choice>
+          <text/>
+          <ref name="anyTEI"/>
+        </choice>
+      </zeroOrMore>
+    </element>
+  </define>
+</grammar>
