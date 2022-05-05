@@ -35,6 +35,17 @@
           <choice>
             <value>NP</value>
             <value>afix</value>
+            <value>v</value>
+            <value>adv</value>
+            <value>subst</value>
+            <value>adj</value>
+            <value>pron</value>
+            <value>numer</value>
+            <value>prep</value>
+            <value>interj</value>
+            <value>conj</value>
+            <value>partic</value>
+            <value>·</value>
           </choice>
         </attribute>
       </optional>
@@ -70,7 +81,16 @@
       </attribute>
       <optional>
         <attribute name="subtype">
-          <value>NP</value>
+          <choice>
+            <value>adv</value>
+            <value>v</value>
+            <value>subst</value>
+            <value>NP</value>
+            <value>pron</value>
+            <value>prep</value>
+            <value>interj</value>
+            <value>adj</value>
+          </choice>
         </attribute>
       </optional>
       <ref name="form"/>
@@ -269,6 +289,7 @@
       </optional>
       <zeroOrMore>
         <choice>
+          <ref name="usg"/>
           <ref name="hi"/>
           <ref name="xr"/>
           <ref name="foreign"/>
@@ -305,7 +326,14 @@
           </choice>
         </attribute>
       </optional>
-      <text/>
+    <zeroOrMore>
+      <choice>
+        <text/>
+        <ref name="foreign"/>
+        <ref name="hi"/>
+        <ref name="xr"/>
+      </choice>
+    </zeroOrMore>
     </element>
   </define>
   <define name="gloss">
@@ -339,6 +367,9 @@
         <value>preserve</value>
       </attribute>
       -->
+      <optional>
+        <attribute name="xml:lang"/>
+      </optional>
       <zeroOrMore>
         <choice>
           <text/>
@@ -379,14 +410,14 @@
   </define>
   <define name="cit">
     <element name="cit">
-      <a:documentation>Citation (contexte grec + sa traduction, parfois seulement l'un des
-        deux)</a:documentation>
+      <a:documentation>Citation (usage, contexte grec, contexte latin, traduction espagnole)</a:documentation>
       <zeroOrMore>
         <choice>
           <text/>
           <ref name="hi"/>
           <ref name="xr"/>
           <ref name="quote"/>
+          <ref name="foreign"/>
           <ref name="usg"/>
           <ref name="bibl"/>
         </choice>
@@ -436,7 +467,7 @@
   </define>
   <define name="foreign">
     <element name="foreign">
-      <a:documentation>Utilisé temporairement pour identifier les segments de texte grec dans une
+      <a:documentation>Deux usages: 1. Pour marquer le latin qui n'est pas du texte cité. 2. Utilisé temporairement pour identifier les segments de texte grec dans une
         référence bibliographique, et ainsi ne pas les confondre avec le reste des mots grecs pas
         encore balisés (notamment des sous-lemmes). Sont inclus ou exclus les signes de ponctuation
         selon qu'ils appartiennent ou non à la séquence en grec (virgule, points de suspension à
@@ -444,7 +475,10 @@
         <!--  TODO: supprimer cet élément de "form", "def", "etym", "orth", etc.--></a:documentation>
       <attribute>
         <name ns="http://www.w3.org/XML/1998/namespace">lang</name>
+        <choice>
+          <value>lat</value>
         <value>grc</value>
+        </choice>
       </attribute>
       <text/>
     </element>
