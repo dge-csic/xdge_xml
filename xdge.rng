@@ -20,10 +20,9 @@
             <!--SUPPRIME: The mandatory "sortKey" attribute contains the inverse form of
         the principal lemma (majuscule et certains diacritiques conservés mais suppression des
         esprits, crochets, parenthèses, aspirations, obèle, point en haut, etc), to build the
-        inverse list of the lemmas-->.
-            One entry must contain a morphology block. The "body" of the entry is generally made of
-            sense(s) followed sometimes by reference to another entry and etymological
-            information.</p>
+        inverse list of the lemmas-->. One entry must contain a morphology block. The
+            "body" of the entry is generally made of sense(s) followed sometimes by reference to
+            another entry and etymological information.</p>
         </div>
       </a:documentation>
       <!--TODO: documenter les choix adoptés pour générer les identifiants -->
@@ -183,6 +182,7 @@
           <ref name="foreign"/>
           <ref name="xr"/>
           <ref name="morphpart"/>
+          <ref name="bibl"/>
         </choice>
       </zeroOrMore>
     </element>
@@ -204,6 +204,7 @@
           <ref name="hi"/>
           <ref name="foreign"/>
           <ref name="xr"/>
+          <ref name="bibl"/>
         </choice>
       </zeroOrMore>
     </element>
@@ -297,6 +298,7 @@
           <ref name="gloss"/>
           <ref name="cit"/>
           <ref name="ref"/>
+          <ref name="bibl"/>
           <text/>
         </choice>
       </zeroOrMore>
@@ -326,14 +328,14 @@
           </choice>
         </attribute>
       </optional>
-    <zeroOrMore>
-      <choice>
-        <text/>
-        <ref name="foreign"/>
-        <ref name="hi"/>
-        <ref name="xr"/>
-      </choice>
-    </zeroOrMore>
+      <zeroOrMore>
+        <choice>
+          <text/>
+          <ref name="foreign"/>
+          <ref name="hi"/>
+          <ref name="xr"/>
+        </choice>
+      </zeroOrMore>
     </element>
   </define>
   <define name="gloss">
@@ -410,7 +412,8 @@
   </define>
   <define name="cit">
     <element name="cit">
-      <a:documentation>Citation (usage, contexte grec, contexte latin, traduction espagnole)</a:documentation>
+      <a:documentation>Citation (usage, contexte grec, contexte latin, traduction
+        espagnole)</a:documentation>
       <zeroOrMore>
         <choice>
           <text/>
@@ -428,19 +431,187 @@
     <element name="bibl">
       <a:documentation>Référence bibliographique. Utilisé également pour les références au DMic
         (Diccionario Micénico).</a:documentation>
-      <optional>
+      <choice>
         <attribute name="type"/>
-      </optional>
+        <attribute name="xml:id"/>
+      </choice>
       <zeroOrMore>
         <choice>
           <text/>
-          <ref name="hi"/>
-          <element name="title">
-            <text/>
-          </element>
+          <ref name="author"/>
+          <ref name="title"/>
+          <ref name="biblScope"/>
           <ref name="xr"/>
+          <ref name="lbl"/>
+          <ref name="bibl"/>
+          <ref name="note"/>
+          <ref name="addStart"/>
+          <ref name="addEnd"/>
+          <ref name="delStart"/>
+          <ref name="delEnd"/>
+          <ref name="lcStart"/>
+          <ref name="lcEnd"/>
+          <ref name="llccStart"/>
+          <ref name="llccEnd"/>
+          <ref name="ibStart"/>
+          <ref name="ibEnd"/>
+          <ref name="ibStart"/>
+          <ref name="ibEnd"/>
         </choice>
       </zeroOrMore>
+    </element>
+  </define>
+  <define name="author">
+    <element name="author">
+      <a:documentation>Nom d'un auteur ou parfois d'une oeuvre (p. e. Sud.)</a:documentation>
+      <text/>
+    </element>
+  </define>
+  <define name="title">
+    <element name="title">
+      <a:documentation>Titre d'un ouvrage cité</a:documentation>
+      <zeroOrMore>
+        <choice>
+          <text/>
+          <ref name="foreign"/>
+          <element name="hi">
+            <attribute name="rend">
+                <value>roman</value>
+            </attribute>
+            <optional>
+            <element name="hi">
+              <attribute name="rend">
+                <value>sup</value>
+              </attribute>
+              <text/>
+            </element>
+            </optional>
+            <text/>
+          </element>
+        </choice>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="biblScope">
+    <element name="biblScope">
+      <a:documentation>Localisation dans une oeuvre citée</a:documentation>
+      <zeroOrMore>
+        <choice>
+          <text/>
+          <ref name="addStart"/>
+          <ref name="addEnd"/>
+          <ref name="delStart"/>
+          <ref name="delEnd"/>
+          <ref name="addStart"/>
+          <ref name="addEnd"/>
+          <ref name="delStart"/>
+          <ref name="delEnd"/>
+          <ref name="lcStart"/>
+          <ref name="lcEnd"/>
+          <ref name="llccStart"/>
+          <ref name="llccEnd"/>
+          <ref name="ibStart"/>
+          <ref name="ibEnd"/>
+          <ref name="ibStart"/>
+          <ref name="ibEnd"/>
+          <ref name="foreign"/>
+          <element name="hi">
+            <attribute name="rend">
+              <choice>
+                <value>hi</value>
+                <value>sup</value>
+                <value>sub</value>
+                <value>italic</value>
+              </choice>
+            </attribute>
+            <text/>
+          </element>
+        </choice>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="note">
+    <element name="note">
+      <a:documentation>Toute sorte d'information supplémentaire reliée à une citation (date, lieu,
+        variante dans apparat critique., etc.)</a:documentation>
+      <zeroOrMore>
+        <choice>
+          <ref name="addStart"/>
+          <ref name="addEnd"/>
+          <ref name="delStart"/>
+          <ref name="delEnd"/>
+          <element name="date">
+            <text/>
+          </element>
+          <element name="place">
+            <text/>
+          </element>
+          <text/>
+          <ref name="xr"/>
+          <ref name="bibl"/>
+          <ref name="hi"/>
+        </choice>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="addStart">
+    <element name="addStart">
+      <a:documentation>TODO</a:documentation>
+      <empty/>
+    </element>
+  </define>
+  <define name="addEnd">
+    <element name="addEnd">
+      <a:documentation>TODO</a:documentation>
+      <empty/>
+    </element>
+  </define>
+  <define name="delStart">
+    <element name="delStart">
+      <a:documentation>TODO</a:documentation>
+      <empty/>
+    </element>
+  </define>
+  <define name="delEnd">
+    <element name="delEnd">
+      <a:documentation>TODO</a:documentation>
+      <empty/>
+    </element>
+  </define>
+  <define name="ibStart">
+    <element name="ibStart">
+      <a:documentation>TODO</a:documentation>
+      <empty/>
+    </element>
+  </define>
+  <define name="ibEnd">
+    <element name="ibEnd">
+      <a:documentation>TODO</a:documentation>
+      <empty/>
+    </element>
+  </define>
+  <define name="lcStart">
+    <element name="lcStart">
+      <a:documentation>TODO</a:documentation>
+      <empty/>
+    </element>
+  </define>
+  <define name="lcEnd">
+    <element name="lcEnd">
+      <a:documentation>TODO</a:documentation>
+      <empty/>
+    </element>
+  </define>
+  <define name="llccStart">
+    <element name="llccStart">
+      <a:documentation>TODO</a:documentation>
+      <empty/>
+    </element>
+  </define>
+  <define name="llccEnd">
+    <element name="llccEnd">
+      <a:documentation>TODO</a:documentation>
+      <empty/>
     </element>
   </define>
   <define name="quote">
@@ -467,17 +638,18 @@
   </define>
   <define name="foreign">
     <element name="foreign">
-      <a:documentation>Deux usages: 1. Pour marquer le latin qui n'est pas du texte cité. 2. Utilisé temporairement pour identifier les segments de texte grec dans une
-        référence bibliographique, et ainsi ne pas les confondre avec le reste des mots grecs pas
-        encore balisés (notamment des sous-lemmes). Sont inclus ou exclus les signes de ponctuation
-        selon qu'ils appartiennent ou non à la séquence en grec (virgule, points de suspension à
-        n'importe quelle position etc.) ou du mot grec (par exemple abrégé), ou non.
+      <a:documentation>Deux usages: 1. Pour marquer le latin qui n'est pas du texte cité. 2. Utilisé
+        temporairement pour identifier les segments de texte grec dans une référence
+        bibliographique, et ainsi ne pas les confondre avec le reste des mots grecs pas encore
+        balisés (notamment des sous-lemmes). Sont inclus ou exclus les signes de ponctuation selon
+        qu'ils appartiennent ou non à la séquence en grec (virgule, points de suspension à n'importe
+        quelle position etc.) ou du mot grec (par exemple abrégé), ou non.
         <!--  TODO: supprimer cet élément de "form", "def", "etym", "orth", etc.--></a:documentation>
       <attribute>
         <name ns="http://www.w3.org/XML/1998/namespace">lang</name>
         <choice>
           <value>lat</value>
-        <value>grc</value>
+          <value>grc</value>
         </choice>
       </attribute>
       <text/>
@@ -515,8 +687,21 @@
   </define>
   <define name="lbl">
     <element name="lbl">
-      <a:documentation>Étiquette souvent une abréviation, par exemple, "cf.". Ne pas confondre avec les indications d'usage. TODO: développer</a:documentation>
-      <text/>
+      <a:documentation>Étiquette souvent une abréviation, par exemple, "cf.". Ne pas confondre avec
+        les indications d'usage. TODO: développer</a:documentation>
+      <zeroOrMore>
+        <choice>
+          <text/>
+          <element name="hi">
+            <attribute name="rend">
+              <choice>
+                <value>italic</value>
+              </choice>
+            </attribute>
+            <text/>
+          </element>
+        </choice>
+      </zeroOrMore>
     </element>
   </define>
   <define name="ref">
