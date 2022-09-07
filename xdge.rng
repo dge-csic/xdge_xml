@@ -274,6 +274,7 @@
           <ref name="foreign"/>
           <ref name="dictScrap"/>
           <ref name="num"> </ref>
+          <ref name="bibl"/>
         </choice>
       </zeroOrMore>
     </element>
