@@ -1,32 +1,20 @@
 <?php
 
-$file = $argv[1];
-$xml = file_get_contents($file);
+$src_file = $argv[1];
+$xml = file_get_contents($src_file);
 $re_indent = array(
     // multi saut de ligne
     '/( *\n)+/' => "\n",
+    // Non xr peut être tr^s mêlé
+    // '/([^\n]) *(<(xr)>)/' => "$1\n$2",
     // <biblScope>313.38G.</biblScope></bibl></form>
-    '/([^ \n]) *(<\/(cit|sense)>)/' => "$1\n$2",
-    '/(<\/(bibl|cit|sense)>) *(<\/(bibl|cit|sense)>)/' => "$1\n$3",
-    // *2
-    // '/([^ \n]) *(<\/(cit|form|sense)>)/' => "$1\n$2",
-    // *3
-    // '/([^ \n]) *(<\/(cit|form|sense)>)/' => "$1\n$2",
-    // <bibl>\n<author>
-    '/(<\/title>) *\n *(<biblScope>)/' => "$1 $2",
-    '/(<bibl[^>]*>)\s+/' => '$1',
-    '/\s+(<\/bibl>)\s+/' => '$1',
-    // tenter de l’indentation propre
-    '/([^ ])(<\/sense>)(\n( +)<sense>)/' => '$1$4$2$3',
-    '/([^ ])(<\/sense>)(\n( *)<\/entry>)/' => '$1$4  $2$3',
-    '/\n(<\/sense>)((\n +)<\/sense>)/' => "$3  $1$2",
-    // \n</bibl>,\n    <bibl
-    '/\n(<\/(bibl|cit|form)>[^\n]*)(\n +)(<\2)/' => "$3$1$3$4",
-    // \n</cit>\n        </sense>
-    '/\n(<\/(bibl|cit|form)>[^\n]*)(\n +)(<\/sense>)/' => "$3  $1$3$4",
-    // '/([^ ]<\/sense>)(\n( *)<sense>)/' => '$3$1$2',
-    // <bibl xml:id="400089"> => <bibl xml:id="bibl400089">
+    '/([^ \n]) *(<(cit|dictScrap|form|sense))/' => "$1\n$2",
+    '/([^ \n]) *(<\/(cit|dictScrap|form|sense)>)/' => "$1\n$2",
+    '/(<\/(cit|sense)>) *(<\/(cit|sense)>)/' => "$1\n$3",
     '/(<bibl xml:id=")(\d+)/' => '$1bibl$2',
+    '/([^\.]<\/author>)(<title>)/' => '$1 $2',
+    '/([^\.]<\/title>)(<biblScope>)/' => '$1 $2',
+    '/\n +/' => "\n",
 );
 // étape suivante, les chevauchement
 $re_overlap = array(
@@ -34,6 +22,42 @@ $re_overlap = array(
     '/<biblScope>([^<]+)<addEnd\/>/' => '<addEnd/><num resp="xdge">$1</num>',
 
 );
-
+$dst_file = $src_file;
 $xml = preg_replace(array_keys($re_indent), array_values($re_indent), $xml);
-file_put_contents($file.'.xml', $xml);
+
+
+$lines = [];
+$separator = "\r\n";
+$l = strtok($xml, $separator);
+
+$tags = array(
+    'body' => true,
+    'cit' => true,
+    'dictScrap' => true,
+    'entry' => true,
+    'form' => true,
+    'sense' => true,
+    'TEI' => true,
+    'teiHeader' => true,
+    'text' => true,
+);
+
+$indent = 0;
+while ($l !== false) {
+    preg_match('/^ *<(\/?)([a-z]+)/i', $l, $matches);
+    $tag = null;
+    if(!isset($matches[2])) {
+        echo $l . "\n";
+    }
+    else {
+        $tag = isset($tags[$matches[2]]);
+    }
+    if ($tag && $matches[1]) $indent--;
+
+    $lines[] = substr("                                ", 0, $indent * 2) 
+    . trim($l);
+    $l = strtok( $separator );
+
+    if ($tag && !$matches[1]) $indent++;
+}
+file_put_contents($dst_file, implode("\n", $lines));
