@@ -1,0 +1,148 @@
+@namespace xml url('http://www.w3.org/XML/1998/namespace');
+@namespace tei url('http://www.tei-c.org/ns/1.0');
+@namespace oxy url('http://www.oxygenxml.com/extensions/author');
+TEI {
+    color: #333;
+    background-color: #ccc;
+    font-size: 14pt;
+}
+
+bibl,
+def,
+num,
+ref,
+sense,
+usg,
+xr {
+    font-family: sans-serif;
+}
+
+quote,
+TEI {
+    font-family: "Palatino Linotype", "Times New Roman", 'NewAthenaUnicodeRegular', serif;
+}
+
+addStart,
+addEnd,
+delStart,
+delEnd,
+ibStart,
+ibEnd,
+lcStart,
+lcEnd,
+llccStart,
+llccEnd,
+teiHeader {
+    display: none;
+}
+
+dictScrap,
+entry,
+entry>form,
+sense,
+TEI,
+text {
+    display: block;
+}
+
+cit,
+form>form:before {
+    /* Pas bloc parce que possiblement suivi de texte, saut de ligne avant  */
+    content: '\A';
+}
+
+body {
+    display: block;
+    background: #fff;
+    font-family: serif;
+    width: 45rem;
+    padding: 2rem 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+entry {
+    margin: 2rem 0;
+}
+
+entry>form {
+    background-color: #F0F0EE;
+    padding: 0 1rem;
+}
+
+sense {
+    text-indent: -2rem;
+    margin: 0 0 0.5rem 2rem;
+}
+
+hi {
+    font-style: italic;
+}
+
+hi[rend="sup"] {
+    position: relative;
+    top: -0.5em;
+    font-size: 80%;
+}
+
+hi[rend="sub"] {
+    position: relative;
+    bottom: -0.5em;
+    font-size: 80%;
+}
+
+dictScrap {}
+
+ref {}
+
+num {
+    font-weight: bold;
+    padding-right: 0.5ex;
+}
+
+pc {
+    width: 0;
+    color: transparent;
+}
+
+pc::before {
+    content: '●';
+    color: #353B90;
+}
+
+sense>num {
+    color: #353B90;
+}
+
+orth {
+    font-weight: bold;
+    color: #B9121B;
+    font-size: 1.5rem;
+}
+
+ref {}
+
+def {
+    font-style: italic;
+    color: #B9121B;
+}
+
+quote {
+    font-style: italic;
+    color: #000000;
+}
+
+title {
+    font-style: italic;
+}
+
+bibl {
+    font-weight: 100;
+    font-size: 0.8rem;
+    line-height: 95%;
+    background-color: #F0F0EE;
+    color: #666;
+    padding: 2px 0.7ex;
+    border-radius: 0.5em;
+    white-space: nowrap;
+}

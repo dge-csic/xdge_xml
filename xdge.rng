@@ -258,9 +258,11 @@
           <data type="NMTOKEN"/>
         </attribute>
       </optional>
-      <optional>
+      <choice>
         <ref name="num"/>
-      </optional>
+        <ref name="pc"/>
+        <empty/>
+      </choice>
       <zeroOrMore>
         <choice>
           <ref name="richtext"/>
@@ -289,6 +291,11 @@
         </attribute>
       </optional>
       <text/>
+    </element>
+  </define>
+  <define name="pc">
+    <element name="pc">
+      <value>;</value>
     </element>
   </define>
   <define name="usg">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="../transform/xdge_html.xsl" type="text/xsl"?>
-<?xml-stylesheet type="text/css" href="xdge_xml.css"?>
+<?xml-stylesheet rel="stylesheet" type="text/css" href="xdge_xml.css"?>
+<?xml-stylesheet alternate="yes" href="../transform/xdge_html.xsl" type="text/xsl"?>
 <?oxygen RNGSchema="xdge.rng" type="xml"?>
 <TEI xml:id="xdge1" xml:lang="spa" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
@@ -253,7 +253,7 @@
             <bibl xml:id="bibl100036"><author>Theoc.</author><title>Ep.</title><biblScope>6.1</biblScope></bibl>
           </cit>
           <sense>
-            <num>;</num>
+            <pc>;</pc>
             <usg>c. otros adj. y frases</usg>
             <cit>
               <quote xml:lang="grc">ἆ τάλας ἀνήρ</quote>
@@ -277,7 +277,7 @@
             </cit>
           </sense>
           <sense>
-            <num>;</num>
+            <pc>;</pc>
             <usg>c. neg. expr. cierto reproche o prevención</usg>
             <cit>
               <quote xml:lang="grc">ἆ, μὴ κόλαζε, πρέσβυ</quote>
@@ -291,7 +291,7 @@
             </cit>
           </sense>
           <sense>
-            <num>;</num>
+            <pc>;</pc>
             <usg>según la palabra que sigue expresa cierta envidia</usg>
             <cit>
               <quote xml:lang="grc">ἆ μάκαρ</quote>
@@ -304,12 +304,12 @@
             </cit>
           </sense>
           <sense>
-            <num>;</num>
+            <pc>;</pc>
             <usg>abs.</usg>,
             <bibl xml:id="bibl100049"><author>Ar.</author><title>Ra.</title><biblScope>759</biblScope></bibl>
           </sense>
           <sense>
-            <num>;</num>
+            <pc>;</pc>
             <usg>red.</usg>
             <cit>
               <quote xml:lang="grc">ἆ ἆ</quote>
@@ -325,7 +325,7 @@
             </cit>
           </sense>
           <sense>
-            <num>;</num>
+            <pc>;</pc>
             <usg>rep. varias veces</usg>,
             <bibl xml:id="bibl100055"><author>A.</author><title>Supp.</title><biblScope>825</biblScope></bibl>, cf.
             <bibl xml:id="bibl100056"><author>E.</author><title>Rh.</title><biblScope>749</biblScope></bibl>.
@@ -467,7 +467,7 @@
                 <bibl xml:id="bibl549297"><addStart/><author>Thgn.</author><addEnd/><biblScope>794</biblScope></bibl>
               </cit>
               <sense>
-                <num>;</num>
+                <pc>;</pc>
                 <usg>fig. del mar en calma</usg>,
                 <bibl xml:id="bibl549298"><author>Sol.</author><biblScope>9.2</biblScope></bibl>.
               </sense>
@@ -567,13 +567,13 @@
                 <bibl xml:id="bibl549323"><author>Clem.Al.</author><title>Strom.</title><biblScope>1.6.34</biblScope></bibl>
               </cit>
               <sense>
-                <num>;</num>
+                <pc>;</pc>
                 <usg>de un hist.</usg>
                 <def>imparcial</def>
                 <bibl xml:id="bibl549324"><author>Luc.</author><title>Hist.Cons.</title><biblScope>39</biblScope></bibl>
               </sense>
               <sense>
-                <num>;</num>
+                <pc>;</pc>
                 <def>inocente</def>
                 <cit>
                   <quote xml:lang="grc">ἀλλὰ δίκαιοι καταγελῶνται</quote>
@@ -590,7 +590,7 @@
                 </cit>
               </sense>
               <sense>
-                <num>;</num>
+                <pc>;</pc>
                 <usg>fig. de un animal que no come carne</usg>
                 <cit>
                   <quote xml:lang="grc">δικαιότατον γένος ἅλμης</quote>
@@ -599,7 +599,7 @@
                 </cit>
               </sense>
               <sense>
-                <num>;</num>
+                <pc>;</pc>
                 <usg>subst.</usg>
                 <cit>
                   <quote xml:lang="grc">οἱ Δίκαιοι</quote>
@@ -780,7 +780,7 @@
                 <bibl xml:id="bibl549371"><title>PStras.</title><biblScope>22.3</biblScope> <note>(<date>III d.C.</date>)</note></bibl>
               </cit>
               <sense>
-                <num>;</num>
+                <pc>;</pc>
                 <usg>compar. neutr. como adv.</usg>
                 <def>con más justicia</def>
                 <cit>
@@ -789,7 +789,7 @@
                 </cit>
               </sense>
               <sense>
-                <num>;</num>
+                <pc>;</pc>
                 <usg>sup. neutr. como adv.</usg>
                 <def>con toda justicia</def>,
                 <def>con muchísima razón</def>
@@ -829,7 +829,7 @@
                 <bibl xml:id="bibl549378"><author>Hp.</author><title>Art.</title><biblScope>69</biblScope></bibl>
               </cit>
               <sense>
-                <num>;</num>
+                <pc>;</pc>
                 <def>equilibrado</def>
                 <cit>
                   <quote xml:lang="grc">πηδάλιον</quote>
@@ -868,7 +868,7 @@
                 <bibl xml:id="bibl549386"><addStart/><title>Graff.Dip.</title><biblScope>Ha <addEnd/>27</biblScope></bibl>
               </cit>
               <sense>
-                <num>;</num>
+                <pc>;</pc>
                 <def>adecuado</def>
                 <cit>
                   <quote xml:lang="grc">ἵππον καὶ βοῦν ... δικαίους ποιήσασθαι</quote>
@@ -1000,7 +1000,7 @@
                 <bibl xml:id="bibl549418"><author>Lys.</author><biblScope>2.61</biblScope></bibl>
               </cit>
               <sense>
-                <num>;</num>
+                <pc>;</pc>
                 <usg>concr.</usg>
                 <def>el lugar de los justos</def>
                 <cit>
@@ -1052,7 +1052,7 @@
                 <bibl xml:id="bibl549429"><author>D.</author><biblScope>21.177</biblScope></bibl>
               </cit>
               <sense>
-                <num>;</num>
+                <pc>;</pc>
                 <usg>plu. τὰ δίκαια mismo sent.</usg>
                 <cit>
                   <quote xml:lang="grc">λέγοντα νικᾶν καὶ δίκαια κἄδικα</quote>
@@ -1069,7 +1069,7 @@
                 </cit>
               </sense>
               <sense>
-                <num>;</num>
+                <pc>;</pc>
                 <usg>identificado c.</usg>
                 <def>lo legal</def>
                 <cit>
@@ -1079,7 +1079,7 @@
                 </cit>
               </sense>
               <sense>
-                <num>;</num>
+                <pc>;</pc>
                 <usg>equivalente a</usg>
                 <def>legislación</def>,
                 <def>ley</def>
@@ -1090,7 +1090,7 @@
                 </cit>
               </sense>
               <sense>
-                <num>;</num>
+                <pc>;</pc>
                 <usg>τὰ δίκαια</usg>
                 <def>razones de justicia</def>,
                 <def>justificaciones</def>
@@ -1150,7 +1150,7 @@
                 <bibl xml:id="bibl549446"><title>PMich.</title><biblScope>616.13</biblScope> <note>(<date>II d.C.</date>)</note></bibl>
               </cit>
               <sense>
-                <num>;</num>
+                <pc>;</pc>
                 <def>el derecho</def>
                 <cit>
                   <quote xml:lang="grc">αἰ ζὲ μπιθεῖαν τὰ ζίκαια ὂρ μέγιστον τέλος ἔχοι καὶ τοὶ βασιλᾶες</quote>
@@ -1270,7 +1270,7 @@
             <sense>
               <num>2</num>
               <usg>orn., n. de un</usg>
-              <def>pájaro<hi> de la India llamado tb. por los indios <xr><ref>δίκαιρος</ref></xr></hi></def>,
+              <def>pájaro<hi> de la India llamado tb. por los indios</hi></def> <xr><ref>δίκαιρος</ref></xr>,
               <bibl xml:id="bibl549476"><author>Ael.</author><title>NA</title> <biblScope>4.41</biblScope></bibl>.
             </sense>
           </sense>
