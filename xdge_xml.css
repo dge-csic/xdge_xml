@@ -12,13 +12,14 @@
     --text: #000;
     --text_soft: #333;
     --text_grey: #666;
-    --serif: "Source Serif VF", "Palatino Linotype", "Times New Roman", 'NewAthenaUnicodeRegular', serif;
-    /* 
-     * OpenSans ici est genre d’Ariual
-     * permet de jouer sur la graisse et la largeur des caractères 
-     * mais pose des problèmes sur du grec.
-     */
+    /* Ratées : Georgia, "Source Serif VF" */
+    /* Réussies : "NewAthenaUnicodeRegular" */
+    --serif: "Palatino Linotype", "Times New Roman", Georgia, serif;
     --sans-serif: "Noto Sans", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 @font-face {
@@ -221,8 +222,16 @@ ref num {
 }
 
 sense>num {
+    font-size: 85%;
+    line-height: 1.5rem;
     font-weight: bold;
-    padding-right: 0.2ex;
+    padding-right: 0.5rem;
+    float: left;
+    min-width: 1.2rem;
+}
+
+sense>num+sense>num {
+    /* min-width: auto; */
 }
 
 pc {
