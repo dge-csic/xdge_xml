@@ -5,36 +5,57 @@
     /* des variables globales */
     --rubric: #B9121B;
     --royal: #353B90;
+    --marker: #aaa;
     --bg: #fff;
     --bg_marg: #DDD;
     --bg_soft: #F0F0EE;
     --text: #000;
     --text_soft: #333;
     --text_grey: #666;
-    --serif: "Palatino Linotype", "Times New Roman", 'NewAthenaUnicodeRegular', serif;
+    --serif: "Source Serif VF", "Palatino Linotype", "Times New Roman", 'NewAthenaUnicodeRegular', serif;
     /* 
      * OpenSans ici est genre d’Ariual
      * permet de jouer sur la graisse et la largeur des caractères 
      * mais pose des problèmes sur du grec.
      */
-    --sans-serif: 'Open Sans', sans-serif;
+    --sans-serif: "Noto Sans", sans-serif;
 }
 
 @font-face {
-    font-family: "Open Sans";
-    font-weight: 300 800;
-    font-stretch: 75% 100%;
-    src: url("./fonts/OpenSans-VariableFont_wdth,wght.ttf");
+    font-family: "Noto Sans";
+    src: url("./fonts/NotoSansDisplay-VariableFont_wdth,wght.ttf");
     font-style: normal;
+    font-display: swap;
+    /* cf. spec font https://fonts.google.com/variablefonts */
+    font-weight: 100 900;
+    font-stretch: 62.5% 100%;
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    src: url("./fonts/NotoSansDisplay-Italic-VariableFont_wdth,wght.ttf");
+    font-style: italic;
+    font-display: swap;
+    /* cf. spec font https://fonts.google.com/variablefonts */
+    font-weight: 100 900;
+    font-stretch: 62.5% 100%;
+}
+
+@font-face {
+    font-family: 'Source Serif VF';
+    font-weight: 200 900;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('./fonts/SourceSerif4Variable-Roman.ttf.woff2') format('woff2'), url('./fonts/SourceSerif4Variable-Roman.ttf.woff') format('woff'), url('./fonts/SourceSerif4Variable-Roman.ttf') format('truetype');
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Open Sans";
-    font-weight: 300 800;
-    font-stretch: 75% 100%;
-    src: url("./fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf");
+    font-family: 'Source Serif VF';
+    font-weight: 200 900;
     font-style: italic;
+    font-stretch: normal;
+    src: url('./fonts/SourceSerif4Variable-Italic.ttf.woff2') format('woff2'), url('./fonts/SourceSerif4Variable-Italic.ttf.woff') format('woff'), url('./fonts/SourceSerif4Variable-Italic.ttf') format('truetype');
     font-display: swap;
 }
 
@@ -62,7 +83,7 @@ xr {
 
 quote {
     font-family: var(--serif);
-    font-weight: 400;
+    font-weight: 500;
     color: var(--text);
 }
 
@@ -111,7 +132,7 @@ body {
 
 entry {
     border-top: 1rem solid #DDD;
-    padding: 1rem 2rem;
+    padding: 2rem 2rem;
 }
 
 sense {
@@ -120,11 +141,13 @@ sense {
 }
 
 entry>sense:first-of-type {
-    margin-top: 1rem;
+    /* premier sense de premier niveau */
+    margin-top: 2rem;
 }
 
 entry>sense:last-of-type {
-    margin-bottom: 1rem;
+    /* dernier sense de premier niveau */
+    margin-bottom: 2rem;
 }
 
 bibl[type="dmic"],
@@ -135,8 +158,45 @@ etym {
     border-radius: 3px;
 }
 
+etym:before {
+    content: "Etimología: ";
+}
+
+form[type="alolema"]:before {
+    content: "Alolema(s): ";
+}
+
+form[type="grafia"]:before {
+    content: "Grafía: ";
+}
+
+form[type="morfologia"]:before {
+    content: "Morfología: ";
+}
+
+form[type="prosodia"]:before {
+    content: "Prosodia: ";
+}
+
+etym:before,
+form[type="alolema"]:before,
+form[type="grafia"]:before,
+form[type="morfologia"]:before,
+form[type="prosodia"]:before {
+    font-size: 85%;
+    font-weight: bold;
+    color: var(--marker);
+}
+
 hi {
     font-style: italic;
+}
+
+def hi,
+hi hi,
+quote[xml|lang="spa"] hi,
+title hi {
+    font-style: normal;
 }
 
 hi[rend="sup"] {
@@ -165,11 +225,12 @@ pc {
 
 pc::before {
     content: '●';
-    color: var(--royal);
+    color: var(--marker);
+    padding-right: 0.2ex;
 }
 
 sense>num {
-    color: var(--royal);
+    color: var(--marker);
 }
 
 orth {
@@ -202,6 +263,7 @@ bibl {
     color: var(--text_grey);
     white-space: nowrap;
     font-stretch: semi-condensed;
+    font-size: 85%;
     /*
     background-color: var(--bg_soft);
     line-height: 95%;

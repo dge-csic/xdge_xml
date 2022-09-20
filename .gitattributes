@@ -17,6 +17,8 @@
 *.pptx binary
 *.ttf binary
 *.xlsx binary
+*.woff binary
+*.woff2 binary
 *.zip binary
 
 
