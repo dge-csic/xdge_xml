@@ -186,7 +186,7 @@ ref {}
 
 def {
     font-style: italic;
-    color: var(--text);
+    color: var(--rubric);
     font-weight: 400;
 }
 
