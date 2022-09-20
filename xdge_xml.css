@@ -12,6 +12,11 @@
     --text_soft: #333;
     --text_grey: #666;
     --serif: "Palatino Linotype", "Times New Roman", 'NewAthenaUnicodeRegular', serif;
+    /* 
+     * OpenSans ici est genre d’Ariual
+     * permet de jouer sur la graisse et la largeur des caractères 
+     * mais pose des problèmes sur du grec.
+     */
     --sans-serif: 'Open Sans', sans-serif;
 }
 
@@ -38,9 +43,10 @@ TEI {
     background-color: var(--bg_marg);
     font-size: 14pt;
     padding: 2rem;
-    /** Tentons sans-serif par défaut ? */
+    /* Tentons sans-serif par défaut ? */
     font-family: var(--sans-serif);
-    font-weight: 200;
+    /* essai de typo légère pour jouer sur la graisse */
+    font-weight: 300;
 }
 
 bibl,
@@ -181,6 +187,7 @@ ref {}
 def {
     font-style: italic;
     color: var(--text);
+    font-weight: 400;
 }
 
 quote[xml|lang="spa"] {
