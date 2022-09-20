@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet rel="stylesheet" type="text/css" href="xdge_xml.css"?>
+<?xml-stylesheet href="xdge_xml.css" type="text/css"?>
 <?xml-stylesheet alternate="yes" href="../transform/xdge_html.xsl" type="text/xsl"?>
 <?oxygen RNGSchema="xdge.rng" type="xml"?>
 <TEI xml:id="xdge1" xml:lang="spa" xmlns="http://www.tei-c.org/ns/1.0">
@@ -42,6 +42,22 @@
   </teiHeader>
   <text>
     <body>
+      <entry type="subst" xml:id="ἀκορνός">
+        <form>
+          <orth type="lemma">ἀκορνός</orth>
+          <gramGrp>-οῦ, ὁ</gramGrp>
+          <form type="alolema"><orth type="variant">ὀκορνός</orth>
+            <bibl xml:id="bibl132984"><author>A.</author><title>Fr.</title><biblScope>256</biblScope></bibl>,
+            <bibl xml:id="bibl132985"><author>Hsch.</author></bibl>
+          </form>
+        </form>
+        <sense>
+          <usg>entom., otro n. del</usg>
+          <def>insecto</def> conocido como <xr><ref>ἀττέλεβος</ref></xr> (q.u.)
+          <bibl xml:id="bibl132986"><author>Hsch.</author></bibl>
+        </sense>
+        <etym>Deriv. quizá de ἄκορνα por vivir en esa planta.</etym>
+      </entry>
       <entry type="NP" xml:id="Α">
         <form>
           <orth type="lemma">Α</orth>

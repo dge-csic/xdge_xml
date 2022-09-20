@@ -3,8 +3,9 @@
 @namespace oxy url('http://www.oxygenxml.com/extensions/author');
 TEI {
     color: #333;
-    background-color: #ccc;
+    background-color: #DDD;
     font-size: 14pt;
+    padding: 2rem;
 }
 
 bibl,
@@ -36,17 +37,18 @@ teiHeader {
     display: none;
 }
 
+bibl[type="dmic"],
 dictScrap,
 entry,
-entry>form,
+etym,
+form,
 sense,
 TEI,
 text {
     display: block;
 }
 
-cit,
-form>form:before {
+cit {
     /* Pas bloc parce que possiblement suivi de texte, saut de ligne avant  */
     content: '\A';
 }
@@ -56,23 +58,35 @@ body {
     background: #fff;
     font-family: serif;
     width: 45rem;
-    padding: 2rem 2rem;
+    padding: 0;
     margin-left: auto;
     margin-right: auto;
 }
 
 entry {
-    margin: 2rem 0;
-}
-
-entry>form {
-    background-color: #F0F0EE;
-    padding: 0 1rem;
+    border-top: 1rem solid #DDD;
+    padding: 1rem 2rem;
 }
 
 sense {
-    text-indent: -2rem;
-    margin: 0 0 0.5rem 2rem;
+    text-indent: -1.5rem;
+    margin: 0 0 0.5rem 1.5rem;
+}
+
+entry>sense:first-of-type {
+    margin-top: 1rem;
+}
+
+entry>sense:last-of-type {
+    margin-bottom: 1rem;
+}
+
+bibl[type="dmic"],
+form form,
+etym {
+    background-color: #F0F0EE;
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
 }
 
 hi {
@@ -90,8 +104,6 @@ hi[rend="sub"] {
     bottom: -0.5em;
     font-size: 80%;
 }
-
-dictScrap {}
 
 ref {}
 
@@ -115,8 +127,11 @@ sense>num {
 }
 
 orth {
-    font-weight: bold;
     color: #B9121B;
+    font-weight: bold;
+}
+
+entry>form>orth {
     font-size: 1.5rem;
 }
 
