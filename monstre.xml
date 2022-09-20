@@ -72,8 +72,8 @@
           <def>alfa</def>
           <cit>
             <quote xml:lang="grc">διαφέρει γὰρ τὸ μὲν Α τοῦ Ν σχήματι</quote>
-            <bibl xml:id="bibl100001"><bibl xml:id="bibl100001"><author>Arist.</author><title>Metaph.</title><biblScope>985<hi rend="sup">b</hi>16</biblScope></bibl> (=<bibl type="equiv"><author>Leucipp.</author><biblScope>A 6</biblScope></bibl>)</bibl>
-          </cit>.
+            <bibl xml:id="bibl100001"><bibl xml:id="bibl100001"><author>Arist.</author><title>Metaph.</title><biblScope>985<hi rend="sup">b</hi>16</biblScope></bibl> (=<bibl type="equiv"><author>Leucipp.</author><biblScope>A 6</biblScope></bibl>)</bibl>.
+          </cit>
         </sense>
         <sense>
           <num>II</num>
@@ -90,8 +90,8 @@
             <def>mil</def>
             <cit>
               <quote xml:lang="grc">πλάτος καὶ μῆκος ὀργυιῶν, ᾱ ποιοῦσι λίτρας σ̅</quote>
-              <bibl xml:id="bibl100003"><author>Hero</author> <title>Geom.</title><biblScope>4.15</biblScope></bibl>
-            </cit>.
+              <bibl xml:id="bibl100003"><author>Hero</author> <title>Geom.</title><biblScope>4.15</biblScope></bibl>.
+            </cit>
           </sense>
           <sense>
             <num>3</num>
@@ -99,12 +99,12 @@
             <def>principio</def>
             <cit>
               <quote xml:lang="grc">ἐγώ εἰμι τὸ Α καὶ τὸ Ω</quote>
-              <bibl xml:id="bibl100004"><title>Apoc.</title><biblScope>1.8</biblScope> <note>(var.)</note></bibl>
-            </cit>,
+              <bibl xml:id="bibl100004"><title>Apoc.</title><biblScope>1.8</biblScope> <note>(var.)</note></bibl>,
+            </cit>
             <cit>
               <usg>cf. en símbolo</usg>
-              <bibl xml:id="bibl100005"><title>PMasp.</title><biblScope>4.21</biblScope> <note>(<date>VI d.C.</date>)</note></bibl>
-            </cit>.
+              <bibl xml:id="bibl100005"><title>PMasp.</title><biblScope>4.21</biblScope> <note>(<date>VI d.C.</date>)</note></bibl>.
+            </cit>
           </sense>
         </sense>
         <sense>
@@ -116,13 +116,13 @@
             <cit>
               <quote xml:lang="grc">τρεῖς ἀνάλογον ἔστωσαν ὅροι οἱ Α Β Γ</quote>
               <quote xml:lang="spa">sean x y z tres términos en proporción geométrica</quote>
-              <bibl xml:id="bibl100006"><author>Papp.</author><biblScope>p.88</biblScope></bibl>
-            </cit>,
+              <bibl xml:id="bibl100006"><author>Papp.</author><biblScope>p.88</biblScope></bibl>,
+            </cit>
             <cit>
               <quote xml:lang="grc">ἔστω σύμμετρα μεγέθεα Α Β, ὧν κέντρα Α Β</quote>
               <quote xml:lang="spa">sean xy magnitudes conmensurables, cuyos centros son xy</quote>
-              <bibl xml:id="bibl100007"><author>Archim.</author><title>Aequil.</title><biblScope>6</biblScope></bibl>
-            </cit>.
+              <bibl xml:id="bibl100007"><author>Archim.</author><title>Aequil.</title><biblScope>6</biblScope></bibl>.
+            </cit>
           </sense>
           <sense>
             <num>2</num>
@@ -131,34 +131,34 @@
             <cit>
               <quote xml:lang="grc">ἴσαι αἱ (γραμμαί) ἐφ' ὧν ΑΑ ΒΒ ἀλλήλαις</quote>
               <quote xml:lang="spa"><hi>(sean) </hi>las<hi> (líneas) </hi>AA, BB iguales entre sí</quote>
-              <bibl xml:id="bibl100008"><author>Arist.</author><title>EN</title> <biblScope>1132<hi rend="sup">b</hi>6</biblScope></bibl>
-            </cit>,
+              <bibl xml:id="bibl100008"><author>Arist.</author><title>EN</title> <biblScope>1132<hi rend="sup">b</hi>6</biblScope></bibl>,
+            </cit>
             <cit>
               <quote xml:lang="grc">ἔστω τρίγωνον ὀρθογώνιον τὸ Α Β Γ ὀρθὴν ἔχον τὴν ὑπὸ Β Α Γ γωνίαν</quote>
               <quote xml:lang="spa">sean A B C un triángulo rectángulo que tiene el ángulo recto B A C</quote>
-              <bibl xml:id="bibl100009"><author>Euc.</author><biblScope>1.47</biblScope></bibl>
-            </cit>.
+              <bibl xml:id="bibl100009"><author>Euc.</author><biblScope>1.47</biblScope></bibl>.
+            </cit>
           </sense>
           <sense>
             <num>3</num>
             <usg>fil. para simbolizar una proposición</usg>
             <cit>
               <quote xml:lang="grc">ἡ Α Β πρότασις</quote>
-              <bibl xml:id="bibl100010"><author>Arist.</author><title>APr.</title><biblScope>25<hi rend="sup">a</hi>14</biblScope></bibl>
-            </cit>.
+              <bibl xml:id="bibl100010"><author>Arist.</author><title>APr.</title><biblScope>25<hi rend="sup">a</hi>14</biblScope></bibl>.
+            </cit>
           </sense>
           <sense>
             <num>4</num>
             <usg>para sintetizar en una fórmula casos típicos de enfermedad</usg>
             <cit>
               <quote xml:lang="grc">τὸ μὲν α δηλοῖ ἀποφθοράν, ἀπώλειαν</quote>
-              <bibl xml:id="bibl100011"><author>Gal.</author><biblScope>17(1).612</biblScope></bibl>
-            </cit>,
+              <bibl xml:id="bibl100011"><author>Gal.</author><biblScope>17(1).612</biblScope></bibl>,
+            </cit>
             <cit>
               <usg>cf.</usg>
               <quote xml:lang="grc">ΠΙΘΔΨΑ</quote>
-              <bibl xml:id="bibl100012"><author>Hp.</author><title>Epid.</title><biblScope>3.1.10</biblScope> <note>(ap. crít.)</note></bibl>
-            </cit>.
+              <bibl xml:id="bibl100012"><author>Hp.</author><title>Epid.</title><biblScope>3.1.10</biblScope> <note>(ap. crít.)</note></bibl>.
+            </cit>
           </sense>
           <sense>
             <num>5</num>
@@ -168,8 +168,8 @@
               <quote xml:lang="spa">en el nombre de los herederos</quote>,
               <bibl xml:id="bibl100013"><bibl xml:id="bibl100013"><title>OBodl.</title><biblScope>1238.3</biblScope><addStart/> <note>(<date>II d.C.</date>)</note><addEnd/></bibl> en<bibl xml:id="bibl100013"><title>BL</title> <biblScope>7.298</biblScope></bibl></bibl>,
               <bibl xml:id="bibl100014"><bibl xml:id="bibl100014"><title>Ostr.</title><biblScope>939.3</biblScope><addStart/> <note>(<date>II d.C.</date>)</note><addEnd/></bibl> en<bibl xml:id="bibl100014"><title>BL</title> <biblScope>7.302</biblScope></bibl></bibl>,
-              <bibl xml:id="bibl100015"><title>SB</title> <biblScope>11546</biblScope> <note>(<delStart/>todos <delEnd/><date>II d.C.</date>)</note></bibl>
-            </cit>.
+              <bibl xml:id="bibl100015"><title>SB</title> <biblScope>11546</biblScope> <note>(<delStart/>todos <delEnd/><date>II d.C.</date>)</note></bibl>.
+            </cit>
           </sense>
           <sense>
             <num>6</num>
@@ -191,14 +191,14 @@
             <usg>y otras fórmulas mágicas, repetida</usg>
             <quote xml:lang="grc">αααααα</quote>
             <bibl xml:id="bibl100020"><title>PMag.</title><biblScope>2.96</biblScope></bibl>,
-            <bibl xml:id="bibl100021"><addStart/><title>PMag.</title><addEnd/><biblScope>13.79</biblScope></bibl>
-          </cit>,
+            <bibl xml:id="bibl100021"><addStart/><title>PMag.</title><addEnd/><biblScope>13.79</biblScope></bibl>,
+          </cit>
           <cit>
             <usg>frec. en series alfabéticas y vocálicas</usg>
             <quote xml:lang="grc">αεηιουω</quote>,
             <usg>etc.</usg>
-            <bibl xml:id="bibl100022"><title>PMag.</title><biblScope>13.905</biblScope></bibl>
-          </cit>.
+            <bibl xml:id="bibl100022"><title>PMag.</title><biblScope>13.905</biblScope></bibl>.
+          </cit>
         </sense>
         <sense>
           <num>V</num>
@@ -211,8 +211,8 @@
               <quote xml:lang="grc">βαβα βααβ αββαα</quote>
               <usg>(el epicoriambo o endecasílabo sáfico)</usg>,
               <bibl xml:id="bibl100023"><author>Heph.</author><biblScope>14.1</biblScope></bibl>, cf.
-              <bibl xml:id="bibl100024"><addStart/><author>Heph.</author><addEnd/><biblScope>14.3-7</biblScope></bibl>
-            </cit>.
+              <bibl xml:id="bibl100024"><addStart/><author>Heph.</author><addEnd/><biblScope>14.3-7</biblScope></bibl>.
+            </cit>
           </sense>
           <sense>
             <num>2</num>
@@ -220,8 +220,8 @@
             <cit>
               <quote xml:lang="grc">α καὶ βαρεῖα</quote>
               <usg>la nota más aguda en el modo hipereolio según el género diatónico</usg>,
-              <bibl xml:id="bibl100025"><author>Alyp.</author><biblScope>p.374</biblScope></bibl>
-            </cit>. <xr><lbl>Cf.</lbl> <ref>ἄλφα</ref></xr>.
+              <bibl xml:id="bibl100025"><author>Alyp.</author><biblScope>p.374</biblScope></bibl>. <xr><lbl>Cf.</lbl> <ref>ἄλφα</ref></xr>.
+            </cit>
           </sense>
         </sense>
       </entry>
@@ -251,18 +251,18 @@
             <bibl xml:id="bibl100029"><title>Il.</title><biblScope>11.441</biblScope></bibl>, cf.
             <bibl xml:id="bibl100030"><addStart/><title>Il.</title><addEnd/><biblScope>17.443</biblScope></bibl>,
             <bibl xml:id="bibl100031"><title>Od.</title><biblScope>20.351</biblScope></bibl>,
-            <bibl xml:id="bibl100032"><author>A.R.</author><biblScope>2.244</biblScope></bibl>
-          </cit>,
+            <bibl xml:id="bibl100032"><author>A.R.</author><biblScope>2.244</biblScope></bibl>,
+          </cit>
           <cit>
             <quote xml:lang="grc">ἆ δειλὴ πενίη</quote>
             <quote xml:lang="spa">¡ah vil pobreza!</quote>
             <bibl xml:id="bibl100033"><author>Thgn.</author><biblScope>351</biblScope></bibl>,
-            <bibl xml:id="bibl100034"><addStart/><author>Thgn.</author><addEnd/><biblScope>649</biblScope></bibl>
-          </cit>,
+            <bibl xml:id="bibl100034"><addStart/><author>Thgn.</author><addEnd/><biblScope>649</biblScope></bibl>,
+          </cit>
           <cit>
             <quote xml:lang="grc">ἆ δειλὸς βασιλέων</quote>
-            <bibl xml:id="bibl100035"><author>Call.</author><title>Dian.</title><biblScope>255</biblScope></bibl>
-          </cit>,
+            <bibl xml:id="bibl100035"><author>Call.</author><title>Dian.</title><biblScope>255</biblScope></bibl>,
+          </cit>
           <cit>
             <quote xml:lang="grc">ἆ δείλαιε Θύρσι</quote>
             <bibl xml:id="bibl100036"><author>Theoc.</author><title>Ep.</title><biblScope>6.1</biblScope></bibl>
@@ -272,20 +272,20 @@
             <usg>c. otros adj. y frases</usg>
             <cit>
               <quote xml:lang="grc">ἆ τάλας ἀνήρ</quote>
-              <bibl xml:id="bibl100037"><author>Semon.</author><biblScope>8.76</biblScope></bibl>
-            </cit>,
+              <bibl xml:id="bibl100037"><author>Semon.</author><biblScope>8.76</biblScope></bibl>,
+            </cit>
             <cit>
               <quote xml:lang="grc">ἆ δύσερώς τις ἄγαν</quote>
-              <bibl xml:id="bibl100038"><author>Theoc.</author><biblScope>1.85</biblScope></bibl>
-            </cit>,
+              <bibl xml:id="bibl100038"><author>Theoc.</author><biblScope>1.85</biblScope></bibl>,
+            </cit>
             <cit>
               <quote xml:lang="grc">ἆ ἕαδ' εἴς τε ταύρους</quote>
-              <bibl xml:id="bibl100039"><author>Archil.</author><biblScope>89</biblScope></bibl>
-            </cit>,
+              <bibl xml:id="bibl100039"><author>Archil.</author><biblScope>89</biblScope></bibl>,
+            </cit>
             <cit>
               <quote xml:lang="grc">ἆ ποῖ ποτ' ἤγαγές με;</quote>
-              <bibl xml:id="bibl100040"><author>A.</author><title>A.</title><biblScope>1087</biblScope></bibl>
-            </cit>,
+              <bibl xml:id="bibl100040"><author>A.</author><title>A.</title><biblScope>1087</biblScope></bibl>,
+            </cit>
             <cit>
               <quote xml:lang="grc">ἆ πάντως</quote>
               <bibl xml:id="bibl100041"><author>Call.</author><title>Fr.</title><biblScope>1.33</biblScope></bibl>
@@ -298,8 +298,8 @@
               <quote xml:lang="grc">ἆ, μὴ κόλαζε, πρέσβυ</quote>
               <bibl xml:id="bibl100042"><author>S.</author><title>OT</title> <biblScope>1147</biblScope></bibl>, cf.
               <bibl xml:id="bibl100043"><author>Ph.</author><biblScope>1300</biblScope></bibl>,
-              <bibl xml:id="bibl100044"><author>Pl.</author><title>Hp.Ma.</title><biblScope>295a</biblScope></bibl>
-            </cit>,
+              <bibl xml:id="bibl100044"><author>Pl.</author><title>Hp.Ma.</title><biblScope>295a</biblScope></bibl>,
+            </cit>
             <cit>
               <quote xml:lang="grc">ἆ, μή με ποιήσῃς γέ[λω</quote>
               <bibl xml:id="bibl100045"><author>Call.</author><title>Fr.</title><biblScope>195.30</biblScope></bibl>
@@ -311,8 +311,8 @@
             <cit>
               <quote xml:lang="grc">ἆ μάκαρ</quote>
               <bibl xml:id="bibl100046"><author>Thgn.</author><biblScope>1013</biblScope></bibl>,
-              <bibl xml:id="bibl100047"><author>Choeril.</author><biblScope>2</biblScope></bibl>
-            </cit>,
+              <bibl xml:id="bibl100047"><author>Choeril.</author><biblScope>2</biblScope></bibl>,
+            </cit>
             <cit>
               <quote xml:lang="grc">ἆ τρισευδαίμων</quote>
               <bibl xml:id="bibl100048"><author>B.</author><biblScope>3.10</biblScope></bibl>
@@ -331,8 +331,8 @@
               <bibl xml:id="bibl100050"><author>A.</author><title>Pr.</title><biblScope>114</biblScope></bibl>,
               <bibl xml:id="bibl100051"><addStart/><author>A.</author><title>Pr.</title><addEnd/><biblScope>566</biblScope></bibl>,
               <bibl xml:id="bibl100052"><author>Ar.</author><title>V.</title><biblScope>1379</biblScope></bibl>,
-              <bibl xml:id="bibl100053"><author>LXX</author> <title>Id.</title><biblScope>6.22</biblScope></bibl>
-            </cit>,
+              <bibl xml:id="bibl100053"><author>LXX</author> <title>Id.</title><biblScope>6.22</biblScope></bibl>,
+            </cit>
             <cit>
               <usg>cf.</usg>
               <quote xml:lang="grc">ἆ ἆ· σχετλιαστικὸν ἐπιφώνημα</quote>
@@ -352,8 +352,8 @@
           <def>¡oh!, ¡eh!</def>
           <cit>
             <quote xml:lang="grc">ἆ Ζήν</quote>
-            <bibl xml:id="bibl100057"><author>A.</author><title>Supp.</title><biblScope>162</biblScope></bibl>
-          </cit>.
+            <bibl xml:id="bibl100057"><author>A.</author><title>Supp.</title><biblScope>162</biblScope></bibl>.
+          </cit>
         </sense>
         <sense>
           <num>3</num>
@@ -363,8 +363,8 @@
             <quote xml:lang="grc">ἆ ἆ ἆ</quote>
             <bibl xml:id="bibl100058"><author>E.</author><title>Cyc.</title><biblScope>157</biblScope></bibl>, cf.
             <bibl xml:id="bibl100059"><author>Phot.</author><biblScope><foreign xml:lang="grc">α</foreign> 2</biblScope></bibl>,
-            <bibl xml:id="bibl100060"><author>Eust.</author><biblScope>855.21</biblScope></bibl>
-          </cit>.
+            <bibl xml:id="bibl100060"><author>Eust.</author><biblScope>855.21</biblScope></bibl>.
+          </cit>
         </sense>
       </entry>
       <entry type="afix" xml:id="ἀ-1">
@@ -386,14 +386,14 @@
           <cit>
             <quote xml:lang="grc">ἄσοφος</quote>
             <quote xml:lang="spa">falto de sabiduría</quote>
-            <bibl xml:id="bibl100067"><author>Thgn.</author><biblScope>370</biblScope></bibl>
-          </cit>,
+            <bibl xml:id="bibl100067"><author>Thgn.</author><biblScope>370</biblScope></bibl>,
+          </cit>
           <cit>
             <quote xml:lang="grc">ἄψυχος</quote>
             <quote xml:lang="spa">carente de vida</quote>,
             <quote xml:lang="spa">que no tiene vida</quote>
-            <bibl xml:id="bibl100068"><author>Archil.</author><biblScope>95.2</biblScope></bibl>
-          </cit>.
+            <bibl xml:id="bibl100068"><author>Archil.</author><biblScope>95.2</biblScope></bibl>.
+          </cit>
         </sense>
         <bibl type="dmic"><title>DMic.</title> <biblScope><hi>a-ki-ti-to</hi></biblScope>, <biblScope><hi>a-na-pu-ke</hi></biblScope>.</bibl>
         <etym>Ide. *<hi>n̥</hi>-, cf. ai. <hi>a</hi>- y <hi>an</hi>-, lat. <hi>in</hi>-, osc.-u. *<hi>an</hi>-, air. <hi>in</hi> (<hi>ē</hi>, <hi>an</hi>) gót. <hi>un</hi>-; c. otro grado vocálico, ide. *<hi>ne</hi>, cf. gr. νέποδες, etc.; ide. *<hi>nē</hi>, cf. gr. νήποδες.</etym>
@@ -409,12 +409,12 @@
           <def>mucho</def>
           <cit>
             <quote xml:lang="grc">ἀτενής</quote>
-            <bibl xml:id="bibl100069"><author>S.</author><title>Ant.</title><biblScope>826</biblScope></bibl>
-          </cit>,
+            <bibl xml:id="bibl100069"><author>S.</author><title>Ant.</title><biblScope>826</biblScope></bibl>,
+          </cit>
           <cit>
             <quote xml:lang="grc">ἄεδνον· πολύφερνον</quote>
-            <bibl xml:id="bibl100070"><author>Hsch.</author></bibl>
-          </cit>; <xr><lbl>cf.</lbl> <ref>ἀλίγκιος</ref>, <ref>ἄμοτον</ref></xr>.
+            <bibl xml:id="bibl100070"><author>Hsch.</author></bibl>; <xr><lbl>cf.</lbl> <ref>ἀλίγκιος</ref>, <ref>ἄμοτον</ref></xr>.
+          </cit>
         </sense>
         <etym><xr><lbl>Cf.</lbl> <ref>ἁ-</ref></xr>.</etym>
       </entry>
@@ -446,36 +446,36 @@
               <def>civilizado</def> frec. en op. al concepto de ὕβρις:
               <cit>
                 <quote xml:lang="grc">Χείρων ... δικαιότατος Κενταύρων</quote>
-                <bibl xml:id="bibl549285"><title>Il.</title><biblScope>11.832</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549285"><title>Il.</title><biblScope>11.832</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">Ἱππημολγῶν γλακτοφάγων Ἀβίων τε δικαιοτάτων ἀνθρώπων</quote>
-                <bibl xml:id="bibl549286"><title>Il.</title><biblScope>13.6</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549286"><title>Il.</title><biblScope>13.6</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">ὑβρισταί τε καὶ ἄγριοι οὐδὲ δίκαιοι</quote>
                 <bibl xml:id="bibl549287"><title>Od.</title><biblScope>6.120</biblScope></bibl>,
                 <bibl xml:id="bibl549288"><addStart/><title>Od.</title><addEnd/><biblScope>9.175</biblScope></bibl>,
                 <bibl xml:id="bibl549289"><addStart/><title>Od.</title><addEnd/><biblScope>13.201</biblScope></bibl>, cf.
-                <bibl xml:id="bibl549290"><addStart/><title>Od.</title><addEnd/><biblScope>8.575</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549290"><addStart/><title>Od.</title><addEnd/><biblScope>8.575</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">χαῖρε δ' Ἀθηναίη πεπνυμένῳ ἀνδρὶ δικαίῳ</quote>
-                <bibl xml:id="bibl549291"><title>Od.</title><biblScope>3.52</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549291"><title>Od.</title><biblScope>3.52</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">οὔ τι νοήμονες οὐδὲ δίκαιοι</quote>
                 <bibl xml:id="bibl549292"><title>Od.</title><biblScope>3.133</biblScope></bibl>, cf.
-                <bibl xml:id="bibl549293"><addStart/><title>Od.</title><addEnd/><biblScope>13.209</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549293"><addStart/><title>Od.</title><addEnd/><biblScope>13.209</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">γένος ... δ. καὶ ἄρειον</quote>
-                <bibl xml:id="bibl549294"><author>Hes.</author><title>Op.</title><biblScope>158</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549294"><author>Hes.</author><title>Op.</title><biblScope>158</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">οὐδέ τις εὐόρκου χάρις ἔσσεται οὐδὲ δικαίου οὐδ' ἀγαθοῦ</quote>
-                <bibl xml:id="bibl549295"><author>Hes.</author><title>Op.</title><biblScope>190</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549295"><author>Hes.</author><title>Op.</title><biblScope>190</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">ἐν μὲν μαινομένοις μάλα μαίνομαι, ἐν δὲ δικαίοις ... εἰμὶ δικαιότατος</quote>
                 <bibl xml:id="bibl549296"><author>Thgn.</author><biblScope>314</biblScope></bibl>, cf.
@@ -492,49 +492,49 @@
               <def>justo</def> c. connotaciones religiosas
               <cit>
                 <quote xml:lang="grc">δικαίων τε πτόλις ἀνδρῶν</quote>
-                <bibl xml:id="bibl549299"><title>h.Ven.</title><biblScope>20</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549299"><title>h.Ven.</title><biblScope>20</biblScope></bibl>,
+              </cit>
               <cit>
                 <usg>op. δυσσεβής:</usg>
                 <quote xml:lang="grc">φεῦ τοῦ ξυναλλάσσοντος ὄρνιθος βροτοῖς δίκαιον ἄνδρα τοῖς δυσσεβεστέροις</quote>
                 <quote xml:lang="spa">¡ay del ave que unió al justo con los impíos!</quote>
-                <bibl xml:id="bibl549300"><author>A.</author><title>Th.</title><biblScope>598</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549300"><author>A.</author><title>Th.</title><biblScope>598</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">op. ἀνόσιος</quote>
-                <bibl xml:id="bibl549301"><author>A.</author><title>Th.</title><biblScope>610</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549301"><author>A.</author><title>Th.</title><biblScope>610</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">δίκαιον καὶ ὅσιον</quote>
                 <bibl xml:id="bibl549302"><author>Pl.</author><title>Grg.</title><biblScope>507b</biblScope></bibl>, cf.
-                <bibl xml:id="bibl549303"><author>E.</author><title>Hec.</title><biblScope>1235</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549303"><author>E.</author><title>Hec.</title><biblScope>1235</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">δικαίων ἀδίκους φρένας παρασπᾷς</quote>
                 <quote xml:lang="spa">arrastras las mentes de los justos a la injusticia</quote>
-                <bibl xml:id="bibl549304"><author>S.</author><title>Ant.</title><biblScope>791</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549304"><author>S.</author><title>Ant.</title><biblScope>791</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">οὐδὲ ... ἄνδρες ... θεουδέες οὐδὲ δίκαιοι</quote>
-                <bibl xml:id="bibl549305"><author>A.R.</author><biblScope>2.1180</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549305"><author>A.R.</author><biblScope>2.1180</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">βδέλυγμα δικαίοις ἀνὴρ ἄδικος</quote>
-                <bibl xml:id="bibl549306"><author>LXX</author> <title>Pr.</title><biblScope>29.27</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549306"><author>LXX</author> <title>Pr.</title><biblScope>29.27</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">θεός</quote>
-                <bibl xml:id="bibl549307"><author>Ph.</author><biblScope>1.684</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549307"><author>Ph.</author><biblScope>1.684</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">ἀνὴρ δ. καὶ ἅγιος</quote>
-                <bibl xml:id="bibl549308"><title>Eu.Marc.</title><biblScope>6.20</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549308"><title>Eu.Marc.</title><biblScope>6.20</biblScope></bibl>,
+              </cit>
               <cit>
                 <usg>de los santos crist.</usg>,
                 <bibl xml:id="bibl549309"><author>Iust.Phil.</author><title>Dial.</title><biblScope>19.5</biblScope></bibl>,
-                <bibl xml:id="bibl549310"><author>Origenes</author> <title>Cels.</title><biblScope>8.20</biblScope></bibl>
-              </cit>.
+                <bibl xml:id="bibl549310"><author>Origenes</author> <title>Cels.</title><biblScope>8.20</biblScope></bibl>.
+              </cit>
             </sense>
             <sense>
               <num>3</num>
@@ -543,40 +543,40 @@
               <def>honrado</def>
               <cit>
                 <quote xml:lang="grc">ἐγὼ μήτ' αὐτὸς ἐν ἀνθρώποισι δ. εἴην</quote>
-                <bibl xml:id="bibl549311"><author>Hes.</author><title>Op.</title><biblScope>270</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549311"><author>Hes.</author><title>Op.</title><biblScope>270</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">ἰθύς τε καὶ δ. ἦν</quote>
-                <bibl xml:id="bibl549312"><author>Hdt.</author><biblScope>1.96</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549312"><author>Hdt.</author><biblScope>1.96</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">δ. πρὸς πᾶσαν ὁμιλίην</quote>
-                <bibl xml:id="bibl549313"><author>Hp.</author><title>Medic.</title><biblScope>1</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549313"><author>Hp.</author><title>Medic.</title><biblScope>1</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">ὁ χρημάτων παντελῶς ἥσσων οὐκ ἄν ποτε εἴη δ.</quote>
                 <bibl xml:id="bibl549314"><author>Democr.</author><biblScope>B 50</biblScope></bibl>, cf.
-                <bibl xml:id="bibl549315"><author>Cleanth.</author><title>Stoic.</title><biblScope>1.127</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549315"><author>Cleanth.</author><title>Stoic.</title><biblScope>1.127</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">πολίτης</quote>
-                <bibl xml:id="bibl549316"><author>D.</author><biblScope>3.21</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549316"><author>D.</author><biblScope>3.21</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">δικαστής</quote>
-                <bibl xml:id="bibl549317"><author>Lys.</author><biblScope>14.4</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549317"><author>Lys.</author><biblScope>14.4</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">δ. περὶ τοὺς αὑτοῦ παῖδας</quote>
                 <bibl xml:id="bibl549318"><author>Lys.</author><biblScope>32.5</biblScope></bibl>, cf.
-                <bibl xml:id="bibl549319"><author>Men.</author><title>Mon.</title><biblScope>490</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549319"><author>Men.</author><title>Mon.</title><biblScope>490</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">ἐν δὲ δικαίοις οὐ συνεδριάζει</quote>
                 <bibl xml:id="bibl549320"><author>LXX</author> <title>Pr.</title><biblScope>3.32</biblScope></bibl>, cf.
                 <bibl xml:id="bibl549321"><title>Eu.Matt.</title><biblScope>1.19</biblScope></bibl>,
-                <bibl xml:id="bibl549322"><author>Vett.Val.</author><biblScope>10.14</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549322"><author>Vett.Val.</author><biblScope>10.14</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">φύσει ... δικαίους ὁ θεὸς ἡμᾶς ἐδημιούργησεν</quote>
                 <bibl xml:id="bibl549323"><author>Clem.Al.</author><title>Strom.</title><biblScope>1.6.34</biblScope></bibl>
@@ -592,12 +592,12 @@
                 <def>inocente</def>
                 <cit>
                   <quote xml:lang="grc">ἀλλὰ δίκαιοι καταγελῶνται</quote>
-                  <bibl xml:id="bibl549325"><author>LXX</author> <title>Ib.</title><biblScope>9.23</biblScope></bibl>
-                </cit>,
+                  <bibl xml:id="bibl549325"><author>LXX</author> <title>Ib.</title><biblScope>9.23</biblScope></bibl>,
+                </cit>
                 <cit>
                   <quote xml:lang="grc">χεῖρες ἐκχέουσαι αἷμα δικαίου</quote>
-                  <bibl xml:id="bibl549326"><author>LXX</author> <title>Pr.</title><biblScope>6.17</biblScope></bibl>
-                </cit>,
+                  <bibl xml:id="bibl549326"><author>LXX</author> <title>Pr.</title><biblScope>6.17</biblScope></bibl>,
+                </cit>
                 <cit>
                   <quote xml:lang="grc">μηδὲν σοὶ καὶ τῷ δικαίῳ ἐκείνῳ</quote>
                   <bibl xml:id="bibl549327"><title>Eu.Matt.</title><biblScope>27.19</biblScope></bibl>, cf.
@@ -620,8 +620,8 @@
                   <quote xml:lang="grc">οἱ Δίκαιοι</quote>
                   <quote xml:lang="spa">Los Justos</quote>
                   <usg>tít. de una obra de Frínico tb. llamada Πέρσαι y Σύνθωκοι</usg>
-                  <bibl xml:id="bibl549331"><author>Sud.</author><biblScope>s.u. <foreign xml:lang="grc">Φρύνιχος</foreign></biblScope></bibl>
-                </cit>.
+                  <bibl xml:id="bibl549331"><author>Sud.</author><biblScope>s.u. <foreign xml:lang="grc">Φρύνιχος</foreign></biblScope></bibl>.
+                </cit>
               </sense>
             </sense>
             <sense>
@@ -631,12 +631,12 @@
               <def>verdadero</def>
               <cit>
                 <quote xml:lang="grc">κἀγὼ δ. τοῦδε τοῦ φόνου ῥαφεύς</quote>
-                <bibl xml:id="bibl549332"><author>A.</author><title>A.</title><biblScope>1604</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549332"><author>A.</author><title>A.</title><biblScope>1604</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">γόνος</quote>
-                <bibl xml:id="bibl549333"><author>S.</author><title>Fr.</title><biblScope>1119</biblScope></bibl>
-              </cit>.
+                <bibl xml:id="bibl549333"><author>S.</author><title>Fr.</title><biblScope>1119</biblScope></bibl>.
+              </cit>
             </sense>
             <sense>
               <num>5</num>
@@ -647,52 +647,52 @@
                 <bibl xml:id="bibl549334"><title>MAMA</title> <biblScope>5.184</biblScope> <note>(<place>Frigia</place> <date>II d.C.</date>)</note></bibl>,
                 <bibl xml:id="bibl549335"><title>TAM</title> <biblScope>5.246</biblScope> <note>(<date>III d.C.</date>)</note></bibl>,
                 <bibl xml:id="bibl549336"><title>SEG</title> <biblScope>41.1333</biblScope> <note>(<place>Panfilia</place> <date>II/III d.C.</date>)</note></bibl>,
-                <bibl xml:id="bibl549337"><addStart/><title>SEG</title> <addEnd/><biblScope>41.1101</biblScope> <note>(<place>Prusa</place> <date>II d.C.</date>)</note></bibl>
-              </cit>,
+                <bibl xml:id="bibl549337"><addStart/><title>SEG</title> <addEnd/><biblScope>41.1101</biblScope> <note>(<place>Prusa</place> <date>II d.C.</date>)</note></bibl>,
+              </cit>
               <cit>
                 <usg>frec. escrito con diversas variantes</usg>
                 <quote xml:lang="grc">Ὅσιος Δ.</quote>
                 <bibl xml:id="bibl549338"><title>SEG</title> <biblScope>34.1294</biblScope> <note>(<place>Dorileo</place> <date>I a./d.C.?</date>)</note></bibl>,
-                <bibl xml:id="bibl549339"><title>RECAM</title> <biblScope>242.13</biblScope> <note>(<date>I a.C.</date>)</note></bibl>
-              </cit>,
+                <bibl xml:id="bibl549339"><title>RECAM</title> <biblScope>242.13</biblScope> <note>(<date>I a.C.</date>)</note></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">Θεῖον Ὅσιον καὶ Δίκαιον</quote>
                 <bibl xml:id="bibl549340"><title>SEG</title> <biblScope>28.929</biblScope> <note>(<place>Lidia</place>, <date>imper.</date>)</note></bibl>,
-                <bibl xml:id="bibl549341"><title>TAM</title> <biblScope>5.337</biblScope> <note>(<date>II d.C.</date>)</note></bibl>
-              </cit>,
+                <bibl xml:id="bibl549341"><title>TAM</title> <biblScope>5.337</biblScope> <note>(<date>II d.C.</date>)</note></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">Μέγα τὸ Ὅσεον, μέγα τὸ Δίκαιον</quote>
-                <bibl xml:id="bibl549342"><title>SEG</title> <biblScope>41.721</biblScope> <note>(<place>Tasos</place> <date>II d.C.</date>)</note></bibl>
-              </cit>,
+                <bibl xml:id="bibl549342"><title>SEG</title> <biblScope>41.721</biblScope> <note>(<place>Tasos</place> <date>II d.C.</date>)</note></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">Μέγας Θεὸς Ὅσιος καὶ Δ.</quote>
-                <bibl xml:id="bibl549343"><title>SEG</title> <biblScope>32.1215</biblScope> <note>(<place>Lidia</place> <date>II d.C.</date>)</note></bibl>
-              </cit>,
+                <bibl xml:id="bibl549343"><title>SEG</title> <biblScope>32.1215</biblScope> <note>(<place>Lidia</place> <date>II d.C.</date>)</note></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">Θεὸς Δ.</quote>
-                <bibl xml:id="bibl549344"><title>SEG</title> <biblScope>41.614</biblScope> <note>(<place>Gorgipia</place> <date>II d.C.</date>)</note></bibl>
-              </cit>,
+                <bibl xml:id="bibl549344"><title>SEG</title> <biblScope>41.614</biblScope> <note>(<place>Gorgipia</place> <date>II d.C.</date>)</note></bibl>,
+              </cit>
               <cit>
                 <usg>desdoblado en dos</usg>
                 <quote xml:lang="grc">Θεοῖς Ὁσίῳ καὶ Δικαίῳ</quote>
                 <bibl xml:id="bibl549345"><title>IGBulg.</title><biblScope>2.680</biblScope> <note>(<place>Nicópolis del Istro</place> <date>II d.C.</date>)</note></bibl>, cf.
                 <bibl xml:id="bibl549346"><title>SEG</title> <biblScope>41.586</biblScope> <note>(<place>Anquíalo</place>)</note></bibl>,
-                <bibl xml:id="bibl549347"><title>TAM</title> <biblScope>5.586</biblScope> <note>(<place>Meonia</place>)</note></bibl>
-              </cit>,
+                <bibl xml:id="bibl549347"><title>TAM</title> <biblScope>5.586</biblScope> <note>(<place>Meonia</place>)</note></bibl>,
+              </cit>
               <cit>
                 <usg>asociado a un correlato fem.</usg>
                 <quote xml:lang="grc">Ὁσία καὶ Δικαία</quote>
-                <bibl xml:id="bibl549348"><title>TAM</title> <biblScope>5.247</biblScope> <note>(<date>III d.C.</date>)</note></bibl>
-              </cit>,
+                <bibl xml:id="bibl549348"><title>TAM</title> <biblScope>5.247</biblScope> <note>(<date>III d.C.</date>)</note></bibl>,
+              </cit>
               <cit>
                 <usg>calificado de ‘ángel’</usg>
                 <quote xml:lang="grc">Ἄνγελος Ὅσιος Δ.</quote>
-                <bibl xml:id="bibl549349"><title>TAM</title> <biblScope>5.185</biblScope> <note>(<date>II/III d.C.</date>)</note></bibl>
-              </cit>,
+                <bibl xml:id="bibl549349"><title>TAM</title> <biblScope>5.185</biblScope> <note>(<date>II/III d.C.</date>)</note></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">φιλαγγέλων συμβίωσις Ὁσίῳ Δικέῳ εὐχήν</quote>
-                <bibl xml:id="bibl549350"><title>SEG</title> <biblScope>31.1130</biblScope> <note>(<place>Frigia</place> <date>III d.C.</date>)</note></bibl>
-              </cit>.
+                <bibl xml:id="bibl549350"><title>SEG</title> <biblScope>31.1130</biblScope> <note>(<place>Frigia</place> <date>III d.C.</date>)</note></bibl>.
+              </cit>
             </sense>
           </sense>
           <sense>
@@ -706,40 +706,40 @@
               <def>digno</def>
               <cit>
                 <quote xml:lang="grc">ἐπὶ ῥηθέντι δικαίῳ</quote>
-                <bibl xml:id="bibl549351"><title>Od.</title><biblScope>18.414</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549351"><title>Od.</title><biblScope>18.414</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">δίκαια καὶ ἤπια δήνεα οἶδεν</quote>
-                <bibl xml:id="bibl549352"><author>Hes.</author><title>Th.</title><biblScope>236</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549352"><author>Hes.</author><title>Th.</title><biblScope>236</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">ζόη</quote>
-                <bibl xml:id="bibl549353"><author>Hdt.</author><biblScope>2.177</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549353"><author>Hdt.</author><biblScope>2.177</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">ἔρως</quote>
-                <bibl xml:id="bibl549354"><author>Democr.</author><biblScope>B 73</biblScope></bibl>
-              </cit>.
+                <bibl xml:id="bibl549354"><author>Democr.</author><biblScope>B 73</biblScope></bibl>.
+              </cit>
             </sense>
             <sense>
               <num>2</num>
               <def>justo</def> c. connotaciones religiosas
               <cit>
                 <quote xml:lang="grc">ὅρκοι</quote>
-                <bibl xml:id="bibl549355"><author>Thgn.</author><biblScope>1139</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549355"><author>Thgn.</author><biblScope>1139</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">κόσμος οὔτε πρὸς θεῶν ἀγάλματα φέρειν δ.</quote>
-                <bibl xml:id="bibl549356"><author>A.</author><title>Eu.</title><biblScope>56</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549356"><author>A.</author><title>Eu.</title><biblScope>56</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">ηὑσέβεια</quote>
-                <bibl xml:id="bibl549357"><author>E.</author><title>IT</title> <biblScope>1202</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549357"><author>E.</author><title>IT</title> <biblScope>1202</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">ὁδός</quote>
-                <bibl xml:id="bibl549358"><author>E.</author><title>Heracl.</title><biblScope>901</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549358"><author>E.</author><title>Heracl.</title><biblScope>901</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">δόξαι</quote>
                 <bibl xml:id="bibl549359"><author>D.S.</author><lcStart/><biblScope>5.72</biblScope><lcEnd/></bibl>
@@ -751,45 +751,45 @@
               <def>recto</def>
               <cit>
                 <quote xml:lang="grc">φρένες</quote>
-                <bibl xml:id="bibl549360"><author>B.</author><biblScope>11.123</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549360"><author>B.</author><biblScope>11.123</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">λόγοι</quote>
-                <bibl xml:id="bibl549361"><author>B.</author><biblScope>15.47</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549361"><author>B.</author><biblScope>15.47</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">ἀληθείη ... πάντων χρῆμα δικαιότατον</quote>
-                <bibl xml:id="bibl549362"><author>Mimn.</author><biblScope>8.2</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549362"><author>Mimn.</author><biblScope>8.2</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">ἔρδειν πάντα δίκαια</quote>
-                <bibl xml:id="bibl549363"><author>Tyrt.</author><biblScope>3.9</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549363"><author>Tyrt.</author><biblScope>3.9</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">φθόνος</quote>
-                <bibl xml:id="bibl549364"><author>Hippias</author> <biblScope>B 16</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549364"><author>Hippias</author> <biblScope>B 16</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">λόγος</quote>
                 <bibl xml:id="bibl549365"><author>Th.</author><biblScope>1.76</biblScope></bibl>,
-                <bibl xml:id="bibl549366"><addStart/><author>Th.</author><addEnd/><biblScope>3.44</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549366"><addStart/><author>Th.</author><addEnd/><biblScope>3.44</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">δίκη</quote>
-                <bibl xml:id="bibl549367"><author>Lys.</author><biblScope>1.29</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549367"><author>Lys.</author><biblScope>1.29</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">βάσανος</quote>
-                <bibl xml:id="bibl549368"><author>Antipho</author> <biblScope>1.8</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549368"><author>Antipho</author> <biblScope>1.8</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">βίος</quote>
-                <bibl xml:id="bibl549369"><author>Ph.</author><biblScope>1.365</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549369"><author>Ph.</author><biblScope>1.365</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">γνώμη</quote>
-                <bibl xml:id="bibl549370"><author>Ph.</author><biblScope>2.597</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549370"><author>Ph.</author><biblScope>2.597</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">αἰτία</quote>
                 <bibl xml:id="bibl549371"><title>PStras.</title><biblScope>22.3</biblScope> <note>(<date>III d.C.</date>)</note></bibl>
@@ -810,8 +810,8 @@
                 <def>con muchísima razón</def>
                 <cit>
                   <quote xml:lang="grc">δικαιότατ' ἂν ληφθεῖσα</quote>
-                  <bibl xml:id="bibl549373"><author>Ar.</author><title>Au.</title><biblScope>1222</biblScope></bibl>
-                </cit>,
+                  <bibl xml:id="bibl549373"><author>Ar.</author><title>Au.</title><biblScope>1222</biblScope></bibl>,
+                </cit>
                 <cit>
                   <quote xml:lang="grc">ὠς ἄριστα κ[αὶ δ]ικαίτατα</quote>
                   <bibl xml:id="bibl549374"><title>IG</title> <lcStart/><biblScope>12(2).526c.17</biblScope> <note>(<place>Ereso</place> <date>IV a.C.</date>)</note><lcEnd/></bibl>
@@ -829,16 +829,16 @@
               <def>normal</def>
               <cit>
                 <quote xml:lang="grc">φύσις</quote>
-                <bibl xml:id="bibl549375"><author>Hp.</author><title>Fract.</title><biblScope>1</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549375"><author>Hp.</author><title>Fract.</title><biblScope>1</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">χείριξις</quote>
-                <bibl xml:id="bibl549376"><author>Hp.</author><title>Fract.</title><biblScope>7</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549376"><author>Hp.</author><title>Fract.</title><biblScope>7</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">βραχίονος κατάτασις</quote>
-                <bibl xml:id="bibl549377"><author>Hp.</author><title>Fract.</title><biblScope>8</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549377"><author>Hp.</author><title>Fract.</title><biblScope>8</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">σχήματα</quote>
                 <bibl xml:id="bibl549378"><author>Hp.</author><title>Art.</title><biblScope>69</biblScope></bibl>
@@ -848,16 +848,16 @@
                 <def>equilibrado</def>
                 <cit>
                   <quote xml:lang="grc">πηδάλιον</quote>
-                  <bibl xml:id="bibl549379"><author>Pi.</author><title>P.</title><biblScope>1.86</biblScope></bibl>
-                </cit>,
+                  <bibl xml:id="bibl549379"><author>Pi.</author><title>P.</title><biblScope>1.86</biblScope></bibl>,
+                </cit>
                 <cit>
                   <quote xml:lang="grc">ἀντιρροπαί</quote>
-                  <bibl xml:id="bibl549380"><author>Hp.</author><title>Art.</title><biblScope>7</biblScope></bibl>
-                </cit>,
+                  <bibl xml:id="bibl549380"><author>Hp.</author><title>Art.</title><biblScope>7</biblScope></bibl>,
+                </cit>
                 <cit>
                   <quote xml:lang="grc">ἅρμα</quote>
-                  <bibl xml:id="bibl549381"><author>X.</author><title>Cyr.</title><biblScope>2.2.26</biblScope></bibl>
-                </cit>.
+                  <bibl xml:id="bibl549381"><author>X.</author><title>Cyr.</title><biblScope>2.2.26</biblScope></bibl>.
+                </cit>
               </sense>
             </sense>
             <sense>
@@ -866,17 +866,17 @@
               <def>exacto</def>
               <cit>
                 <quote xml:lang="grc">τῷ δικαιοτάτῳ τῶν λόγων</quote>
-                <bibl xml:id="bibl549382"><author>Hdt.</author><biblScope>7.108</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549382"><author>Hdt.</author><biblScope>7.108</biblScope></bibl>,
+              </cit>
               <cit>
                 <usg>de medidas</usg>
                 <quote xml:lang="grc">αἱ δ' ἑκατὸν ὀργυιαί</quote>
-                <bibl xml:id="bibl549383"><author>Hdt.</author><biblScope>2.149</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549383"><author>Hdt.</author><biblScope>2.149</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">ἀληθὲς δὲ καὶ δ. μέτρον</quote>
-                <bibl xml:id="bibl549384"><author>Ph.</author><biblScope>1.684</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549384"><author>Ph.</author><biblScope>1.684</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">χοῦς δ.</quote>
                 <bibl xml:id="bibl549385"><title>Graff.Dip.</title><biblScope>Ha 25</biblScope></bibl>, cf.
@@ -887,13 +887,13 @@
                 <def>adecuado</def>
                 <cit>
                   <quote xml:lang="grc">ἵππον καὶ βοῦν ... δικαίους ποιήσασθαι</quote>
-                  <bibl xml:id="bibl549387"><author>X.</author><title>Mem.</title><biblScope>4.4.5</biblScope></bibl>
-                </cit>,
+                  <bibl xml:id="bibl549387"><author>X.</author><title>Mem.</title><biblScope>4.4.5</biblScope></bibl>,
+                </cit>
                 <cit>
                   <quote xml:lang="grc">(ἵππος) δ. τὴν σιαγόνα</quote>
                   <quote xml:lang="spa">(un caballo) con una buena dentadura</quote>
-                  <bibl xml:id="bibl549388"><author>Poll.</author><biblScope>1.195</biblScope></bibl>
-                </cit>.
+                  <bibl xml:id="bibl549388"><author>Poll.</author><biblScope>1.195</biblScope></bibl>.
+                </cit>
               </sense>
             </sense>
             <sense>
@@ -903,12 +903,12 @@
               <cit>
                 <quote xml:lang="grc">στατρ</quote>
                 <usg>inscr. en un peso</usg>
-                <bibl xml:id="bibl549389"><title>IGDS</title> <biblScope>1.108</biblScope> <note>(<place>Siracusa</place> <date>V a.C.</date>)</note></bibl>
-              </cit>,
+                <bibl xml:id="bibl549389"><title>IGDS</title> <biblScope>1.108</biblScope> <note>(<place>Siracusa</place> <date>V a.C.</date>)</note></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">μισθός</quote>
-                <bibl xml:id="bibl549390"><title>POxy.</title><biblScope>3811.4</biblScope> <note>(<date>III d.C.</date>)</note></bibl>
-              </cit>.
+                <bibl xml:id="bibl549390"><title>POxy.</title><biblScope>3811.4</biblScope> <note>(<date>III d.C.</date>)</note></bibl>.
+              </cit>
             </sense>
           </sense>
           <sense>
@@ -924,39 +924,39 @@
               <cit>
                 <quote xml:lang="grc">οἱ δὲ τὸν μισθὸν ἔφασαν δίκαιοι εἶναι ἀπολαβόντες οὕτως ἐξιέναι</quote>
                 <quote xml:lang="spa">y ellos dijeron que tenían derecho a irse después de recibir su salario</quote>
-                <bibl xml:id="bibl549391"><author>Hdt.</author><biblScope>8.137</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549391"><author>Hdt.</author><biblScope>8.137</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">δίκαιοι ἐστε ... ἰέναι</quote>
-                <bibl xml:id="bibl549392"><author>Hdt.</author><biblScope>9.60</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549392"><author>Hdt.</author><biblScope>9.60</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">οὐ δίκαιοί εἰμεν ἔχειν</quote>
-                <bibl xml:id="bibl549393"><author>Hdt.</author><biblScope>9.27</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549393"><author>Hdt.</author><biblScope>9.27</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">δ. εἰμ' ἐγὼ κολάζειν</quote>
                 <quote xml:lang="spa">tengo derecho a castigar</quote>
                 <bibl xml:id="bibl549394"><author>Ar.</author><title>Nu.</title><biblScope>1434</biblScope></bibl>, cf.
                 <bibl xml:id="bibl549395"><author>S.</author><title>Ant.</title><biblScope>400</biblScope></bibl>,
-                <bibl xml:id="bibl549396"><author>Antipho</author> <biblScope>3.3.7</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549396"><author>Antipho</author> <biblScope>3.3.7</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">δίκαιοί εἰσι καὶ ἀπιστότατοι εἶναι</quote>
-                <bibl xml:id="bibl549397"><author>Th.</author><biblScope>4.17</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549397"><author>Th.</author><biblScope>4.17</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">οὐ δ. ... βλάπτεσθαί ἐστιν</quote>
                 <quote xml:lang="spa">no hay razón para que sea golpeado</quote>
                 <bibl xml:id="bibl549398"><author>Lys.</author><biblScope>20.12</biblScope></bibl>, cf.
-                <bibl xml:id="bibl549399"><author>D.</author><biblScope>6.37</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549399"><author>D.</author><biblScope>6.37</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">ὁ σπουδαῖος ... ἄρχειν δ.</quote>
                 <bibl xml:id="bibl549400"><author>Arist.</author><title>Pol.</title><biblScope>1287<hi rend="sup">b</hi>13</biblScope></bibl>, cf.
                 <bibl xml:id="bibl549401"><author>Lys.</author><biblScope>20.34</biblScope></bibl>,
-                <bibl xml:id="bibl549402"><author>Pl.</author><title>Smp.</title><biblScope>172b</biblScope></bibl>
-              </cit>.
+                <bibl xml:id="bibl549402"><author>Pl.</author><title>Smp.</title><biblScope>172b</biblScope></bibl>.
+              </cit>
             </sense>
             <sense>
               <num>2</num>
@@ -965,12 +965,12 @@
               <cit>
                 <quote xml:lang="grc">οὐ γὰρ καλὸν ἀτέμβειν οὐδὲ δ.</quote>
                 <bibl xml:id="bibl549403"><title>Od.</title><biblScope>20.294</biblScope></bibl>,
-                <bibl xml:id="bibl549404"><addStart/><title>Od.</title><addEnd/><biblScope>21.312</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549404"><addStart/><title>Od.</title><addEnd/><biblScope>21.312</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">ὥσπερ δ. πρὸς φίλους οἴγειν στόμα</quote>
-                <bibl xml:id="bibl549405"><author>A.</author><title>Pr.</title><biblScope>611</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549405"><author>A.</author><title>Pr.</title><biblScope>611</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">δίκαια γὰρ τόνδ' εὐτυχεῖν κτείναντά με;</quote>
                 <bibl xml:id="bibl549406"><author>S.</author><title>Ai.</title><biblScope>1126</biblScope></bibl>, cf.
@@ -981,8 +981,8 @@
                 <bibl xml:id="bibl549411"><author>Xenoph.</author><biblScope>B 2.13</biblScope></bibl>,
                 <bibl xml:id="bibl549412"><author>Democr.</author><biblScope>B 173</biblScope></bibl>,
                 <bibl xml:id="bibl549413"><author>Gorg.</author><biblScope>B 11.7</biblScope></bibl>,
-                <bibl xml:id="bibl549414"><author>Critias</author> <title>Fr.Trag.</title><biblScope>1.3</biblScope></bibl>
-              </cit>.
+                <bibl xml:id="bibl549414"><author>Critias</author> <title>Fr.Trag.</title><biblScope>1.3</biblScope></bibl>.
+              </cit>
             </sense>
           </sense>
         </sense>
@@ -998,18 +998,18 @@
               <def>la justicia</def> c. connotaciones religiosas
               <cit>
                 <quote xml:lang="grc">παρ' ἑαυτῷ τὸ δ. ἔχων (Ζεύς)</quote>
-                <bibl xml:id="bibl549415"><author>A.</author><title>Pr.</title><biblScope>186</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549415"><author>A.</author><title>Pr.</title><biblScope>186</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">ἐν τῷ δικαίῳ δ' ἐλπίδες σωτηρίας</quote>
-                <bibl xml:id="bibl549416"><author>E.</author><title>Hel.</title><biblScope>1031</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549416"><author>E.</author><title>Hel.</title><biblScope>1031</biblScope></bibl>,
+              </cit>
               <cit>
                 <usg>c. connotaciones democráticas</usg>
                 <quote xml:lang="grc">τολμᾷ τε λέγειν τὰ δίκαια</quote>
                 <usg>ref. la parresía</usg>,
-                <bibl xml:id="bibl549417"><author>Ar.</author><title>Eq.</title><biblScope>510</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549417"><author>Ar.</author><title>Eq.</title><biblScope>510</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">περὶ τοῦ δικαίου μαχόμενοι καὶ ὑπὲρ τῆς δημοκρατίας στασιάσαντες</quote>
                 <bibl xml:id="bibl549418"><author>Lys.</author><biblScope>2.61</biblScope></bibl>
@@ -1020,8 +1020,8 @@
                 <def>el lugar de los justos</def>
                 <cit>
                   <quote xml:lang="grc">ψυχὴ δ' ἐς τὸ δ. ἔβη</quote>
-                  <bibl xml:id="bibl549419"><title>IG</title> <biblScope>7.2543.3</biblScope> <note>(<place>Tebas</place> <date>III/IV d.C.</date>)</note></bibl>
-                </cit>.
+                  <bibl xml:id="bibl549419"><title>IG</title> <biblScope>7.2543.3</biblScope> <note>(<place>Tebas</place> <date>III/IV d.C.</date>)</note></bibl>.
+                </cit>
               </sense>
             </sense>
             <sense>
@@ -1030,36 +1030,36 @@
               <def>la justicia</def>
               <cit>
                 <quote xml:lang="grc">τὰ δίκαια δύνασθαι πρήσσειν</quote>
-                <bibl xml:id="bibl549420"><author>Xenoph.</author><biblScope>B 1.15</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549420"><author>Xenoph.</author><biblScope>B 1.15</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">τῷ δικαίῳ τὸ ἄδικον πολέμιόν ἐστι</quote>
-                <bibl xml:id="bibl549421"><author>Hdt.</author><biblScope>1.96</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549421"><author>Hdt.</author><biblScope>1.96</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">φύσει τε τὸ δ. εἶναι καὶ μὴ θέσει</quote>
-                <bibl xml:id="bibl549422"><author>Chrysipp.</author><title>Stoic.</title><biblScope>3.76</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549422"><author>Chrysipp.</author><title>Stoic.</title><biblScope>3.76</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">τὸ ... διανεμητικὸν δ.</quote>
                 <quote xml:lang="spa">la justicia distributiva</quote>
-                <bibl xml:id="bibl549423"><author>Arist.</author><title>EN</title> <biblScope>1131<hi rend="sup">b</hi>28</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549423"><author>Arist.</author><title>EN</title> <biblScope>1131<hi rend="sup">b</hi>28</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">τὸ δὲ πολιτικὸν δ.</quote>
                 <quote xml:lang="spa">la justicia política</quote>
-                <bibl xml:id="bibl549424"><author>Arist.</author><title>EN</title> <biblScope>1134<hi rend="sup">b</hi>18</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549424"><author>Arist.</author><title>EN</title> <biblScope>1134<hi rend="sup">b</hi>18</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">ἐκ τοῦ δικαίου</quote>
                 <quote xml:lang="spa">de acuerdo con la justicia, de una manera justa</quote>
                 <bibl xml:id="bibl549425"><author>Ar.</author><title>Au.</title><biblScope>1435</biblScope></bibl>,
-                <bibl xml:id="bibl549426"><author>Th.</author><biblScope>2.89</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549426"><author>Th.</author><biblScope>2.89</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">ἀπὸ τοῦ δικαίου</quote>
-                <bibl xml:id="bibl549427"><title>IEryth.</title><biblScope>111.8</biblScope> <note>(<date>II a.C.</date>)</note></bibl>
-              </cit>,
+                <bibl xml:id="bibl549427"><title>IEryth.</title><biblScope>111.8</biblScope> <note>(<date>II a.C.</date>)</note></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">μετὰ τοῦ δικαίου</quote>
                 <quote xml:lang="spa">del lado de la justicia</quote>
@@ -1072,12 +1072,12 @@
                 <cit>
                   <quote xml:lang="grc">λέγοντα νικᾶν καὶ δίκαια κἄδικα</quote>
                   <quote xml:lang="spa">hacer triunfar por la palabra lo justo y lo injusto</quote>
-                  <bibl xml:id="bibl549430"><author>Ar.</author><title>Nu.</title><biblScope>99</biblScope></bibl>
-                </cit>,
+                  <bibl xml:id="bibl549430"><author>Ar.</author><title>Nu.</title><biblScope>99</biblScope></bibl>,
+                </cit>
                 <cit>
                   <quote xml:lang="grc">τῶν ἴσων καὶ τῶν δικαίων ... μετεῖναι</quote>
-                  <bibl xml:id="bibl549431"><author>D.</author><biblScope>21.67</biblScope></bibl>
-                </cit>,
+                  <bibl xml:id="bibl549431"><author>D.</author><biblScope>21.67</biblScope></bibl>,
+                </cit>
                 <cit>
                   <quote xml:lang="grc">οὐδὲν τῶν δικαίων ἐποίουν</quote>
                   <bibl xml:id="bibl549432"><author>X.</author><title>HG</title> <biblScope>5.3.10</biblScope></bibl>
@@ -1112,8 +1112,8 @@
                 <cit>
                   <quote xml:lang="grc">παρεχόμενοι ... ἃ ἔχομεν δίκαια πρός τε τὰ Θηβαίων διάφορα</quote>
                   <quote xml:lang="spa">presentando las razones que tenemos en lo que toca a nuestra enemistad con los tebanos</quote>
-                  <bibl xml:id="bibl549437"><author>Th.</author><biblScope>3.54</biblScope></bibl>
-                </cit>.
+                  <bibl xml:id="bibl549437"><author>Th.</author><biblScope>3.54</biblScope></bibl>.
+                </cit>
               </sense>
             </sense>
             <sense>
@@ -1123,42 +1123,42 @@
               <cit>
                 <quote xml:lang="grc">δικαίων θ' ὧν ἐπραξάμην πόλιν Πριάμου</quote>
                 <quote xml:lang="spa">y del merecido castigo que infligí a la ciudad de Príamo</quote>
-                <bibl xml:id="bibl549438"><author>A.</author><title>A.</title><biblScope>812</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549438"><author>A.</author><title>A.</title><biblScope>812</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">οὐδὲν ἔτι ἡμῖν τῶν δικαίων ἐποίουν</quote>
-                <bibl xml:id="bibl549439"><author>Lys.</author><biblScope>17.3</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549439"><author>Lys.</author><biblScope>17.3</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">τὰ δίκαια ἔχειν</quote>
                 <quote xml:lang="spa">obtener lo que se le debe</quote>
                 <usg>a uno</usg>,
                 <quote xml:lang="spa">obtener satisfacción</quote>
-                <bibl xml:id="bibl549440"><author>X.</author><title>An.</title><biblScope>7.7.14</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549440"><author>X.</author><title>An.</title><biblScope>7.7.14</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">τὰ δίκαια λαμβάνειν</quote>
-                <bibl xml:id="bibl549441"><author>X.</author><title>An.</title><biblScope>7.7.17</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549441"><author>X.</author><title>An.</title><biblScope>7.7.17</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">τὰ ... δίκαια ... πρὸς ἀλλήλους</quote>
                 <quote xml:lang="spa">obligaciones mutuas</quote>
-                <bibl xml:id="bibl549442"><author>Plb.</author><biblScope>3.21.10</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549442"><author>Plb.</author><biblScope>3.21.10</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">ποιῶν τὰ ἐν τῇ τέχνῃ δί[και]α</quote>
-                <bibl xml:id="bibl549443"><title>SEG</title> <biblScope>2.184.7</biblScope> <note>(<place>Tanagra</place> <date>II a.C.</date>)</note></bibl>
-              </cit>,
+                <bibl xml:id="bibl549443"><title>SEG</title> <biblScope>2.184.7</biblScope> <note>(<place>Tanagra</place> <date>II a.C.</date>)</note></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">ἐπὶ συγκειμένοις τισὶ δικαίοις</quote>
                 <quote xml:lang="spa">en ciertas condiciones convenidas</quote>
-                <bibl xml:id="bibl549444"><author>D.H.</author><biblScope>3.51</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549444"><author>D.H.</author><biblScope>3.51</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">τὰ πρὸς Σύλλαν δίκαια πρεσβεύων</quote>
                 <quote xml:lang="spa">dando preferencia a sus obligaciones para con Sila</quote>
-                <bibl xml:id="bibl549445"><author>Plu.</author><title>Luc.</title><biblScope>3</biblScope></bibl>
-              </cit>,
+                <bibl xml:id="bibl549445"><author>Plu.</author><title>Luc.</title><biblScope>3</biblScope></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">τὰ δίκαια</quote>
                 <quote xml:lang="spa">reclamaciones</quote>,
@@ -1170,42 +1170,42 @@
                 <cit>
                   <quote xml:lang="grc">αἰ ζὲ μπιθεῖαν τὰ ζίκαια ὂρ μέγιστον τέλος ἔχοι καὶ τοὶ βασιλᾶες</quote>
                   <quote xml:lang="spa">si el magistrado principal y los reyes no le concediesen sus derechos</quote>,
-                  <bibl xml:id="bibl549447"><title>Schwyzer</title> <lcStart/><biblScope>409.2</biblScope> <note>(<place>Olimpia</place> <date>VI a.C.</date>)</note><lcEnd/></bibl>
-                </cit>,
+                  <bibl xml:id="bibl549447"><title>Schwyzer</title> <lcStart/><biblScope>409.2</biblScope> <note>(<place>Olimpia</place> <date>VI a.C.</date>)</note><lcEnd/></bibl>,
+                </cit>
                 <cit>
                   <quote xml:lang="grc">τοὐμὸν ... δ.</quote>
                   <quote xml:lang="spa">mi propio derecho</quote>
-                  <bibl xml:id="bibl549448"><author>E.</author><title>IA</title> <biblScope>810</biblScope></bibl>
-                </cit>,
+                  <bibl xml:id="bibl549448"><author>E.</author><title>IA</title> <biblScope>810</biblScope></bibl>,
+                </cit>
                 <cit>
                   <quote xml:lang="grc">τῶν δικαίων τεύξεσθαι</quote>
                   <quote xml:lang="spa">obtener los derechos</quote>
-                  <bibl xml:id="bibl549449"><author>Lys.</author><biblScope>3.2</biblScope></bibl>
-                </cit>,
+                  <bibl xml:id="bibl549449"><author>Lys.</author><biblScope>3.2</biblScope></bibl>,
+                </cit>
                 <cit>
                   <quote xml:lang="grc">κατὰ ποῖον δ.</quote>
                   <quote xml:lang="spa">con qué derecho</quote>,
-                  <bibl xml:id="bibl549450"><title>BGU</title> <biblScope>1047.2.7</biblScope> <note>(<date>II d.C.</date>)</note></bibl>
-                </cit>,
+                  <bibl xml:id="bibl549450"><title>BGU</title> <biblScope>1047.2.7</biblScope> <note>(<date>II d.C.</date>)</note></bibl>,
+                </cit>
                 <cit>
                   <quote xml:lang="grc">τὰ δίκαια τῆς πατρίδος</quote>
                   <bibl xml:id="bibl549451"><title>CRIA</title> <biblScope>7.6</biblScope> <note>(<place>Tabas</place> <date>I a.C.</date>)</note></bibl>, cf.
-                  <bibl xml:id="bibl549452"><title>TAM</title> <biblScope>3(1).104.8</biblScope> <note>(<place>Termeso</place> <date>III d.C.</date>)</note></bibl>
-                </cit>,
+                  <bibl xml:id="bibl549452"><title>TAM</title> <biblScope>3(1).104.8</biblScope> <note>(<place>Termeso</place> <date>III d.C.</date>)</note></bibl>,
+                </cit>
                 <cit>
                   <quote xml:lang="grc">δίκαιόν μου τῆς δεσποτείας</quote>
-                  <bibl xml:id="bibl549453"><title>PTeb.</title><biblScope>335.6</biblScope> <note>(<date>III d.C.</date>)</note></bibl>
-                </cit>,
+                  <bibl xml:id="bibl549453"><title>PTeb.</title><biblScope>335.6</biblScope> <note>(<date>III d.C.</date>)</note></bibl>,
+                </cit>
                 <cit>
                   <quote xml:lang="grc">τὰ ὑπόντα μοι τῆς εὐπαιδείας δίκαια</quote>
-                  <bibl xml:id="bibl549454"><title>POxy.</title><biblScope>1264.18</biblScope> <note>(<date>III d.C.</date>)</note></bibl>
-                </cit>,
+                  <bibl xml:id="bibl549454"><title>POxy.</title><biblScope>1264.18</biblScope> <note>(<date>III d.C.</date>)</note></bibl>,
+                </cit>
                 <cit>
                   <quote xml:lang="grc">τὰ πατρωνικὰ δίκαια</quote>
                   <usg>equiv. al lat.</usg>
                   <quote xml:lang="lat">patronatus ius</quote>,
-                  <bibl xml:id="bibl549455"><title>PSI</title> <biblScope>1040.17</biblScope> <note>(<date>III d.C.</date>)</note></bibl>
-                </cit>,
+                  <bibl xml:id="bibl549455"><title>PSI</title> <biblScope>1040.17</biblScope> <note>(<date>III d.C.</date>)</note></bibl>,
+                </cit>
                 <cit>
                   <quote xml:lang="grc">τέκνων δ.</quote>
                   <usg>equiv. al lat.</usg>
@@ -1215,8 +1215,8 @@
                   <bibl xml:id="bibl549458"><title>TAM</title> <biblScope>3(1).383</biblScope></bibl>,
                   <bibl xml:id="bibl549459"><addStart/><title>TAM</title> <biblScope>3(1).<addEnd/>482</biblScope> <note>(<place>Termeso</place>, <date>imper.</date>)</note></bibl>, cf.
                   <bibl xml:id="bibl549460"><title>PStras.</title><biblScope>150.2</biblScope> <note>(<date>II/III d.C.</date>)</note></bibl>,
-                  <bibl xml:id="bibl549461"><title><hi>Mitteis </hi>Chr.</title><biblScope>96.17</biblScope> <note>(<date>IV d.C.</date>)</note></bibl>
-                </cit>.
+                  <bibl xml:id="bibl549461"><title><hi>Mitteis </hi>Chr.</title><biblScope>96.17</biblScope> <note>(<date>IV d.C.</date>)</note></bibl>.
+                </cit>
               </sense>
             </sense>
           </sense>
@@ -1232,20 +1232,20 @@
                 <bibl xml:id="bibl549462"><title>PWürzb.</title><biblScope>9.73</biblScope> <note>(<date>II d.C.</date>)</note></bibl>, cf.
                 <bibl xml:id="bibl549463"><title>PMich.</title><biblScope>179.15</biblScope> <note>(<date>I d.C.</date>)</note></bibl>,
                 <bibl xml:id="bibl549464"><title>POxy.</title><biblScope>2852.14</biblScope> <note>(<date>II d.C.</date>)</note></bibl>,
-                <bibl xml:id="bibl549465"><title>PTeb.</title><biblScope>335.16</biblScope> <note>(<date>III d.C.</date>)</note></bibl>
-              </cit>.
+                <bibl xml:id="bibl549465"><title>PTeb.</title><biblScope>335.16</biblScope> <note>(<date>III d.C.</date>)</note></bibl>.
+              </cit>
             </sense>
             <sense>
               <num>2</num>
               <def>junta administrativa</def>
               <cit>
                 <quote xml:lang="grc">τοῦ ἁγίου ξενοδοχίου</quote>
-                <bibl xml:id="bibl549466"><title>PSI</title> <biblScope>284.2</biblScope> <note>(<date>VI d.C.</date>)</note></bibl>
-              </cit>,
+                <bibl xml:id="bibl549466"><title>PSI</title> <biblScope>284.2</biblScope> <note>(<date>VI d.C.</date>)</note></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">τῆς ἁγίας διακονίας</quote>
-                <bibl xml:id="bibl549467"><title>PFlor.</title><biblScope>285.4</biblScope> <note>(<date>VI d.C.</date>)</note></bibl>
-              </cit>.
+                <bibl xml:id="bibl549467"><title>PFlor.</title><biblScope>285.4</biblScope> <note>(<date>VI d.C.</date>)</note></bibl>.
+              </cit>
             </sense>
             <sense>
               <num>3</num>
@@ -1256,18 +1256,18 @@
                 <bibl xml:id="bibl549468"><title>PSI</title> <biblScope>75.13</biblScope><addStart/> <note>(<date>VI d.C.</date>)</note><addEnd/></bibl>, cf.
                 <bibl xml:id="bibl549469"><title>PGiss.</title><biblScope>56.9</biblScope><addStart/> <note>(<date>VI d.C.</date>)</note><addEnd/></bibl>,
                 <bibl xml:id="bibl549470"><title>BGU</title> <biblScope>303.13</biblScope><addStart/> <note>(<date>VI d.C.</date>)</note><addEnd/></bibl>,
-                <bibl xml:id="bibl549471"><title>POxy.</title><biblScope>1910.25</biblScope> <note>(<delStart/>todos <delEnd/><date>VI d.C.</date>)</note></bibl>
-              </cit>,
+                <bibl xml:id="bibl549471"><title>POxy.</title><biblScope>1910.25</biblScope> <note>(<delStart/>todos <delEnd/><date>VI d.C.</date>)</note></bibl>,
+              </cit>
               <cit>
                 <usg>tb. en plu.</usg>
                 <quote xml:lang="grc">ἀμπελικὸν χωρίον ... σὺν λάκκῳ ... καὶ δικαίοις πᾶσι</quote>
-                <bibl xml:id="bibl549472"><title>PHamb.</title><biblScope>23.20</biblScope> <note>(<date>VI d.C.</date>)</note></bibl>
-              </cit>,
+                <bibl xml:id="bibl549472"><title>PHamb.</title><biblScope>23.20</biblScope> <note>(<date>VI d.C.</date>)</note></bibl>,
+              </cit>
               <cit>
                 <quote xml:lang="grc">ὅροι διορίζοντες τὰ δίκαια Χασίου ... καὶ Καλάθου</quote>
                 <bibl xml:id="bibl549473"><title>IApameia</title> <biblScope>112.1</biblScope> <note>(<date>biz.</date>)</note></bibl>, cf.
-                <bibl xml:id="bibl549474"><title>IGCh.</title><biblScope>27</biblScope> <note>(<place>Cícico</place> <date>V/VI d.C.</date>)</note></bibl>
-              </cit>.
+                <bibl xml:id="bibl549474"><title>IGCh.</title><biblScope>27</biblScope> <note>(<place>Cícico</place> <date>V/VI d.C.</date>)</note></bibl>.
+              </cit>
             </sense>
           </sense>
           <sense>
@@ -1279,8 +1279,8 @@
               <def>serpiente sagrada</def>
               <cit>
                 <quote xml:lang="grc">ἐπεσκεύωσαν ... τῷ δικαίῳ τὰς χειάς</quote>
-                <bibl xml:id="bibl549475"><title>ICr.</title><biblScope>1.14.2.5</biblScope> <note>(<date>II a.C.</date>)</note></bibl>
-              </cit>.
+                <bibl xml:id="bibl549475"><title>ICr.</title><biblScope>1.14.2.5</biblScope> <note>(<date>II a.C.</date>)</note></bibl>.
+              </cit>
             </sense>
             <sense>
               <num>2</num>
@@ -1299,8 +1299,8 @@
             <def>en forma civilizada</def>
             <cit>
               <quote xml:lang="grc">μνᾶσθαι</quote>
-              <bibl xml:id="bibl549477"><title>Od.</title><biblScope>14.90</biblScope></bibl>
-            </cit>.
+              <bibl xml:id="bibl549477"><title>Od.</title><biblScope>14.90</biblScope></bibl>.
+            </cit>
           </sense>
           <sense>
             <num>2</num>
@@ -1308,8 +1308,8 @@
             <cit>
               <quote xml:lang="grc">πνεόντων μεῖζον ἢ δ.</quote>
               <quote xml:lang="spa">de los que tienen más orgullo de lo que es justo</quote>
-              <bibl xml:id="bibl549478"><author>A.</author><title>A.</title><biblScope>376</biblScope></bibl>
-            </cit>.
+              <bibl xml:id="bibl549478"><author>A.</author><title>A.</title><biblScope>376</biblScope></bibl>.
+            </cit>
           </sense>
           <sense>
             <num>3</num>
@@ -1317,8 +1317,8 @@
             <def>honestamente</def>
             <cit>
               <quote xml:lang="grc">τόν τε δ. καὶ τὸν ἀκαίρως πόλιν οἰκουροῦντα πολιτῶν</quote>
-              <bibl xml:id="bibl549479"><author>A.</author><title>A.</title><biblScope>808</biblScope></bibl>
-            </cit>,
+              <bibl xml:id="bibl549479"><author>A.</author><title>A.</title><biblScope>808</biblScope></bibl>,
+            </cit>
             <cit>
               <quote xml:lang="grc">ἐκ τῆς Ἀττικῆς ... ἐξεβλήθησαν, εἴτε ὦν δὴ δ. εἴτε ἀδίκως</quote>
               <bibl xml:id="bibl549480"><author>Hdt.</author><biblScope>6.137</biblScope></bibl>, cf.
@@ -1327,12 +1327,12 @@
               <bibl xml:id="bibl549483"><author>Th.</author><biblScope>5.47</biblScope></bibl>,
               <bibl xml:id="bibl549484"><author>Ar.</author><title>Pl.</title><biblScope>233</biblScope></bibl>,
               <bibl xml:id="bibl549485"><author>And.</author><title>Myst.</title><biblScope>135</biblScope></bibl>,
-              <bibl xml:id="bibl549486"><author>Lys.</author><biblScope>14.8</biblScope></bibl>
-            </cit>,
+              <bibl xml:id="bibl549486"><author>Lys.</author><biblScope>14.8</biblScope></bibl>,
+            </cit>
             <cit>
               <quote xml:lang="grc">ὡς δ. αὐτὸν ἐξετάσω</quote>
-              <bibl xml:id="bibl549487"><author>D.</author><biblScope>21.154</biblScope></bibl>
-            </cit>.
+              <bibl xml:id="bibl549487"><author>D.</author><biblScope>21.154</biblScope></bibl>.
+            </cit>
           </sense>
           <sense>
             <num>4</num>
@@ -1340,16 +1340,16 @@
             <def>merecidamente</def>
             <cit>
               <quote xml:lang="grc">κατεγνωκότες ὅτι</quote>
-              <bibl xml:id="bibl549488"><author>Th.</author><biblScope>6.34</biblScope></bibl>
-            </cit>,
+              <bibl xml:id="bibl549488"><author>Th.</author><biblScope>6.34</biblScope></bibl>,
+            </cit>
             <cit>
               <quote xml:lang="grc">λέγειν</quote>
               <bibl xml:id="bibl549489"><author>Pl.</author><title>Phdr.</title><biblScope>276a</biblScope></bibl>, cf.
               <bibl xml:id="bibl549490"><author>S.</author><title>OT</title> <biblScope>675</biblScope></bibl>,
               <bibl xml:id="bibl549491"><author>Isoc.</author><biblScope>15.170</biblScope></bibl>,
               <bibl xml:id="bibl549492"><author>Pl.</author><title>Cra.</title><biblScope>418e</biblScope></bibl>,
-              <bibl xml:id="bibl549493"><author>Lys.</author><biblScope>13.51</biblScope></bibl>
-            </cit>.
+              <bibl xml:id="bibl549493"><author>Lys.</author><biblScope>13.51</biblScope></bibl>.
+            </cit>
           </sense>
           <sense>
             <num>5</num>
@@ -1358,8 +1358,8 @@
               <quote xml:lang="grc">πάντα δ. ὑμῖν τετήρηται</quote>
               <bibl xml:id="bibl549494"><author>D.</author><biblScope>21.3</biblScope></bibl>, cf.
               <bibl xml:id="bibl549495"><author>Vett.Val.</author><biblScope>163.30</biblScope></bibl>,
-              <bibl xml:id="bibl549496"><author>Plot.</author><biblScope>2.3.14</biblScope></bibl>
-            </cit>.
+              <bibl xml:id="bibl549496"><author>Plot.</author><biblScope>2.3.14</biblScope></bibl>.
+            </cit>
           </sense>
         </sense>
       </entry>

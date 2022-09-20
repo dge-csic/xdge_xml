@@ -14,13 +14,15 @@ $re_indent = array(
     '/(<bibl xml:id=")(\d+)/' => '$1bibl$2',
     '/([^\.]<\/author>)(<title>)/' => '$1 $2',
     '/([^\.]<\/title>)(<biblScope>)/' => '$1 $2',
+    '/<hi rend="roman">/' => '<hi>', 
+    '/<hi rend="italic">/' => '<hi>', 
+    '/(<\/bibl>) \+\s*(<bibl)/' => '$1 + $2',
     '/\n +/' => "\n",
 );
 
 $re_more = array(
-    '/<hi rend="roman">/' => '<hi>', 
-    '/<hi rend="italic">/' => '<hi>', 
-    '/(<\/bibl>) \+\s*(<bibl)/' => '$1 + $2',
+    '/<num>;<\/num>/' => "<pc>;</pc>",
+    '/(\s+)(<\/cit>)([^\n<]+) */' => '$3$1$2',
 );
 
 // étape suivante, les chevauchement
