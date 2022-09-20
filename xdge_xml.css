@@ -1,11 +1,46 @@
 @namespace xml url('http://www.w3.org/XML/1998/namespace');
 @namespace tei url('http://www.tei-c.org/ns/1.0');
 @namespace oxy url('http://www.oxygenxml.com/extensions/author');
+:root {
+    /* des variables globales */
+    --rubric: #B9121B;
+    --royal: #353B90;
+    --bg: #fff;
+    --bg_marg: #DDD;
+    --bg_soft: #F0F0EE;
+    --text: #000;
+    --text_soft: #333;
+    --text_grey: #666;
+    --serif: "Palatino Linotype", "Times New Roman", 'NewAthenaUnicodeRegular', serif;
+    --sans-serif: 'Open Sans', sans-serif;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-weight: 300 800;
+    font-stretch: 75% 100%;
+    src: url("./fonts/OpenSans-VariableFont_wdth,wght.ttf");
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-weight: 300 800;
+    font-stretch: 75% 100%;
+    src: url("./fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf");
+    font-style: italic;
+    font-display: swap;
+}
+
 TEI {
-    color: #333;
-    background-color: #DDD;
+    color: var(--text_soft);
+    background-color: var(--bg_marg);
     font-size: 14pt;
     padding: 2rem;
+    /** Tentons sans-serif par défaut ? */
+    font-family: var(--sans-serif);
+    font-weight: 200;
 }
 
 bibl,
@@ -15,12 +50,14 @@ ref,
 sense,
 usg,
 xr {
-    font-family: sans-serif;
+    /* Ici forcer le sans-serif pour certains éléments */
+    font-family: var(--sans-serif);
 }
 
-quote,
-TEI {
-    font-family: "Palatino Linotype", "Times New Roman", 'NewAthenaUnicodeRegular', serif;
+quote {
+    font-family: var(--serif);
+    font-weight: 400;
+    color: var(--text);
 }
 
 addStart,
@@ -59,8 +96,7 @@ cit:before {
 
 body {
     display: block;
-    background: #fff;
-    font-family: serif;
+    background: var(--bg);
     width: 45rem;
     padding: 0;
     margin-left: auto;
@@ -88,7 +124,7 @@ entry>sense:last-of-type {
 bibl[type="dmic"],
 form form,
 etym {
-    background-color: #F0F0EE;
+    background-color: var(--bg_soft);
     padding: 0.2rem 0.5rem;
     border-radius: 3px;
 }
@@ -123,16 +159,17 @@ pc {
 
 pc::before {
     content: '●';
-    color: #353B90;
+    color: var(--royal);
 }
 
 sense>num {
-    color: #353B90;
+    color: var(--royal);
 }
 
 orth {
-    color: #B9121B;
+    color: var(--rubric);
     font-weight: bold;
+    font-stretch: expanded;
 }
 
 entry>form>orth {
@@ -143,7 +180,7 @@ ref {}
 
 def {
     font-style: italic;
-    color: #B9121B;
+    color: var(--text);
 }
 
 quote[xml|lang="spa"] {
@@ -155,12 +192,13 @@ title {
 }
 
 bibl {
-    font-weight: 100;
-    font-size: 0.8rem;
+    color: var(--text_grey);
+    white-space: nowrap;
+    font-stretch: semi-condensed;
+    /*
+    background-color: var(--bg_soft);
     line-height: 95%;
-    background-color: #F0F0EE;
-    color: #666;
     padding: 2px 0.7ex;
     border-radius: 0.5em;
-    white-space: nowrap;
+    */
 }
