@@ -9,12 +9,14 @@
 *.docx binary
 *.jar binary
 *.jpg binary
-*.odt binary
 *.odg binary
+*.odt binary
+*.otf binary
 *.pdf binary
 *.png binary
+*.pptx binary
+*.ttf binary
 *.xlsx binary
 *.zip binary
-*.pptx binary
 
 
