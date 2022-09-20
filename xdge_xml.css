@@ -223,15 +223,12 @@ ref num {
 
 sense>num {
     font-size: 85%;
-    margin-top: 0.21rem;
+    line-height: 1em;
+    margin-top: 0.25rem;
     font-weight: bold;
     padding-right: 0.5rem;
     float: left;
     min-width: 1.2rem;
-}
-
-sense>num+sense>num {
-    /* min-width: auto; */
 }
 
 pc {
@@ -268,8 +265,6 @@ orth {
 entry>form>orth {
     font-size: 1.5rem;
 }
-
-ref {}
 
 def {
     font-style: italic;
