@@ -154,8 +154,9 @@ bibl[type="dmic"],
 form form,
 etym {
     background-color: var(--bg_soft);
-    padding: 0.2rem 0.5rem;
-    border-radius: 3px;
+    padding: 0.3rem 0.7rem;
+    line-height: 115%;
+    border-bottom: 2px solid var(--bg);
 }
 
 etym:before {
@@ -184,7 +185,7 @@ form[type="grafia"]:before,
 form[type="morfologia"]:before,
 form[type="prosodia"]:before {
     font-size: 85%;
-    font-weight: bold;
+    font-weight: 500;
     color: var(--marker);
 }
 
