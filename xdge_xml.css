@@ -48,9 +48,13 @@ text {
     display: block;
 }
 
-cit {
+cit:before {
     /* Pas bloc parce que possiblement suivi de texte, saut de ligne avant  */
+    /*
     content: '\A';
+    */
+    content: ' ';
+    display: block;
 }
 
 body {
@@ -69,8 +73,8 @@ entry {
 }
 
 sense {
-    text-indent: -1.5rem;
-    margin: 0 0 0.5rem 1.5rem;
+    text-indent: -1.2rem;
+    margin: 0 0 0.5rem 1.2rem;
 }
 
 entry>sense:first-of-type {
@@ -109,7 +113,7 @@ ref {}
 
 num {
     font-weight: bold;
-    padding-right: 0.5ex;
+    padding-right: 0.2ex;
 }
 
 pc {
@@ -142,9 +146,8 @@ def {
     color: #B9121B;
 }
 
-quote {
+quote[xml|lang="spa"] {
     font-style: italic;
-    color: #000000;
 }
 
 title {
