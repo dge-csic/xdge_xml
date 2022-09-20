@@ -18,11 +18,12 @@ $re_indent = array(
     '/<hi rend="italic">/' => '<hi>', 
     '/(<\/bibl>) \+\s*(<bibl)/' => '$1 + $2',
     '/\n +/' => "\n",
+    '/<num>;<\/num>/' => "<pc>;</pc>",
+    '/(\s+)(<\/cit>)([^\n<]+) */' => '$3$1$2',
 );
 
 $re_more = array(
-    '/<num>;<\/num>/' => "<pc>;</pc>",
-    '/(\s+)(<\/cit>)([^\n<]+) */' => '$3$1$2',
+    '/<hi rend="bold">([^<]+)<\/hi>/' => "<num>$1</num>",
 );
 
 // étape suivante, les chevauchement

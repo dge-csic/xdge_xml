@@ -583,12 +583,7 @@
       </optional>
       <zeroOrMore>
         <choice>
-          <element name="hi">
-            <attribute name="rend">
-              <value>bold</value>
-            </attribute>
-            <text/>
-          </element>
+          <ref name="num"/>
           <text/>
         </choice>
       </zeroOrMore>

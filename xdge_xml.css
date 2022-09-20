@@ -212,22 +212,38 @@ hi[rend="sub"] {
     font-size: 80%;
 }
 
-ref {}
+ref {
+    text-decoration: underline;
+}
 
-num {
+ref num {
+    font-weight: 400;
+}
+
+sense>num {
     font-weight: bold;
     padding-right: 0.2ex;
 }
 
 pc {
+    float: left;
     width: 0;
     color: transparent;
+}
+
+pc+* {
+    padding-left: 1.2rem;
+}
+
+pc+cit {
+    padding-left: 0;
 }
 
 pc::before {
     content: '●';
     color: var(--marker);
-    padding-right: 0.2ex;
+    position: absolute;
+    display: block;
 }
 
 sense>num {

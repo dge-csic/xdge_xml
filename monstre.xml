@@ -41,6 +41,73 @@
   </teiHeader>
   <text>
     <body>
+<entry type="adj" xml:id="ἄᾰτος1">
+        <form>
+          <orth type="lemma">1 ἄᾰτος</orth>
+          <gramGrp>-ον</gramGrp>
+          <form type="alolema"><orth type="variant">ἄητος</orth>
+            <bibl xml:id="bibl100172"><title>Il.</title><biblScope>21.395</biblScope></bibl>,
+            <bibl xml:id="bibl100173"><author>A.</author><title>Fr.</title><biblScope>3</biblScope></bibl>,
+            <bibl xml:id="bibl100174"><author>Nic.</author><title>Th.</title><biblScope>783</biblScope></bibl>; contr.
+            <orth type="variant">ἆτος</orth>
+            <bibl xml:id="bibl100175"><title>Il.</title><biblScope>5.388</biblScope></bibl>
+          </form>
+          <form type="prosodia">[ᾰᾱτος
+            <bibl xml:id="bibl100176"><author>A.R.</author><biblScope>1.459</biblScope></bibl>,
+            <bibl xml:id="bibl100177"><author>Q.S.</author><biblScope>1.217</biblScope></bibl>]
+          </form>
+        </form>
+        <sense>
+          <def>insaciable</def>,
+          <def>desmedido</def>,
+          <def>que exige todo esfuerzo</def>
+          <cit>
+            <quote xml:lang="grc">ἄητον θάρσος</quote>
+            <bibl xml:id="bibl100178"><title>Il.</title><biblScope>21.395</biblScope></bibl>, cf.
+            <bibl xml:id="bibl100179"><author>Q.S.</author><biblScope>1.217</biblScope></bibl>,
+          </cit>
+          <cit>
+            <quote xml:lang="grc">ἄατος ὕβρις</quote>
+            <bibl xml:id="bibl100180"><author>A.R.</author><biblScope>1.459</biblScope></bibl> (pero tb. se ha interpr. como <xr><ref><num>2</num> ἄατος</ref> q.u.</xr>), cf.
+            <bibl xml:id="bibl100181"><author>A.</author><title>Fr.</title><biblScope>3</biblScope></bibl>,
+          </cit>
+          <cit>
+            <quote xml:lang="grc">ποηφάγος αἰὲν ἄητος</quote>
+            <bibl xml:id="bibl100182"><author>Nic.</author><lcStart/><title>Th.</title><biblScope>783</biblScope><lcEnd/></bibl>, cf.
+            <bibl xml:id="bibl100183"><author>Hsch.</author></bibl>,
+            <bibl xml:id="bibl100184"><author>Hdn.Gr.</author><biblScope>1.220</biblScope></bibl>
+          </cit>
+          <sense>
+            <pc>;</pc>
+            <usg>c. gen.</usg>
+            <cit>
+              <quote xml:lang="grc">Ἄρης ἆτος πολέμοιο</quote>
+              <bibl xml:id="bibl100185"><title>Il.</title><biblScope>5.388</biblScope></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">μάχης ἄατόν περ ἐόντα</quote>
+              <bibl xml:id="bibl100186"><title>Il.</title><biblScope>22.218</biblScope></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">ἄατος πολέμοιο</quote>
+              <bibl xml:id="bibl100187"><author>Hes.</author><title>Th.</title><biblScope>714</biblScope></bibl>
+            </cit>
+          </sense>
+          <sense>
+            <pc>;</pc>
+            <cit>
+              <quote xml:lang="grc">ἀπὸ τοῦ [ἄω</quote>
+              <bibl xml:id="bibl100188"><title>Et.Sym.</title><biblScope><foreign xml:lang="grc">α</foreign> 5</biblScope></bibl>.
+            </cit>
+          </sense>
+        </sense>
+        <etym>
+        <xr>
+        <lbl>Cf.</lbl>
+        <ref><num>3</num> ἄω</ref>
+        </xr>
+        </etym>
+      </entry>
       <entry type="subst" xml:id="ἀκορνός">
         <form>
           <orth type="lemma">ἀκορνός</orth>
