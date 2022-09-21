@@ -7,23 +7,37 @@ $re_indent = array(
     '/( *\n)+/' => "\n",
     // Non xr peut être tr^s mêlé
     // '/([^\n]) *(<(xr)>)/' => "$1\n$2",
+    
     // <biblScope>313.38G.</biblScope></bibl></form>
     '/([^ \n]) *(<(cit|dictScrap|form|sense)>)/' => "$1\n$2",
+    // indenter </{bloc}}
     '/([^ \n]) *(<\/(cit|dictScrap|form|sense)>)/' => "$1\n$2",
+    // indenter </{bloc}} x2 </sense> et </cit>
     '/(<\/(cit|sense)>) *(<\/(cit|sense)>)/' => "$1\n$3",
+    // préfixe identifiant <bibl>
     '/(<bibl xml:id=")(\d+)/' => '$1bibl$2',
+    // restaurer une espace significative dans <bibl>
     '/([^\.]<\/author>)(<title>)/' => '$1 $2',
+    // restaurer une espace significative dans <bibl>
     '/([^\.]<\/title>)(<biblScope>)/' => '$1 $2',
-    '/<hi rend="roman">/' => '<hi>', 
-    '/<hi rend="italic">/' => '<hi>', 
+    // simple, basic 
+    '/<hi rend="roman">/' => '<hi>',
+    // simple, basic 
+    '/<hi rend="italic">/' => '<hi>',
+    // des <bibl> démultipliés
     '/(<\/bibl>) \+\s*(<bibl)/' => '$1 + $2',
     '/\n +/' => "\n",
+    // <sense> puce
     '/<num>;<\/num>/' => "<pc>;</pc>",
+    // Remonter les ponctuations de fin de </cit>
     '/(\s+)(<\/cit>)([^\n<]+) */' => '$3$1$2',
+    // Les gras dans les <ref> sont des <num>
+    '/<hi rend="bold">([^<]+)<\/hi>/' => "<num>$1</num>",
 );
 
 $re_more = array(
-    '/<hi rend="bold">([^<]+)<\/hi>/' => "<num>$1</num>",
+    // typer les <sense> a numéro pour le stylage XML direct
+    '/<sense>(\s+<num>)/' => "<sense rend=\"num\">$1",
 );
 
 // étape suivante, les chevauchement

@@ -15,9 +15,10 @@
     /* 
         Échec Accents : Georgia, "Source Serif VF" 
         Échec : "Times New Roman"
-        Réussies : "Palatino Linotype", "NewAthenaUnicodeRegular", 
+        Réussies : "Palatino Linotype", "Athena", 
      */
-    --serif: "Palatino Linotype","NewAthenaUnicodeRegular", serif;
+    --serif: "Palatino Linotype", "Athena", serif;
+    --grc: "Athena", serif;
     --sans-serif: "Noto Sans", sans-serif;
 }
 
@@ -28,8 +29,11 @@
 }
 
 @font-face {
-  font-family: "NewAthenaUnicodeRegular";
-  src: url("./fonts/newathu5.woff") format('woff');
+    /* Le nom est libre il peut être simple */
+    font-family: "Athena";
+    src: url("./fonts/newathu5.woff") format('woff');
+    /* important, évite des caractères vides pendant un moment */
+    font-display: swap;
 }
 
 @font-face {
@@ -96,6 +100,14 @@ quote {
     font-family: var(--serif);
     font-weight: 500;
     color: var(--text);
+}
+
+quote[xml|lang="spa"] {
+    font-style: italic;
+}
+
+quote[xml|lang="grc"] {
+    font-family: var(--grc);
 }
 
 addStart,
@@ -166,10 +178,10 @@ sense {
     */
 }
 
-sense::before {
+sense[rend="num"]::before {
     content: '';
     position: absolute;
-    top: 0px;
+    top: -1px;
     height: 0;
     box-sizing: content-box;
     left: -1.7rem;
@@ -177,7 +189,7 @@ sense::before {
     border-top: 2px solid var(--bg_marg);
 }
 
-sense::after {
+sense[rend="num"]::after {
     content: '';
     position: absolute;
     top: 1.8rem;
@@ -347,10 +359,6 @@ def {
     font-style: italic;
     color: var(--rubric);
     font-weight: 400;
-}
-
-quote[xml|lang="spa"] {
-    font-style: italic;
 }
 
 title {

@@ -258,6 +258,13 @@
           <data type="NMTOKEN"/>
         </attribute>
       </optional>
+      <optional>
+        <attribute name="rend">
+          <choice>
+            <value>num</value>
+          </choice>
+        </attribute>
+      </optional>
       <choice>
         <ref name="num"/>
         <ref name="pc"/>

@@ -150,7 +150,7 @@
         <dictScrap>
           <usg>indecl.</usg>
         </dictScrap>
-        <sense>
+        <sense rend="num">
           <num>I</num>
           <usg>en el sistema graf. y fonológico</usg>
           <def>alfa</def>
@@ -159,16 +159,16 @@
             <bibl xml:id="bibl100001"><bibl xml:id="bibl100001"><author>Arist.</author><title>Metaph.</title><biblScope>985<hi rend="sup">b</hi>16</biblScope></bibl> (=<bibl type="equiv"><author>Leucipp.</author><biblScope>A 6</biblScope></bibl>)</bibl>.
           </cit>
         </sense>
-        <sense>
+        <sense rend="num">
           <num>II</num>
           <usg>como numeral</usg>
-          <sense>
+          <sense rend="num">
             <num>1</num>
             <def>uno</def>,
             <def>primero</def>,
             <bibl xml:id="bibl100002"><title>IG</title> <biblScope>9<hi rend="sup">2</hi>.718.11</biblScope> <note>(<place>Calio</place> <date>V a.C.</date>)</note></bibl> (se distingue de la letra por diferente posición y signos diacríticos: *, Ᾱ, ᾱ, Αʹ, αʹ).
           </sense>
-          <sense>
+          <sense rend="num">
             <num>2</num>
             <usg>c. otros signos diacríticos (͵ᾱ, ʹΑ)</usg>
             <def>mil</def>
@@ -177,7 +177,7 @@
               <bibl xml:id="bibl100003"><author>Hero</author> <title>Geom.</title><biblScope>4.15</biblScope></bibl>.
             </cit>
           </sense>
-          <sense>
+          <sense rend="num">
             <num>3</num>
             <usg>fig.</usg>
             <def>principio</def>
@@ -191,9 +191,9 @@
             </cit>
           </sense>
         </sense>
-        <sense>
+        <sense rend="num">
           <num>III</num>
-          <sense>
+          <sense rend="num">
             <num>1</num>
             <usg>para representar en notación, algebraica o no, cualquier número o magnitud</usg>
             <def>x</def>
@@ -208,7 +208,7 @@
               <bibl xml:id="bibl100007"><author>Archim.</author><title>Aequil.</title><biblScope>6</biblScope></bibl>.
             </cit>
           </sense>
-          <sense>
+          <sense rend="num">
             <num>2</num>
             <usg>para representar un punto geométrico</usg>
             <def>A</def>
@@ -223,7 +223,7 @@
               <bibl xml:id="bibl100009"><author>Euc.</author><biblScope>1.47</biblScope></bibl>.
             </cit>
           </sense>
-          <sense>
+          <sense rend="num">
             <num>3</num>
             <usg>fil. para simbolizar una proposición</usg>
             <cit>
@@ -231,7 +231,7 @@
               <bibl xml:id="bibl100010"><author>Arist.</author><title>APr.</title><biblScope>25<hi rend="sup">a</hi>14</biblScope></bibl>.
             </cit>
           </sense>
-          <sense>
+          <sense rend="num">
             <num>4</num>
             <usg>para sintetizar en una fórmula casos típicos de enfermedad</usg>
             <cit>
@@ -244,7 +244,7 @@
               <bibl xml:id="bibl100012"><author>Hp.</author><title>Epid.</title><biblScope>3.1.10</biblScope> <note>(ap. crít.)</note></bibl>.
             </cit>
           </sense>
-          <sense>
+          <sense rend="num">
             <num>5</num>
             <usg>frec. en ostr. tebanos ᾱ como símbolo para la fórmula</usg>
             <cit>
@@ -255,19 +255,19 @@
               <bibl xml:id="bibl100015"><title>SB</title> <biblScope>11546</biblScope> <note>(<delStart/>todos <delEnd/><date>II d.C.</date>)</note></bibl>.
             </cit>
           </sense>
-          <sense>
+          <sense rend="num">
             <num>6</num>
             <usg>prob. en guiones teatrales, para marcar el cambio de personaje, escrita al margen con o sin signos diacríticos (α¯, A) op. a β¯, γ¯, etc.</usg>
             <bibl xml:id="bibl100016"><title>PHib.</title><biblScope>180</biblScope> <note>(<date>III a.C.</date>)</note></bibl>,
             <bibl xml:id="bibl100017"><bibl xml:id="bibl100017"><title>POxy.</title><biblScope>2458</biblScope></bibl> (=<bibl type="equiv"><author>E.</author><title>Fr.</title><biblScope>448a</biblScope></bibl>)</bibl>.
           </sense>
-          <sense>
+          <sense rend="num">
             <num>7</num>
             <usg>en táctica, para designar a los soldados que componen la fila más larga en una formación en rombo</usg>,
             <bibl xml:id="bibl100018"><author>Ascl.</author><title>Tact.</title><biblScope>7.6</biblScope></bibl>.
           </sense>
         </sense>
-        <sense>
+        <sense rend="num">
           <num>IV</num>
           <usg>como sonido mágico (incluso, tal vez, en una especie de notación musical) en abracadabras</usg>
           <bibl xml:id="bibl100019"><title>PMag.</title><biblScope>1.13</biblScope></bibl>,
@@ -284,9 +284,9 @@
             <bibl xml:id="bibl100022"><title>PMag.</title><biblScope>13.905</biblScope></bibl>.
           </cit>
         </sense>
-        <sense>
+        <sense rend="num">
           <num>V</num>
-          <sense>
+          <sense rend="num">
             <num>1</num>
             <usg>para representar una</usg>
             <def>sílaba breve</def>
@@ -298,7 +298,7 @@
               <bibl xml:id="bibl100024"><addStart/><author>Heph.</author><addEnd/><biblScope>14.3-7</biblScope></bibl>.
             </cit>
           </sense>
-          <sense>
+          <sense rend="num">
             <num>2</num>
             <usg>como notación musical</usg>
             <cit>
@@ -324,7 +324,7 @@
         <dictScrap>
           <usg>interj.</usg>
         </dictScrap>
-        <sense>
+        <sense rend="num">
           <num>1</num>
           <usg>c. adj. y frases indic. conmiseración, desprecio</usg>
           <def>¡ah!</def>,
@@ -430,7 +430,7 @@
             <bibl xml:id="bibl100056"><author>E.</author><title>Rh.</title><biblScope>749</biblScope></bibl>.
           </sense>
         </sense>
-        <sense>
+        <sense rend="num">
           <num>2</num>
           <usg>para llamar o invocar</usg>
           <def>¡oh!, ¡eh!</def>
@@ -439,7 +439,7 @@
             <bibl xml:id="bibl100057"><author>A.</author><title>Supp.</title><biblScope>162</biblScope></bibl>.
           </cit>
         </sense>
-        <sense>
+        <sense rend="num">
           <num>3</num>
           <usg>indicando alegría, red.</usg>
           <def>¡ja! ¡ja!</def>
@@ -519,12 +519,12 @@
             <bibl xml:id="bibl549284"><title>IG</title> <biblScope>12(2).526c.17</biblScope> <note>(<place>Ereso</place> <date>IV a.C.</date>)</note></bibl>]
           </form>
         </form>
-        <sense>
+        <sense rend="num">
           <num>A</num>
-          <sense>
+          <sense rend="num">
             <num>I</num>
             <usg>ref. pers.</usg>
-            <sense>
+            <sense rend="num">
               <num>1</num>
               <def>que sigue las normas generales de la sociedad humana</def>,
               <def>civilizado</def> frec. en op. al concepto de ὕβρις:
@@ -571,7 +571,7 @@
                 <bibl xml:id="bibl549298"><author>Sol.</author><biblScope>9.2</biblScope></bibl>.
               </sense>
             </sense>
-            <sense>
+            <sense rend="num">
               <num>2</num>
               <def>justo</def> c. connotaciones religiosas
               <cit>
@@ -620,7 +620,7 @@
                 <bibl xml:id="bibl549310"><author>Origenes</author> <title>Cels.</title><biblScope>8.20</biblScope></bibl>.
               </cit>
             </sense>
-            <sense>
+            <sense rend="num">
               <num>3</num>
               <def>justo</def>,
               <def>recto</def>,
@@ -708,7 +708,7 @@
                 </cit>
               </sense>
             </sense>
-            <sense>
+            <sense rend="num">
               <num>4</num>
               <def>genuino</def>,
               <def>auténtico</def>,
@@ -722,7 +722,7 @@
                 <bibl xml:id="bibl549333"><author>S.</author><title>Fr.</title><biblScope>1119</biblScope></bibl>.
               </cit>
             </sense>
-            <sense>
+            <sense rend="num">
               <num>5</num>
               <usg>Ὅσιος καὶ Δ.</usg>
               <def>Santo y Justo</def> n. de un dios, gener. considerado único, originario de la región noroccidental de Frigia,
@@ -779,10 +779,10 @@
               </cit>
             </sense>
           </sense>
-          <sense>
+          <sense rend="num">
             <num>II</num>
             <usg>de abstr. ref. a la actividad humana</usg>
-            <sense>
+            <sense rend="num">
               <num>1</num>
               <def>civilizado</def>,
               <def>ajustado</def> a la norma,
@@ -805,7 +805,7 @@
                 <bibl xml:id="bibl549354"><author>Democr.</author><biblScope>B 73</biblScope></bibl>.
               </cit>
             </sense>
-            <sense>
+            <sense rend="num">
               <num>2</num>
               <def>justo</def> c. connotaciones religiosas
               <cit>
@@ -829,7 +829,7 @@
                 <bibl xml:id="bibl549359"><author>D.S.</author><lcStart/><biblScope>5.72</biblScope><lcEnd/></bibl>
               </cit>
             </sense>
-            <sense>
+            <sense rend="num">
               <num>3</num>
               <def>justo</def> gener.,
               <def>recto</def>
@@ -903,10 +903,10 @@
               </sense>
             </sense>
           </sense>
-          <sense>
+          <sense rend="num">
             <num>III</num>
             <usg>de abstr., cosas y anim.</usg>
-            <sense>
+            <sense rend="num">
               <num>1</num>
               <def>recto</def>,
               <def>correcto</def> como sinón. de
@@ -944,7 +944,7 @@
                 </cit>
               </sense>
             </sense>
-            <sense>
+            <sense rend="num">
               <num>2</num>
               <def>preciso</def>,
               <def>exacto</def>
@@ -980,7 +980,7 @@
                 </cit>
               </sense>
             </sense>
-            <sense>
+            <sense rend="num">
               <num>3</num>
               <def>justo</def>,
               <def>legal</def>
@@ -995,10 +995,10 @@
               </cit>
             </sense>
           </sense>
-          <sense>
+          <sense rend="num">
             <num>IV</num>
             <usg>c. inf., constr. pers. e impers.</usg>
-            <sense>
+            <sense rend="num">
               <num>1</num>
               <usg>pers.</usg>
               <def>ser justo que</def>,
@@ -1042,7 +1042,7 @@
                 <bibl xml:id="bibl549402"><author>Pl.</author><title>Smp.</title><biblScope>172b</biblScope></bibl>.
               </cit>
             </sense>
-            <sense>
+            <sense rend="num">
               <num>2</num>
               <usg>impers. δίκαιον, δίκαια (ἐστι)</usg>
               <def>es justo<hi>, </hi>lógico<hi>, </hi>razonable</def>
@@ -1070,13 +1070,13 @@
             </sense>
           </sense>
         </sense>
-        <sense>
+        <sense rend="num">
           <num>B</num>
           <usg>subst.</usg>
-          <sense>
+          <sense rend="num">
             <num>I</num>
             <usg>τὸ δ., τὰ δίκαια</usg>
-            <sense>
+            <sense rend="num">
               <num>1</num>
               <def>lo justo</def>,
               <def>la justicia</def> c. connotaciones religiosas
@@ -1108,7 +1108,7 @@
                 </cit>
               </sense>
             </sense>
-            <sense>
+            <sense rend="num">
               <num>2</num>
               <def>lo justo</def> gener.,
               <def>la justicia</def>
@@ -1200,7 +1200,7 @@
                 </cit>
               </sense>
             </sense>
-            <sense>
+            <sense rend="num">
               <num>3</num>
               <def>lo merecido</def>,
               <def>lo que se debe</def>
@@ -1304,10 +1304,10 @@
               </sense>
             </sense>
           </sense>
-          <sense>
+          <sense rend="num">
             <num>II</num>
             <usg>τὸ δ. concr.</usg>
-            <sense>
+            <sense rend="num">
               <num>1</num>
               <def>título</def>,
               <def>documento de legitimidad</def>
@@ -1319,7 +1319,7 @@
                 <bibl xml:id="bibl549465"><title>PTeb.</title><biblScope>335.16</biblScope> <note>(<date>III d.C.</date>)</note></bibl>.
               </cit>
             </sense>
-            <sense>
+            <sense rend="num">
               <num>2</num>
               <def>junta administrativa</def>
               <cit>
@@ -1331,7 +1331,7 @@
                 <bibl xml:id="bibl549467"><title>PFlor.</title><biblScope>285.4</biblScope> <note>(<date>VI d.C.</date>)</note></bibl>.
               </cit>
             </sense>
-            <sense>
+            <sense rend="num">
               <num>3</num>
               <def>propiedad</def>,
               <def>bienes</def>
@@ -1354,10 +1354,10 @@
               </cit>
             </sense>
           </sense>
-          <sense>
+          <sense rend="num">
             <num>III</num>
             <usg>subst., zool. ὁ δ.</usg>
-            <sense>
+            <sense rend="num">
               <num>1</num>
               <usg>euf. de una</usg>
               <def>serpiente sagrada</def>
@@ -1366,7 +1366,7 @@
                 <bibl xml:id="bibl549475"><title>ICr.</title><biblScope>1.14.2.5</biblScope> <note>(<date>II a.C.</date>)</note></bibl>.
               </cit>
             </sense>
-            <sense>
+            <sense rend="num">
               <num>2</num>
               <usg>orn., n. de un</usg>
               <def>pájaro<hi> de la India llamado tb. por los indios</hi></def> <xr><ref>δίκαιρος</ref></xr>,
@@ -1374,10 +1374,10 @@
             </sense>
           </sense>
         </sense>
-        <sense>
+        <sense rend="num">
           <num>C</num>
           <usg>adv. -ως</usg>
-          <sense>
+          <sense rend="num">
             <num>1</num>
             <def>de acuerdo con la norma</def>,
             <def>en forma civilizada</def>
@@ -1386,7 +1386,7 @@
               <bibl xml:id="bibl549477"><title>Od.</title><biblScope>14.90</biblScope></bibl>.
             </cit>
           </sense>
-          <sense>
+          <sense rend="num">
             <num>2</num>
             <def>con justicia</def> c. connotaciones religiosas
             <cit>
@@ -1395,7 +1395,7 @@
               <bibl xml:id="bibl549478"><author>A.</author><title>A.</title><biblScope>376</biblScope></bibl>.
             </cit>
           </sense>
-          <sense>
+          <sense rend="num">
             <num>3</num>
             <def>con justicia</def> gener.,
             <def>honestamente</def>
@@ -1418,7 +1418,7 @@
               <bibl xml:id="bibl549487"><author>D.</author><biblScope>21.154</biblScope></bibl>.
             </cit>
           </sense>
-          <sense>
+          <sense rend="num">
             <num>4</num>
             <def>con razón</def>,
             <def>merecidamente</def>
@@ -1435,7 +1435,7 @@
               <bibl xml:id="bibl549493"><author>Lys.</author><biblScope>13.51</biblScope></bibl>.
             </cit>
           </sense>
-          <sense>
+          <sense rend="num">
             <num>5</num>
             <def>con exactitud</def>
             <cit>
