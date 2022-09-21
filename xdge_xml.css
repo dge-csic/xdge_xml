@@ -17,7 +17,7 @@
         Échec : "Times New Roman"
         Réussies : "Palatino Linotype", "NewAthenaUnicodeRegular", 
      */
-    --serif: "Palatino Linotype", serif;
+    --serif: "Palatino Linotype","NewAthenaUnicodeRegular", serif;
     --sans-serif: "Noto Sans", sans-serif;
 }
 
@@ -25,6 +25,11 @@
 *::after,
 *::before {
     box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "NewAthenaUnicodeRegular";
+  src: url("./fonts/newathu5.woff") format('woff');
 }
 
 @font-face {
