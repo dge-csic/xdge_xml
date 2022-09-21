@@ -12,13 +12,18 @@
     --text: #000;
     --text_soft: #333;
     --text_grey: #666;
-    /* Ratées : Georgia, "Source Serif VF" */
-    /* Réussies : "NewAthenaUnicodeRegular" */
-    --serif: "Palatino Linotype", "Times New Roman", Georgia, serif;
+    /* 
+        Échec Accents : Georgia, "Source Serif VF" 
+        Échec : "Times New Roman"
+        Réussies : "Palatino Linotype", "NewAthenaUnicodeRegular", 
+     */
+    --serif: "Palatino Linotype", serif;
     --sans-serif: "Noto Sans", sans-serif;
 }
 
-* {
+*,
+*::after,
+*::before {
     box-sizing: border-box;
 }
 
@@ -102,7 +107,7 @@ teiHeader {
     display: none;
 }
 
-bibl[type="dmic"],
+entry>bibl,
 dictScrap,
 entry,
 etym,
@@ -124,7 +129,6 @@ cit:before {
 
 body {
     display: block;
-    background: var(--bg);
     width: 45rem;
     padding: 0;
     margin-left: auto;
@@ -132,13 +136,69 @@ body {
 }
 
 entry {
-    border-top: 1rem solid #DDD;
-    padding: 2rem 2rem;
+    margin-bottom: 1rem;
+    border-top: 2rem solid var(--bg_soft);
+    border-bottom: 2rem solid var(--bg_soft);
+    border-left: 1rem solid var(--bg_soft);
+    border-right: 1rem solid var(--bg_soft);
+    background-color: var(--bg);
+    padding: 0 1rem;
 }
 
+
+/* alignements des sens */
+
 sense {
-    text-indent: -1.2rem;
-    margin: 0 0 0.5rem 1.2rem;
+    text-indent: -1.6rem;
+    margin: 0.2rem 0.2rem 0.5rem 1.1rem;
+    padding: 0rem 0 0 0.4rem;
+    position: relative;
+    /* border-left: 1px solid var(--bg_soft); */
+    line-height: 1.5rem;
+    /*
+    background-color: var(--bg);
+    background: linear-gradient(to right, var(--bg), var(--bg_soft) 3rem, var(--bg_soft) 60%, var(--bg));
+    */
+}
+
+sense::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    height: 0;
+    box-sizing: content-box;
+    left: -1.5rem;
+    width: 7rem;
+    border-top: 2px solid var(--bg_marg);
+}
+
+sense::before {
+    position: absolute;
+    content: '';
+}
+
+sense>num {
+    float: left;
+    display: inline;
+    width: 1.6rem;
+    font-size: 85%;
+    line-height: 1rem;
+    margin-top: 0.3rem;
+    font-weight: bold;
+}
+
+sense>num::before {
+    display: inline-block;
+    width: 1.6rem;
+    background-color: var(--bg);
+}
+
+pc+* {
+    padding-left: 1.5rem;
+}
+
+pc+cit {
+    padding-left: 0;
 }
 
 entry>sense:first-of-type {
@@ -151,10 +211,34 @@ entry>sense:last-of-type {
     margin-bottom: 2rem;
 }
 
-bibl[type="dmic"],
+entry>form {
+    text-indent: 0.7rem;
+}
+
+entry>dictScrap,
+entry>bibl,
+entry>form,
+etym {
+    /* header et footer d’article */
+    margin-left: -1rem;
+    margin-right: -1rem;
+    background-color: var(--bg_soft);
+}
+
+form * {
+    text-indent: 0;
+}
+
+entry>dictScrap,
+entry>bibl,
 form form,
 etym {
     background-color: var(--bg_soft);
+    padding: 0.3rem 0.7rem;
+    border-top: 2px solid var(--bg);
+}
+
+dictScrap {
     padding: 0.3rem 0.7rem;
     line-height: 115%;
     border-bottom: 2px solid var(--bg);
@@ -221,32 +305,15 @@ ref num {
     font-weight: 400;
 }
 
-sense>num {
-    font-size: 85%;
-    line-height: 1em;
-    margin-top: 0.25rem;
-    font-weight: bold;
-    padding-right: 0.5rem;
-    float: left;
-    min-width: 1.2rem;
-}
-
 pc {
     float: left;
     width: 0;
     color: transparent;
 }
 
-pc+* {
-    padding-left: 1.2rem;
-}
-
-pc+cit {
-    padding-left: 0;
-}
-
 pc::before {
     content: '●';
+    padding-left: 0.2rem;
     color: var(--marker);
     position: absolute;
     display: block;

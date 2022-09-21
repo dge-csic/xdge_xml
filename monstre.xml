@@ -41,7 +41,24 @@
   </teiHeader>
   <text>
     <body>
-<entry type="adj" xml:id="ἄᾰτος1">
+      <entry type="adv" xml:id="ἀπεσχοινισμένως">
+        <form>
+          <orth type="lemma">ἀπεσχοινισμένως</orth>
+        </form>
+        <sense> adv. sobre el part. pas. de <xr><ref>ἀποσχοινίζω</ref></xr>
+          <def>separadamente</def>,
+          <def>por separado</def>
+          <cit>
+            <quote xml:lang="grc">ἀ. νοεῖσθαι</quote>
+            <bibl xml:id="bibl253960"><author>Cyr.Al.</author><title>Nest.</title><biblScope>4.2 (p.80)</biblScope></bibl>,
+          </cit>
+          <cit>
+            <quote xml:lang="grc">οὐδέ τι τούτων ἐν Χριστῷ ἀ. ἐστί</quote>
+            <bibl xml:id="bibl253961"><author>Leont.H.</author><title>Nest.</title><biblScope>M.86.1748D</biblScope></bibl>.
+          </cit>
+        </sense>
+      </entry>
+      <entry type="adj" xml:id="ἄᾰτος1">
         <form>
           <orth type="lemma">1 ἄᾰτος</orth>
           <gramGrp>-ον</gramGrp>
