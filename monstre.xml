@@ -41,6 +41,37 @@
   </teiHeader>
   <text>
     <body>
+      <entry type="NP" xml:id="Ἀπολλωνιάδης">
+        <form>
+          <orth type="lemma">Ἀπολλωνιάδης</orth>
+          <gramGrp>-ου, ὁ</gramGrp>
+        </form>
+        <dictScrap>
+          <def>Apoloniadas</def>
+        </dictScrap>
+        <sense rend="num">
+          <num>1</num>
+          <usg>tirano de Agirion (Sicilia) hacia 339 a.C.</usg>,
+          <bibl xml:id="bibl302088"><author>D.S.</author><biblScope>16.82</biblScope></bibl>.
+        </sense>
+        <sense rend="num">
+          <num>2</num>
+          <usg>sirviente de Platón</usg>,
+          <bibl xml:id="bibl302089"><author>D.L.</author><biblScope>3.42</biblScope></bibl>.
+        </sense>
+      </entry>
+      <entry subtype="NP" type="dmic" xml:id="ἈϜάτας">
+        <form>
+          <orth type="lemma">*ἈϜάτας</orth>
+        </form>
+        <bibl type="dmic"><title>DMic.</title> <biblScope><hi>a-wa-ta</hi></biblScope> (??).</bibl>
+      </entry>
+      <entry type="xr" xml:id="ἀάτη">
+        <form>
+          <orth type="lemma">ἀάτη</orth>
+        </form>
+        <xr><lbl>v.</lbl> <ref>ἄτη</ref>.</xr>
+      </entry>
       <entry type="adv" xml:id="ἀπεσχοινισμένως">
         <form>
           <orth type="lemma">ἀπεσχοινισμένως</orth>
@@ -57,6 +88,95 @@
             <bibl xml:id="bibl253961"><author>Leont.H.</author><title>Nest.</title><biblScope>M.86.1748D</biblScope></bibl>.
           </cit>
         </sense>
+      </entry>
+      <entry type="subst" xml:id="ἀβάκιον">
+        <form>
+          <orth type="lemma">ἀβάκιον</orth>
+          <gramGrp>-ου, τό</gramGrp>
+          <form type="prosodia">[ᾰβᾰ-]</form>
+          <form type="grafia">ἀβάκειον
+            <bibl xml:id="bibl100313"><title>PMich.Zen.</title><biblScope>14.1</biblScope><addStart/> <note>(<date>III a.C.</date>)</note><addEnd/></bibl>,
+            <bibl xml:id="bibl100314"><addStart/><title>PMich.Zen.</title><biblScope>14.<addEnd/>2</biblScope><addStart/> <note>(<date>III a.C.</date>)</note><addEnd/></bibl>,
+            <bibl xml:id="bibl100315"><addStart/><title>PMich.Zen.</title><biblScope>14.<addEnd/>5</biblScope> <note>(<date>III a.C.</date>)</note></bibl>,
+            <bibl xml:id="bibl100316"><title>PLond.</title><biblScope>1683.3</biblScope> <note>(<date>VI d.C.</date>)</note></bibl>, ἀβάκηον
+            <bibl xml:id="bibl100317"><title>ISmyrna</title> <biblScope>753.11</biblScope> <note>(<date>I d.C.?</date>)</note></bibl>
+          </form>
+        </form>
+        <sense rend="num">
+          <num>I</num>
+          <sense rend="num">
+            <num>1</num>
+            <def>ábaco</def>,
+            <def>tablero<hi> usado para hacer cálculos</hi></def>
+            <cit>
+              <quote xml:lang="grc">μετ' ἀβακίου δὲ καὶ τραπεζίου πωλῶν ἑαυτόν</quote>
+              <bibl xml:id="bibl100318"><author>Lys.</author><title>Fr.</title><biblScope>50Th.</biblScope></bibl>, cf.
+              <bibl xml:id="bibl100319"><author>Alex.</author><biblScope>15.3</biblScope></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">οἱ ἐν τοῖς βασιλείοις ... εἰσιν ... παραπλήσιοι ταῖς ἐπὶ τῶν ἀβακίων ψήφοις</quote>
+              <bibl xml:id="bibl100320"><author>Plb.</author><biblScope>5.26.13</biblScope></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">ἄβαξ ... ἐφ' οὗ τὰ πράγματα παρατιθέασιν· ἀβάκιον δέ, ἐφ' οὗ ψηφίζουσιν</quote>
+              <bibl xml:id="bibl100321"><author>Ammon.</author><title>Diff.</title><biblScope>1</biblScope></bibl>, cf.
+              <bibl xml:id="bibl100322"><title>PLond.</title><lcStart/><biblScope>1683.3</biblScope> <note>(<date>VI d.C.</date>)</note><lcEnd/></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">ἀ.· ... ἐφ' οὗ τοὺς λογισμοὺς ἐποιοῦντο</quote>
+              <bibl xml:id="bibl100323"><author>Phot.</author><biblScope><foreign xml:lang="grc">α</foreign> 25</biblScope></bibl>.
+            </cit>
+          </sense>
+          <sense rend="num">
+            <num>2</num>
+            <def>ábaco</def>
+            <usg>enarenado para trazar figuras geométricas</usg>,
+            <bibl xml:id="bibl100324"><author>Plu.</author><title>Cat.Mi.</title><biblScope>70</biblScope></bibl>,
+            <cit>
+              <quote xml:lang="grc">τὸ ἐν τῷ ἀβακίῳ καταγεγραμμένον</quote>
+              <bibl xml:id="bibl100325"><author>Phlp.</author><title>Aet.</title><biblScope>208.17</biblScope></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">ἐπὶ τοῦ ἀβακίου ... ταῦτα κατιδόντας</quote>
+              <bibl xml:id="bibl100326"><author>Procl.</author><title>in Ti.</title><biblScope>3.145.24</biblScope></bibl>.
+            </cit>
+          </sense>
+          <sense rend="num">
+            <num>3</num>
+            <def>tablero de juego</def>
+            <bibl xml:id="bibl100327"><author>Poll.</author><biblScope>10.150</biblScope></bibl>,
+            <cit>
+              <quote xml:lang="grc">ἐφ' οὗ ἐκύβευον</quote>
+              <bibl xml:id="bibl100328"><author>Phot.</author><biblScope><foreign xml:lang="grc">α</foreign> 25</biblScope></bibl>.
+            </cit>
+          </sense>
+          <sense rend="num">
+            <num>4</num>
+            <def>artesa</def>,
+            <def>amasadera</def>,
+            <def>hintero</def>
+            <bibl xml:id="bibl100329"><author>Hsch.</author><biblScope>s.u. <foreign xml:lang="grc">μάκτρα</foreign></biblScope></bibl> (<xr><lbl>cf.</lbl> <ref>ἀβακίτης</ref></xr>).
+          </sense>
+        </sense>
+        <sense rend="num">
+          <num>II</num>
+          <def>plato grande</def>,
+          <def>fuente</def>,
+          <bibl xml:id="bibl100330"><title>PMich.Zen.</title><llccStart/><biblScope>14.1</biblScope></bibl> + <bibl xml:id="bibl100330"><title>PMich.Zen.</title><biblScope>14.2</biblScope><llccStart/></bibl>,
+          <bibl xml:id="bibl100331"><author>Poll.</author><biblScope>6.90</biblScope></bibl>,
+          <bibl xml:id="bibl100332"><addStart/><author>Poll.</author><addEnd/><biblScope>10.105</biblScope></bibl>.
+        </sense>
+        <sense rend="num">
+          <num>III</num>
+          <def>losa</def>,
+          <def>plataforma<hi> usada a modo de </hi>bandeja</def> o
+          <def>mesa votiva<hi> donde se depositaban las ofrendas</hi></def>
+          <cit>
+            <quote xml:lang="grc">ἀβάκηον μαρμάρινον πρὸς τὴν χρῆσιν τῶν θυσιαζόντων</quote>
+            <bibl xml:id="bibl100333"><title>ISmyrna</title> <lcStart/><biblScope>753.11</biblScope> <note>(<date>I d.C.?</date>)</note><lcEnd/></bibl>
+          </cit>
+        </sense>
+        <etym><xr><lbl>Cf.</lbl> <ref><num>1</num> ἄβαξ</ref></xr>.</etym>
       </entry>
       <entry type="adj" xml:id="ἄᾰτος1">
         <form>
