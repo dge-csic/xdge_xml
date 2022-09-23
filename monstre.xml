@@ -693,7 +693,8 @@
             </sense>
             <sense rend="num">
               <num>2</num>
-              <def>justo</def> c. connotaciones religiosas
+              <def>justo</def>
+              <usg>c. connotaciones religiosas</usg>
               <cit>
                 <quote xml:lang="grc">δικαίων τε πτόλις ἀνδρῶν</quote>
                 <bibl xml:id="bibl549299"><title>h.Ven.</title><biblScope>20</biblScope></bibl>,
@@ -705,7 +706,8 @@
                 <bibl xml:id="bibl549300"><author>A.</author><title>Th.</title><biblScope>598</biblScope></bibl>,
               </cit>
               <cit>
-                <quote xml:lang="grc">op. ἀνόσιος</quote>
+                <usg>op.</usg>
+                <quote xml:lang="grc">ἀνόσιος</quote>
                 <bibl xml:id="bibl549301"><author>A.</author><title>Th.</title><biblScope>610</biblScope></bibl>,
               </cit>
               <cit>
