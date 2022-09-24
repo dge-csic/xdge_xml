@@ -4,7 +4,7 @@
 :root {
     /* des variables globales */
     --rubric: #B9121B;
-	--trad: #04667c;
+    --trad: #04667c;
     --royal: #353B90;
     --marker: #aaa;
     --bg: #fff;
@@ -36,10 +36,11 @@
     /* important, évite des caractères vides pendant un moment */
     font-display: swap;
 }
+
 @font-face {
-	font-family: "Trad";
+    font-family: "Trad";
     src: url("./fonts/CrimsonPro-Italic-VariableFont_wght.ttf");
-	/*font-style: normal;*/
+    /*font-style: normal;*/
     font-display: swap;
     /* cf. spec font https://fonts.google.com/variablefonts */
     font-weight: 100 900;
@@ -66,24 +67,6 @@
     font-stretch: 62.5% 100%;
 }
 
-@font-face {
-    font-family: 'Source Serif VF';
-    font-weight: 200 900;
-    font-style: normal;
-    font-stretch: normal;
-    src: url('./fonts/SourceSerif4Variable-Roman.ttf.woff2') format('woff2'), url('./fonts/SourceSerif4Variable-Roman.ttf.woff') format('woff'), url('./fonts/SourceSerif4Variable-Roman.ttf') format('truetype');
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Source Serif VF';
-    font-weight: 200 900;
-    font-style: italic;
-    font-stretch: normal;
-    src: url('./fonts/SourceSerif4Variable-Italic.ttf.woff2') format('woff2'), url('./fonts/SourceSerif4Variable-Italic.ttf.woff') format('woff'), url('./fonts/SourceSerif4Variable-Italic.ttf') format('truetype');
-    font-display: swap;
-}
-
 TEI {
     color: var(--text_soft);
     background-color: var(--bg_marg);
@@ -106,35 +89,37 @@ xr {
     font-family: var(--sans-serif);
 }
 
-sense usg{
-	font-stretch: semi-condensed;
+sense usg {
+    font-stretch: semi-condensed;
 }
 
 quote {
     font-family: var(--sans-serif);
     font-weight: 380;
-	/*font-size:84%;*/
+    /*font-size:84%;*/
 }
 
 quote[xml|lang="spa"] {
-	font-family: var(--serif);
+    font-family: var(--serif);
     /*font-style: italic;*/
-	color: var(--trad);
-	font-weight: 250;
-	font-size:120%;
+    color: var(--trad);
+    font-weight: 250;
+    font-size: 120%;
 }
+
 quote[xml|lang="lat"] {
-	font-family: var(--serif);
-	font-weight: 250;
-	font-size:120%;
+    font-family: var(--serif);
+    font-weight: 250;
+    font-size: 120%;
 }
+
 quote[xml|lang="grc"] {
     font-family: var(--grc);
 }
 
-cit > usg {
-	/*font-size:84%;*/
-	font-stretch: semi-condensed;
+cit>usg {
+    /*font-size:84%;*/
+    font-stretch: semi-condensed;
 }
 
 addStart,
@@ -190,21 +175,28 @@ entry {
 }
 
 
-/* alignements des sens */
+/* Espacements et alignments des <sense> */
+
+sense {
+    /* interlignage des sense, ne pas oublier d’ajuster les numéros flottants */
+    line-height: 1.2rem;
+}
 
 sense {
     text-indent: -1.6rem;
     margin: 0.2rem 0.2rem 0.5rem 1.1rem;
     padding: 0rem 0 0 0.4rem;
     position: relative;
-    /* border-left: 1px solid var(--bg_soft); */
-    line-height: 1.5rem;
+    /* Si on change l’in */
     /*
+    border-left: 1px solid var(--bg_soft);
     background-color: var(--bg);
     background: linear-gradient(to right, var(--bg), var(--bg_soft) 3rem, var(--bg_soft) 60%, var(--bg));
     */
 }
 
+
+/* Exprériences filet
 sense[rend="num"]::before {
     content: '';
     position: absolute;
@@ -229,14 +221,13 @@ sense[rend="num"]::after {
     width: 0;
     border-left: 1px dotted  var(--bg);
 }
+*/
 
 sense>num {
     float: left;
     display: inline;
     width: 1.6rem;
     font-size: 85%;
-    line-height: 1rem;
-    margin-top: 0.3rem;
     font-weight: bold;
 }
 
@@ -253,9 +244,12 @@ pc+* {
 pc+cit {
     padding-left: 0;
 }
+
+
 /* /!\ essai*/
+
 cit {
-	font-size: 85%;
+    font-size: 85%;
 }
 
 entry>sense:first-of-type {
@@ -340,14 +334,14 @@ hi hi,
 quote[xml|lang="spa"] hi,
 title hi {
     font-style: normal;
-	font-family: var(--sans-serif);
-	color: var(--text);
-	font-weight: 200;
+    font-family: var(--sans-serif);
+    color: var(--text);
+    font-weight: 200;
 }
 
-quote[xml|lang="spa"] hi{
-	/*font-size:84%;*/
-	font-stretch: semi-condensed;
+quote[xml|lang="spa"] hi {
+    /*font-size:84%;*/
+    font-stretch: semi-condensed;
 }
 
 hi[rend="sup"] {
@@ -378,7 +372,7 @@ pc {
 
 pc::before {
     content: '✦';
-	font-size: 80%;
+    font-size: 80%;
     padding-left: 0.2rem;
     color: var(--rubric);
     position: absolute;
@@ -398,9 +392,11 @@ orth {
 entry>form>orth {
     font-size: 1.5rem;
 }
+
 orth[type="variant"] {
-	font-weight: normal;
+    font-weight: normal;
 }
+
 def {
     font-style: italic;
     color: var(--rubric);
@@ -415,7 +411,7 @@ bibl {
     color: var(--text_grey);
     white-space: nowrap;
     /*font-stretch: semi-condensed;*/
-	/*font-size:85%;*/
+    /*font-size:85%;*/
     /*
     background-color: var(--bg_soft);
     line-height: 95%;
