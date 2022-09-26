@@ -18,7 +18,7 @@
         Échec : "Times New Roman"
         Réussies : "Palatino Linotype", "Athena", 
      */
-    --serif: "Trad", "Palatino Linotype", "Athena", serif;
+    --serif: 'Crimson Pro', "Palatino Linotype", "Athena", serif;
     --grc: "Noto Sans", "Athena", sans-serif;
     --sans-serif: "Noto Sans", "Athena", sans-serif;
 }
@@ -30,51 +30,72 @@
 }
 
 @font-face {
-    /* Le nom est libre il peut être simple */
+    font-display: swap;
     font-family: "Athena";
     src: url("./fonts/newathu5.woff") format('woff');
-    /* important, évite des caractères vides pendant un moment */
-    font-display: swap;
 }
 
 @font-face {
-    font-family: "Trad";
-    src: url("./fonts/CrimsonPro-Italic-VariableFont_wght.ttf");
-    /*font-style: normal;*/
     font-display: swap;
-    /* cf. spec font https://fonts.google.com/variablefonts */
-    font-weight: 100 900;
-    font-stretch: 62.5% 100%;
-}
-
-@font-face {
-    font-family: "Noto Sans";
-    src: url("./fonts/NotoSansDisplay-VariableFont_wdth,wght.ttf");
+    font-family: 'Crimson Pro';
     font-style: normal;
+    src: url("./fonts/CrimsonPro-VariableFont_wght.ttf");
+    font-weight: 200 900;
+}
+
+@font-face {
     font-display: swap;
+    /* garder le nom Google standard */
+    font-family: 'Crimson Pro';
+    font-style: italic;
+    src: url("./fonts/CrimsonPro-Italic-VariableFont_wght.ttf");
+    /* cf. spec font https://fonts.google.com/variablefonts 
+    pas de propriété wdth permettant du font-stretch
+    */
+    font-weight: 200 900;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Noto Sans";
+    font-style: normal;
+    src: url("./fonts/NotoSansDisplay-VariableFont_wdth,wght.ttf");
     /* cf. spec font https://fonts.google.com/variablefonts */
     font-weight: 100 900;
     font-stretch: 62.5% 100%;
 }
 
 @font-face {
-    font-family: "Noto Sans";
-    src: url("./fonts/NotoSansDisplay-Italic-VariableFont_wdth,wght.ttf");
-    font-style: italic;
     font-display: swap;
+    font-family: "Noto Sans";
+    font-style: italic;
+    src: url("./fonts/NotoSansDisplay-Italic-VariableFont_wdth,wght.ttf");
     /* cf. spec font https://fonts.google.com/variablefonts */
     font-weight: 100 900;
     font-stretch: 62.5% 100%;
+}
+
+body,
+entry>bibl,
+cit,
+dictScrap,
+entry,
+etym,
+form,
+sense,
+TEI,
+text {
+    display: block;
 }
 
 TEI {
     color: var(--text_soft);
     background-color: var(--bg_marg);
     font-size: 14pt;
+    line-height: 1.2rem;
     padding: 2rem;
-    /* Tentons sans-serif par défaut ? */
+    /* défaut : sans-serif light */
     font-family: var(--sans-serif);
-    /* essai de typo légère pour jouer sur la graisse */
     font-weight: 300;
 }
 
@@ -96,12 +117,11 @@ sense usg {
 quote {
     font-family: var(--sans-serif);
     font-weight: 380;
-    /*font-size:84%;*/
 }
 
 quote[xml|lang="spa"] {
     font-family: var(--serif);
-    /*font-style: italic;*/
+    font-style: italic;
     color: var(--trad);
     font-weight: 250;
     font-size: 120%;
@@ -109,6 +129,7 @@ quote[xml|lang="spa"] {
 
 quote[xml|lang="lat"] {
     font-family: var(--serif);
+    font-style: italic;
     font-weight: 250;
     font-size: 120%;
 }
@@ -118,7 +139,6 @@ quote[xml|lang="grc"] {
 }
 
 cit>usg {
-    /*font-size:84%;*/
     font-stretch: semi-condensed;
 }
 
@@ -136,28 +156,7 @@ teiHeader {
     display: none;
 }
 
-entry>bibl,
-dictScrap,
-entry,
-etym,
-form,
-sense,
-TEI,
-text {
-    display: block;
-}
-
-cit:before {
-    /* Pas bloc parce que possiblement suivi de texte, saut de ligne avant  */
-    /*
-    content: '\A';
-    */
-    content: ' ';
-    display: block;
-}
-
 body {
-    display: block;
     width: 45rem;
     padding: 0;
     margin-left: auto;
@@ -178,8 +177,7 @@ entry {
 /* Espacements et alignments des <sense> */
 
 sense {
-    /* interlignage des sense, ne pas oublier d’ajuster les numéros flottants */
-    line-height: 1.2rem;
+    /* interlignage des sense, unité absolue pour les numéros flottants */
 }
 
 sense {
@@ -250,8 +248,16 @@ pc+cit {
 
 cit {
     font-size: 85%;
+    text-indent: 0;
 }
 
+sense>def+cit:first-of-type,
+sense>bibl+cit:first-of-type,
+sense>usg+cit:first-of-type {
+    padding-top: 0.5rem;
+}
+
+entry>dictScrap:first-of-type,
 entry>sense:first-of-type {
     /* premier sense de premier niveau */
     margin-top: 2rem;
@@ -266,7 +272,6 @@ entry>form {
     text-indent: 0.7rem;
 }
 
-entry>dictScrap,
 entry>bibl,
 entry>form,
 etym {
@@ -280,19 +285,12 @@ form * {
     text-indent: 0;
 }
 
-entry>dictScrap,
 entry>bibl,
 form form,
 etym {
     background-color: var(--bg_soft);
     padding: 0.3rem 0.7rem;
     border-top: 2px solid var(--bg);
-}
-
-dictScrap {
-    padding: 0.3rem 0.7rem;
-    line-height: 115%;
-    border-bottom: 2px solid var(--bg);
 }
 
 etym:before {
