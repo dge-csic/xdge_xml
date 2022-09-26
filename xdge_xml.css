@@ -110,8 +110,9 @@ xr {
     font-family: var(--sans-serif);
 }
 
-sense usg {
-    font-stretch: semi-condensed;
+usg {
+    font-stretch: condensed;
+    font-weight: 550;
 }
 
 quote {
@@ -124,7 +125,8 @@ quote[xml|lang="spa"] {
     font-style: italic;
     color: var(--trad);
     font-weight: 250;
-    font-size: 120%;
+    /* unité non locale, relative la fonte racine */
+    font-size: 1.1rem;
 }
 
 quote[xml|lang="lat"] {
@@ -136,10 +138,6 @@ quote[xml|lang="lat"] {
 
 quote[xml|lang="grc"] {
     font-family: var(--grc);
-}
-
-cit>usg {
-    font-stretch: semi-condensed;
 }
 
 addStart,
@@ -243,12 +241,9 @@ pc+cit {
     padding-left: 0;
 }
 
-
-/* /!\ essai*/
-
 cit {
-    font-size: 85%;
     text-indent: 0;
+    font-size: 0.85rem;
 }
 
 sense>def+cit:first-of-type,
@@ -338,7 +333,6 @@ title hi {
 }
 
 quote[xml|lang="spa"] hi {
-    /*font-size:84%;*/
     font-stretch: semi-condensed;
 }
 
@@ -410,10 +404,4 @@ bibl {
     white-space: nowrap;
     /*font-stretch: semi-condensed;*/
     /*font-size:85%;*/
-    /*
-    background-color: var(--bg_soft);
-    line-height: 95%;
-    padding: 2px 0.7ex;
-    border-radius: 0.5em;
-    */
 }

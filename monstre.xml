@@ -41,6 +41,403 @@
   </teiHeader>
   <text>
     <body>
+<entry type="v" xml:id="ἐκπέμπω">
+        <form>
+          <orth type="lemma">ἐκπέμπω</orth>
+          <form type="morfologia">[impf. iter. sin aum. ἐκπέμπεσκον
+            <bibl xml:id="bibl700013"><author>Hdt.</author><biblScope>1.100</biblScope></bibl>]
+          </form>
+        </form>
+        <sense rend="num">
+          <num>I</num>
+          <usg>c. mov. ‘desde’</usg>
+          <sense rend="num">
+            <num>1</num>
+            <usg>c. ac. de pers.</usg>
+            <def>enviar fuera de</def>,
+            <def>hacer salir de</def> c. gen. separat.
+            <cit>
+              <quote xml:lang="grc">ἡσύχιον δ' ἄρα μιν πολέμου ἔκπεμπε νέεσθαι</quote>
+              <quote xml:lang="spa">y lo envió tranquilo de regreso fuera del combate</quote>,
+              <bibl xml:id="bibl700014"><title>Il.</title><biblScope>21.598</biblScope></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">ὅπως Πρίαμον ... νηῶν ἐκπέμψειε</quote>
+              <bibl xml:id="bibl700015"><title>Il.</title><biblScope>24.681</biblScope></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">δόμων δέ σ' ... ἐξέπεμψ' ἐγώ</quote>
+              <bibl xml:id="bibl700016"><author>S.</author><title>El.</title><biblScope>1130</biblScope></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">σ' ἐκτὸς ... πυλῶν ... ἐξέπεμπον</quote>
+              <bibl xml:id="bibl700017"><author>S.</author><title>Ant.</title><biblScope>19</biblScope></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">τάσδε δ' ἐκπέμπειν χθονὸς Ἑλληνίδας γυναῖκας</quote>
+              <bibl xml:id="bibl700018"><author>E.</author><title>IT</title> <biblScope>1467</biblScope></bibl>, cf.
+              <bibl xml:id="bibl700019"><author>A.R.</author><biblScope>2.814</biblScope></bibl>
+            </cit>
+            <sense>
+              <pc>;</pc>
+              <usg>tb. en v. med.</usg>
+              <cit>
+                <quote xml:lang="grc">τί μ' ἐξεπέμψω δεῦρο τῶνδε δωμάτων;</quote>
+                <bibl xml:id="bibl700020"><author>S.</author><title>OT</title> <biblScope>951</biblScope></bibl>
+              </cit>
+            </sense>
+            <sense>
+              <pc>;</pc>
+              <usg>tb. c. ac. de cosa</usg>
+              <def>enviar desde</def>
+              <cit>
+                <quote xml:lang="grc">Ἥφαιστος, Ἴδης λαμπρὸν ἐκπέμπων σέλας</quote>
+                <quote xml:lang="spa">Hefesto, enviando un brillante fulgor desde el Ida</quote>
+                <bibl xml:id="bibl700021"><author>A.</author><title>A.</title><biblScope>281</biblScope></bibl>,
+              </cit>
+              <cit>
+                <quote xml:lang="grc">πελανὸν ἐκπέμπεις δόμων</quote>
+                <bibl xml:id="bibl700022"><author>E.</author><title>Fr.</title><biblScope>350</biblScope></bibl>
+              </cit>
+            </sense>
+            <sense>
+              <pc>;</pc>
+              <usg>fig.</usg>
+              <def>sacar fuera de</def>,
+              <def>librar de</def>
+              <cit>
+                <quote xml:lang="grc">ἐξέπεμψεν παλαισμάτων αὐχένα</quote>
+                <quote xml:lang="spa">libró su cuello de la lucha</quote>,
+                <usg>e.e., no llegó a competir</usg>,
+                <bibl xml:id="bibl700023"><author>Pi.</author><title>N.</title><biblScope>7.72</biblScope></bibl>.
+              </cit>
+            </sense>
+          </sense>
+          <sense rend="num">
+            <num>2</num>
+            <usg>implicando cierta violencia</usg>
+            <def>expulsar</def>,
+            <def>echar</def> c. ac. de pers. y gen. separat. o giro prep.
+            <cit>
+              <quote xml:lang="grc">μὴ ... τίς ... σ' ... δώματος ἐκπέμψῃσι</quote>
+              <quote xml:lang="spa">no sea que alguien te arroje de la casa</quote>,
+              <bibl xml:id="bibl700024"><title>Od.</title><biblScope>18.336</biblScope></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">εἰ τοὺς κτανόντας Λάϊον ... γῆς φυγάδας ἐκπεμψαίμεθα</quote>
+              <bibl xml:id="bibl700025"><author>S.</author><title>OT</title> <biblScope>309</biblScope></bibl>
+            </cit>
+            <sense>
+              <pc>;</pc>
+              <usg>en v. med. mismo sent.</usg>
+              <cit>
+                <quote xml:lang="grc">ἀλλά μιν ... δόμου ἐκπέμψασθε θύραζε</quote>
+                <quote xml:lang="spa">pero echadlo fuera de palacio</quote>,
+                <bibl xml:id="bibl700026"><title>Od.</title><biblScope>20.361</biblScope></bibl>,
+              </cit>
+              <cit>
+                <quote xml:lang="grc">τὸν μὲν λέχους ἤγειρ[α] κἀξεπεμψάμην</quote>
+                <bibl xml:id="bibl700027"><title>Trag.Adesp.</title><biblScope>664.29</biblScope></bibl>,
+              </cit>
+              <cit>
+                <usg>sólo c. ac.</usg>
+                <quote xml:lang="grc">Κορινθίους</quote>
+                <bibl xml:id="bibl700028"><author>Th.</author><biblScope>4.49</biblScope></bibl>,
+              </cit>
+              <cit>
+                <quote xml:lang="grc">ἐμὲ δ' ἐξέπεμψεν ὁ καπνός</quote>
+                <quote xml:lang="spa">a mí me ha echado el humo</quote>
+                <bibl xml:id="bibl700029"><author>Ar.</author><title>Pl.</title><biblScope>821</biblScope></bibl>
+              </cit>
+            </sense>
+            <sense>
+              <pc>;</pc>
+              <def>despachar</def>
+              <cit>
+                <quote xml:lang="grc">καί μ' ὁ Φοῖβος ὧν μὲν ἱκόμην ἄτιμον ἐξέπεμψεν</quote>
+                <quote xml:lang="spa">y Febo me despachó sin atenderme en lo que venía a preguntar</quote>
+                <bibl xml:id="bibl700030"><author>S.</author><title>OT</title> <biblScope>789</biblScope></bibl>,
+              </cit>
+              <cit>
+                <usg>fig.</usg>
+                <quote xml:lang="grc">καθάρμαθ' ... ἐκπέμψας</quote>
+                <bibl xml:id="bibl700031"><author>A.</author><title>Ch.</title><biblScope>98</biblScope></bibl>.
+              </cit>
+            </sense>
+          </sense>
+          <sense rend="num">
+            <num>3</num>
+            <def>dejar marchar</def>,
+            <def>despedir</def> c. ac. de pers.
+            <cit>
+              <quote xml:lang="grc">ὁμήρους τοῦ ἀδόλως ἐκπέμψειν</quote>
+              <quote xml:lang="spa">rehenes<hi> (como garantía) </hi>de que él había de dejarlos ir sin engaño</quote>
+              <bibl xml:id="bibl700032"><author>X.</author><title>An.</title><biblScope>3.2.24</biblScope></bibl>
+            </cit>
+            <sense>
+              <pc>;</pc>
+              <def>enviar fuera</def>,
+              <def>despedir</def> en v. pas. c. pred.
+              <cit>
+                <quote xml:lang="grc">ἀνὴρ γὰρ οὐ στενακτὸς ... ἐξεπέμπετ'</quote>
+                <quote xml:lang="spa">el hombre ha sido despedido<hi> (e.e. ha muerto) </hi>sin lamentos<hi> de Edipo</hi></quote>,
+                <bibl xml:id="bibl700033"><author>S.</author><title>OC</title> <biblScope>1664</biblScope></bibl>.
+              </cit>
+            </sense>
+          </sense>
+        </sense>
+        <sense rend="num">
+          <num>II</num>
+          <usg>gener. c. compl. de direcc. ‘hacia’</usg>
+          <def>enviar a</def>,
+          <def>hacer salir</def>
+          <sense rend="num">
+            <num>a)</num>
+            <usg>c. ac. de pers. o cosa y giro prep. de direcc.</usg>
+            <cit>
+              <quote xml:lang="grc">ἐκπέμπεις κειμήλια πολλὰ ... ἄνδρας ἐς ἀλλοδαπούς</quote>
+              <bibl xml:id="bibl700034"><title>Il.</title><biblScope>24.381</biblScope></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">ἐκπέμπουσι αὐτὸν ἐς Μυτιλήνην</quote>
+              <bibl xml:id="bibl700035"><author>Hdt.</author><biblScope>1.160</biblScope></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">εἴδωλον Ἑλένης ... ἐς Ἴλιον</quote>
+              <bibl xml:id="bibl700036"><author>E.</author><title>El.</title><biblScope>1283</biblScope></bibl>,
+            </cit>
+            <cit>
+              <usg>c. ac. plu. o colect. ref. a colonizaciones</usg>
+              <quote xml:lang="grc">ἐς Ἰωνίαν ... ἀποικίας</quote>
+              <bibl xml:id="bibl700037"><author>Th.</author><biblScope>1.2</biblScope></bibl>, cf.
+              <bibl xml:id="bibl700038"><addStart/><author>Th.</author><addEnd/><biblScope>3.92</biblScope></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">τοὺς οἰκήτορας</quote>
+              <bibl xml:id="bibl700039"><author>Th.</author><biblScope>2.27</biblScope></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">εἰς τὴν χώραν τοὺς νέους</quote>
+              <bibl xml:id="bibl700040"><author>Pl.</author><title>Lg.</title><biblScope>778e</biblScope></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">τὸν ὄχλον ... ἐκ τῆς πόλεως ἐκπέμψαι ... εἰς Σικελίαν</quote>
+              <bibl xml:id="bibl700041"><author>Isoc.</author><biblScope>6.73</biblScope></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">τοὺς δὲ κατ' ἐμπορίαν ἐκπέμποντες</quote>
+              <quote xml:lang="spa">enviando a otros a comerciar fuera</quote>
+              <bibl xml:id="bibl700042"><author>Isoc.</author><biblScope>7.32</biblScope></bibl>, cf.
+              <bibl xml:id="bibl700043"><author>Arist.</author><title>Pol.</title><biblScope>1273<hi rend="sup">b</hi>19</biblScope></bibl>,
+              <bibl xml:id="bibl700044"><author>Plb.</author><biblScope>5.60.10</biblScope></bibl>,
+              <bibl xml:id="bibl700045"><author>Hdn.</author><biblScope>3.7.2</biblScope></bibl>,
+            </cit>
+            <cit>
+              <usg>en v. pas.</usg>
+              <bibl xml:id="bibl700046"><author>Th.</author><biblScope>1.34</biblScope></bibl>,
+              <bibl xml:id="bibl700047"><addStart/><author>Th.</author><biblScope>1.<addEnd/>38</biblScope></bibl>;
+            </cit>
+          </sense>
+          <sense rend="num">
+            <num>b)</num>
+            <usg>c. ac. de pers. o cosa y dat. de pers.</usg>
+            <cit>
+              <quote xml:lang="grc">τῷ δὲ ... δῶρα ἐκπέμπει βασιλεύς</quote>
+              <bibl xml:id="bibl700048"><author>Hdt.</author><biblScope>1.136</biblScope></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">ὁ δὲ κύριος ἄγγελον ... ἐκπέμψει αὐτῷ</quote>
+              <bibl xml:id="bibl700049"><author>LXX</author> <title>Pr.</title><biblScope>17.11</biblScope></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">τοῦ ... ὑπομνήματος ... ἐκπέπομφα [σοὶ τὸ] ἀντίγραφον</quote>
+              <bibl xml:id="bibl700050"><title>IMaced.</title><biblScope>87.3</biblScope> <note>(<place>Eordea</place> <date>II d.C.</date>)</note></bibl>,
+            </cit>
+            <cit>
+              <usg>c. σύν y dat.</usg>
+              <quote xml:lang="grc">πολὺν δὲ σὺν ἐμοὶ χρυσὸν ἐκπέμπει λάθρᾳ πατήρ</quote>
+              <quote xml:lang="spa">junto conmigo mi padre envió ocultamente mucho oro</quote>
+              <bibl xml:id="bibl700051"><author>E.</author><title>Hec.</title><biblScope>10</biblScope></bibl>,
+            </cit>
+            <cit>
+              <usg>en v. pas.</usg>
+              <quote xml:lang="grc">τῶν δὲ ἐκπεμπομένων ... ἐπιστολῶν ... ἐπισκόπησις</quote>
+              <bibl xml:id="bibl700052"><author>Aen.Tact.</author><biblScope>10.6</biblScope></bibl>;
+            </cit>
+          </sense>
+          <sense rend="num">
+            <num>c)</num>
+            <usg>sólo c. ac. de pers.</usg>
+            <cit>
+              <quote xml:lang="grc">ἔκπεμψάν τε νομῆας</quote>
+              <bibl xml:id="bibl700053"><title>Od.</title><biblScope>16.3</biblScope></bibl>, cf.
+              <bibl xml:id="bibl700054"><author>Pl.</author><title>Plt.</title><biblScope>293d</biblScope></bibl>,
+              <bibl xml:id="bibl700055"><author>Arist.</author><title>Pol.</title><biblScope>1271<hi rend="sup">a</hi>24</biblScope></bibl>,
+              <bibl xml:id="bibl700056"><author>Plb.</author><biblScope>1.60.2</biblScope></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">μισθοφόρους</quote>
+              <bibl xml:id="bibl700057"><title>IPr.</title><biblScope>17.18</biblScope> <note>(<date>III a.C.</date>)</note></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">στράτευμα</quote>
+              <bibl xml:id="bibl700058"><title>Milet</title> <biblScope>1(3).155.13</biblScope> <note>(<date>II a.C.</date>)</note></bibl>
+            </cit>
+            <sense>
+              <pc>;</pc>
+              <usg>en v. med. mismo sent.</usg>
+              <cit>
+                <quote xml:lang="grc">ὃν ἐξεπέμψω ... κρατοῦντ' ἐν Ἄρει</quote>
+                <quote xml:lang="spa">al que enviaste poderoso en la guerra</quote>
+                <bibl xml:id="bibl700059"><author>S.</author><title>Ai.</title><biblScope>613</biblScope></bibl>;
+              </cit>
+            </sense>
+          </sense>
+          <sense rend="num">
+            <num>d)</num>
+            <def>enviar</def> una delegación o expedición,
+            <def>enviar al extranjero</def>
+            <cit>
+              <quote xml:lang="grc">βούλῃ ξυνεργῶν αὐτὸς ἐκπέμψω στόλον;</quote>
+              <quote xml:lang="spa">¿quieres que yo mismo, para ayudarte, dirija la expedición?</quote>
+              <bibl xml:id="bibl700060"><author>E.</author><title>Hel.</title><biblScope>1427</biblScope></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">πρέσβεις</quote>
+              <bibl xml:id="bibl700061"><author>Th.</author><biblScope>1.90</biblScope></bibl>, cf.
+              <bibl xml:id="bibl700062"><addStart/><author>Th.</author><biblScope>1.<addEnd/>141</biblScope></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">τὸν ἄνδρα ἀποκτεῖναι κελεύσας οἰκέτην ἐκεῖνον μὲν ἐξέπεμψε</quote>
+              <quote xml:lang="spa">tras ordenar a un esclavo matar al marido lo mandó al extranjero</quote>
+              <bibl xml:id="bibl700063"><author>Is.</author><biblScope>8.41</biblScope></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">τοὺς ὑπὸ τῆς πόλεως ἐκπεμπομένους σπονδοφόρους</quote>
+              <bibl xml:id="bibl700064"><title>Gonnoi</title> <biblScope>109.11</biblScope> <note>(<date>III a.C.</date>)</note></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">σὺν ὅπλοις πομπαὶ ἐκπέμπονται</quote>
+              <bibl xml:id="bibl700065"><author>Aen.Tact.</author><biblScope>17.1</biblScope></bibl>,
+            </cit>
+            <cit>
+              <usg>en v. pas.</usg>
+              <quote xml:lang="grc">βασιλέως στρατευμάτων τῶν ἐπὶ βαρβάρους ἐκπεμπομένων</quote>
+              <bibl xml:id="bibl700066"><author>Tib.II</author> <title>Nou.</title><biblScope>140</biblScope></bibl>, cf.
+              <bibl xml:id="bibl700067"><author>Hierocl.</author><title>Facet.</title><biblScope>65</biblScope></bibl>
+            </cit>
+            <sense>
+              <pc>;</pc>
+              <usg>abs.</usg>
+              <cit>
+                <quote xml:lang="grc">εἰρήνης πέρι τὴν ταχίστην ἐκπέμπειν</quote>
+                <bibl xml:id="bibl700068"><author>Euagr.Schol.</author><title>HE</title> <biblScope>6.3</biblScope></bibl>.
+              </cit>
+            </sense>
+          </sense>
+        </sense>
+        <sense rend="num">
+          <num>III</num>
+          <usg>usos téc.</usg>
+          <sense rend="num">
+            <num>1</num>
+            <usg>jur.</usg>
+            <def>dejar ir</def>,
+            <def>divorciarse de</def>,
+            <def>repudiar</def>
+            <cit>
+              <quote xml:lang="grc">τὴν γυναῖκα ἐκπέμπειν</quote>
+              <bibl xml:id="bibl700069"><author>Hdt.</author><biblScope>1.59</biblScope></bibl>, cf.
+              <bibl xml:id="bibl700070"><author>Lys.</author><biblScope>14.28</biblScope></bibl>,
+              <bibl xml:id="bibl700071"><author>Is.</author><biblScope>3.35</biblScope></bibl>,
+              <bibl xml:id="bibl700072"><addStart/><author>Is.</author><biblScope>3.<addEnd/>36</biblScope></bibl>,
+              <bibl xml:id="bibl700073"><author>D.</author><biblScope>59.55</biblScope></bibl>
+            </cit>
+            <sense>
+              <pc>;</pc>
+              <def>despedir</def>,
+              <def>dejar</def> un hombre a su amante
+              <cit>
+                <quote xml:lang="grc">τοῦτον ἐξέπεμψε παρ' ἑαυτοῦ</quote>
+                <bibl xml:id="bibl700074"><author>Aeschin.</author><biblScope>1.53</biblScope></bibl>.
+              </cit>
+            </sense>
+          </sense>
+          <sense rend="num">
+            <num>2</num>
+            <usg>fisiol.</usg>
+            <def>expeler</def>,
+            <def>expulsar</def>
+            <cit>
+              <quote xml:lang="grc">τὸ πνεῦμα τὰ ζῷα ... ἐκπέμπει</quote>
+              <bibl xml:id="bibl700075"><author>Arist.</author><title>PA</title> <biblScope>664<hi rend="sup">a</hi>18</biblScope></bibl>, cf.
+              <bibl xml:id="bibl700076"><addStart/><author>Arist.</author><addEnd/><title>HA</title> <biblScope>589<hi rend="sup">b</hi>18</biblScope></bibl>,
+              <bibl xml:id="bibl700077"><author>Mnesith.Ath.</author><biblScope>51.3</biblScope></bibl>,
+              <bibl xml:id="bibl700078"><addStart/><author>Mnesith.Ath.</author><biblScope>51.<addEnd/>25</biblScope></bibl>,
+            </cit>
+            <cit>
+              <usg>c. ac. y adv.</usg>
+              <quote xml:lang="grc">τῶν ... ζῴων τὰ μὲν ... ἐκπέμπει θύραζε ὅμοιον ἑαυτῷ</quote>
+              <quote xml:lang="spa">de los animales unos<hi> (e.d. los vivíparos) </hi>expulsan hacia afuera un ser semejante a sí</quote>
+              <bibl xml:id="bibl700079"><author>Arist.</author><title>GA</title> <biblScope>732<hi rend="sup">a</hi>25</biblScope></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">τοῦ στόματος ἐκ τοῦ μυχαιτάτου τῆς φάρυγγος τὴν δυσοσμίαν ἐκπέμποντος</quote>
+              <bibl xml:id="bibl700080"><author>Alciphr.</author><biblScope>2.25.3</biblScope></bibl>.
+            </cit>
+          </sense>
+          <sense rend="num">
+            <num>3</num>
+            <def>emitir</def>,
+            <def>proyectar</def>
+            <cit>
+              <quote xml:lang="grc">ἡ δὲ σελήνη ... μέχρι γῆς ἐκπέμπει τὴν ἀπ' αὐτῆς λαμπηδόνα</quote>
+              <bibl xml:id="bibl700081"><author>Cleom.</author><biblScope>2.4.43</biblScope></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">αὐγήν</quote>
+              <bibl xml:id="bibl700082"><author>Didym.</author><title>Gen.</title><biblScope>39.6</biblScope></bibl>,
+            </cit>
+            <cit>
+              <usg>en v. pas.</usg>
+              <quote xml:lang="grc">τὸ ἐκπεμπόμενον ἀπὸ τῶν ὀφθαλμῶν φῶς</quote>
+              <bibl xml:id="bibl700083"><author>Alex.Aphr.</author><title>in Sens.</title><biblScope>28.7</biblScope></bibl>.
+            </cit>
+          </sense>
+          <sense rend="num">
+            <num>4</num>
+            <usg>gram.</usg>
+            <def>pronunciar</def> en v. pas.
+            <cit>
+              <quote xml:lang="grc">τὰ σχετλιαστικὰ τῶν ἐπιρρημάτων, ἐξ αὐτοπαθείας ἐκπεμπόμενα</quote>
+              <bibl xml:id="bibl700084"><author>A.D.</author><title>Pron.</title><biblScope>35.1</biblScope></bibl>.
+            </cit>
+          </sense>
+          <sense rend="num">
+            <num>5</num>
+            <usg>econ.</usg>
+            <def>exportar<hi> mercancías</hi></def>
+            <cit>
+              <quote xml:lang="grc">τοὺς δι' ἀφθονίαν καὶ ἄλλοσε σῖτον ἐκπέμποντας</quote>
+              <quote xml:lang="spa">los que por la abundancia incluso exportan trigo a otros lugares</quote>
+              <bibl xml:id="bibl700085"><author>X.</author><title>HG</title> <biblScope>6.1.11</biblScope></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">op. εἰσάγεσθαι</quote>
+              <bibl xml:id="bibl700086"><author>X.</author><title>Vect.</title><biblScope>3.5</biblScope></bibl>,
+              <bibl xml:id="bibl700087"><author>Arist.</author><title>Pol.</title><biblScope>1257<hi rend="sup">a</hi>32</biblScope></bibl>
+            </cit>
+            <sense>
+              <pc>;</pc>
+              <usg>en v. med. mismo sent.</usg>
+              <cit>
+                <quote xml:lang="grc">τὰ πλεονάζοντα τῶν γιγνομένων ἐκπέμψασθαι</quote>
+                <bibl xml:id="bibl700088"><author>Arist.</author><title>Pol.</title><biblScope>1327<hi rend="sup">a</hi>27</biblScope></bibl>.
+              </cit>
+            </sense>
+          </sense>
+        </sense>
+      </entry>
       <entry type="NP" xml:id="Ἀπολλωνιάδης">
         <form>
           <orth type="lemma">Ἀπολλωνιάδης</orth>
