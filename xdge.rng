@@ -106,7 +106,7 @@
         </attribute>
       </optional>
       <ref name="form"/>
-      <ref name="bibl"/>
+      <ref name="bibl-dmic"/>
     </element>
   </define>
   <define name="form">
@@ -243,7 +243,6 @@
           <ref name="bibl"/>
           <ref name="cit"/>
           <ref name="def"/>
-          <ref name="dictScrap"/>
           <ref name="foreign"/>
           <ref name="num"/> 
           <ref name="xr"/>
@@ -399,11 +398,13 @@
   </define>
   <define name="bibl">
     <element name="bibl">
-      <a:documentation>Référence bibliographique. Utilisé également pour les références au DMic (Diccionario Micénico).</a:documentation>
-      <choice>
+      <a:documentation>Référence bibliographique.</a:documentation>
+      <optional>
         <attribute name="type"/>
+      </optional>
+      <optional>
         <attribute name="xml:id"/>
-      </choice>
+      </optional>
       <zeroOrMore>
         <choice>
           <text/>
@@ -412,10 +413,32 @@
           <ref name="lbl"/>
           <ref name="note"/>
           <ref name="title"/>
+          <!--
           <ref name="xr"/>
+          -->
           <!-- à supprimer -->
           <ref name="anchors"/>
-          <ref name="bibl"/>
+        </choice>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="bibl-dmic">
+    <element name="bibl">
+      <a:documentation>Référence bibliographique au DMic (Diccionario Micénico).</a:documentation>
+      <attribute name="type">
+        <value>dmic</value>
+      </attribute>
+      <ref name="title"/>
+      <ref name="biblScope"/>
+      <zeroOrMore>
+        <choice>
+          <text/>
+          <ref name="lbl"/>
+          <ref name="biblScope"/>
+          <!--
+          <ref name="note"/>
+          -->
+          <ref name="xr"/>
         </choice>
       </zeroOrMore>
     </element>

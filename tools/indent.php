@@ -24,8 +24,6 @@ $re_indent = array(
     '/<hi rend="roman">/' => '<hi>',
     // simple, basic 
     '/<hi rend="italic">/' => '<hi>',
-    // des <bibl> démultipliés
-    '/(<\/bibl>) \+\s*(<bibl)/' => '$1 + $2',
     '/\n +/' => "\n",
     // <sense> puce
     '/<num>;<\/num>/' => "<pc>;</pc>",
@@ -33,11 +31,25 @@ $re_indent = array(
     '/(\s+)(<\/cit>)([^\n<]+) */' => '$3$1$2',
     // Les gras dans les <ref> sont des <num>
     '/<hi rend="bold">([^<]+)<\/hi>/' => "<num>$1</num>",
+    // typer les <sense> a numéro pour le stylage XML direct
+    '/<sense>(\s+<num>)/' => "<sense rend=\"num\">$1",
+    // des <bibl> démultipliés, après bibl/bibl
+    // '/(<\/bibl>) \+\s*(<bibl)/' => '$1 + $2',
 );
 
 $re_more = array(
-    // typer les <sense> a numéro pour le stylage XML direct
-    '/<sense>(\s+<num>)/' => "<sense rend=\"num\">$1",
+    // bibl dans bibl, normaliser l’espacement
+    '/ (en|y|cf\.)(<bibl)/' => ' $1 $2',
+    //  bibl/note[bibl], à restaurer
+    '/(<bibl [^>]+>.*?)(<note>.*?<bibl [^>]+>.*?<\/bibl>.*?<\/note>)/' => "$1\n£££$2",
+    // bibl + bibl 
+    '/(<\/bibl>) \+\s*(<bibl)/' => "$1 \n£££+ $2",
+    // bibl/bibl[1,2], supprimer
+    '/(<bibl [^>]+>.*?)<bibl [^>]+>(.*?)<\/bibl>(.*?)<bibl [^>]+>(.*?)<\/bibl>(.*?<\/bibl>)/' => '$1$2$3$4$5',
+    // bibl/bibl[1], (si 1 ou 3 initialement)
+    '/(<bibl [^>]+>.*?)<bibl [^>]+>(.*?)<\/bibl>(.*?<\/bibl>)/' => '$1$2$3',
+    // restaurer bibl/note et bibl + bibl
+    '/\n£££/' => "",
 );
 
 // étape suivante, les chevauchement
