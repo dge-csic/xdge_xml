@@ -35,9 +35,6 @@ $re_indent = array(
     '/<sense>(\s+<num>)/' => "<sense rend=\"num\">$1",
     // des <bibl> démultipliés, après bibl/bibl
     // '/(<\/bibl>) \+\s*(<bibl)/' => '$1 + $2',
-);
-
-$re_more = array(
     // bibl dans bibl, normaliser l’espacement
     '/ (en|y|cf\.)(<bibl)/' => ' $1 $2',
     //  bibl/note[bibl], à restaurer
@@ -50,6 +47,11 @@ $re_more = array(
     '/(<bibl [^>]+>.*?)<bibl [^>]+>(.*?)<\/bibl>(.*?<\/bibl>)/' => '$1$2$3',
     // restaurer bibl/note et bibl + bibl
     '/\n£££/' => "",
+);
+
+$re_more = array(
+    // restaurer <bibl type="equiv">
+    '/\s*\(=(<(author|title)>[^)]+?)\)<\/bibl>/' => '</bibl> (=<bibl type="equiv">$1</bibl>)',
 );
 
 // étape suivante, les chevauchement
