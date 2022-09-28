@@ -43,7 +43,7 @@
         <ref name="sense"/>
       </oneOrMore>
       <optional>
-        <ref name="bibl"/>
+        <ref name="bibl-dmic"/>
       </optional>
       <optional>
         <ref name="etym"/>
@@ -391,12 +391,12 @@
   <define name="bibl">
     <element name="bibl">
       <a:documentation>Référence bibliographique.</a:documentation>
-      <optional>
-        <attribute name="type"/>
-      </optional>
-      <optional>
-        <attribute name="xml:id"/>
-      </optional>
+      <choice>
+        <ref name="id"/>
+        <attribute name="type">
+          <value>equiv</value>
+        </attribute>
+      </choice>
       <zeroOrMore>
         <choice>
           <text/>

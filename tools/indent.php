@@ -53,6 +53,8 @@ $re_indent = array(
 );
 
 $re_more = array(
+    // </bibl> + <bibl xml:id="bibl715367">
+    '/(<\/bibl> \+ <bibl xml:id="bibl\d+)(">)/' => '$1b$2',
 );
 
 // étape suivante, les chevauchement
@@ -62,10 +64,13 @@ $re_overlap = array(
 
 );
 $dst_file = $src_file;
+
+$xml = preg_replace(array_keys($re_more), array_values($re_more), $xml);
+file_put_contents($dst_file, $xml);
+return;
 // TODO 8
 // $xml = preg_replace(array_keys($re_indent), array_values($re_indent), $xml);
-$xml = indent($xml);
-file_put_contents($dst_file, $xml);
+// $xml = indent($xml);
 
 /**
  * Automate spécifique pour indenter le dge, attention, pas très robuste
