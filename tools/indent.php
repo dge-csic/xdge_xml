@@ -62,8 +62,9 @@ $re_overlap = array(
 
 );
 $dst_file = $src_file;
-$xml = preg_replace(array_keys($re_indent), array_values($re_indent), $xml);
-// $xml = indent($xml);
+// TODO 8
+// $xml = preg_replace(array_keys($re_indent), array_values($re_indent), $xml);
+$xml = indent($xml);
 file_put_contents($dst_file, $xml);
 
 /**
