@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="xdge_xml.css" type="text/css"?>
 <?oxygen RNGSchema="xdge.rng" type="xml"?>
-<TEI xml:id="xdge1" xml:lang="spa" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xml:id="monstre" xml:lang="spa" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
-    <titleStmt>
-    <title>DGE en línea (1)</title>
-    <author>Diccionario Griego-Español</author>
-    <principal>Sabine Thuillier</principal>
-    </titleStmt>
-    <respStmt>
-    <resp>2012-2014: specification, encoding</resp>
-    <name>Sabine Thuillier (DGE)</name>
-    </respStmt>
-    <respSmt>
-    <resp>2012-2013: data conversion, encoding</resp>
-    <name>Juan Rodríguez Somolinos (DGE)</name>
-    </respSmt>
-    <respSmt>
-    <resp>2012-2013: XML validations/transformations</resp>
-    <name>Frédéric Glorieux</name>
-    </respSmt>
-    <publicationStmt>
-    <publisher>CSIC</publisher>
-    <address>
-    <addrLine>C/ Albasanz, 26-28</addrLine>
-    <addrLine>28037 Madrid</addrLine>
-    <addrLine>tel. : +34 91 602 23 00</addrLine>
-    <addrLine>http://dge.cchs.csic.es/</addrLine>
-    <addrLine>dge@cchs.csic.es</addrLine>
-    </address>
-    <availability status="restricted">
-    <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/es/"> The contents may be copied, distributed and publicly communicated under the following conditions: Non-Commercial: We want to encourage scholarly and scientific use of our electronic resources; Share Alike: We allow derivative works to be created as long as they are subject to the same license; Attribution: We ask that any reference, copy or derivative publication of these resources include: a link to the URL of the latest version of the resource on our website; the date of the file consulted. Indication of the license for use and distribution should be expressly stated in this way when necessary. </licence>
-    </availability>
-    </publicationStmt>
-    <sourceDesc>
-    <bibl><title>Diccionario Griego-Español, vol. I</title><editor>Madrid: Consejo Superior de Investigaciones Científicas</editor><date>1991</date></bibl>
-    </sourceDesc>
+      <titleStmt>
+        <title>DGE en línea (7)</title>
+        <author>Diccionario Griego-Español</author>
+        <principal>Sabine Thuillier</principal>
+        <respStmt>
+          <resp>2012-2014: specification, encoding</resp>
+          <name>Sabine Thuillier (DGE)</name>
+        </respStmt>
+        <respStmt>
+          <resp>2012: data conversion, encoding</resp>
+          <name>Juan Rodríguez Somolinos (DGE)</name>
+        </respStmt>
+        <respStmt>
+          <resp>2012-2013: XML validations/transformations</resp>
+          <name>Frédéric Glorieux</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>CSIC</publisher>
+        <address>
+          <addrLine>C/ Albasanz, 26-28</addrLine>
+          <addrLine>28037 Madrid</addrLine>
+          <addrLine>tel. : +34 91 602 23 00</addrLine>
+          <addrLine>http://dge.cchs.csic.es/</addrLine>
+          <addrLine>dge@cchs.csic.es</addrLine>
+        </address>
+        <availability status="restricted">
+          <licence target="http://creativecommons.org/licenses/by-nc-sa/3.0/es/"> The contents may be copied, distributed and publicly communicated under the following conditions: Non-Commercial: We want to encourage scholarly and scientific use of our electronic resources; Share Alike: We allow derivative works to be created as long as they are subject to the same license; Attribution: We ask that any reference, copy or derivative publication of these resources include: a link to the URL of the latest version of the resource on our website; the date of the file consulted. Indication of the license for use and distribution should be expressly stated in this way when necessary. </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>Diccionario Griego-Español, vol. VII</title> Madrid: Consejo Superior de Investigaciones Científicas 2009</bibl>
+      </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-<entry type="v" xml:id="ἐκπέμπω">
+      <entry type="v" xml:id="ἐκπέμπω">
         <form>
           <orth type="lemma">ἐκπέμπω</orth>
           <form type="morfologia">[impf. iter. sin aum. ἐκπέμπεσκον
@@ -673,7 +673,7 @@
           <def>alfa</def>
           <cit>
             <quote xml:lang="grc">διαφέρει γὰρ τὸ μὲν Α τοῦ Ν σχήματι</quote>
-            <bibl xml:id="bibl100001"><bibl xml:id="bibl100001"><author>Arist.</author><title>Metaph.</title><biblScope>985<hi rend="sup">b</hi>16</biblScope></bibl> (=<bibl type="equiv"><author>Leucipp.</author><biblScope>A 6</biblScope></bibl>)</bibl>.
+            <bibl xml:id="bibl100001"><author>Arist.</author><title>Metaph.</title><biblScope>985<hi rend="sup">b</hi>16</biblScope></bibl> (=<bibl type="equiv"><author>Leucipp.</author><biblScope>A 6</biblScope></bibl>).
           </cit>
         </sense>
         <sense rend="num">
@@ -767,8 +767,8 @@
             <cit>
               <quote xml:lang="grc">ὀνόματος κληρονόμων</quote>
               <quote xml:lang="spa">en el nombre de los herederos</quote>,
-              <bibl xml:id="bibl100013"><bibl xml:id="bibl100013"><title>OBodl.</title><biblScope>1238.3</biblScope><addStart/> <note>(<date>II d.C.</date>)</note><addEnd/></bibl> en<bibl xml:id="bibl100013"><title>BL</title> <biblScope>7.298</biblScope></bibl></bibl>,
-              <bibl xml:id="bibl100014"><bibl xml:id="bibl100014"><title>Ostr.</title><biblScope>939.3</biblScope><addStart/> <note>(<date>II d.C.</date>)</note><addEnd/></bibl> en<bibl xml:id="bibl100014"><title>BL</title> <biblScope>7.302</biblScope></bibl></bibl>,
+              <bibl xml:id="bibl100013"><title>OBodl.</title><biblScope>1238.3</biblScope><addStart/> <note>(<date>II d.C.</date>)</note><addEnd/> en <title>BL</title> <biblScope>7.298</biblScope></bibl>,
+              <bibl xml:id="bibl100014"><title>Ostr.</title><biblScope>939.3</biblScope><addStart/> <note>(<date>II d.C.</date>)</note><addEnd/> en <title>BL</title> <biblScope>7.302</biblScope></bibl>,
               <bibl xml:id="bibl100015"><title>SB</title> <biblScope>11546</biblScope> <note>(<delStart/>todos <delEnd/><date>II d.C.</date>)</note></bibl>.
             </cit>
           </sense>

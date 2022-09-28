@@ -15,10 +15,7 @@
         inverse list of the lemmas-->. One entry must contain a morphology block. The "body" of the entry is generally made of sense(s) followed sometimes by reference to another entry and etymological information.</p>
         </div>
       </a:documentation>
-      <!--TODO: documenter les choix adoptés pour générer les identifiants -->
-      <attribute name="xml:id">
-        <data type="NCName"/>
-      </attribute>
+      <ref name="id"/>
       <optional>
         <attribute name="type">
           <choice>
@@ -60,10 +57,7 @@
           <p> Some articles have no tranlsation section(s): these entries point only to another main entry. </p>
         </div>
       </a:documentation>
-      <!--TODO: documenter les choix adoptés pour générer les identifiants -->
-      <attribute name="xml:id">
-        <data type="NCName"/>
-      </attribute>
+      <ref name="id"/>
       <attribute name="type">
         <value>xr</value>
       </attribute>
@@ -94,9 +88,7 @@
           <p> </p>
         </div>
       </a:documentation>
-      <attribute name="xml:id">
-        <data type="NCName"/>
-      </attribute>
+      <ref name="id"/>
       <attribute name="type">
         <value>dmic</value>
       </attribute>
@@ -244,7 +236,7 @@
           <ref name="cit"/>
           <ref name="def"/>
           <ref name="foreign"/>
-          <ref name="num"/> 
+          <ref name="num"/>
           <ref name="xr"/>
         </choice>
       </zeroOrMore>
@@ -619,6 +611,12 @@
       </zeroOrMore>
     </element>
   </define>
+  <define name="id">
+    <attribute name="xml:id">
+      <a:documentation>Identifiant, au moins unique pour le document</a:documentation>
+      <data type="ID"/>
+    </attribute>
+  </define>
   <define name="richtext">
     <choice>
       <text/>
@@ -633,7 +631,7 @@
       <element name="TEI">
         <a:documentation>Global TEI structure</a:documentation>
         <attribute name="xml:lang"/>
-        <attribute name="xml:id"/>
+        <ref name="id"/>
         <ref name="teiHeader"/>
         <element name="text">
           <element name="body">
@@ -650,29 +648,76 @@
     </choice>
   </start>
   <define name="teiHeader">
-    <optional>
-      <element name="teiHeader">
-        <oneOrMore>
-          <ref name="anyTEI"/>
-        </oneOrMore>
+    <element name="teiHeader">
+      <element name="fileDesc">
+        <element name="titleStmt">
+          <element name="title">
+            <text/>
+          </element>
+          <zeroOrMore>
+            <choice>
+              <element name="author">
+                <text/>
+              </element>
+              <element name="principal">
+                <text/>
+              </element>
+              <element name="respStmt">
+                <oneOrMore>
+                  <choice>
+                    <element name="resp">
+                      <text/>
+                    </element>
+                    <element name="name">
+                      <text/>
+                    </element>
+                  </choice>
+                </oneOrMore>
+              </element>
+            </choice>
+          </zeroOrMore>
+        </element>
+        <element name="publicationStmt">
+          <element name="publisher">
+            <text/>
+          </element>
+          <element name="address">
+            <oneOrMore>
+              <element name="addrLine">
+                <text/>
+              </element>
+            </oneOrMore>
+          </element>
+          <element name="availability">
+            <attribute name="status"/>
+            <element name="licence">
+              <attribute name="target"/>
+              <text/>
+            </element>
+          </element>
+        </element>
+        <element name="sourceDesc">
+          <ref name="bibl"/>
+        </element>
       </element>
-    </optional>
-  </define>
-  <define name="anyTEI">
-    <a:documentation>Motif récursif pour autoriser tout contenu TEI sans validation de structure.</a:documentation>
-    <element ns="http://www.tei-c.org/ns/1.0">
-      <anyName/>
-      <zeroOrMore>
-        <attribute>
-          <anyName/>
-        </attribute>
-      </zeroOrMore>
-      <zeroOrMore>
-        <choice>
-          <text/>
-          <ref name="anyTEI"/>
-        </choice>
-      </zeroOrMore>
+      <optional>
+        <element name="profileDesc">
+          <element name="creation">
+            <element name="date">
+              <attribute name="when"/>
+            </element>
+          </element>
+        </element>
+      </optional>
+      <optional>
+        <element name="revisionDesc">
+          <oneOrMore>
+            <element name="change">
+              <text/>
+            </element>
+          </oneOrMore>
+        </element>
+      </optional>
     </element>
   </define>
 </grammar>

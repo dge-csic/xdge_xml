@@ -84,7 +84,8 @@ etym,
 form,
 sense,
 TEI,
-text {
+text,
+entry>xr {
     display: block;
 }
 
@@ -263,11 +264,21 @@ entry>sense:last-of-type {
     margin-bottom: 2rem;
 }
 
-entry>form {
-    text-indent: 0.7rem;
+entry>xr,
+entry>bibl {
+    /* <entry type="dmic|xr"> */
+    margin: 1rem 0;
 }
 
-entry>bibl,
+entry>form {
+    text-indent: 0.7rem;
+    padding-bottom: 1rem;
+}
+
+form>form:first-of-type {
+    margin-top: 0.5rem;
+}
+
 entry>form,
 etym {
     /* header et footer d’article */
@@ -280,7 +291,6 @@ form * {
     text-indent: 0;
 }
 
-entry>bibl,
 form form,
 etym {
     background-color: var(--bg_soft);
