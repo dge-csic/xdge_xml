@@ -5,7 +5,7 @@ $xml = file_get_contents($src_file);
 $re_indent = array(
     // multi saut de ligne
     '/( *\n)+/' => "\n",
-    // Non xr peut être tr^s mêlé
+    // Non xr peut être très mêlé
     // '/([^\n]) *(<(xr)>)/' => "$1\n$2",
     
     // <biblScope>313.38G.</biblScope></bibl></form>
@@ -47,11 +47,12 @@ $re_indent = array(
     '/(<bibl [^>]+>.*?)<bibl [^>]+>(.*?)<\/bibl>(.*?<\/bibl>)/' => '$1$2$3',
     // restaurer bibl/note et bibl + bibl
     '/\n£££/' => "",
+    // restaurer <bibl type="equiv">
+    '/\s*\(=(<(author|title)>[^)]+?)\)<\/bibl>/' => '</bibl> (=<bibl type="equiv">$1</bibl>)',
+    // dédoubler les @xml:id
 );
 
 $re_more = array(
-    // restaurer <bibl type="equiv">
-    '/\s*\(=(<(author|title)>[^)]+?)\)<\/bibl>/' => '</bibl> (=<bibl type="equiv">$1</bibl>)',
 );
 
 // étape suivante, les chevauchement
@@ -61,7 +62,8 @@ $re_overlap = array(
 
 );
 $dst_file = $src_file;
-$xml = preg_replace(array_keys($re_more), array_values($re_more), $xml);
+$xml = preg_replace(array_keys($re_indent), array_values($re_indent), $xml);
+// $xml = indent($xml);
 file_put_contents($dst_file, $xml);
 
 /**
@@ -71,7 +73,8 @@ file_put_contents($dst_file, $xml);
 function indent($xml)
 {
     $lines = [];
-    $separator = "\r\n";
+    // if win "\r\n"
+    $separator = "\n";
     $l = strtok($xml, $separator);
     
     $tags = array(
@@ -104,5 +107,5 @@ function indent($xml)
     
         if ($tag && !$matches[1]) $indent++;
     }
-    return $lines;
+    return implode("\n", $lines);
 }
