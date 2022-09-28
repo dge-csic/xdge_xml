@@ -10,6 +10,8 @@ $re_indent = array(
     
     // <biblScope>313.38G.</biblScope></bibl></form>
     '/([^ \n]) *(<(cit|dictScrap|form|sense)>)/' => "$1\n$2",
+    // <cit><quote xml:lang="grc">εἰς τὸν ἐπίλοιπον χρόνον</quote>
+    '/([^ \n]) *(<(quote))/' => "$1\n$2",
     // indenter </{bloc}}
     '/([^ \n]) *(<\/(cit|dictScrap|form|sense)>)/' => "$1\n$2",
     // indenter </{bloc}} x2 </sense> et </cit>
@@ -68,10 +70,13 @@ $dst_file = $src_file;
 $xml = preg_replace(array_keys($re_more), array_values($re_more), $xml);
 file_put_contents($dst_file, $xml);
 return;
-// TODO 8
-// $xml = preg_replace(array_keys($re_indent), array_values($re_indent), $xml);
-// $xml = indent($xml);
 
+/* 
+// dge8, fait
+$xml = preg_replace(array_keys($re_indent), array_values($re_indent), $xml);
+$xml = indent($xml);
+file_put_contents($dst_file, $xml);
+*/
 /**
  * Automate spécifique pour indenter le dge, attention, pas très robuste
  * selon les sauts de lign
