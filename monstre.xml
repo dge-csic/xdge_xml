@@ -41,6 +41,42 @@
   </teiHeader>
   <text>
     <body>
+      <entry type="subst" xml:id="ἀγχιστεύς">
+        <!-- Pour caractères merdiques  e1b0 -->
+        <form>
+          <orth type="lemma">ἀγχιστεύς</orth>
+          <gramGrp>-έως, ὁ</gramGrp>
+          <form type="grafia">nom. plu. ἀγχιστς
+            <bibl xml:id="bibl110631"><title>PDura</title> <biblScope>12.5</biblScope> <note>(<date>III d.C.</date>)</note></bibl>
+          </form>
+        </form>
+        <sense rend="num">
+          <num>1</num>
+          <def>pariente próximo por consanguinidad</def>
+          <bibl xml:id="bibl110632"><author>Hdt.</author><biblScope>5.80</biblScope></bibl>,
+          <cit>
+            <quote xml:lang="grc">συγγενὴς ἀ.</quote>
+            <bibl xml:id="bibl110633"><author>Luc.</author><title>Tim.</title><biblScope>51</biblScope></bibl>,
+          </cit>
+          <cit>
+            <quote xml:lang="grc">τοῖς συνγενεῦσι καὶ ἀνχιστεῦσι πᾶσι</quote>
+            <bibl xml:id="bibl110634"><title>IKais.Lyk.</title><biblScope>61</biblScope></bibl>.
+          </cit>
+        </sense>
+        <sense rend="num">
+          <num>2</num>
+          <def>heredero legal</def>
+          <bibl xml:id="bibl110635"><author>Hierocl.</author><title>in CA</title> <biblScope>5</biblScope></bibl>, cf.
+          <bibl xml:id="bibl110636"><title>SB</title> <biblScope>7462.11</biblScope> <note>(<date>I d.C.</date>)</note></bibl>,
+          <bibl xml:id="bibl110637"><title>PDura</title> <lcStart/><biblScope>12.5</biblScope> <note>(<date>III d.C.</date>)</note><lcEnd/></bibl>,
+          <bibl xml:id="bibl110638"><title>Exc.Cas.</title><biblScope>3</biblScope></bibl>.
+        </sense>
+        <sense rend="num">
+          <num>3</num>
+          <usg>en AT <hi>go’el</hi> pariente obligado por levirato a casarse con la cuñada o pariente próxima</usg>,
+          <bibl xml:id="bibl110639"><author>LXX</author> <title>Ru.</title><biblScope>4.8</biblScope></bibl>.
+        </sense>
+      </entry>
       <entry type="v" xml:id="ἐκπέμπω">
         <form>
           <orth type="lemma">ἐκπέμπω</orth>

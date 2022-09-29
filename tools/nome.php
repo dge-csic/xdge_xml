@@ -1,6 +1,7 @@
 <?php
 
-Xdge::tsv_loop();
+// Xdge::tsv_loop();
+echo Xdge::hex4(IntlChar::ord(Normalizer::normalize('', Normalizer::FORM_C)));
 
 mb_internal_encoding("UTF-8");
 class Xdge
