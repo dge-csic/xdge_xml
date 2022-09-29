@@ -391,6 +391,10 @@ orth {
     font-stretch: expanded;
 }
 
+orth+gramGrp::before {
+    content: ', ';
+}
+
 entry>form>orth {
     font-size: 1.5rem;
 }
@@ -412,6 +416,13 @@ title {
 bibl {
     color: var(--text_grey);
     white-space: nowrap;
-    /*font-stretch: semi-condensed;*/
-    /*font-size:85%;*/
+    font-stretch: semi-condensed;
+    font-size: 0.85rem;
+}
+
+entry>bibl {
+    color: unset;
+    white-space: unset;
+    font-stretch: unset;
+    font-size: unset;
 }
