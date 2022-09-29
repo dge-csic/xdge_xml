@@ -457,6 +457,141 @@
           <bibl xml:id="bibl302089"><author>D.L.</author><biblScope>3.42</biblScope></bibl>.
         </sense>
       </entry>
+<entry type="subst" xml:id="ἀλοιφή">
+        <form>
+          <orth type="lemma">ἀλοιφή</orth>
+          <gramGrp>-ῆς, ἡ</gramGrp>
+          <form type="prosodia">[ᾰ-]</form>
+          <form type="grafia">ἀλιφή
+            <bibl xml:id="bibl202729"><title>IG</title> <biblScope>2<hi rend="sup">2</hi>.463.85</biblScope> <note>(<date>IV a.C.</date>)</note></bibl>, ἀλυφή
+            <bibl xml:id="bibl202730"><title>PRyl.</title><biblScope>227.19</biblScope> <note>(<date>III a.C.</date>)</note></bibl>
+          </form>
+        </form>
+        <sense rend="num">
+          <num>I</num>
+          <sense rend="num">
+            <num>1</num>
+            <def>manteca</def>,
+            <def>tocino</def>
+            <cit>
+              <quote xml:lang="grc">σύες θαλέθοντες ἀλοιφῇ</quote>
+              <bibl xml:id="bibl202731"><title>Il.</title><biblScope>9.467</biblScope></bibl>, cf.
+              <bibl xml:id="bibl202732"><addStart/><title>Il.</title><biblScope>9.<addEnd/>208</biblScope></bibl>,
+              <bibl xml:id="bibl202733"><title>Od.</title><biblScope>8.476</biblScope></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">βοὸς ... περιφλίοντος ἀλοιφῇ</quote>
+              <bibl xml:id="bibl202734"><author>Nic.</author><title>Al.</title><biblScope>62</biblScope></bibl>
+            </cit>
+            <sense>
+              <pc>;</pc>
+              <def>grasa</def> o
+              <def>sebo<hi> usado para curtir</hi></def>
+              <cit>
+                <quote xml:lang="grc">βοείην ... μεθύουσαν ἀλοιφῇ</quote>
+                <bibl xml:id="bibl202735"><title>Il.</title><biblScope>17.390</biblScope></bibl>,
+              </cit>
+              <cit>
+                <usg>para la cuerda del arco</usg>
+                <bibl xml:id="bibl202736"><title>Od.</title><biblScope>21.179</biblScope></bibl>.
+              </cit>
+            </sense>
+          </sense>
+          <sense rend="num">
+            <num>2</num>
+            <def>aceite</def>,
+            <def>ungüento<hi> para frotarse</hi></def>
+            <cit>
+              <quote xml:lang="grc">χρῶτ' ἀπονίπτεσθαι ἀλοιφῇ</quote>
+              <bibl xml:id="bibl202737"><title>Od.</title><biblScope>18.179</biblScope></bibl>, cf.
+              <bibl xml:id="bibl202738"><addStart/><title>Od.</title><addEnd/><biblScope>6.220</biblScope></bibl>,
+              <bibl xml:id="bibl202739"><author>A.</author><title>Fr.</title><biblScope>355.2</biblScope></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">τριτάτη (κρήνη) δὲ θυώδεϊ νᾶεν ἀλοιφῇ</quote>
+              <bibl xml:id="bibl202740"><author>A.R.</author><biblScope>3.224</biblScope></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">ἀλοιφῇ νεκταρέῃ φαίδρυνε περὶ χρόα</quote>
+              <bibl xml:id="bibl202741"><author>A.R.</author><biblScope>3.831</biblScope></bibl>, cf.
+              <bibl xml:id="bibl202742"><addStart/><author>A.R.</author><biblScope>3.<addEnd/>1042</biblScope></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">ἀλοιφαῖς καὶ κοσμήσεσιν</quote>
+              <bibl xml:id="bibl202743"><author>Plu.</author><title>Thes.</title><biblScope>23</biblScope></bibl>.
+            </cit>
+          </sense>
+          <sense rend="num">
+            <num>3</num>
+            <def>pintura</def>,
+            <def>estuco</def>
+            <cit>
+              <usg>de muros</usg>,
+              <bibl xml:id="bibl202744"><author>Pl.</author><title>Criti.</title><biblScope>116b</biblScope></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">ἀλοιφὴ πλίνθου</quote>
+              <bibl xml:id="bibl202745"><author>LXX</author> <title>Mi.</title><biblScope>7.11</biblScope></bibl>
+            </cit>
+            <sense>
+              <pc>;</pc>
+              <usg>de la pintura de una nave</usg>,
+              <bibl xml:id="bibl202746"><author>Polyaen.</author><biblScope>5.34</biblScope></bibl>,
+              <cit>
+                <quote xml:lang="grc">ἀ. ἐρυθρά</quote>
+                <usg>en el rostro de una estatua</usg>,
+                <bibl xml:id="bibl202747"><author>Paus.</author><biblScope>2.2.6</biblScope></bibl>
+              </cit>
+            </sense>
+            <sense>
+              <pc>;</pc>
+              <def>propóleos</def>
+              <usg>revoque o enlucido resinoso en la parte interior de las colmenas</usg>,
+              <bibl xml:id="bibl202748"><author>Arist.</author><title>HA</title> <biblScope>624<hi rend="sup">a</hi>17</biblScope></bibl>, cf.
+              <bibl xml:id="bibl202749"><title>Gp.</title><biblScope>15.3.3</biblScope></bibl>
+            </sense>
+            <sense>
+              <pc>;</pc>
+              <usg>fig.</usg>
+              <cit>
+                <quote xml:lang="grc">ἀνελευθερίας ἀ.</quote>
+                <quote xml:lang="spa">la pintura<hi> o </hi>el color del servilismo</quote>
+                <bibl xml:id="bibl202750"><author>Plu.</author><biblScope>2.565c</biblScope></bibl>.
+              </cit>
+            </sense>
+          </sense>
+          <sense rend="num">
+            <num>4</num>
+            <def>acción de ungirse</def>,
+            <def>unción</def> c. gen.
+            <cit>
+              <quote xml:lang="grc">μύρων</quote>
+              <bibl xml:id="bibl202751"><author>Pl.</author><title>Alc.</title><biblScope>1.122c</biblScope></bibl>
+            </cit>
+            <sense>
+              <pc>;</pc>
+              <usg>fig.</usg>
+              <def>entrenamiento</def>
+              <cit>
+                <quote xml:lang="grc">οἶα δὴ γυμνασίων ἀνὴρ καὶ ἀλοιφῆς ... ἀσκητής</quote>
+                <bibl xml:id="bibl202752"><author>Hld.</author><biblScope>10.31.5</biblScope></bibl>, cf.
+                <bibl xml:id="bibl202753"><author>D.C.</author><biblScope>46.17.3</biblScope></bibl>.
+              </cit>
+            </sense>
+          </sense>
+        </sense>
+        <sense rend="num">
+          <num>II</num>
+          <def>tachadura</def>
+          <cit>
+            <quote xml:lang="grc">ἀλοιφῇ ἐξαλείφω τὸ μνημόσυνον</quote>
+            <bibl xml:id="bibl202754"><author>LXX</author> <title>Ex.</title><biblScope>17.14</biblScope></bibl>, cf.
+            <bibl xml:id="bibl202755"><author>Plu.</author><biblScope>2.611a</biblScope></bibl>.
+          </cit>
+        </sense>
+        <bibl type="dmic"><title>DMic.</title> <biblScope><hi>a-ro-pa</hi></biblScope>.</bibl>
+        <etym><xr><lbl>Cf.</lbl> <ref>ἀλείφω</ref></xr>.</etym>
+      </entry>
       <entry subtype="NP" type="dmic" xml:id="ἈϜάτας">
         <form>
           <orth type="lemma">*ἈϜάτας</orth>

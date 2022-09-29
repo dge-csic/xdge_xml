@@ -264,12 +264,6 @@ entry>sense:last-of-type {
     margin-bottom: 2rem;
 }
 
-entry>xr,
-entry>bibl {
-    /* <entry type="dmic|xr"> */
-    margin: 1rem 0;
-}
-
 entry>form {
     text-indent: 0.7rem;
     padding-bottom: 1rem;
@@ -279,23 +273,48 @@ form>form:first-of-type {
     margin-top: 0.5rem;
 }
 
-entry>form,
-etym {
+form * {
+    text-indent: 0;
+}
+
+bibl {
+    /* comportement général <bibl>, surchargé ensuite pour dmic entry>bibl */
+    color: var(--text_grey);
+    white-space: nowrap;
+    font-stretch: semi-condensed;
+    font-size: 0.85rem;
+}
+
+entry>bibl {
+    color: unset;
+    white-space: unset;
+    font-stretch: unset;
+    font-size: unset;
+}
+
+form form,
+entry>bibl,
+entry>etym {
+    padding: 0.3rem 0.7rem;
+    border-top: 2px solid var(--bg);
+}
+
+entry>bibl,
+entry>etym,
+entry>form {
     /* header et footer d’article */
     margin-left: -1rem;
     margin-right: -1rem;
     background-color: var(--bg_soft);
 }
 
-form * {
-    text-indent: 0;
-}
-
-form form,
-etym {
-    background-color: var(--bg_soft);
-    padding: 0.3rem 0.7rem;
-    border-top: 2px solid var(--bg);
+entry[type="xr"]>xr,
+entry[type="dmic"]>bibl {
+    /* corps d’article */
+    margin: 1rem 0;
+    background-color: unset;
+    padding: unset;
+    border: unset;
 }
 
 etym:before {
@@ -411,18 +430,4 @@ def {
 
 title {
     font-style: italic;
-}
-
-bibl {
-    color: var(--text_grey);
-    white-space: nowrap;
-    font-stretch: semi-condensed;
-    font-size: 0.85rem;
-}
-
-entry>bibl {
-    color: unset;
-    white-space: unset;
-    font-stretch: unset;
-    font-size: unset;
 }
