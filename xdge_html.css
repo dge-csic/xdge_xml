@@ -1,0 +1,433 @@
+@namespace xml url('http://www.w3.org/XML/1998/namespace');
+@namespace tei url('http://www.tei-c.org/ns/1.0');
+@namespace oxy url('http://www.oxygenxml.com/extensions/author');
+:root {
+    /* des variables globales */
+    --rubric: #B9121B;
+    --trad: #04667c;
+    --royal: #353B90;
+    --marker: #aaa;
+    --bg: #fff;
+    --bg_marg: #DDD;
+    --bg_soft: #F0F0EE;
+    --text: #000;
+    --text_soft: #333;
+    --text_grey: #666;
+    /* 
+        Échec Accents : Georgia, "Source Serif VF" 
+        Échec : "Times New Roman"
+        Réussies : "Palatino Linotype", "Athena", 
+     */
+    --serif: 'Crimson Pro', "Palatino Linotype", "Athena", serif;
+    --grc: "Noto Sans", "Athena", sans-serif;
+    --sans-serif: "Noto Sans", "Athena", sans-serif;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Athena";
+    src: url("./fonts/newathu5.woff") format('woff');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    src: url("./fonts/CrimsonPro-VariableFont_wght.ttf");
+    font-weight: 200 900;
+}
+
+@font-face {
+    font-display: swap;
+    /* garder le nom Google standard */
+    font-family: 'Crimson Pro';
+    font-style: italic;
+    src: url("./fonts/CrimsonPro-Italic-VariableFont_wght.ttf");
+    /* cf. spec font https://fonts.google.com/variablefonts 
+    pas de propriété wdth permettant du font-stretch
+    */
+    font-weight: 200 900;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Noto Sans";
+    font-style: normal;
+    src: url("./fonts/NotoSansDisplay-VariableFont_wdth,wght.ttf");
+    /* cf. spec font https://fonts.google.com/variablefonts */
+    font-weight: 100 900;
+    font-stretch: 62.5% 100%;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Noto Sans";
+    font-style: italic;
+    src: url("./fonts/NotoSansDisplay-Italic-VariableFont_wdth,wght.ttf");
+    /* cf. spec font https://fonts.google.com/variablefonts */
+    font-weight: 100 900;
+    font-stretch: 62.5% 100%;
+}
+
+body,
+entry>bibl,
+cit,
+dictScrap,
+entry,
+etym,
+form,
+sense,
+TEI,
+text,
+entry>xr {
+    display: block;
+}
+
+TEI {
+    color: var(--text_soft);
+    background-color: var(--bg_marg);
+    font-size: 14pt;
+    line-height: 1.2rem;
+    padding: 2rem;
+    /* défaut : sans-serif light */
+    font-family: var(--sans-serif);
+    font-weight: 300;
+}
+
+bibl,
+def,
+num,
+ref,
+sense,
+usg,
+xr {
+    /* Ici forcer le sans-serif pour certains éléments */
+    font-family: var(--sans-serif);
+}
+
+usg {
+    font-stretch: condensed;
+    font-weight: 550;
+}
+
+quote {
+    font-family: var(--sans-serif);
+    font-weight: 380;
+}
+
+quote[xml|lang="spa"] {
+    font-family: var(--serif);
+    font-style: italic;
+    color: var(--trad);
+    font-weight: 250;
+    /* unité non locale, relative la fonte racine */
+    font-size: 1.1rem;
+}
+
+quote[xml|lang="lat"] {
+    font-family: var(--serif);
+    font-style: italic;
+    font-weight: 250;
+    font-size: 120%;
+}
+
+quote[xml|lang="grc"] {
+    font-family: var(--grc);
+}
+
+addStart,
+addEnd,
+delStart,
+delEnd,
+ibStart,
+ibEnd,
+lcStart,
+lcEnd,
+llccStart,
+llccEnd,
+teiHeader {
+    display: none;
+}
+
+body {
+    width: 45rem;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+entry {
+    margin-bottom: 1rem;
+    border-top: 2rem solid var(--bg_soft);
+    border-bottom: 2rem solid var(--bg_soft);
+    border-left: 1rem solid var(--bg_soft);
+    border-right: 1rem solid var(--bg_soft);
+    background-color: var(--bg);
+    padding: 0 1rem;
+}
+
+
+/* Espacements et alignments des <sense> */
+
+sense {
+    /* interlignage des sense, unité absolue pour les numéros flottants */
+}
+
+sense {
+    text-indent: -1.6rem;
+    margin: 0.2rem 0.2rem 0.5rem 1.1rem;
+    padding: 0rem 0 0 0.4rem;
+    position: relative;
+    /* Si on change l’in */
+    /*
+    border-left: 1px solid var(--bg_soft);
+    background-color: var(--bg);
+    background: linear-gradient(to right, var(--bg), var(--bg_soft) 3rem, var(--bg_soft) 60%, var(--bg));
+    */
+}
+
+
+/* Exprériences filet
+sense[rend="num"]::before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    height: 0;
+    box-sizing: content-box;
+    left: -1.7rem;
+    width: 7rem;
+    border-top: 2px solid var(--bg);
+}
+
+sense[rend="num"]:first-of-type::before {
+    display: none;
+}
+
+sense[rend="num"]::after {
+    content: '';
+    position: absolute;
+    top: 1.8rem;
+    bottom: 0;
+    left: -0.2rem;
+    width: 0;
+    border-left: 1px dotted  var(--bg);
+}
+*/
+
+sense>num {
+    float: left;
+    display: inline;
+    width: 1.6rem;
+    font-size: 85%;
+    font-weight: bold;
+}
+
+sense>num::before {
+    display: inline-block;
+    width: 1.6rem;
+    background-color: var(--bg);
+}
+
+pc+* {
+    padding-left: 1.5rem;
+}
+
+pc+cit {
+    padding-left: 0;
+}
+
+cit {
+    text-indent: 0;
+    font-size: 0.85rem;
+}
+
+sense>def+cit:first-of-type,
+sense>bibl+cit:first-of-type,
+sense>usg+cit:first-of-type {
+    padding-top: 0.5rem;
+}
+
+entry>dictScrap:first-of-type,
+entry>sense:first-of-type {
+    /* premier sense de premier niveau */
+    margin-top: 2rem;
+}
+
+entry>sense:last-of-type {
+    /* dernier sense de premier niveau */
+    margin-bottom: 2rem;
+}
+
+entry>form {
+    text-indent: 0.7rem;
+    padding-bottom: 1rem;
+}
+
+form>form:first-of-type {
+    margin-top: 1rem;
+}
+
+form * {
+    text-indent: 0;
+}
+
+bibl {
+    /* comportement général <bibl>, surchargé ensuite pour dmic entry>bibl */
+    color: var(--text_grey);
+    white-space: nowrap;
+    font-stretch: semi-condensed;
+    font-size: 0.85rem;
+}
+
+entry>bibl {
+    color: unset;
+    white-space: unset;
+    font-stretch: unset;
+    font-size: unset;
+}
+
+form form,
+entry>bibl,
+entry>etym {
+    padding: 0.3rem 0.7rem;
+    border-top: 2px solid var(--bg);
+}
+
+entry>bibl,
+entry>etym,
+entry>form {
+    /* header et footer d’article */
+    margin-left: -1rem;
+    margin-right: -1rem;
+    background-color: var(--bg_soft);
+}
+
+entry[type="xr"]>xr,
+entry[type="dmic"]>bibl {
+    /* corps d’article */
+    margin: 1rem 0;
+    background-color: unset;
+    padding: unset;
+    border: unset;
+}
+
+etym:before {
+    content: "Etimología: ";
+}
+
+form[type="alolema"]:before {
+    content: "Alolema(s): ";
+}
+
+form[type="grafia"]:before {
+    content: "Grafía: ";
+}
+
+form[type="morfologia"]:before {
+    content: "Morfología: ";
+}
+
+form[type="prosodia"]:before {
+    content: "Prosodia: ";
+}
+
+etym:before,
+form[type="alolema"]:before,
+form[type="grafia"]:before,
+form[type="morfologia"]:before,
+form[type="prosodia"]:before {
+    font-size: 85%;
+    font-weight: 500;
+    color: var(--marker);
+}
+
+hi {
+    font-style: italic;
+}
+
+def hi,
+hi hi,
+quote[xml|lang="spa"] hi,
+title hi {
+    font-style: normal;
+    font-family: var(--sans-serif);
+    color: var(--text);
+    font-weight: 200;
+}
+
+quote[xml|lang="spa"] hi {
+    font-stretch: semi-condensed;
+}
+
+hi[rend="sup"] {
+    position: relative;
+    top: -0.5em;
+    font-size: 80%;
+}
+
+hi[rend="sub"] {
+    position: relative;
+    bottom: -0.5em;
+    font-size: 80%;
+}
+
+ref {
+    text-decoration: underline;
+}
+
+ref num {
+    font-weight: 400;
+}
+
+pc {
+    float: left;
+    width: 0;
+    color: transparent;
+}
+
+pc::before {
+    content: '✦';
+    font-size: 80%;
+    padding-left: 0.2rem;
+    color: var(--rubric);
+    position: absolute;
+    display: block;
+}
+
+sense>num {
+    color: var(--text_soft);
+}
+
+orth {
+    color: var(--rubric);
+    font-weight: 500;
+    font-stretch: expanded;
+}
+
+orth+gramGrp::before {
+    content: ', ';
+}
+
+entry>form>orth {
+    font-size: 1.5rem;
+}
+
+orth[type="variant"] {
+    font-weight: normal;
+}
+
+def {
+    font-style: italic;
+    color: var(--rubric);
+    font-weight: 370;
+}
+
+title {
+    font-style: italic;
+}

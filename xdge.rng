@@ -510,7 +510,7 @@
           <ref name="anchors"/>
           <ref name="bibl"/>
           <ref name="date"/>
-          <ref name="place"/>
+          <ref name="placeName"/>
           <ref name="xr"/>
         </choice>
       </zeroOrMore>
@@ -521,8 +521,8 @@
       <text/>
     </element>
   </define>
-  <define name="place">
-    <element name="place">
+  <define name="placeName">
+    <element name="placeName">
       <text/>
     </element>
   </define>

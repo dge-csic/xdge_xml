@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="xdge_xml.css" type="text/css"?>
-<?oxygen RNGSchema="xdge.rng" type="xml"?>
+<?xml-stylesheet type="text/xsl" href="transform/xdge_html.xsl"?>
+<?xml-model href="xdge.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xml:id="monstre" xml:lang="spa" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -287,7 +288,7 @@
             </cit>
             <cit>
               <quote xml:lang="grc">τοῦ ... ὑπομνήματος ... ἐκπέπομφα [σοὶ τὸ] ἀντίγραφον</quote>
-              <bibl xml:id="bibl700050"><title>IMaced.</title><biblScope>87.3</biblScope> <note>(<place>Eordea</place> <date>II d.C.</date>)</note></bibl>,
+              <bibl xml:id="bibl700050"><title>IMaced.</title><biblScope>87.3</biblScope> <note>(<placeName>Eordea</placeName> <date>II d.C.</date>)</note></bibl>,
             </cit>
             <cit>
               <usg>c. σύν y dat.</usg>
@@ -730,7 +731,7 @@
           <num>II</num>
           <def>plato grande</def>,
           <def>fuente</def>,
-          <bibl xml:id="bibl100330"><title>PMich.Zen.</title><llccStart/><biblScope>14.1</biblScope></bibl> + <bibl xml:id="bibl100330"><title>PMich.Zen.</title><biblScope>14.2</biblScope><llccStart/></bibl>,
+          <bibl xml:id="bibl100330"><title>PMich.Zen.</title><llccStart/><biblScope>14.1</biblScope></bibl> + <bibl xml:id="bibl100330a"><title>PMich.Zen.</title><biblScope>14.2</biblScope><llccStart/></bibl>,
           <bibl xml:id="bibl100331"><author>Poll.</author><biblScope>6.90</biblScope></bibl>,
           <bibl xml:id="bibl100332"><addStart/><author>Poll.</author><addEnd/><biblScope>10.105</biblScope></bibl>.
         </sense>
@@ -854,7 +855,7 @@
             <num>1</num>
             <def>uno</def>,
             <def>primero</def>,
-            <bibl xml:id="bibl100002"><title>IG</title> <biblScope>9<hi rend="sup">2</hi>.718.11</biblScope> <note>(<place>Calio</place> <date>V a.C.</date>)</note></bibl> (se distingue de la letra por diferente posición y signos diacríticos: *, Ᾱ, ᾱ, Αʹ, αʹ).
+            <bibl xml:id="bibl100002"><title>IG</title> <biblScope>9<hi rend="sup">2</hi>.718.11</biblScope> <note>(<placeName>Calio</placeName> <date>V a.C.</date>)</note></bibl> (se distingue de la letra por diferente posición y signos diacríticos: *, Ᾱ, ᾱ, Αʹ, αʹ).
           </sense>
           <sense rend="num">
             <num>2</num>
@@ -947,7 +948,7 @@
             <num>6</num>
             <usg>prob. en guiones teatrales, para marcar el cambio de personaje, escrita al margen con o sin signos diacríticos (α¯, A) op. a β¯, γ¯, etc.</usg>
             <bibl xml:id="bibl100016"><title>PHib.</title><biblScope>180</biblScope> <note>(<date>III a.C.</date>)</note></bibl>,
-            <bibl xml:id="bibl100017"><bibl xml:id="bibl100017"><title>POxy.</title><biblScope>2458</biblScope></bibl> (=<bibl type="equiv"><author>E.</author><title>Fr.</title><biblScope>448a</biblScope></bibl>)</bibl>.
+            <bibl xml:id="bibl100017"><title>POxy.</title><biblScope>2458</biblScope></bibl> (=<bibl type="equiv"><author>E.</author><title>Fr.</title><biblScope>448a</biblScope></bibl>).
           </sense>
           <sense rend="num">
             <num>7</num>
@@ -1196,7 +1197,7 @@
           <gramGrp>-α, -ον</gramGrp>
           <form type="alolema">
             <orth type="variant">ζίκαιος</orth>
-            <bibl xml:id="bibl549279"><title>Schwyzer</title> <biblScope>409.2</biblScope><note>(<place>Olimpia</place> <date>VI a.C.</date>)</note></bibl>
+            <bibl xml:id="bibl549279"><title>Schwyzer</title> <biblScope>409.2</biblScope><note>(<placeName>Olimpia</placeName> <date>VI a.C.</date>)</note></bibl>
           </form>
           <form type="prosodia">[-ῐ-]</form>
           <form type="morfologia">[-ος, -ον
@@ -1204,7 +1205,7 @@
             <bibl xml:id="bibl549281"><addStart/><author>E.</author><addEnd/><title>IT</title> <biblScope>1202</biblScope></bibl>,
             <bibl xml:id="bibl549282"><author>D.S.</author><biblScope>5.72</biblScope></bibl>; compar. δικαιέστερος
             <bibl xml:id="bibl549283"><author>Philox.Gramm.</author><biblScope>339</biblScope></bibl>; eol. sup. δικαίτατα
-            <bibl xml:id="bibl549284"><title>IG</title> <biblScope>12(2).526c.17</biblScope> <note>(<place>Ereso</place> <date>IV a.C.</date>)</note></bibl>]
+            <bibl xml:id="bibl549284"><title>IG</title> <biblScope>12(2).526c.17</biblScope> <note>(<placeName>Ereso</placeName> <date>IV a.C.</date>)</note></bibl>]
           </form>
         </form>
         <sense rend="num">
@@ -1418,40 +1419,40 @@
               <def>Santo y Justo</def> n. de un dios, gener. considerado único, originario de la región noroccidental de Frigia,
               <cit>
                 <quote xml:lang="grc">Ὅσιος καὶ Δ.</quote>
-                <bibl xml:id="bibl549334"><title>MAMA</title> <biblScope>5.184</biblScope> <note>(<place>Frigia</place> <date>II d.C.</date>)</note></bibl>,
+                <bibl xml:id="bibl549334"><title>MAMA</title> <biblScope>5.184</biblScope> <note>(<placeName>Frigia</placeName> <date>II d.C.</date>)</note></bibl>,
                 <bibl xml:id="bibl549335"><title>TAM</title> <biblScope>5.246</biblScope> <note>(<date>III d.C.</date>)</note></bibl>,
-                <bibl xml:id="bibl549336"><title>SEG</title> <biblScope>41.1333</biblScope> <note>(<place>Panfilia</place> <date>II/III d.C.</date>)</note></bibl>,
-                <bibl xml:id="bibl549337"><addStart/><title>SEG</title> <addEnd/><biblScope>41.1101</biblScope> <note>(<place>Prusa</place> <date>II d.C.</date>)</note></bibl>,
+                <bibl xml:id="bibl549336"><title>SEG</title> <biblScope>41.1333</biblScope> <note>(<placeName>Panfilia</placeName> <date>II/III d.C.</date>)</note></bibl>,
+                <bibl xml:id="bibl549337"><addStart/><title>SEG</title> <addEnd/><biblScope>41.1101</biblScope> <note>(<placeName>Prusa</placeName> <date>II d.C.</date>)</note></bibl>,
               </cit>
               <cit>
                 <usg>frec. escrito con diversas variantes</usg>
                 <quote xml:lang="grc">Ὅσιος Δ.</quote>
-                <bibl xml:id="bibl549338"><title>SEG</title> <biblScope>34.1294</biblScope> <note>(<place>Dorileo</place> <date>I a./d.C.?</date>)</note></bibl>,
+                <bibl xml:id="bibl549338"><title>SEG</title> <biblScope>34.1294</biblScope> <note>(<placeName>Dorileo</placeName> <date>I a./d.C.?</date>)</note></bibl>,
                 <bibl xml:id="bibl549339"><title>RECAM</title> <biblScope>242.13</biblScope> <note>(<date>I a.C.</date>)</note></bibl>,
               </cit>
               <cit>
                 <quote xml:lang="grc">Θεῖον Ὅσιον καὶ Δίκαιον</quote>
-                <bibl xml:id="bibl549340"><title>SEG</title> <biblScope>28.929</biblScope> <note>(<place>Lidia</place>, <date>imper.</date>)</note></bibl>,
+                <bibl xml:id="bibl549340"><title>SEG</title> <biblScope>28.929</biblScope> <note>(<placeName>Lidia</placeName>, <date>imper.</date>)</note></bibl>,
                 <bibl xml:id="bibl549341"><title>TAM</title> <biblScope>5.337</biblScope> <note>(<date>II d.C.</date>)</note></bibl>,
               </cit>
               <cit>
                 <quote xml:lang="grc">Μέγα τὸ Ὅσεον, μέγα τὸ Δίκαιον</quote>
-                <bibl xml:id="bibl549342"><title>SEG</title> <biblScope>41.721</biblScope> <note>(<place>Tasos</place> <date>II d.C.</date>)</note></bibl>,
+                <bibl xml:id="bibl549342"><title>SEG</title> <biblScope>41.721</biblScope> <note>(<placeName>Tasos</placeName> <date>II d.C.</date>)</note></bibl>,
               </cit>
               <cit>
                 <quote xml:lang="grc">Μέγας Θεὸς Ὅσιος καὶ Δ.</quote>
-                <bibl xml:id="bibl549343"><title>SEG</title> <biblScope>32.1215</biblScope> <note>(<place>Lidia</place> <date>II d.C.</date>)</note></bibl>,
+                <bibl xml:id="bibl549343"><title>SEG</title> <biblScope>32.1215</biblScope> <note>(<placeName>Lidia</placeName> <date>II d.C.</date>)</note></bibl>,
               </cit>
               <cit>
                 <quote xml:lang="grc">Θεὸς Δ.</quote>
-                <bibl xml:id="bibl549344"><title>SEG</title> <biblScope>41.614</biblScope> <note>(<place>Gorgipia</place> <date>II d.C.</date>)</note></bibl>,
+                <bibl xml:id="bibl549344"><title>SEG</title> <biblScope>41.614</biblScope> <note>(<placeName>Gorgipia</placeName> <date>II d.C.</date>)</note></bibl>,
               </cit>
               <cit>
                 <usg>desdoblado en dos</usg>
                 <quote xml:lang="grc">Θεοῖς Ὁσίῳ καὶ Δικαίῳ</quote>
-                <bibl xml:id="bibl549345"><title>IGBulg.</title><biblScope>2.680</biblScope> <note>(<place>Nicópolis del Istro</place> <date>II d.C.</date>)</note></bibl>, cf.
-                <bibl xml:id="bibl549346"><title>SEG</title> <biblScope>41.586</biblScope> <note>(<place>Anquíalo</place>)</note></bibl>,
-                <bibl xml:id="bibl549347"><title>TAM</title> <biblScope>5.586</biblScope> <note>(<place>Meonia</place>)</note></bibl>,
+                <bibl xml:id="bibl549345"><title>IGBulg.</title><biblScope>2.680</biblScope> <note>(<placeName>Nicópolis del Istro</placeName> <date>II d.C.</date>)</note></bibl>, cf.
+                <bibl xml:id="bibl549346"><title>SEG</title> <biblScope>41.586</biblScope> <note>(<placeName>Anquíalo</placeName>)</note></bibl>,
+                <bibl xml:id="bibl549347"><title>TAM</title> <biblScope>5.586</biblScope> <note>(<placeName>Meonia</placeName>)</note></bibl>,
               </cit>
               <cit>
                 <usg>asociado a un correlato fem.</usg>
@@ -1465,7 +1466,7 @@
               </cit>
               <cit>
                 <quote xml:lang="grc">φιλαγγέλων συμβίωσις Ὁσίῳ Δικέῳ εὐχήν</quote>
-                <bibl xml:id="bibl549350"><title>SEG</title> <biblScope>31.1130</biblScope> <note>(<place>Frigia</place> <date>III d.C.</date>)</note></bibl>.
+                <bibl xml:id="bibl549350"><title>SEG</title> <biblScope>31.1130</biblScope> <note>(<placeName>Frigia</placeName> <date>III d.C.</date>)</note></bibl>.
               </cit>
             </sense>
           </sense>
@@ -1588,7 +1589,7 @@
                 </cit>
                 <cit>
                   <quote xml:lang="grc">ὠς ἄριστα κ[αὶ δ]ικαίτατα</quote>
-                  <bibl xml:id="bibl549374"><title>IG</title> <lcStart/><biblScope>12(2).526c.17</biblScope> <note>(<place>Ereso</place> <date>IV a.C.</date>)</note><lcEnd/></bibl>
+                  <bibl xml:id="bibl549374"><title>IG</title> <lcStart/><biblScope>12(2).526c.17</biblScope> <note>(<placeName>Ereso</placeName> <date>IV a.C.</date>)</note><lcEnd/></bibl>
                 </cit>
               </sense>
             </sense>
@@ -1677,7 +1678,7 @@
               <cit>
                 <quote xml:lang="grc">στατρ</quote>
                 <usg>inscr. en un peso</usg>
-                <bibl xml:id="bibl549389"><title>IGDS</title> <biblScope>1.108</biblScope> <note>(<place>Siracusa</place> <date>V a.C.</date>)</note></bibl>,
+                <bibl xml:id="bibl549389"><title>IGDS</title> <biblScope>1.108</biblScope> <note>(<placeName>Siracusa</placeName> <date>V a.C.</date>)</note></bibl>,
               </cit>
               <cit>
                 <quote xml:lang="grc">μισθός</quote>
@@ -1794,7 +1795,7 @@
                 <def>el lugar de los justos</def>
                 <cit>
                   <quote xml:lang="grc">ψυχὴ δ' ἐς τὸ δ. ἔβη</quote>
-                  <bibl xml:id="bibl549419"><title>IG</title> <biblScope>7.2543.3</biblScope> <note>(<place>Tebas</place> <date>III/IV d.C.</date>)</note></bibl>.
+                  <bibl xml:id="bibl549419"><title>IG</title> <biblScope>7.2543.3</biblScope> <note>(<placeName>Tebas</placeName> <date>III/IV d.C.</date>)</note></bibl>.
                 </cit>
               </sense>
             </sense>
@@ -1921,7 +1922,7 @@
               </cit>
               <cit>
                 <quote xml:lang="grc">ποιῶν τὰ ἐν τῇ τέχνῃ δί[και]α</quote>
-                <bibl xml:id="bibl549443"><title>SEG</title> <biblScope>2.184.7</biblScope> <note>(<place>Tanagra</place> <date>II a.C.</date>)</note></bibl>,
+                <bibl xml:id="bibl549443"><title>SEG</title> <biblScope>2.184.7</biblScope> <note>(<placeName>Tanagra</placeName> <date>II a.C.</date>)</note></bibl>,
               </cit>
               <cit>
                 <quote xml:lang="grc">ἐπὶ συγκειμένοις τισὶ δικαίοις</quote>
@@ -1944,7 +1945,7 @@
                 <cit>
                   <quote xml:lang="grc">αἰ ζὲ μπιθεῖαν τὰ ζίκαια ὂρ μέγιστον τέλος ἔχοι καὶ τοὶ βασιλᾶες</quote>
                   <quote xml:lang="spa">si el magistrado principal y los reyes no le concediesen sus derechos</quote>,
-                  <bibl xml:id="bibl549447"><title>Schwyzer</title> <lcStart/><biblScope>409.2</biblScope> <note>(<place>Olimpia</place> <date>VI a.C.</date>)</note><lcEnd/></bibl>,
+                  <bibl xml:id="bibl549447"><title>Schwyzer</title> <lcStart/><biblScope>409.2</biblScope> <note>(<placeName>Olimpia</placeName> <date>VI a.C.</date>)</note><lcEnd/></bibl>,
                 </cit>
                 <cit>
                   <quote xml:lang="grc">τοὐμὸν ... δ.</quote>
@@ -1963,8 +1964,8 @@
                 </cit>
                 <cit>
                   <quote xml:lang="grc">τὰ δίκαια τῆς πατρίδος</quote>
-                  <bibl xml:id="bibl549451"><title>CRIA</title> <biblScope>7.6</biblScope> <note>(<place>Tabas</place> <date>I a.C.</date>)</note></bibl>, cf.
-                  <bibl xml:id="bibl549452"><title>TAM</title> <biblScope>3(1).104.8</biblScope> <note>(<place>Termeso</place> <date>III d.C.</date>)</note></bibl>,
+                  <bibl xml:id="bibl549451"><title>CRIA</title> <biblScope>7.6</biblScope> <note>(<placeName>Tabas</placeName> <date>I a.C.</date>)</note></bibl>, cf.
+                  <bibl xml:id="bibl549452"><title>TAM</title> <biblScope>3(1).104.8</biblScope> <note>(<placeName>Termeso</placeName> <date>III d.C.</date>)</note></bibl>,
                 </cit>
                 <cit>
                   <quote xml:lang="grc">δίκαιόν μου τῆς δεσποτείας</quote>
@@ -1987,7 +1988,7 @@
                   <bibl xml:id="bibl549456"><title>POxy.</title><biblScope>1467.5</biblScope> <note>(<date>III d.C.</date>)</note></bibl>,
                   <bibl xml:id="bibl549457"><title>PCol.</title><biblScope>179.4</biblScope> <note>(<date>IV d.C.</date>)</note></bibl>,
                   <bibl xml:id="bibl549458"><title>TAM</title> <biblScope>3(1).383</biblScope></bibl>,
-                  <bibl xml:id="bibl549459"><addStart/><title>TAM</title> <biblScope>3(1).<addEnd/>482</biblScope> <note>(<place>Termeso</place>, <date>imper.</date>)</note></bibl>, cf.
+                  <bibl xml:id="bibl549459"><addStart/><title>TAM</title> <biblScope>3(1).<addEnd/>482</biblScope> <note>(<placeName>Termeso</placeName>, <date>imper.</date>)</note></bibl>, cf.
                   <bibl xml:id="bibl549460"><title>PStras.</title><biblScope>150.2</biblScope> <note>(<date>II/III d.C.</date>)</note></bibl>,
                   <bibl xml:id="bibl549461"><title><hi>Mitteis </hi>Chr.</title><biblScope>96.17</biblScope> <note>(<date>IV d.C.</date>)</note></bibl>.
                 </cit>
@@ -2040,7 +2041,7 @@
               <cit>
                 <quote xml:lang="grc">ὅροι διορίζοντες τὰ δίκαια Χασίου ... καὶ Καλάθου</quote>
                 <bibl xml:id="bibl549473"><title>IApameia</title> <biblScope>112.1</biblScope> <note>(<date>biz.</date>)</note></bibl>, cf.
-                <bibl xml:id="bibl549474"><title>IGCh.</title><biblScope>27</biblScope> <note>(<place>Cícico</place> <date>V/VI d.C.</date>)</note></bibl>.
+                <bibl xml:id="bibl549474"><title>IGCh.</title><biblScope>27</biblScope> <note>(<placeName>Cícico</placeName> <date>V/VI d.C.</date>)</note></bibl>.
               </cit>
             </sense>
           </sense>

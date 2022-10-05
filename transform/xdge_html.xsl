@@ -55,6 +55,8 @@ Transform XDGE in html.
       </body>
     </html>
   </xsl:template>
+  <!-- Nothing done with that for now -->
+  <xsl:template match="tei:lcStart | tei:lcEnd | tei:llccStart | tei:llccEnd | tei:addStart | tei:addEnd | tei:delStart | tei:delEnd  "></xsl:template>
   <!-- Shared head content in files -->
   <xsl:template name="head">
     <xsl:param name="context" select="$context"/>
@@ -307,15 +309,14 @@ Transform XDGE in html.
   </xsl:template>
   <!-- italic -->
   <xsl:template match="tei:hi[substring(@rend, 1, 1)='i']">
-    <em>
+    <i>
       <xsl:apply-templates/>
-    </em>
+    </i>
   </xsl:template>
-  <!-- bold -->
-  <xsl:template match="tei:hi[substring(@rend, 1, 1)='b']">
-    <b>
+  <xsl:template match="tei:hi[not(@rend)]">
+    <i>
       <xsl:apply-templates/>
-    </b>
+    </i>
   </xsl:template>
   <!-- Exposant -->
   <xsl:template match="tei:hi[@rend='sup']">
@@ -328,12 +329,6 @@ Transform XDGE in html.
     <sub>
       <xsl:apply-templates/>
     </sub>
-  </xsl:template>
-  <!-- normal in italic, encoded as italic in italic -->
-  <xsl:template match="tei:hi[@rend='roman'] | tei:hi[@rend='n']">
-    <i>
-      <xsl:apply-templates/>
-    </i>
   </xsl:template>
   <!-- Different sections with labels: etymologia, morphological informations, Dmic -->
   <xsl:template match="tei:form//tei:form | tei:etym ">
@@ -371,6 +366,38 @@ Transform XDGE in html.
       <xsl:apply-templates/>
     </label>    
   </xsl:template>
+  <xsl:template match="tei:title">
+    <cite>
+      <xsl:apply-templates/>
+    </cite>
+  </xsl:template>
+  <xsl:template match="tei:bibl">
+    <span class="bibl" id="{@xml:id}">
+      <xsl:apply-templates/>
+    </span>
+  </xsl:template>
+  <xsl:template match="tei:biblScope">
+    <span class="{local-name()}">
+      <xsl:apply-templates/>
+    </span>
+  </xsl:template>
+  <xsl:template match="tei:author">
+    <!-- One day, a link ? -->
+    <span class="{local-name()}">
+      <xsl:apply-templates/>
+    </span>
+  </xsl:template>
+  <xsl:template match="tei:date">
+    <time>
+      <xsl:apply-templates/>
+    </time>
+  </xsl:template>
+  <xsl:template match="tei:placeName">
+    <span class="{local-name()}">
+      <xsl:apply-templates/>
+    </span>
+  </xsl:template>
+  
   <!-- <*>, default model for unknown tag -->
   <xsl:template match="*">
     <div>
