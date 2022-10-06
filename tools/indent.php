@@ -37,6 +37,7 @@ $re_indent = array(
     '/<sense>(\s+<num>)/' => "<sense rend=\"num\">$1",
     // des <bibl> démultipliés, après bibl/bibl
     // '/(<\/bibl>) \+\s*(<bibl)/' => '$1 + $2',
+    /*
     // bibl dans bibl, normaliser l’espacement
     '/ (en|y|cf\.)(<bibl)/' => ' $1 $2',
     //  bibl/note[bibl], à restaurer
@@ -51,6 +52,7 @@ $re_indent = array(
     '/\n£££/' => "",
     // restaurer <bibl type="equiv">
     '/\s*\(=(<(author|title)>[^)]+?)\)<\/bibl>/' => '</bibl> (=<bibl type="equiv">$1</bibl>)',
+    */
     // dédoubler les @xml:id
 );
 
@@ -59,24 +61,25 @@ $re_more = array(
     '/(<\/bibl> \+ <bibl xml:id="bibl\d+)(">)/' => '$1b$2',
 );
 
+$dst_file = $src_file;
+/*
 // étape suivante, les chevauchement
 $re_overlap = array(
     // <biblScope>3.<addEnd/>192</biblScope>
     '/<biblScope>([^<]+)<addEnd\/>/' => '<addEnd/><num resp="xdge">$1</num>',
 
 );
-$dst_file = $src_file;
 
 $xml = preg_replace(array_keys($re_more), array_values($re_more), $xml);
 file_put_contents($dst_file, $xml);
 return;
+*/
 
-/* 
 // dge8, fait
 $xml = preg_replace(array_keys($re_indent), array_values($re_indent), $xml);
 $xml = indent($xml);
 file_put_contents($dst_file, $xml);
-*/
+
 /**
  * Automate spécifique pour indenter le dge, attention, pas très robuste
  * selon les sauts de lign
