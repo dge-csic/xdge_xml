@@ -1,6 +1,3 @@
-@namespace xml url('http://www.w3.org/XML/1998/namespace');
-@namespace tei url('http://www.tei-c.org/ns/1.0');
-@namespace oxy url('http://www.oxygenxml.com/extensions/author');
 :root {
     /* des variables globales */
     --rubric: #B9121B;
@@ -75,21 +72,14 @@
     font-stretch: 62.5% 100%;
 }
 
-body,
-entry>bibl,
-cit,
-dictScrap,
-entry,
-etym,
-form,
-sense,
-TEI,
-text,
-entry>xr {
-    display: block;
+html,
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-TEI {
+body {
     color: var(--text_soft);
     background-color: var(--bg_marg);
     font-size: 14pt;
@@ -100,18 +90,35 @@ TEI {
     font-weight: 300;
 }
 
-bibl,
-def,
-num,
-ref,
-sense,
-usg,
-xr {
+body {
+    width: 45rem;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article.entry {
+    margin-bottom: 1rem;
+    border-top: 2rem solid var(--bg_soft);
+    border-bottom: 2rem solid var(--bg_soft);
+    border-left: 1rem solid var(--bg_soft);
+    border-right: 1rem solid var(--bg_soft);
+    background-color: var(--bg);
+    padding: 0 1rem;
+}
+
+.bibl,
+.def,
+.num,
+.ref,
+.sense,
+.usg,
+.xr {
     /* Ici forcer le sans-serif pour certains éléments */
     font-family: var(--sans-serif);
 }
 
-usg {
+.usg {
     font-stretch: condensed;
     font-weight: 550;
 }
@@ -139,37 +146,6 @@ quote[xml|lang="lat"] {
 
 quote[xml|lang="grc"] {
     font-family: var(--grc);
-}
-
-addStart,
-addEnd,
-delStart,
-delEnd,
-ibStart,
-ibEnd,
-lcStart,
-lcEnd,
-llccStart,
-llccEnd,
-teiHeader {
-    display: none;
-}
-
-body {
-    width: 45rem;
-    padding: 0;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-entry {
-    margin-bottom: 1rem;
-    border-top: 2rem solid var(--bg_soft);
-    border-bottom: 2rem solid var(--bg_soft);
-    border-left: 1rem solid var(--bg_soft);
-    border-right: 1rem solid var(--bg_soft);
-    background-color: var(--bg);
-    padding: 0 1rem;
 }
 
 

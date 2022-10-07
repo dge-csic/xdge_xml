@@ -16,14 +16,13 @@ Transform XDGE in html.
   <!-- shared templates -->
   <xsl:param name="this">xdge_html.xsl</xsl:param>
   <!-- for direct transformation to get a relative link to css  -->
-  <xsl:param name="context">../../</xsl:param>
   <!-- Generated date -->
   <xsl:param name="date">
     <xsl:choose>
       <xsl:when test="function-available('date:date')">
         <xsl:value-of select="date:date()"/>
       </xsl:when>
-      <xsl:otherwise>2011</xsl:otherwise>
+      <xsl:otherwise>2022</xsl:otherwise>
     </xsl:choose>
   </xsl:param>
   <!-- Share the same html prolog -->
@@ -48,7 +47,7 @@ Transform XDGE in html.
       <head>
         <meta charset="UTF-8"/>
         <title>XDGE</title>
-        <xsl:call-template name="head"/>
+        <link rel="stylesheet" href="xdge_html.css"/>
       </head>
       <body class="article">
         <xsl:apply-templates/>
@@ -57,11 +56,7 @@ Transform XDGE in html.
   </xsl:template>
   <!-- Nothing done with that for now -->
   <xsl:template match="tei:lcStart | tei:lcEnd | tei:llccStart | tei:llccEnd | tei:addStart | tei:addEnd | tei:delStart | tei:delEnd  "></xsl:template>
-  <!-- Shared head content in files -->
-  <xsl:template name="head">
-    <xsl:param name="context" select="$context"/>
-    <link rel="stylesheet" href="{$context}lib/dge.css"/>
-  </xsl:template>
+  
   <!-- Header, one day -->
   <xsl:template match="tei:teiHeader"/>
   <!-- Cross -->
@@ -70,7 +65,7 @@ Transform XDGE in html.
   </xsl:template>
   <!-- Article -->
   <xsl:template match="tei:entry">
-    <article class="entry">
+    <article class="entry {@type}">
       <xsl:attribute name="id">
         <xsl:call-template name="id"/>
       </xsl:attribute>
