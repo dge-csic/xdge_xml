@@ -18,6 +18,11 @@
       <ref name="id"/>
       <optional>
         <attribute name="type">
+            <value>gloss</value>
+        </attribute>
+      </optional>
+      <optional>
+        <attribute name="ana">
           <choice>
             <value>NP</value>
             <value>afix</value>
@@ -31,7 +36,6 @@
             <value>interj</value>
             <value>conj</value>
             <value>partic</value>
-            <value>·</value>
           </choice>
         </attribute>
       </optional>
@@ -59,10 +63,10 @@
       </a:documentation>
       <ref name="id"/>
       <attribute name="type">
-        <value>xr</value>
+        <value>xref</value>
       </attribute>
       <optional>
-        <attribute name="subtype">
+        <attribute name="ana">
           <choice>
             <value>adv</value>
             <value>v</value>
@@ -93,7 +97,7 @@
         <value>dmic</value>
       </attribute>
       <optional>
-        <attribute name="subtype">
+        <attribute name="ana">
           <value>NP</value>
         </attribute>
       </optional>

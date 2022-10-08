@@ -35,13 +35,13 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><title>Diccionario Griego-Español, vol. VII</title> Madrid: Consejo Superior de Investigaciones Científicas 2009</bibl>
+        <bibl type="equiv"><title>Diccionario Griego-Español, vol. VII</title> Madrid: Consejo Superior de Investigaciones Científicas 2009</bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-      <entry type="subst" xml:id="ἀγχιστεύς">
+      <entry ana="subst" xml:id="ἀγχιστεύς">
         <!-- Pour caractères merdiques  e1b0 -->
         <form>
           <orth type="lemma">ἀγχιστεύς</orth>
@@ -77,7 +77,7 @@
           <bibl xml:id="bibl110639"><author>LXX</author> <title>Ru.</title><biblScope>4.8</biblScope></bibl>.
         </sense>
       </entry>
-      <entry type="v" xml:id="ἐκπέμπω">
+      <entry ana="v" xml:id="ἐκπέμπω">
         <form>
           <orth type="lemma">ἐκπέμπω</orth>
           <form type="morfologia">[impf. iter. sin aum. ἐκπέμπεσκον
@@ -474,7 +474,7 @@
           </sense>
         </sense>
       </entry>
-      <entry type="NP" xml:id="Ἀπολλωνιάδης">
+      <entry ana="NP" xml:id="Ἀπολλωνιάδης">
         <form>
           <orth type="lemma">Ἀπολλωνιάδης</orth>
           <gramGrp>-ου, ὁ</gramGrp>
@@ -493,7 +493,7 @@
           <bibl xml:id="bibl302089"><author>D.L.</author><biblScope>3.42</biblScope></bibl>.
         </sense>
       </entry>
-<entry type="subst" xml:id="ἀλοιφή">
+<entry ana="subst" xml:id="ἀλοιφή">
         <form>
           <orth type="lemma">ἀλοιφή</orth>
           <gramGrp>-ῆς, ἡ</gramGrp>
@@ -628,19 +628,19 @@
         <bibl type="dmic"><title>DMic.</title> <biblScope><hi>a-ro-pa</hi></biblScope>.</bibl>
         <etym><xr><lbl>Cf.</lbl> <ref>ἀλείφω</ref></xr>.</etym>
       </entry>
-      <entry subtype="NP" type="dmic" xml:id="ἈϜάτας">
+      <entry ana="NP" type="dmic" xml:id="ἈϜάτας">
         <form>
           <orth type="lemma">*ἈϜάτας</orth>
         </form>
         <bibl type="dmic"><title>DMic.</title> <biblScope><hi>a-wa-ta</hi></biblScope> (??).</bibl>
       </entry>
-      <entry type="xr" xml:id="ἀάτη">
+      <entry type="xref" xml:id="ἀάτη">
         <form>
           <orth type="lemma">ἀάτη</orth>
         </form>
         <xr><lbl>v.</lbl> <ref>ἄτη</ref>.</xr>
       </entry>
-      <entry type="adv" xml:id="ἀπεσχοινισμένως">
+      <entry ana="adv" xml:id="ἀπεσχοινισμένως">
         <form>
           <orth type="lemma">ἀπεσχοινισμένως</orth>
         </form>
@@ -657,7 +657,7 @@
           </cit>
         </sense>
       </entry>
-      <entry type="subst" xml:id="ἀβάκιον">
+      <entry ana="subst" xml:id="ἀβάκιον">
         <form>
           <orth type="lemma">ἀβάκιον</orth>
           <gramGrp>-ου, τό</gramGrp>
@@ -746,7 +746,7 @@
         </sense>
         <etym><xr><lbl>Cf.</lbl> <ref><num>1</num> ἄβαξ</ref></xr>.</etym>
       </entry>
-      <entry type="adj" xml:id="ἄᾰτος1">
+      <entry ana="adj" xml:id="ἄᾰτος1">
         <form>
           <orth type="lemma">1 ἄᾰτος</orth>
           <gramGrp>-ον</gramGrp>
@@ -813,7 +813,7 @@
         </xr>
         </etym>
       </entry>
-      <entry type="subst" xml:id="ἀκορνός">
+      <entry ana="subst" xml:id="ἀκορνός">
         <form>
           <orth type="lemma">ἀκορνός</orth>
           <gramGrp>-οῦ, ὁ</gramGrp>
@@ -829,7 +829,7 @@
         </sense>
         <etym>Deriv. quizá de ἄκορνα por vivir en esa planta.</etym>
       </entry>
-      <entry type="NP" xml:id="Α">
+      <entry ana="NP" xml:id="Α">
         <form>
           <orth type="lemma">Α</orth>
           <orth type="lemma">α</orth>
@@ -997,7 +997,7 @@
           </sense>
         </sense>
       </entry>
-      <entry type="interj" xml:id="ἆ">
+      <entry ana="interj" xml:id="ἆ">
         <form>
           <orth type="lemma">ἆ</orth>
           <form type="alolema"><orth type="variant">ἇ</orth>
@@ -1139,7 +1139,7 @@
           </cit>
         </sense>
       </entry>
-      <entry type="afix" xml:id="ἀ-1">
+      <entry ana="afix" xml:id="ἀ-1">
         <form>
           <orth type="lemma">1 ἀ-</orth>
           <form type="alolema"><orth type="variant">ἀν-</orth> ante vocal, cf. ἀνέλπιστος, etc., salvo ante espír. áspero o antigua Ϝ, cf. ἄοπλος, ἄοινος; a veces hay dobletes, cf. ἄϋδρος
@@ -1170,7 +1170,7 @@
         <bibl type="dmic"><title>DMic.</title> <biblScope><hi>a-ki-ti-to</hi></biblScope>, <biblScope><hi>a-na-pu-ke</hi></biblScope>.</bibl>
         <etym>Ide. *<hi>n̥</hi>-, cf. ai. <hi>a</hi>- y <hi>an</hi>-, lat. <hi>in</hi>-, osc.-u. *<hi>an</hi>-, air. <hi>in</hi> (<hi>ē</hi>, <hi>an</hi>) gót. <hi>un</hi>-; c. otro grado vocálico, ide. *<hi>ne</hi>, cf. gr. νέποδες, etc.; ide. *<hi>nē</hi>, cf. gr. νήποδες.</etym>
       </entry>
-      <entry type="afix" xml:id="ἀ-2">
+      <entry ana="afix" xml:id="ἀ-2">
         <form>
           <orth type="lemma">2 ἀ-</orth>
           <form type="prosodia">[ᾰ]</form>
@@ -1190,7 +1190,7 @@
         </sense>
         <etym><xr><lbl>Cf.</lbl> <ref>ἁ-</ref></xr>.</etym>
       </entry>
-<entry type="adj" xml:id="δίκαιος">
+<entry ana="adj" xml:id="δίκαιος">
         <form>
           <orth type="lemma">δίκαιος</orth>
           <gramGrp>-α, -ον</gramGrp>
