@@ -99,14 +99,13 @@ Transform XDGE in html.
       <xsl:call-template name="prevnext"/>
       <xsl:apply-templates select="tei:form"/>
       <section class="body">
-        <xsl:apply-templates select="node()[not(self::tei:form)][not(self::tei:xr)][not(self::tei:etym)][not(self::tei:bibl)]"/>
+        <xsl:apply-templates select="node()[not(self::tei:form)][not(self::tei:etym)][not(self::tei:bibl)]"/>
       </section>
-      <xsl:if test="tei:bibl | tei:etym | tei:xr">
+      <xsl:if test="tei:bibl | tei:etym">
         <footer>
-          <xsl:apply-templates select="tei:bibl | tei:etym | tei:xr"/>
+          <xsl:apply-templates select="tei:bibl | tei:etym"/>
         </footer>
       </xsl:if>
-      <xsl:apply-templates select="tei:xr"/>
     </article>
   </xsl:template>
   <!-- Sense -->
@@ -265,13 +264,12 @@ Transform XDGE in html.
       <xsl:apply-templates/>
     </div>
   </xsl:template>
-  <!-- Not used for the moment in dge
+  <!-- Not used for the moment in dge -->
   <xsl:template match="tei:lbl">
-    <xsl:text> </xsl:text>
-    <xsl:apply-templates/>
-    <xsl:text> </xsl:text>
+    <span class="{local-name}">
+      <xsl:apply-templates/>
+    </span>
   </xsl:template>
-  -->
   <!-- Greek context quoted -->
   <xsl:template match="tei:quote">
     <q>

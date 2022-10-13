@@ -138,6 +138,7 @@ nav.prevnext .next {
 }
 
 section.body {
+    margin: 2rem 0;
     padding: 2rem 1rem;
     background-color: var(--bg);
 }
@@ -170,6 +171,7 @@ q[lang="spa"] {
 
 q[lang="grc"] {
     font-family: var(--grc);
+    font-style: normal;
 }
 
 
@@ -205,10 +207,7 @@ cit {
     text-indent: 0;
 }
 
-article>header {
-    text-indent: 0.7rem;
-    padding-bottom: 1rem;
-}
+article>header {}
 
 form * {
     text-indent: 0;
