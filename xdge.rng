@@ -270,6 +270,7 @@
           <ref name="richtext"/>
           <!-- lexicographic -->
           <ref name="bibl"/>
+          <ref name="cit"/>
           <ref name="def"/>
           <ref name="foreign"/>
           <ref name="gloss"/>
@@ -277,12 +278,6 @@
           <ref name="usg"/>
           <ref name="xr"/>
         </choice>
-      </zeroOrMore>
-      <zeroOrMore>
-        <ref name="cit"/>
-      </zeroOrMore>
-      <zeroOrMore>
-          <ref name="xr"/>
       </zeroOrMore>
       <zeroOrMore>
         <ref name="sense"/>
