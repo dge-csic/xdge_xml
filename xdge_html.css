@@ -1,3 +1,4 @@
+@namespace xml url('http://www.w3.org/XML/1998/namespace');
 :root {
     /* des variables globales */
     --rubric: #B9121B;
@@ -79,11 +80,14 @@ body {
     padding: 0;
 }
 
+html {
+    font-size: 14pt;
+}
+
 body {
+    line-height: 140%;
     color: var(--text_soft);
     background-color: var(--bg_marg);
-    font-size: 14pt;
-    line-height: 1.2rem;
     padding: 2rem;
     /* défaut : sans-serif light */
     font-family: var(--sans-serif);
@@ -99,63 +103,79 @@ body {
 
 article.entry {
     margin-bottom: 1rem;
+    /*
     border-top: 2rem solid var(--bg_soft);
     border-bottom: 2rem solid var(--bg_soft);
     border-left: 1rem solid var(--bg_soft);
     border-right: 1rem solid var(--bg_soft);
-    background-color: var(--bg);
-    padding: 0 1rem;
+    */
+    background-color: var(--bg_soft);
+    padding: 0rem 1rem 2rem 1rem;
 }
 
-.bibl,
-.def,
-.num,
-.ref,
-.sense,
-.usg,
-.xr {
-    /* Ici forcer le sans-serif pour certains éléments */
-    font-family: var(--sans-serif);
+nav.prevnext {
+    display: flex;
+    margin-left: -0.8rem;
+    margin-right: -0.8rem;
+    padding: 0.2rem 0 2rem 0;
+}
+
+nav.prevnext>a {
+    flex-basis: 50%;
+    padding: 0.3rem 0.5rem;
+    line-height: 100%;
+    color: var(--rubric);
+    display: block;
+    text-decoration: none;
+}
+
+nav.prevnext>a:hover {
+    background-color: var(--bg);
+}
+
+nav.prevnext .next {
+    text-align: right;
+}
+
+section.body {
+    padding: 2rem 1rem;
+    background-color: var(--bg);
 }
 
 .usg {
+    /*
     font-stretch: condensed;
     font-weight: 550;
+    */
 }
 
-quote {
-    font-family: var(--sans-serif);
+q::before {
+    content: '';
+}
+
+q::after {
+    content: '';
+}
+
+q {
+    font-family: var(--serif);
+    font-style: italic;
+    font-weight: 250;
     font-weight: 380;
 }
 
-quote[xml|lang="spa"] {
-    font-family: var(--serif);
-    font-style: italic;
+q[lang="spa"] {
     color: var(--trad);
-    font-weight: 250;
-    /* unité non locale, relative la fonte racine */
-    font-size: 1.1rem;
 }
 
-quote[xml|lang="lat"] {
-    font-family: var(--serif);
-    font-style: italic;
-    font-weight: 250;
-    font-size: 120%;
-}
-
-quote[xml|lang="grc"] {
+q[lang="grc"] {
     font-family: var(--grc);
 }
 
 
 /* Espacements et alignments des <sense> */
 
-sense {
-    /* interlignage des sense, unité absolue pour les numéros flottants */
-}
-
-sense {
+section.sense {
     text-indent: -1.6rem;
     margin: 0.2rem 0.2rem 0.5rem 1.1rem;
     padding: 0rem 0 0 0.4rem;
@@ -168,46 +188,9 @@ sense {
     */
 }
 
-
-/* Exprériences filet
-sense[rend="num"]::before {
-    content: '';
-    position: absolute;
-    top: -1px;
-    height: 0;
-    box-sizing: content-box;
-    left: -1.7rem;
-    width: 7rem;
-    border-top: 2px solid var(--bg);
-}
-
-sense[rend="num"]:first-of-type::before {
-    display: none;
-}
-
-sense[rend="num"]::after {
-    content: '';
-    position: absolute;
-    top: 1.8rem;
-    bottom: 0;
-    left: -0.2rem;
-    width: 0;
-    border-left: 1px dotted  var(--bg);
-}
-*/
-
-sense>num {
-    float: left;
-    display: inline;
-    width: 1.6rem;
-    font-size: 85%;
-    font-weight: bold;
-}
-
-sense>num::before {
-    display: inline-block;
-    width: 1.6rem;
-    background-color: var(--bg);
+section.sense div,
+section.sense p {
+    text-indent: 0;
 }
 
 pc+* {
@@ -220,40 +203,18 @@ pc+cit {
 
 cit {
     text-indent: 0;
-    font-size: 0.85rem;
 }
 
-sense>def+cit:first-of-type,
-sense>bibl+cit:first-of-type,
-sense>usg+cit:first-of-type {
-    padding-top: 0.5rem;
-}
-
-entry>dictScrap:first-of-type,
-entry>sense:first-of-type {
-    /* premier sense de premier niveau */
-    margin-top: 2rem;
-}
-
-entry>sense:last-of-type {
-    /* dernier sense de premier niveau */
-    margin-bottom: 2rem;
-}
-
-entry>form {
+article>header {
     text-indent: 0.7rem;
     padding-bottom: 1rem;
-}
-
-form>form:first-of-type {
-    margin-top: 1rem;
 }
 
 form * {
     text-indent: 0;
 }
 
-bibl {
+span.bibl {
     /* comportement général <bibl>, surchargé ensuite pour dmic entry>bibl */
     color: var(--text_grey);
     white-space: nowrap;
@@ -261,18 +222,15 @@ bibl {
     font-size: 0.85rem;
 }
 
-entry>bibl {
-    color: unset;
-    white-space: unset;
-    font-stretch: unset;
-    font-size: unset;
-}
-
-form form,
-entry>bibl,
-entry>etym {
+header>div.form,
+article.entry>div.bibl,
+article.entry>div.etym {
     padding: 0.3rem 0.7rem;
     border-top: 2px solid var(--bg);
+}
+
+header>div.form1 {
+    border-top: none;
 }
 
 entry>bibl,
@@ -327,83 +285,95 @@ hi {
     font-style: italic;
 }
 
-def hi,
-hi hi,
-quote[xml|lang="spa"] hi,
-title hi {
+.def>i,
+i>i,
+.q>i,
+.title>i {
     font-style: normal;
     font-family: var(--sans-serif);
     color: var(--text);
     font-weight: 200;
 }
 
-quote[xml|lang="spa"] hi {
+q[lang="spa"] i {
     font-stretch: semi-condensed;
 }
 
-hi[rend="sup"] {
+sup {
     position: relative;
     top: -0.5em;
     font-size: 80%;
 }
 
-hi[rend="sub"] {
+sub {
     position: relative;
     bottom: -0.5em;
     font-size: 80%;
 }
 
-ref {
+a.ref {
     text-decoration: underline;
 }
 
-ref num {
+a.ref .num {
     font-weight: 400;
 }
 
-pc {
+
+/* numbering of senses */
+
+section.sense>b.pc,
+section.sense>b.num {
     float: left;
-    width: 0;
+    display: right;
+    width: 1.5rem;
+    font-size: 85%;
+    font-weight: bold;
+}
+
+.sense>b.num {
+    color: var(--text_soft);
+}
+
+
+/*
+section.sense>.num::before {
+    display: inline-block;
+    width: 1.6rem;
+    background-color: var(--bg);
+}
+*/
+
+b.pc {
     color: transparent;
 }
 
-pc::before {
+.pc::before {
+    position: absolute;
     content: '✦';
     font-size: 80%;
     padding-left: 0.2rem;
     color: var(--rubric);
-    position: absolute;
     display: block;
 }
 
-sense>num {
-    color: var(--text_soft);
-}
-
-orth {
+.orth {
     color: var(--rubric);
-    font-weight: 500;
     font-stretch: expanded;
 }
 
-orth+gramGrp::before {
-    content: ', ';
-}
-
-entry>form>orth {
+strong.lemma {
+    font-weight: 500;
     font-size: 1.5rem;
 }
 
-orth[type="variant"] {
-    font-weight: normal;
-}
-
-def {
+.def {
     font-style: italic;
     color: var(--rubric);
     font-weight: 370;
+    font-size: 0.85rem;
 }
 
-title {
+.title {
     font-style: italic;
 }
