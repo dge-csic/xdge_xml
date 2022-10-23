@@ -5,5 +5,5 @@ do
   name="${name_ext%.*}"
   dst_file=$home_dir/html/$name.html
   echo $dst_file
-  xsltproc -o $dst_file build/xdge_html.xsl $f 
+  xsltproc -o $dst_file --stringparam theme "../theme/" build/xdge_html.xsl $f 
 done
