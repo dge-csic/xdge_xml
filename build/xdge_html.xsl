@@ -98,15 +98,46 @@ Transform XDGE in html.
       </xsl:attribute>
       <xsl:call-template name="prevnext"/>
       <xsl:apply-templates select="tei:form"/>
-      <section class="body">
-        <xsl:apply-templates select="node()[not(self::tei:form)][not(self::tei:etym)][not(self::tei:bibl)]"/>
-      </section>
+      <div class="row">
+        <div class="body">
+          <xsl:apply-templates select="node()[not(self::tei:form)][not(self::tei:etym)][not(self::tei:bibl)]"/>
+        </div>
+        <nav class="entry-nav">
+          <xsl:if test="tei:sense[tei:num]">
+            <ul>
+              <xsl:apply-templates select="tei:sense[tei:num]" mode="toc"/>
+            </ul>
+          </xsl:if>
+        </nav>
+      </div>
       <xsl:if test="tei:bibl | tei:etym">
         <footer>
           <xsl:apply-templates select="tei:bibl | tei:etym"/>
         </footer>
       </xsl:if>
     </article>
+  </xsl:template>
+  <!-- -->
+  <xsl:template match="tei:sense" mode="toc">
+    <li class="sense">
+      <a>
+        <xsl:attribute name="href">
+          <xsl:text>#</xsl:text>
+          <xsl:call-template name="id"/>
+        </xsl:attribute>
+        <xsl:if test="@rend='num'">
+          <xsl:value-of select="tei:num"/>
+          <xsl:variable name="clast" select="substring(normalize-space(tei:num), string-length(normalize-space(tei:num)))"/>
+          <xsl:if test="not(contains(').—', $clast))">.</xsl:if>
+        </xsl:if>
+        <xsl:apply-templates select="node()[not(self::tei:num)][not(self::tei:cit)][not(self::tei:sense)][not(self::tei:bibl)]"></xsl:apply-templates>
+      </a>
+      <xsl:if test="tei:sense[tei:num]">
+        <ul>
+          <xsl:apply-templates select="tei:sense[tei:num]" mode="toc"/>
+        </ul>
+      </xsl:if>
+    </li>
   </xsl:template>
   <!-- Sense -->
   <xsl:template match="tei:sense">
@@ -167,7 +198,7 @@ Transform XDGE in html.
       <xsl:when test="@type">
           <b class="num start">
             <xsl:apply-templates/>
-          </b>    
+          </b>
       </xsl:when>
       <xsl:otherwise>
         <b class="num">
@@ -426,25 +457,30 @@ article_{sense/@n}    :
   <xsl:template name="id">
     <!--
     <xsl:value-of select="ancestor-or-self::tei:entry[1]/tei:form/tei:orth[@type='lemma']"/>
-    -->
     <xsl:variable name="cit">
       <xsl:for-each select="ancestor-or-self::tei:cit[1]">
         <xsl:number level="any" from="tei:entry"/>
       </xsl:for-each>
     </xsl:variable>
+    -->
     <xsl:choose>
       <xsl:when test="@xml:id">
         <xsl:value-of select="@xml:id"/>
       </xsl:when>
-      <xsl:when test="$cit != ''">
-        <xsl:value-of select="ancestor-or-self::tei:entry[1]/@xml:id"/>
-        <xsl:text>_cit</xsl:text>
-        <xsl:value-of select="$cit"/>
-      </xsl:when>
-      <xsl:when test="ancestor-or-self::tei:sense[@n][1]">
+      <xsl:when test="ancestor-or-self::tei:sense">
         <xsl:value-of select="ancestor-or-self::tei:entry[1]/@xml:id"/>
         <xsl:text>_</xsl:text>
-        <xsl:value-of select="ancestor-or-self::tei:sense[@n][1]/@n"/>
+        <xsl:for-each select="ancestor-or-self::tei:sense">
+          <xsl:choose>
+            <xsl:when test="tei:num">
+              <xsl:value-of select="tei:num"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:text>.</xsl:text>
+              <xsl:number/>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:for-each>
       </xsl:when>
     </xsl:choose>
   </xsl:template>

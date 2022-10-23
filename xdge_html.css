@@ -95,7 +95,7 @@ body {
 }
 
 body {
-    width: 45rem;
+    width: 55rem;
     padding: 0;
     margin-left: auto;
     margin-right: auto;
@@ -137,9 +137,83 @@ nav.prevnext .next {
     text-align: right;
 }
 
-section.body {
-    margin: 2rem 0;
+article .body {
     padding: 2rem 1rem;
+    background-color: var(--bg);
+    overflow-anchor: none;
+    flex-grow: 2;
+}
+
+article .body * {
+    overflow-anchor: none;
+}
+
+div.row {
+    padding: 2rem 0;
+    display: flex;
+    position: relative;
+}
+
+nav.entry-nav {
+    position: sticky;
+    top: 0;
+    max-height: 100vh;
+    overflow-y: auto;
+    font-size: 0.85rem;
+    flex: 0 0 15rem;
+    /*
+    height: calc(100vh - 48px);
+    order: -1;
+    padding-left: 0;
+    padding-right: 0;
+    */
+}
+
+nav.entry-nav ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+nav.entry-nav a {
+    display: block;
+    text-decoration: none;
+    line-height: 105%;
+    padding: 5px;
+    color: var(--text)
+}
+
+nav.entry-nav a>* {
+    color: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+nav.entry-nav ul a {
+    padding-left: 1rem;
+}
+
+nav.entry-nav ul ul a {
+    padding-left: 2rem;
+}
+
+nav.entry-nav ul ul ul a {
+    padding-left: 3rem;
+}
+
+nav.entry-nav ul ul ul ul a {
+    padding-left: 4rem;
+}
+
+nav.entry-nav ul ul ul ul ul a {
+    padding-left: 5rem;
+}
+
+nav.entry-nav ul ul ul ul ul ul a {
+    padding-left: 6rem;
+}
+
+nav.entry-nav a:hover {
     background-color: var(--bg);
 }
 
