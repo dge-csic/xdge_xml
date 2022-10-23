@@ -25,6 +25,8 @@ Transform XDGE in html.
       <xsl:otherwise>2022</xsl:otherwise>
     </xsl:choose>
   </xsl:param>
+  <!-- folder for theme -->
+  <xsl:param name="theme">../theme/</xsl:param>
   <!-- Share the same html prolog -->
   <xsl:template name="prolog">
     <xsl:text disable-output-escaping="yes"><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
@@ -47,7 +49,7 @@ Transform XDGE in html.
       <head>
         <meta charset="UTF-8"/>
         <title>XDGE</title>
-        <link rel="stylesheet" href="xdge_html.css"/>
+        <link rel="stylesheet" href="{$theme}xdge_html.css"/>
       </head>
       <body class="article">
         <xsl:apply-templates/>
