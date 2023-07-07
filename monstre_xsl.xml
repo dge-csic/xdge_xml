@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="build/xdge_html.xsl" type="text/xsl"?>
+<?xml-stylesheet href="../xdge_web/tools/xdge_html.xsl" type="text/xsl"?>
 <?xml-model href="xdge.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xml:id="monstre" xml:lang="spa" xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
