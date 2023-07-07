@@ -131,7 +131,31 @@ Transform XDGE in html.
           <xsl:variable name="clast" select="substring(normalize-space(tei:num), string-length(normalize-space(tei:num)))"/>
           <xsl:if test="not(contains(').—', $clast))">.</xsl:if>
         </xsl:if>
-        <xsl:apply-templates select="node()[not(self::tei:num)][not(self::tei:cit)][not(self::tei:sense)][not(self::tei:bibl)]"/>
+        <xsl:variable name="text">
+          <xsl:variable name="raw">
+            <xsl:for-each select="node()[not(self::tei:num)][not(self::tei:cit)][not(self::tei:sense)][not(self::tei:bibl)]">
+              <xsl:choose>
+                <xsl:when test="translate(normalize-space(.), ',.; ', '') = ''"/>
+                <xsl:otherwise>
+                  <xsl:value-of select="."/>
+                </xsl:otherwise>
+              </xsl:choose>
+            </xsl:for-each>
+          </xsl:variable>
+          <xsl:value-of select="normalize-space($raw)"/>
+        </xsl:variable>
+        <xsl:variable name="len" select="string-length($text)"/>
+        <xsl:text> </xsl:text>
+        <xsl:value-of select="substring($text, 1, $len - 1)"/>
+        <xsl:variable name="last" select="substring($text, $len)"/>
+        <xsl:choose>
+          <!-- Strip ending commas -->
+          <xsl:when test="translate($last, ',;:', '') = ''"/>
+          <xsl:otherwise>
+            <xsl:value-of select="$last"/>
+          </xsl:otherwise>
+        </xsl:choose>
+        
       </a>
       <xsl:if test="tei:sense[tei:num]">
         <ul>
@@ -447,6 +471,7 @@ Transform XDGE in html.
       <xsl:text>&gt;</xsl:text>
     </font>
   </xsl:template>
+
   <!-- Identify an article or components with the rule
 article
 article_cit{number()} : for citations

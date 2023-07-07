@@ -42,6 +42,45 @@
   <text>
       
     <body>
+      
+      <entry ana="NP" xml:id="Διώξιππος">
+        <form>
+          <orth type="lemma">Διώξιππος</orth>
+          <gramGrp>-ου, ὁ</gramGrp>
+        </form>
+        <dictScrap>
+          <def>Dioxipo</def>
+        </dictScrap>
+        <sense rend="num">
+          <num>1</num>
+          <usg>poeta aten. de la Comedia Media</usg>,
+          <bibl xml:id="bibl600014"><author>Ath.</author><biblScope>100e</biblScope></bibl>,
+          <bibl xml:id="bibl600015"><addStart/><author>Ath.</author><addEnd/><biblScope>502d</biblScope></bibl>,
+          <bibl xml:id="bibl600016"><author>Sud.</author></bibl>,
+          <bibl xml:id="bibl600017"><title>IUrb.Rom.</title><biblScope>218.9</biblScope></bibl>,
+          <bibl xml:id="bibl600018"><author>Diox.</author>, <biblScope>I</biblScope></bibl>.
+        </sense>
+        <sense rend="num">
+          <num>2</num>
+          <usg>aten. olimpionica en el pugilato, implicado en un proceso</usg>,
+          <bibl xml:id="bibl600019"><author>Hyp.</author><title>Lyc.</title><biblScope>5.5</biblScope></bibl>,
+          <bibl xml:id="bibl600020"><author>D.S.</author><biblScope>17.100</biblScope></bibl>,
+          <bibl xml:id="bibl600021"><author>Ael.</author><title>VH</title> <biblScope>10.22</biblScope></bibl>,
+          <bibl xml:id="bibl600022"><author>Ath.</author><biblScope>251a</biblScope></bibl>,
+          <bibl xml:id="bibl600023"><author>D.L.</author><biblScope>6.43</biblScope></bibl>.
+        </sense>
+        <sense rend="num">
+          <num>3</num> médico discípulo de Hipócrates, quizá el mismo que <xr><ref>Δέξιππος</ref> q.u.</xr>,
+          <bibl xml:id="bibl600024"><author>Plu.</author><biblScope>2.699c</biblScope></bibl>,
+          <bibl xml:id="bibl600025"><addStart/><author>Plu.</author><biblScope>2.<addEnd/>1047d</biblScope></bibl>.
+        </sense>
+        <sense rend="num">
+          <num>4</num>
+          <usg>compañero de Eneas</usg>,
+          <bibl xml:id="bibl600026"><author>Verg.</author><title>Aen.</title><biblScope>9.574</biblScope></bibl>.
+        </sense>
+      </entry>
+      
       <entry ana="NP" xml:id="Ἐκριτική">
         <form>
           <orth type="lemma">Ἐκριτική</orth>
