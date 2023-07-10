@@ -540,7 +540,7 @@
             <cit>
               <quote xml:lang="grc">χρῶτ' ἀπονίπτεσθαι ἀλοιφῇ</quote>
               <bibl xml:id="bibl202737"><title>Od.</title><biblScope>18.179</biblScope></bibl>, cf.
-              <bibl xml:id="bibl202738"><addStart/><title>Od.</title><addEnd/><biblScope>6.220</biblScope></bibl>,
+              <bibl xml:id="bibl202738"><title rend="add">Od.</title><biblScope>6.220</biblScope></bibl>,
               <bibl xml:id="bibl202739"><author>A.</author><title>Fr.</title><biblScope>355.2</biblScope></bibl>,
             </cit>
             <cit>
@@ -963,7 +963,7 @@
             <usg>y otras fórmulas mágicas, repetida</usg>
             <quote xml:lang="grc">αααααα</quote>
             <bibl xml:id="bibl100020"><title>PMag.</title><biblScope>2.96</biblScope></bibl>,
-            <bibl xml:id="bibl100021"><addStart/><title>PMag.</title><addEnd/><biblScope>13.79</biblScope></bibl>,
+            <bibl xml:id="bibl100021"><title rend="add">PMag.</title><biblScope>13.79</biblScope></bibl>,
           </cit>
           <cit>
             <usg>frec. en series alfabéticas y vocálicas</usg>
@@ -1021,7 +1021,7 @@
           <cit>
             <quote xml:lang="grc">ἆ δειλέ</quote>
             <bibl xml:id="bibl100029"><title>Il.</title><biblScope>11.441</biblScope></bibl>, cf.
-            <bibl xml:id="bibl100030"><addStart/><title>Il.</title><addEnd/><biblScope>17.443</biblScope></bibl>,
+            <bibl xml:id="bibl100030"><title rend="add">Il.</title><biblScope>17.443</biblScope></bibl>,
             <bibl xml:id="bibl100031"><title>Od.</title><biblScope>20.351</biblScope></bibl>,
             <bibl xml:id="bibl100032"><author>A.R.</author><biblScope>2.244</biblScope></bibl>,
           </cit>
@@ -1227,9 +1227,9 @@
               <cit>
                 <quote xml:lang="grc">ὑβρισταί τε καὶ ἄγριοι οὐδὲ δίκαιοι</quote>
                 <bibl xml:id="bibl549287"><title>Od.</title><biblScope>6.120</biblScope></bibl>,
-                <bibl xml:id="bibl549288"><addStart/><title>Od.</title><addEnd/><biblScope>9.175</biblScope></bibl>,
-                <bibl xml:id="bibl549289"><addStart/><title>Od.</title><addEnd/><biblScope>13.201</biblScope></bibl>, cf.
-                <bibl xml:id="bibl549290"><addStart/><title>Od.</title><addEnd/><biblScope>8.575</biblScope></bibl>,
+                <bibl xml:id="bibl549288"><title rend="add">Od.</title><biblScope>9.175</biblScope></bibl>,
+                <bibl xml:id="bibl549289"><title rend="add">Od.</title><biblScope>13.201</biblScope></bibl>, cf.
+                <bibl xml:id="bibl549290"><title rend="add">Od.</title><biblScope>8.575</biblScope></bibl>,
               </cit>
               <cit>
                 <quote xml:lang="grc">χαῖρε δ' Ἀθηναίη πεπνυμένῳ ἀνδρὶ δικαίῳ</quote>
@@ -1238,7 +1238,7 @@
               <cit>
                 <quote xml:lang="grc">οὔ τι νοήμονες οὐδὲ δίκαιοι</quote>
                 <bibl xml:id="bibl549292"><title>Od.</title><biblScope>3.133</biblScope></bibl>, cf.
-                <bibl xml:id="bibl549293"><addStart/><title>Od.</title><addEnd/><biblScope>13.209</biblScope></bibl>,
+                <bibl xml:id="bibl549293"><title rend="add">Od.</title><biblScope>13.209</biblScope></bibl>,
               </cit>
               <cit>
                 <quote xml:lang="grc">γένος ... δ. καὶ ἄρειον</quote>
@@ -1739,7 +1739,7 @@
               <cit>
                 <quote xml:lang="grc">οὐ γὰρ καλὸν ἀτέμβειν οὐδὲ δ.</quote>
                 <bibl xml:id="bibl549403"><title>Od.</title><biblScope>20.294</biblScope></bibl>,
-                <bibl xml:id="bibl549404"><addStart/><title>Od.</title><addEnd/><biblScope>21.312</biblScope></bibl>,
+                <bibl xml:id="bibl549404"><title rend="add">Od.</title><biblScope>21.312</biblScope></bibl>,
               </cit>
               <cit>
                 <quote xml:lang="grc">ὥσπερ δ. πρὸς φίλους οἴγειν στόμα</quote>

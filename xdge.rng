@@ -58,7 +58,7 @@
     <element name="entry">
       <a:documentation xmlns="http://www.w3.org/1999/xhtml">
         <div xmlns="http://www.w3.org/1999/xhtml">
-          <p> Some articles have no tranlsation section(s): these entries point only to another main entry. </p>
+          <p> Some articles have no translation section(s): these entries point only to another main entry. </p>
         </div>
       </a:documentation>
       <ref name="id"/>
@@ -448,6 +448,14 @@
   <define name="title">
     <element name="title">
       <a:documentation>Titre d'un ouvrage cité</a:documentation>
+      <optional>
+        <attribute name="rend">
+          <choice>
+            <value>add</value>
+            <value>del</value>
+          </choice>
+        </attribute>
+      </optional>
       <zeroOrMore>
         <choice>
           <ref name="richtext"/>
