@@ -55,7 +55,7 @@
           <num>1</num>
           <usg>poeta aten. de la Comedia Media</usg>,
           <bibl xml:id="bibl600014"><author>Ath.</author><biblScope>100e</biblScope></bibl>,
-          <bibl xml:id="bibl600015"><addStart/><author>Ath.</author><addEnd/><biblScope>502d</biblScope></bibl>,
+          <bibl xml:id="bibl600015"><author rend="add">Ath.</author><biblScope>502d</biblScope></bibl>,
           <bibl xml:id="bibl600016"><author>Sud.</author></bibl>,
           <bibl xml:id="bibl600017"><title>IUrb.Rom.</title><biblScope>218.9</biblScope></bibl>,
           <bibl xml:id="bibl600018"><author>Diox.</author>, <biblScope>I</biblScope></bibl>.
@@ -72,7 +72,7 @@
         <sense rend="num">
           <num>3</num> médico discípulo de Hipócrates, quizá el mismo que <xr><ref>Δέξιππος</ref> q.u.</xr>,
           <bibl xml:id="bibl600024"><author>Plu.</author><biblScope>2.699c</biblScope></bibl>,
-          <bibl xml:id="bibl600025"><addStart/><author>Plu.</author><biblScope>2.<addEnd/>1047d</biblScope></bibl>.
+          <bibl xml:id="bibl600025"><author rend="add">Plu.</author><biblScope><num rend="add">2.</num>1047d</biblScope></bibl>.
         </sense>
         <sense rend="num">
           <num>4</num>
@@ -302,7 +302,7 @@
               <usg>c. ac. plu. o colect. ref. a colonizaciones</usg>
               <quote xml:lang="grc">ἐς Ἰωνίαν ... ἀποικίας</quote>
               <bibl xml:id="bibl700037"><author>Th.</author><biblScope>1.2</biblScope></bibl>, cf.
-              <bibl xml:id="bibl700038"><addStart/><author>Th.</author><addEnd/><biblScope>3.92</biblScope></bibl>,
+              <bibl xml:id="bibl700038"><author rend="add">Th.</author><biblScope>3.92</biblScope></bibl>,
             </cit>
             <cit>
               <quote xml:lang="grc">τοὺς οἰκήτορας</quote>
@@ -327,7 +327,7 @@
             <cit>
               <usg>en v. pas.</usg>
               <bibl xml:id="bibl700046"><author>Th.</author><biblScope>1.34</biblScope></bibl>,
-              <bibl xml:id="bibl700047"><addStart/><author>Th.</author><biblScope>1.<addEnd/>38</biblScope></bibl>;
+              <bibl xml:id="bibl700047"><author rend="add">Th.</author><biblScope><num rend="add">1.</num>38</biblScope></bibl>;
             </cit>
           </sense>
           <sense rend="num">
@@ -397,7 +397,7 @@
             <cit>
               <quote xml:lang="grc">πρέσβεις</quote>
               <bibl xml:id="bibl700061"><author>Th.</author><biblScope>1.90</biblScope></bibl>, cf.
-              <bibl xml:id="bibl700062"><addStart/><author>Th.</author><biblScope>1.<addEnd/>141</biblScope></bibl>,
+              <bibl xml:id="bibl700062"><author rend="add">Th.</author><biblScope><num rend="add">1.</num>141</biblScope></bibl>,
             </cit>
             <cit>
               <quote xml:lang="grc">τὸν ἄνδρα ἀποκτεῖναι κελεύσας οἰκέτην ἐκεῖνον μὲν ἐξέπεμψε</quote>
@@ -442,7 +442,7 @@
               <bibl xml:id="bibl700069"><author>Hdt.</author><biblScope>1.59</biblScope></bibl>, cf.
               <bibl xml:id="bibl700070"><author>Lys.</author><biblScope>14.28</biblScope></bibl>,
               <bibl xml:id="bibl700071"><author>Is.</author><biblScope>3.35</biblScope></bibl>,
-              <bibl xml:id="bibl700072"><addStart/><author>Is.</author><biblScope>3.<addEnd/>36</biblScope></bibl>,
+              <bibl xml:id="bibl700072"><author rend="add">Is.</author><biblScope><num rend="add">3.</num>36</biblScope></bibl>,
               <bibl xml:id="bibl700073"><author>D.</author><biblScope>59.55</biblScope></bibl>
             </cit>
             <sense>
@@ -463,9 +463,9 @@
             <cit>
               <quote xml:lang="grc">τὸ πνεῦμα τὰ ζῷα ... ἐκπέμπει</quote>
               <bibl xml:id="bibl700075"><author>Arist.</author><title>PA</title> <biblScope>664<hi rend="sup">a</hi>18</biblScope></bibl>, cf.
-              <bibl xml:id="bibl700076"><addStart/><author>Arist.</author><addEnd/><title>HA</title> <biblScope>589<hi rend="sup">b</hi>18</biblScope></bibl>,
+              <bibl xml:id="bibl700076"><author rend="add">Arist.</author><title>HA</title> <biblScope>589<hi rend="sup">b</hi>18</biblScope></bibl>,
               <bibl xml:id="bibl700077"><author>Mnesith.Ath.</author><biblScope>51.3</biblScope></bibl>,
-              <bibl xml:id="bibl700078"><addStart/><author>Mnesith.Ath.</author><biblScope>51.<addEnd/>25</biblScope></bibl>,
+              <bibl xml:id="bibl700078"><author rend="add">Mnesith.Ath.</author><biblScope><num rend="add">51.</num>25</biblScope></bibl>,
             </cit>
             <cit>
               <usg>c. ac. y adv.</usg>
@@ -568,7 +568,7 @@
             <cit>
               <quote xml:lang="grc">σύες θαλέθοντες ἀλοιφῇ</quote>
               <bibl xml:id="bibl202731"><title>Il.</title><biblScope>9.467</biblScope></bibl>, cf.
-              <bibl xml:id="bibl202732"><addStart/><title>Il.</title><biblScope>9.<addEnd/>208</biblScope></bibl>,
+              <bibl xml:id="bibl202732"><title rend="add">Il.</title><biblScope><num rend="add">9.</num>208</biblScope></bibl>,
               <bibl xml:id="bibl202733"><title>Od.</title><biblScope>8.476</biblScope></bibl>,
             </cit>
             <cit>
@@ -606,7 +606,7 @@
             <cit>
               <quote xml:lang="grc">ἀλοιφῇ νεκταρέῃ φαίδρυνε περὶ χρόα</quote>
               <bibl xml:id="bibl202741"><author>A.R.</author><biblScope>3.831</biblScope></bibl>, cf.
-              <bibl xml:id="bibl202742"><addStart/><author>A.R.</author><biblScope>3.<addEnd/>1042</biblScope></bibl>,
+              <bibl xml:id="bibl202742"><author rend="add">A.R.</author><biblScope><num rend="add">3.</num>1042</biblScope></bibl>,
             </cit>
             <cit>
               <quote xml:lang="grc">ἀλοιφαῖς καὶ κοσμήσεσιν</quote>
@@ -720,8 +720,8 @@
           <form type="prosodia">[ᾰβᾰ-]</form>
           <form type="grafia">ἀβάκειον
             <bibl xml:id="bibl100313"><title>PMich.Zen.</title><biblScope>14.1</biblScope><addStart/> <note>(<date>III a.C.</date>)</note><addEnd/></bibl>,
-            <bibl xml:id="bibl100314"><addStart/><title>PMich.Zen.</title><biblScope>14.<addEnd/>2</biblScope><addStart/> <note>(<date>III a.C.</date>)</note><addEnd/></bibl>,
-            <bibl xml:id="bibl100315"><addStart/><title>PMich.Zen.</title><biblScope>14.<addEnd/>5</biblScope> <note>(<date>III a.C.</date>)</note></bibl>,
+            <bibl xml:id="bibl100314"><title rend="add">PMich.Zen.</title><biblScope><num rend="add">14.</num>2</biblScope><addStart/> <note>(<date>III a.C.</date>)</note><addEnd/></bibl>,
+            <bibl xml:id="bibl100315"><title rend="add">PMich.Zen.</title><biblScope><num rend="add">14.</num>5</biblScope> <note>(<date>III a.C.</date>)</note></bibl>,
             <bibl xml:id="bibl100316"><title>PLond.</title><biblScope>1683.3</biblScope> <note>(<date>VI d.C.</date>)</note></bibl>, ἀβάκηον
             <bibl xml:id="bibl100317"><title>ISmyrna</title> <biblScope>753.11</biblScope> <note>(<date>I d.C.?</date>)</note></bibl>
           </form>
@@ -788,7 +788,7 @@
           <def>fuente</def>,
           <bibl xml:id="bibl100330"><title>PMich.Zen.</title><llccStart/><biblScope>14.1</biblScope></bibl> + <bibl xml:id="bibl100330a"><title>PMich.Zen.</title><biblScope>14.2</biblScope><llccStart/></bibl>,
           <bibl xml:id="bibl100331"><author>Poll.</author><biblScope>6.90</biblScope></bibl>,
-          <bibl xml:id="bibl100332"><addStart/><author>Poll.</author><addEnd/><biblScope>10.105</biblScope></bibl>.
+          <bibl xml:id="bibl100332"><author rend="add">Poll.</author><biblScope>10.105</biblScope></bibl>.
         </sense>
         <sense rend="num">
           <num>III</num>
@@ -1039,7 +1039,7 @@
               <quote xml:lang="grc">βαβα βααβ αββαα</quote>
               <usg>(el epicoriambo o endecasílabo sáfico)</usg>,
               <bibl xml:id="bibl100023"><author>Heph.</author><biblScope>14.1</biblScope></bibl>, cf.
-              <bibl xml:id="bibl100024"><addStart/><author>Heph.</author><addEnd/><biblScope>14.3-7</biblScope></bibl>.
+              <bibl xml:id="bibl100024"><author rend="add">Heph.</author><biblScope>14.3-7</biblScope></bibl>.
             </cit>
           </sense>
           <sense rend="num">
@@ -1085,7 +1085,7 @@
             <quote xml:lang="grc">ἆ δειλὴ πενίη</quote>
             <quote xml:lang="spa">¡ah vil pobreza!</quote>
             <bibl xml:id="bibl100033"><author>Thgn.</author><biblScope>351</biblScope></bibl>,
-            <bibl xml:id="bibl100034"><addStart/><author>Thgn.</author><addEnd/><biblScope>649</biblScope></bibl>,
+            <bibl xml:id="bibl100034"><author rend="add">Thgn.</author><biblScope>649</biblScope></bibl>,
           </cit>
           <cit>
             <quote xml:lang="grc">ἆ δειλὸς βασιλέων</quote>
@@ -1157,7 +1157,7 @@
             <cit>
               <quote xml:lang="grc">ἆ ἆ</quote>
               <bibl xml:id="bibl100050"><author>A.</author><title>Pr.</title><biblScope>114</biblScope></bibl>,
-              <bibl xml:id="bibl100051"><addStart/><author>A.</author><title>Pr.</title><addEnd/><biblScope>566</biblScope></bibl>,
+              <bibl xml:id="bibl100051"><author rend="add">A.</author><title rend="add">Pr.</title><biblScope>566</biblScope></bibl>,
               <bibl xml:id="bibl100052"><author>Ar.</author><title>V.</title><biblScope>1379</biblScope></bibl>,
               <bibl xml:id="bibl100053"><author>LXX</author> <title>Id.</title><biblScope>6.22</biblScope></bibl>,
             </cit>
@@ -1257,7 +1257,7 @@
           <form type="prosodia">[-ῐ-]</form>
           <form type="morfologia">[-ος, -ον
             <bibl xml:id="bibl549280"><author>E.</author><title>Heracl.</title><biblScope>901</biblScope></bibl>,
-            <bibl xml:id="bibl549281"><addStart/><author>E.</author><addEnd/><title>IT</title> <biblScope>1202</biblScope></bibl>,
+            <bibl xml:id="bibl549281"><author rend="add">E.</author><title>IT</title> <biblScope>1202</biblScope></bibl>,
             <bibl xml:id="bibl549282"><author>D.S.</author><biblScope>5.72</biblScope></bibl>; compar. δικαιέστερος
             <bibl xml:id="bibl549283"><author>Philox.Gramm.</author><biblScope>339</biblScope></bibl>; eol. sup. δικαίτατα
             <bibl xml:id="bibl549284"><title>IG</title> <biblScope>12(2).526c.17</biblScope> <note>(<placeName>Ereso</placeName> <date>IV a.C.</date>)</note></bibl>]
@@ -1307,7 +1307,7 @@
               <cit>
                 <quote xml:lang="grc">ἐν μὲν μαινομένοις μάλα μαίνομαι, ἐν δὲ δικαίοις ... εἰμὶ δικαιότατος</quote>
                 <bibl xml:id="bibl549296"><author>Thgn.</author><biblScope>314</biblScope></bibl>, cf.
-                <bibl xml:id="bibl549297"><addStart/><author>Thgn.</author><addEnd/><biblScope>794</biblScope></bibl>
+                <bibl xml:id="bibl549297"><author rend="add">Thgn.</author><biblScope>794</biblScope></bibl>
               </cit>
               <sense>
                 <pc>;</pc>
@@ -1440,7 +1440,7 @@
                 <cit>
                   <quote xml:lang="grc">δικαιότατον γένος ἅλμης</quote>
                   <bibl xml:id="bibl549329"><author>Opp.</author><title>H.</title><biblScope>1.111</biblScope></bibl>, cf.
-                  <bibl xml:id="bibl549330"><addStart/><author>Opp.</author><title>H.</title><addEnd/><biblScope>2.643</biblScope></bibl>
+                  <bibl xml:id="bibl549330"><author rend="add">Opp.</author><title rend="add">H.</title><biblScope>2.643</biblScope></bibl>
                 </cit>
               </sense>
               <sense>
@@ -1477,7 +1477,7 @@
                 <bibl xml:id="bibl549334"><title>MAMA</title> <biblScope>5.184</biblScope> <note>(<placeName>Frigia</placeName> <date>II d.C.</date>)</note></bibl>,
                 <bibl xml:id="bibl549335"><title>TAM</title> <biblScope>5.246</biblScope> <note>(<date>III d.C.</date>)</note></bibl>,
                 <bibl xml:id="bibl549336"><title>SEG</title> <biblScope>41.1333</biblScope> <note>(<placeName>Panfilia</placeName> <date>II/III d.C.</date>)</note></bibl>,
-                <bibl xml:id="bibl549337"><addStart/><title>SEG</title> <addEnd/><biblScope>41.1101</biblScope> <note>(<placeName>Prusa</placeName> <date>II d.C.</date>)</note></bibl>,
+                <bibl xml:id="bibl549337"><title rend="add">SEG</title> <biblScope>41.1101</biblScope> <note>(<placeName>Prusa</placeName> <date>II d.C.</date>)</note></bibl>,
               </cit>
               <cit>
                 <usg>frec. escrito con diversas variantes</usg>
@@ -1602,7 +1602,7 @@
               <cit>
                 <quote xml:lang="grc">λόγος</quote>
                 <bibl xml:id="bibl549365"><author>Th.</author><biblScope>1.76</biblScope></bibl>,
-                <bibl xml:id="bibl549366"><addStart/><author>Th.</author><addEnd/><biblScope>3.44</biblScope></bibl>,
+                <bibl xml:id="bibl549366"><author rend="add">Th.</author><biblScope>3.44</biblScope></bibl>,
               </cit>
               <cit>
                 <quote xml:lang="grc">δίκη</quote>
@@ -1710,7 +1710,7 @@
               <cit>
                 <quote xml:lang="grc">χοῦς δ.</quote>
                 <bibl xml:id="bibl549385"><title>Graff.Dip.</title><biblScope>Ha 25</biblScope></bibl>, cf.
-                <bibl xml:id="bibl549386"><addStart/><title>Graff.Dip.</title><biblScope>Ha <addEnd/>27</biblScope></bibl>
+                <bibl xml:id="bibl549386"><title rend="add">Graff.Dip.</title><biblScope><num rend="add">Ha </num>27</biblScope></bibl>
               </cit>
               <sense>
                 <pc>;</pc>
@@ -1804,8 +1804,8 @@
               <cit>
                 <quote xml:lang="grc">δίκαια γὰρ τόνδ' εὐτυχεῖν κτείναντά με;</quote>
                 <bibl xml:id="bibl549406"><author>S.</author><title>Ai.</title><biblScope>1126</biblScope></bibl>, cf.
-                <bibl xml:id="bibl549407"><addStart/><author>S.</author><addEnd/><title>Tr.</title><biblScope>495</biblScope></bibl>,
-                <bibl xml:id="bibl549408"><addStart/><author>S.</author><title>Tr.</title><addEnd/><biblScope>1116</biblScope></bibl>,
+                <bibl xml:id="bibl549407"><author rend="add">S.</author><title>Tr.</title><biblScope>495</biblScope></bibl>,
+                <bibl xml:id="bibl549408"><author rend="add">S.</author><title rend="add">Tr.</title><biblScope>1116</biblScope></bibl>,
                 <bibl xml:id="bibl549409"><author>Hdt.</author><biblScope>1.39</biblScope></bibl>,
                 <bibl xml:id="bibl549410"><author>Thgn.</author><biblScope>743</biblScope></bibl>,
                 <bibl xml:id="bibl549411"><author>Xenoph.</author><biblScope>B 2.13</biblScope></bibl>,
@@ -2043,7 +2043,7 @@
                   <bibl xml:id="bibl549456"><title>POxy.</title><biblScope>1467.5</biblScope> <note>(<date>III d.C.</date>)</note></bibl>,
                   <bibl xml:id="bibl549457"><title>PCol.</title><biblScope>179.4</biblScope> <note>(<date>IV d.C.</date>)</note></bibl>,
                   <bibl xml:id="bibl549458"><title>TAM</title> <biblScope>3(1).383</biblScope></bibl>,
-                  <bibl xml:id="bibl549459"><addStart/><title>TAM</title> <biblScope>3(1).<addEnd/>482</biblScope> <note>(<placeName>Termeso</placeName>, <date>imper.</date>)</note></bibl>, cf.
+                  <bibl xml:id="bibl549459"><title rend="add">TAM</title> <biblScope><num rend="add">3(1).</num>482</biblScope> <note>(<placeName>Termeso</placeName>, <date>imper.</date>)</note></bibl>, cf.
                   <bibl xml:id="bibl549460"><title>PStras.</title><biblScope>150.2</biblScope> <note>(<date>II/III d.C.</date>)</note></bibl>,
                   <bibl xml:id="bibl549461"><title><hi>Mitteis </hi>Chr.</title><biblScope>96.17</biblScope> <note>(<date>IV d.C.</date>)</note></bibl>.
                 </cit>
@@ -2153,7 +2153,7 @@
               <quote xml:lang="grc">ἐκ τῆς Ἀττικῆς ... ἐξεβλήθησαν, εἴτε ὦν δὴ δ. εἴτε ἀδίκως</quote>
               <bibl xml:id="bibl549480"><author>Hdt.</author><biblScope>6.137</biblScope></bibl>, cf.
               <bibl xml:id="bibl549481"><author>S.</author><title>Ant.</title><biblScope>292</biblScope></bibl>,
-              <bibl xml:id="bibl549482"><addStart/><author>S.</author><addEnd/><title>Ai.</title><biblScope>547</biblScope></bibl>,
+              <bibl xml:id="bibl549482"><author rend="add">S.</author><title>Ai.</title><biblScope>547</biblScope></bibl>,
               <bibl xml:id="bibl549483"><author>Th.</author><biblScope>5.47</biblScope></bibl>,
               <bibl xml:id="bibl549484"><author>Ar.</author><title>Pl.</title><biblScope>233</biblScope></bibl>,
               <bibl xml:id="bibl549485"><author>And.</author><title>Myst.</title><biblScope>135</biblScope></bibl>,

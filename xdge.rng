@@ -443,6 +443,14 @@
   <define name="author">
     <element name="author">
       <a:documentation>Nom d'un auteur ou parfois d'une oeuvre (p. e. Sud.)</a:documentation>
+      <optional>
+        <attribute name="rend">
+          <choice>
+            <value>add</value>
+            <value>del</value>
+          </choice>
+        </attribute>
+      </optional>
       <text/>
     </element>
   </define>
@@ -520,6 +528,16 @@
           <!-- lexicographic -->
           <ref name="anchors"/>
           <ref name="foreign"/>
+          <element name="num">
+            <attribute name="rend">
+              <choice>
+                <value>add</value>
+              </choice>
+            </attribute>
+            <zeroOrMore>
+              <ref name="richtext"/>
+            </zeroOrMore>
+          </element>
         </choice>
       </zeroOrMore>
     </element>
