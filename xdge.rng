@@ -503,6 +503,17 @@
   <define name="biblScope">
     <element name="biblScope">
       <a:documentation>Localisation dans une oeuvre citée</a:documentation>
+      <optional>
+        <attribute name="rend">
+          <choice>
+            <!--
+            <value>add</value>
+            <value>del</value>
+            -->
+            <value>lc</value>
+          </choice>
+        </attribute>
+      </optional>
       <zeroOrMore>
         <choice>
           <ref name="richtext"/>
