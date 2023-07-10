@@ -242,6 +242,7 @@
           <ref name="foreign"/>
           <ref name="num"/>
           <ref name="xr"/>
+          <ref name="usg"/>
         </choice>
       </zeroOrMore>
     </element>
