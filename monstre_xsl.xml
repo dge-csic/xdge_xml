@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="../xdge_web/tools/xdge_html.xsl" type="text/xsl"?>
-<?xml-model href="xdge.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xml:id="monstre" xml:lang="spa" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="../xdge_web/tools/xdge_html.xsl" type="text/xsl"?><?xml-model href="xdge.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="monstre" xml:lang="spa">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -53,7 +50,7 @@
         </dictScrap>
         <sense rend="num">
           <num>1</num>
-          <usg>poeta aten. de la Comedia Media</usg>,
+          <usg>poeta aten. de la Comedia Media</usg><milestone unit="label"/>,
           <bibl xml:id="bibl600014"><author>Ath.</author><biblScope>100e</biblScope></bibl>,
           <bibl xml:id="bibl600015"><author rend="add">Ath.</author><biblScope>502d</biblScope></bibl>,
           <bibl xml:id="bibl600016"><author>Sud.</author></bibl>,
@@ -62,7 +59,7 @@
         </sense>
         <sense rend="num">
           <num>2</num>
-          <usg>aten. olimpionica en el pugilato, implicado en un proceso</usg>,
+          <usg>aten. olimpionica en el pugilato, implicado en un proceso</usg><milestone unit="label"/>,
           <bibl xml:id="bibl600019"><author>Hyp.</author><title>Lyc.</title><biblScope>5.5</biblScope></bibl>,
           <bibl xml:id="bibl600020"><author>D.S.</author><biblScope>17.100</biblScope></bibl>,
           <bibl xml:id="bibl600021"><author>Ael.</author><title>VH</title> <biblScope>10.22</biblScope></bibl>,
@@ -70,13 +67,13 @@
           <bibl xml:id="bibl600023"><author>D.L.</author><biblScope>6.43</biblScope></bibl>.
         </sense>
         <sense rend="num">
-          <num>3</num> médico discípulo de Hipócrates, quizá el mismo que <xr><ref>Δέξιππος</ref> q.u.</xr>,
+          <num>3</num> médico discípulo de Hipócrates, quizá el mismo que <xr><ref>Δέξιππος</ref> q.u.</xr><milestone unit="label"/>,
           <bibl xml:id="bibl600024"><author>Plu.</author><biblScope>2.699c</biblScope></bibl>,
           <bibl xml:id="bibl600025"><author rend="add">Plu.</author><biblScope><num rend="add">2.</num>1047d</biblScope></bibl>.
         </sense>
         <sense rend="num">
           <num>4</num>
-          <usg>compañero de Eneas</usg>,
+          <usg>compañero de Eneas</usg><milestone unit="label"/>,
           <bibl xml:id="bibl600026"><author>Verg.</author><title>Aen.</title><biblScope>9.574</biblScope></bibl>.
         </sense>
       </entry>
@@ -108,7 +105,7 @@
         </form>
         <sense rend="num">
           <num>1</num>
-          <def>pariente próximo por consanguinidad</def>
+          <def>pariente próximo por consanguinidad</def><milestone unit="label"/>
           <bibl xml:id="bibl110632"><author>Hdt.</author><biblScope>5.80</biblScope></bibl>,
           <cit>
             <quote xml:lang="grc">συγγενὴς ἀ.</quote>
@@ -121,7 +118,7 @@
         </sense>
         <sense rend="num">
           <num>2</num>
-          <def>heredero legal</def>
+          <def>heredero legal</def><milestone unit="label"/>
           <bibl xml:id="bibl110635"><author>Hierocl.</author><title>in CA</title> <biblScope>5</biblScope></bibl>, cf.
           <bibl xml:id="bibl110636"><title>SB</title> <biblScope>7462.11</biblScope> <note>(<date>I d.C.</date>)</note></bibl>,
           <bibl xml:id="bibl110637"><title>PDura</title> <lcStart/><biblScope>12.5</biblScope> <note>(<date>III d.C.</date>)</note><lcEnd/></bibl>,
@@ -129,7 +126,7 @@
         </sense>
         <sense rend="num">
           <num>3</num>
-          <usg>en AT <hi>go’el</hi> pariente obligado por levirato a casarse con la cuñada o pariente próxima</usg>,
+          <usg>en AT <hi>go’el</hi> pariente obligado por levirato a casarse con la cuñada o pariente próxima</usg><milestone unit="label"/>,
           <bibl xml:id="bibl110639"><author>LXX</author> <title>Ru.</title><biblScope>4.8</biblScope></bibl>.
         </sense>
       </entry>
@@ -142,12 +139,12 @@
         </form>
         <sense rend="num">
           <num>I</num>
-          <usg>c. mov. ‘desde’</usg>
+          <usg>c. mov. ‘desde’</usg><milestone unit="label"/>
           <sense rend="num">
             <num>1</num>
             <usg>c. ac. de pers.</usg>
             <def>enviar fuera de</def>,
-            <def>hacer salir de</def> c. gen. separat.
+            <def>hacer salir de</def> c. gen. separat.<milestone unit="label"/>
             <cit>
               <quote xml:lang="grc">ἡσύχιον δ' ἄρα μιν πολέμου ἔκπεμπε νέεσθαι</quote>
               <quote xml:lang="spa">y lo envió tranquilo de regreso fuera del combate</quote>,
@@ -209,7 +206,7 @@
             <num>2</num>
             <usg>implicando cierta violencia</usg>
             <def>expulsar</def>,
-            <def>echar</def> c. ac. de pers. y gen. separat. o giro prep.
+            <def>echar</def> c. ac. de pers. y gen. separat. o giro prep.<milestone unit="label"/>
             <cit>
               <quote xml:lang="grc">μὴ ... τίς ... σ' ... δώματος ἐκπέμψῃσι</quote>
               <quote xml:lang="spa">no sea que alguien te arroje de la casa</quote>,
@@ -260,7 +257,7 @@
           <sense rend="num">
             <num>3</num>
             <def>dejar marchar</def>,
-            <def>despedir</def> c. ac. de pers.
+            <def>despedir</def> c. ac. de pers.<milestone unit="label"/>
             <cit>
               <quote xml:lang="grc">ὁμήρους τοῦ ἀδόλως ἐκπέμψειν</quote>
               <quote xml:lang="spa">rehenes<hi> (como garantía) </hi>de que él había de dejarlos ir sin engaño</quote>
@@ -282,10 +279,10 @@
           <num>II</num>
           <usg>gener. c. compl. de direcc. ‘hacia’</usg>
           <def>enviar a</def>,
-          <def>hacer salir</def>
+          <def>hacer salir</def><milestone unit="label"/>
           <sense rend="num">
             <num>a)</num>
-            <usg>c. ac. de pers. o cosa y giro prep. de direcc.</usg>
+            <usg>c. ac. de pers. o cosa y giro prep. de direcc.</usg><milestone unit="label"/>
             <cit>
               <quote xml:lang="grc">ἐκπέμπεις κειμήλια πολλὰ ... ἄνδρας ἐς ἀλλοδαπούς</quote>
               <bibl xml:id="bibl700034"><title>Il.</title><biblScope>24.381</biblScope></bibl>,
@@ -332,7 +329,7 @@
           </sense>
           <sense rend="num">
             <num>b)</num>
-            <usg>c. ac. de pers. o cosa y dat. de pers.</usg>
+            <usg>c. ac. de pers. o cosa y dat. de pers.</usg><milestone unit="label"/>
             <cit>
               <quote xml:lang="grc">τῷ δὲ ... δῶρα ἐκπέμπει βασιλεύς</quote>
               <bibl xml:id="bibl700048"><author>Hdt.</author><biblScope>1.136</biblScope></bibl>,
@@ -359,7 +356,7 @@
           </sense>
           <sense rend="num">
             <num>c)</num>
-            <usg>sólo c. ac. de pers.</usg>
+            <usg>sólo c. ac. de pers.</usg><milestone unit="label"/>
             <cit>
               <quote xml:lang="grc">ἔκπεμψάν τε νομῆας</quote>
               <bibl xml:id="bibl700053"><title>Od.</title><biblScope>16.3</biblScope></bibl>, cf.
@@ -388,7 +385,7 @@
           <sense rend="num">
             <num>d)</num>
             <def>enviar</def> una delegación o expedición,
-            <def>enviar al extranjero</def>
+            <def>enviar al extranjero</def><milestone unit="label"/>
             <cit>
               <quote xml:lang="grc">βούλῃ ξυνεργῶν αὐτὸς ἐκπέμψω στόλον;</quote>
               <quote xml:lang="spa">¿quieres que yo mismo, para ayudarte, dirija la expedición?</quote>
@@ -430,13 +427,13 @@
         </sense>
         <sense rend="num">
           <num>III</num>
-          <usg>usos téc.</usg>
+          <usg>usos téc.</usg><milestone unit="label"/>
           <sense rend="num">
             <num>1</num>
             <usg>jur.</usg>
             <def>dejar ir</def>,
             <def>divorciarse de</def>,
-            <def>repudiar</def>
+            <def>repudiar</def><milestone unit="label"/>
             <cit>
               <quote xml:lang="grc">τὴν γυναῖκα ἐκπέμπειν</quote>
               <bibl xml:id="bibl700069"><author>Hdt.</author><biblScope>1.59</biblScope></bibl>, cf.
@@ -459,7 +456,7 @@
             <num>2</num>
             <usg>fisiol.</usg>
             <def>expeler</def>,
-            <def>expulsar</def>
+            <def>expulsar</def><milestone unit="label"/>
             <cit>
               <quote xml:lang="grc">τὸ πνεῦμα τὰ ζῷα ... ἐκπέμπει</quote>
               <bibl xml:id="bibl700075"><author>Arist.</author><title>PA</title> <biblScope>664<hi rend="sup">a</hi>18</biblScope></bibl>, cf.
@@ -481,7 +478,7 @@
           <sense rend="num">
             <num>3</num>
             <def>emitir</def>,
-            <def>proyectar</def>
+            <def>proyectar</def><milestone unit="label"/>
             <cit>
               <quote xml:lang="grc">ἡ δὲ σελήνη ... μέχρι γῆς ἐκπέμπει τὴν ἀπ' αὐτῆς λαμπηδόνα</quote>
               <bibl xml:id="bibl700081"><author>Cleom.</author><biblScope>2.4.43</biblScope></bibl>,
@@ -499,7 +496,7 @@
           <sense rend="num">
             <num>4</num>
             <usg>gram.</usg>
-            <def>pronunciar</def> en v. pas.
+            <def>pronunciar</def> en v. pas.<milestone unit="label"/>
             <cit>
               <quote xml:lang="grc">τὰ σχετλιαστικὰ τῶν ἐπιρρημάτων, ἐξ αὐτοπαθείας ἐκπεμπόμενα</quote>
               <bibl xml:id="bibl700084"><author>A.D.</author><title>Pron.</title><biblScope>35.1</biblScope></bibl>.
@@ -508,7 +505,7 @@
           <sense rend="num">
             <num>5</num>
             <usg>econ.</usg>
-            <def>exportar<hi> mercancías</hi></def>
+            <def>exportar<hi> mercancías</hi></def><milestone unit="label"/>
             <cit>
               <quote xml:lang="grc">τοὺς δι' ἀφθονίαν καὶ ἄλλοσε σῖτον ἐκπέμποντας</quote>
               <quote xml:lang="spa">los que por la abundancia incluso exportan trigo a otros lugares</quote>
@@ -540,12 +537,12 @@
         </dictScrap>
         <sense rend="num">
           <num>1</num>
-          <usg>tirano de Agirion (Sicilia) hacia 339 a.C.</usg>,
+          <usg>tirano de Agirion (Sicilia) hacia 339 a.C.</usg><milestone unit="label"/>,
           <bibl xml:id="bibl302088"><author>D.S.</author><biblScope>16.82</biblScope></bibl>.
         </sense>
         <sense rend="num">
           <num>2</num>
-          <usg>sirviente de Platón</usg>,
+          <usg>sirviente de Platón</usg><milestone unit="label"/>,
           <bibl xml:id="bibl302089"><author>D.L.</author><biblScope>3.42</biblScope></bibl>.
         </sense>
       </entry>
@@ -560,11 +557,11 @@
           </form>
         </form>
         <sense rend="num">
-          <num>I</num>
+          <num>I</num><milestone unit="label"/>
           <sense rend="num">
             <num>1</num>
             <def>manteca</def>,
-            <def>tocino</def>
+            <def>tocino</def><milestone unit="label"/>
             <cit>
               <quote xml:lang="grc">σύες θαλέθοντες ἀλοιφῇ</quote>
               <bibl xml:id="bibl202731"><title>Il.</title><biblScope>9.467</biblScope></bibl>, cf.
@@ -592,7 +589,7 @@
           <sense rend="num">
             <num>2</num>
             <def>aceite</def>,
-            <def>ungüento<hi> para frotarse</hi></def>
+            <def>ungüento<hi> para frotarse</hi></def><milestone unit="label"/>
             <cit>
               <quote xml:lang="grc">χρῶτ' ἀπονίπτεσθαι ἀλοιφῇ</quote>
               <bibl xml:id="bibl202737"><title>Od.</title><biblScope>18.179</biblScope></bibl>, cf.
@@ -616,7 +613,7 @@
           <sense rend="num">
             <num>3</num>
             <def>pintura</def>,
-            <def>estuco</def>
+            <def>estuco</def><milestone unit="label"/>
             <cit>
               <usg>de muros</usg>,
               <bibl xml:id="bibl202744"><author>Pl.</author><title>Criti.</title><biblScope>116b</biblScope></bibl>,
@@ -655,7 +652,7 @@
           <sense rend="num">
             <num>4</num>
             <def>acción de ungirse</def>,
-            <def>unción</def> c. gen.
+            <def>unción</def> c. gen.<milestone unit="label"/>
             <cit>
               <quote xml:lang="grc">μύρων</quote>
               <bibl xml:id="bibl202751"><author>Pl.</author><title>Alc.</title><biblScope>1.122c</biblScope></bibl>
@@ -674,7 +671,7 @@
         </sense>
         <sense rend="num">
           <num>II</num>
-          <def>tachadura</def>
+          <def>tachadura</def><milestone unit="label"/>
           <cit>
             <quote xml:lang="grc">ἀλοιφῇ ἐξαλείφω τὸ μνημόσυνον</quote>
             <bibl xml:id="bibl202754"><author>LXX</author> <title>Ex.</title><biblScope>17.14</biblScope></bibl>, cf.
@@ -727,11 +724,11 @@
           </form>
         </form>
         <sense rend="num">
-          <num>I</num>
+          <num>I</num><milestone unit="label"/>
           <sense rend="num">
             <num>1</num>
             <def>ábaco</def>,
-            <def>tablero<hi> usado para hacer cálculos</hi></def>
+            <def>tablero<hi> usado para hacer cálculos</hi></def><milestone unit="label"/>
             <cit>
               <quote xml:lang="grc">μετ' ἀβακίου δὲ καὶ τραπεζίου πωλῶν ἑαυτόν</quote>
               <bibl xml:id="bibl100318"><author>Lys.</author><title>Fr.</title><biblScope>50Th.</biblScope></bibl>, cf.
@@ -754,7 +751,7 @@
           <sense rend="num">
             <num>2</num>
             <def>ábaco</def>
-            <usg>enarenado para trazar figuras geométricas</usg>,
+            <usg>enarenado para trazar figuras geométricas</usg><milestone unit="label"/>,
             <bibl xml:id="bibl100324"><author>Plu.</author><title>Cat.Mi.</title><biblScope>70</biblScope></bibl>,
             <cit>
               <quote xml:lang="grc">τὸ ἐν τῷ ἀβακίῳ καταγεγραμμένον</quote>
@@ -767,7 +764,7 @@
           </sense>
           <sense rend="num">
             <num>3</num>
-            <def>tablero de juego</def>
+            <def>tablero de juego</def><milestone unit="label"/>
             <bibl xml:id="bibl100327"><author>Poll.</author><biblScope>10.150</biblScope></bibl>,
             <cit>
               <quote xml:lang="grc">ἐφ' οὗ ἐκύβευον</quote>
@@ -778,14 +775,14 @@
             <num>4</num>
             <def>artesa</def>,
             <def>amasadera</def>,
-            <def>hintero</def>
+            <def>hintero</def><milestone unit="label"/>
             <bibl xml:id="bibl100329"><author>Hsch.</author><biblScope>s.u. <foreign xml:lang="grc">μάκτρα</foreign></biblScope></bibl> (<xr><lbl>cf.</lbl> <ref>ἀβακίτης</ref></xr>).
           </sense>
         </sense>
         <sense rend="num">
           <num>II</num>
           <def>plato grande</def>,
-          <def>fuente</def>,
+          <def>fuente</def><milestone unit="label"/>,
           <bibl xml:id="bibl100330"><title>PMich.Zen.</title><llccStart/><biblScope>14.1</biblScope></bibl> + <bibl xml:id="bibl100330a"><title>PMich.Zen.</title><biblScope>14.2</biblScope><llccStart/></bibl>,
           <bibl xml:id="bibl100331"><author>Poll.</author><biblScope>6.90</biblScope></bibl>,
           <bibl xml:id="bibl100332"><author rend="add">Poll.</author><biblScope>10.105</biblScope></bibl>.
@@ -794,7 +791,7 @@
           <num>III</num>
           <def>losa</def>,
           <def>plataforma<hi> usada a modo de </hi>bandeja</def> o
-          <def>mesa votiva<hi> donde se depositaban las ofrendas</hi></def>
+          <def>mesa votiva<hi> donde se depositaban las ofrendas</hi></def><milestone unit="label"/>
           <cit>
             <quote xml:lang="grc">ἀβάκηον μαρμάρινον πρὸς τὴν χρῆσιν τῶν θυσιαζόντων</quote>
             <bibl xml:id="bibl100333"><title>ISmyrna</title> <lcStart/><biblScope>753.11</biblScope> <note>(<date>I d.C.?</date>)</note><lcEnd/></bibl>
@@ -897,7 +894,7 @@
         <sense rend="num">
           <num>I</num>
           <usg>en el sistema graf. y fonológico</usg>
-          <def>alfa</def>
+          <def>alfa</def><milestone unit="label"/>
           <cit>
             <quote xml:lang="grc">διαφέρει γὰρ τὸ μὲν Α τοῦ Ν σχήματι</quote>
             <bibl xml:id="bibl100001"><author>Arist.</author><title>Metaph.</title><biblScope>985<hi rend="sup">b</hi>16</biblScope></bibl> (=<bibl type="equiv"><author>Leucipp.</author><biblScope>A 6</biblScope></bibl>).
@@ -905,17 +902,17 @@
         </sense>
         <sense rend="num">
           <num>II</num>
-          <usg>como numeral</usg>
+          <usg>como numeral</usg><milestone unit="label"/>
           <sense rend="num">
             <num>1</num>
             <def>uno</def>,
-            <def>primero</def>,
+            <def>primero</def><milestone unit="label"/>,
             <bibl xml:id="bibl100002"><title>IG</title> <biblScope>9<hi rend="sup">2</hi>.718.11</biblScope> <note>(<placeName>Calio</placeName> <date>V a.C.</date>)</note></bibl> (se distingue de la letra por diferente posición y signos diacríticos: *, Ᾱ, ᾱ, Αʹ, αʹ).
           </sense>
           <sense rend="num">
             <num>2</num>
             <usg>c. otros signos diacríticos (͵ᾱ, ʹΑ)</usg>
-            <def>mil</def>
+            <def>mil</def><milestone unit="label"/>
             <cit>
               <quote xml:lang="grc">πλάτος καὶ μῆκος ὀργυιῶν, ᾱ ποιοῦσι λίτρας σ̅</quote>
               <bibl xml:id="bibl100003"><author>Hero</author> <title>Geom.</title><biblScope>4.15</biblScope></bibl>.
@@ -924,7 +921,7 @@
           <sense rend="num">
             <num>3</num>
             <usg>fig.</usg>
-            <def>principio</def>
+            <def>principio</def><milestone unit="label"/>
             <cit>
               <quote xml:lang="grc">ἐγώ εἰμι τὸ Α καὶ τὸ Ω</quote>
               <bibl xml:id="bibl100004"><title>Apoc.</title><biblScope>1.8</biblScope> <note>(var.)</note></bibl>,
@@ -936,11 +933,11 @@
           </sense>
         </sense>
         <sense rend="num">
-          <num>III</num>
+          <num>III</num><milestone unit="label"/>
           <sense rend="num">
             <num>1</num>
             <usg>para representar en notación, algebraica o no, cualquier número o magnitud</usg>
-            <def>x</def>
+            <def>x</def><milestone unit="label"/>
             <cit>
               <quote xml:lang="grc">τρεῖς ἀνάλογον ἔστωσαν ὅροι οἱ Α Β Γ</quote>
               <quote xml:lang="spa">sean x y z tres términos en proporción geométrica</quote>
@@ -955,7 +952,7 @@
           <sense rend="num">
             <num>2</num>
             <usg>para representar un punto geométrico</usg>
-            <def>A</def>
+            <def>A</def><milestone unit="label"/>
             <cit>
               <quote xml:lang="grc">ἴσαι αἱ (γραμμαί) ἐφ' ὧν ΑΑ ΒΒ ἀλλήλαις</quote>
               <quote xml:lang="spa"><hi>(sean) </hi>las<hi> (líneas) </hi>AA, BB iguales entre sí</quote>
@@ -969,7 +966,7 @@
           </sense>
           <sense rend="num">
             <num>3</num>
-            <usg>fil. para simbolizar una proposición</usg>
+            <usg>fil. para simbolizar una proposición</usg><milestone unit="label"/>
             <cit>
               <quote xml:lang="grc">ἡ Α Β πρότασις</quote>
               <bibl xml:id="bibl100010"><author>Arist.</author><title>APr.</title><biblScope>25<hi rend="sup">a</hi>14</biblScope></bibl>.
@@ -977,7 +974,7 @@
           </sense>
           <sense rend="num">
             <num>4</num>
-            <usg>para sintetizar en una fórmula casos típicos de enfermedad</usg>
+            <usg>para sintetizar en una fórmula casos típicos de enfermedad</usg><milestone unit="label"/>
             <cit>
               <quote xml:lang="grc">τὸ μὲν α δηλοῖ ἀποφθοράν, ἀπώλειαν</quote>
               <bibl xml:id="bibl100011"><author>Gal.</author><biblScope>17(1).612</biblScope></bibl>,
@@ -990,7 +987,7 @@
           </sense>
           <sense rend="num">
             <num>5</num>
-            <usg>frec. en ostr. tebanos ᾱ como símbolo para la fórmula</usg>
+            <usg>frec. en ostr. tebanos ᾱ como símbolo para la fórmula</usg><milestone unit="label"/>
             <cit>
               <quote xml:lang="grc">ὀνόματος κληρονόμων</quote>
               <quote xml:lang="spa">en el nombre de los herederos</quote>,
@@ -1001,19 +998,19 @@
           </sense>
           <sense rend="num">
             <num>6</num>
-            <usg>prob. en guiones teatrales, para marcar el cambio de personaje, escrita al margen con o sin signos diacríticos (α¯, A) op. a β¯, γ¯, etc.</usg>
+            <usg>prob. en guiones teatrales, para marcar el cambio de personaje, escrita al margen con o sin signos diacríticos (α¯, A) op. a β¯, γ¯, etc.</usg><milestone unit="label"/>
             <bibl xml:id="bibl100016"><title>PHib.</title><biblScope>180</biblScope> <note>(<date>III a.C.</date>)</note></bibl>,
             <bibl xml:id="bibl100017"><title>POxy.</title><biblScope>2458</biblScope></bibl> (=<bibl type="equiv"><author>E.</author><title>Fr.</title><biblScope>448a</biblScope></bibl>).
           </sense>
           <sense rend="num">
             <num>7</num>
-            <usg>en táctica, para designar a los soldados que componen la fila más larga en una formación en rombo</usg>,
+            <usg>en táctica, para designar a los soldados que componen la fila más larga en una formación en rombo</usg><milestone unit="label"/>,
             <bibl xml:id="bibl100018"><author>Ascl.</author><title>Tact.</title><biblScope>7.6</biblScope></bibl>.
           </sense>
         </sense>
         <sense rend="num">
           <num>IV</num>
-          <usg>como sonido mágico (incluso, tal vez, en una especie de notación musical) en abracadabras</usg>
+          <usg>como sonido mágico (incluso, tal vez, en una especie de notación musical) en abracadabras</usg><milestone unit="label"/>
           <bibl xml:id="bibl100019"><title>PMag.</title><biblScope>1.13</biblScope></bibl>,
           <cit>
             <usg>y otras fórmulas mágicas, repetida</usg>
@@ -1029,12 +1026,12 @@
           </cit>
         </sense>
         <sense rend="num">
-          <num>V</num>
+          <num>V</num><milestone unit="label"/>
           <sense rend="num">
             <num>1</num>
             <usg>para representar una</usg>
             <def>sílaba breve</def>
-            <usg>en un esquema métrico</usg>
+            <usg>en un esquema métrico</usg><milestone unit="label"/>
             <cit>
               <quote xml:lang="grc">βαβα βααβ αββαα</quote>
               <usg>(el epicoriambo o endecasílabo sáfico)</usg>,
@@ -1044,7 +1041,7 @@
           </sense>
           <sense rend="num">
             <num>2</num>
-            <usg>como notación musical</usg>
+            <usg>como notación musical</usg><milestone unit="label"/>
             <cit>
               <quote xml:lang="grc">α καὶ βαρεῖα</quote>
               <usg>la nota más aguda en el modo hipereolio según el género diatónico</usg>,
@@ -1073,7 +1070,7 @@
           <usg>c. adj. y frases indic. conmiseración, desprecio</usg>
           <def>¡ah!</def>,
           <def>¡ay!</def>,
-          <def>¡oh!</def> en Hom., A.R. sólo c. δειλός:
+          <def>¡oh!</def> en Hom., A.R. sólo c. δειλός<milestone unit="label"/>:
           <cit>
             <quote xml:lang="grc">ἆ δειλέ</quote>
             <bibl xml:id="bibl100029"><title>Il.</title><biblScope>11.441</biblScope></bibl>, cf.
@@ -1177,7 +1174,7 @@
         <sense rend="num">
           <num>2</num>
           <usg>para llamar o invocar</usg>
-          <def>¡oh!, ¡eh!</def>
+          <def>¡oh!, ¡eh!</def><milestone unit="label"/>
           <cit>
             <quote xml:lang="grc">ἆ Ζήν</quote>
             <bibl xml:id="bibl100057"><author>A.</author><title>Supp.</title><biblScope>162</biblScope></bibl>.
@@ -1186,7 +1183,7 @@
         <sense rend="num">
           <num>3</num>
           <usg>indicando alegría, red.</usg>
-          <def>¡ja! ¡ja!</def>
+          <def>¡ja! ¡ja!</def><milestone unit="label"/>
           <cit>
             <quote xml:lang="grc">ἆ ἆ ἆ</quote>
             <bibl xml:id="bibl100058"><author>E.</author><title>Cyc.</title><biblScope>157</biblScope></bibl>, cf.
@@ -1264,14 +1261,14 @@
           </form>
         </form>
         <sense rend="num">
-          <num>A</num>
+          <num>A</num><milestone unit="label"/>
           <sense rend="num">
             <num>I</num>
-            <usg>ref. pers.</usg>
+            <usg>ref. pers.</usg><milestone unit="label"/>
             <sense rend="num">
               <num>1</num>
               <def>que sigue las normas generales de la sociedad humana</def>,
-              <def>civilizado</def> frec. en op. al concepto de ὕβρις:
+              <def>civilizado</def> frec. en op. al concepto de ὕβρις<milestone unit="label"/>:
               <cit>
                 <quote xml:lang="grc">Χείρων ... δικαιότατος Κενταύρων</quote>
                 <bibl xml:id="bibl549285"><title>Il.</title><biblScope>11.832</biblScope></bibl>,
@@ -1318,7 +1315,7 @@
             <sense rend="num">
               <num>2</num>
               <def>justo</def>
-              <usg>c. connotaciones religiosas</usg>
+              <usg>c. connotaciones religiosas</usg><milestone unit="label"/>
               <cit>
                 <quote xml:lang="grc">δικαίων τε πτόλις ἀνδρῶν</quote>
                 <bibl xml:id="bibl549299"><title>h.Ven.</title><biblScope>20</biblScope></bibl>,
@@ -1370,7 +1367,7 @@
               <num>3</num>
               <def>justo</def>,
               <def>recto</def>,
-              <def>honrado</def>
+              <def>honrado</def><milestone unit="label"/>
               <cit>
                 <quote xml:lang="grc">ἐγὼ μήτ' αὐτὸς ἐν ἀνθρώποισι δ. εἴην</quote>
                 <bibl xml:id="bibl549311"><author>Hes.</author><title>Op.</title><biblScope>270</biblScope></bibl>,
@@ -1458,7 +1455,7 @@
               <num>4</num>
               <def>genuino</def>,
               <def>auténtico</def>,
-              <def>verdadero</def>
+              <def>verdadero</def><milestone unit="label"/>
               <cit>
                 <quote xml:lang="grc">κἀγὼ δ. τοῦδε τοῦ φόνου ῥαφεύς</quote>
                 <bibl xml:id="bibl549332"><author>A.</author><title>A.</title><biblScope>1604</biblScope></bibl>,
@@ -1471,7 +1468,7 @@
             <sense rend="num">
               <num>5</num>
               <usg>Ὅσιος καὶ Δ.</usg>
-              <def>Santo y Justo</def> n. de un dios, gener. considerado único, originario de la región noroccidental de Frigia,
+              <def>Santo y Justo</def> n. de un dios, gener. considerado único, originario de la región noroccidental de Frigia<milestone unit="label"/>,
               <cit>
                 <quote xml:lang="grc">Ὅσιος καὶ Δ.</quote>
                 <bibl xml:id="bibl549334"><title>MAMA</title> <biblScope>5.184</biblScope> <note>(<placeName>Frigia</placeName> <date>II d.C.</date>)</note></bibl>,
@@ -1527,13 +1524,13 @@
           </sense>
           <sense rend="num">
             <num>II</num>
-            <usg>de abstr. ref. a la actividad humana</usg>
+            <usg>de abstr. ref. a la actividad humana</usg><milestone unit="label"/>
             <sense rend="num">
               <num>1</num>
               <def>civilizado</def>,
               <def>ajustado</def> a la norma,
               <def>apropiado</def>,
-              <def>digno</def>
+              <def>digno</def><milestone unit="label"/>
               <cit>
                 <quote xml:lang="grc">ἐπὶ ῥηθέντι δικαίῳ</quote>
                 <bibl xml:id="bibl549351"><title>Od.</title><biblScope>18.414</biblScope></bibl>,
@@ -1553,7 +1550,7 @@
             </sense>
             <sense rend="num">
               <num>2</num>
-              <def>justo</def> c. connotaciones religiosas
+              <def>justo</def> c. connotaciones religiosas<milestone unit="label"/>
               <cit>
                 <quote xml:lang="grc">ὅρκοι</quote>
                 <bibl xml:id="bibl549355"><author>Thgn.</author><biblScope>1139</biblScope></bibl>,
@@ -1578,7 +1575,7 @@
             <sense rend="num">
               <num>3</num>
               <def>justo</def> gener.,
-              <def>recto</def>
+              <def>recto</def><milestone unit="label"/>
               <cit>
                 <quote xml:lang="grc">φρένες</quote>
                 <bibl xml:id="bibl549360"><author>B.</author><biblScope>11.123</biblScope></bibl>,
@@ -1651,12 +1648,12 @@
           </sense>
           <sense rend="num">
             <num>III</num>
-            <usg>de abstr., cosas y anim.</usg>
+            <usg>de abstr., cosas y anim.</usg><milestone unit="label"/>
             <sense rend="num">
               <num>1</num>
               <def>recto</def>,
               <def>correcto</def> como sinón. de
-              <def>normal</def>
+              <def>normal</def><milestone unit="label"/>
               <cit>
                 <quote xml:lang="grc">φύσις</quote>
                 <bibl xml:id="bibl549375"><author>Hp.</author><title>Fract.</title><biblScope>1</biblScope></bibl>,
@@ -1693,7 +1690,7 @@
             <sense rend="num">
               <num>2</num>
               <def>preciso</def>,
-              <def>exacto</def>
+              <def>exacto</def><milestone unit="label"/>
               <cit>
                 <quote xml:lang="grc">τῷ δικαιοτάτῳ τῶν λόγων</quote>
                 <bibl xml:id="bibl549382"><author>Hdt.</author><biblScope>7.108</biblScope></bibl>,
@@ -1729,7 +1726,7 @@
             <sense rend="num">
               <num>3</num>
               <def>justo</def>,
-              <def>legal</def>
+              <def>legal</def><milestone unit="label"/>
               <cit>
                 <quote xml:lang="grc">στατρ</quote>
                 <usg>inscr. en un peso</usg>
@@ -1743,14 +1740,14 @@
           </sense>
           <sense rend="num">
             <num>IV</num>
-            <usg>c. inf., constr. pers. e impers.</usg>
+            <usg>c. inf., constr. pers. e impers.</usg><milestone unit="label"/>
             <sense rend="num">
               <num>1</num>
               <usg>pers.</usg>
               <def>ser justo que</def>,
               <def>tener derecho a</def>,
               <def>ser digno de</def>,
-              <def>tener razón para</def>
+              <def>tener razón para</def><milestone unit="label"/>
               <cit>
                 <quote xml:lang="grc">οἱ δὲ τὸν μισθὸν ἔφασαν δίκαιοι εἶναι ἀπολαβόντες οὕτως ἐξιέναι</quote>
                 <quote xml:lang="spa">y ellos dijeron que tenían derecho a irse después de recibir su salario</quote>
@@ -1791,7 +1788,7 @@
             <sense rend="num">
               <num>2</num>
               <usg>impers. δίκαιον, δίκαια (ἐστι)</usg>
-              <def>es justo<hi>, </hi>lógico<hi>, </hi>razonable</def>
+              <def>es justo<hi>, </hi>lógico<hi>, </hi>razonable</def><milestone unit="label"/>
               <cit>
                 <quote xml:lang="grc">οὐ γὰρ καλὸν ἀτέμβειν οὐδὲ δ.</quote>
                 <bibl xml:id="bibl549403"><title>Od.</title><biblScope>20.294</biblScope></bibl>,
@@ -1818,14 +1815,14 @@
         </sense>
         <sense rend="num">
           <num>B</num>
-          <usg>subst.</usg>
+          <usg>subst.</usg><milestone unit="label"/>
           <sense rend="num">
             <num>I</num>
-            <usg>τὸ δ., τὰ δίκαια</usg>
+            <usg>τὸ δ., τὰ δίκαια</usg><milestone unit="label"/>
             <sense rend="num">
               <num>1</num>
               <def>lo justo</def>,
-              <def>la justicia</def> c. connotaciones religiosas
+              <def>la justicia</def> c. connotaciones religiosas<milestone unit="label"/>
               <cit>
                 <quote xml:lang="grc">παρ' ἑαυτῷ τὸ δ. ἔχων (Ζεύς)</quote>
                 <bibl xml:id="bibl549415"><author>A.</author><title>Pr.</title><biblScope>186</biblScope></bibl>,
@@ -1857,7 +1854,7 @@
             <sense rend="num">
               <num>2</num>
               <def>lo justo</def> gener.,
-              <def>la justicia</def>
+              <def>la justicia</def><milestone unit="label"/>
               <cit>
                 <quote xml:lang="grc">τὰ δίκαια δύνασθαι πρήσσειν</quote>
                 <bibl xml:id="bibl549420"><author>Xenoph.</author><biblScope>B 1.15</biblScope></bibl>,
@@ -1949,7 +1946,7 @@
             <sense rend="num">
               <num>3</num>
               <def>lo merecido</def>,
-              <def>lo que se debe</def>
+              <def>lo que se debe</def><milestone unit="label"/>
               <cit>
                 <quote xml:lang="grc">δικαίων θ' ὧν ἐπραξάμην πόλιν Πριάμου</quote>
                 <quote xml:lang="spa">y del merecido castigo que infligí a la ciudad de Príamo</quote>
@@ -2052,11 +2049,11 @@
           </sense>
           <sense rend="num">
             <num>II</num>
-            <usg>τὸ δ. concr.</usg>
+            <usg>τὸ δ. concr.</usg><milestone unit="label"/>
             <sense rend="num">
               <num>1</num>
               <def>título</def>,
-              <def>documento de legitimidad</def>
+              <def>documento de legitimidad</def><milestone unit="label"/>
               <cit>
                 <quote xml:lang="grc">εἴ τινα δίκαια ἔχεις, τῷ στρατηγῷ παραθοῦ</quote>
                 <bibl xml:id="bibl549462"><title>PWürzb.</title><biblScope>9.73</biblScope> <note>(<date>II d.C.</date>)</note></bibl>, cf.
@@ -2067,7 +2064,7 @@
             </sense>
             <sense rend="num">
               <num>2</num>
-              <def>junta administrativa</def>
+              <def>junta administrativa</def><milestone unit="label"/>
               <cit>
                 <quote xml:lang="grc">τοῦ ἁγίου ξενοδοχίου</quote>
                 <bibl xml:id="bibl549466"><title>PSI</title> <biblScope>284.2</biblScope> <note>(<date>VI d.C.</date>)</note></bibl>,
@@ -2080,7 +2077,7 @@
             <sense rend="num">
               <num>3</num>
               <def>propiedad</def>,
-              <def>bienes</def>
+              <def>bienes</def><milestone unit="label"/>
               <cit>
                 <quote xml:lang="grc">μισθώσασθ(αι) ... οἶκον ... μετὰ τῶν αὐτοῦ τόπων καὶ παντὸς τοῦ δικαίου</quote>
                 <bibl xml:id="bibl549468"><title>PSI</title> <biblScope>75.13</biblScope><addStart/> <note>(<date>VI d.C.</date>)</note><addEnd/></bibl>, cf.
@@ -2102,11 +2099,11 @@
           </sense>
           <sense rend="num">
             <num>III</num>
-            <usg>subst., zool. ὁ δ.</usg>
+            <usg>subst., zool. ὁ δ.</usg><milestone unit="label"/>
             <sense rend="num">
               <num>1</num>
               <usg>euf. de una</usg>
-              <def>serpiente sagrada</def>
+              <def>serpiente sagrada</def><milestone unit="label"/>
               <cit>
                 <quote xml:lang="grc">ἐπεσκεύωσαν ... τῷ δικαίῳ τὰς χειάς</quote>
                 <bibl xml:id="bibl549475"><title>ICr.</title><biblScope>1.14.2.5</biblScope> <note>(<date>II a.C.</date>)</note></bibl>.
@@ -2115,18 +2112,18 @@
             <sense rend="num">
               <num>2</num>
               <usg>orn., n. de un</usg>
-              <def>pájaro<hi> de la India llamado tb. por los indios</hi></def> <xr><ref>δίκαιρος</ref></xr>,
+              <def>pájaro<hi> de la India llamado tb. por los indios</hi></def> <xr><ref>δίκαιρος</ref></xr><milestone unit="label"/>,
               <bibl xml:id="bibl549476"><author>Ael.</author><title>NA</title> <biblScope>4.41</biblScope></bibl>.
             </sense>
           </sense>
         </sense>
         <sense rend="num">
           <num>C</num>
-          <usg>adv. -ως</usg>
+          <usg>adv. -ως</usg><milestone unit="label"/>
           <sense rend="num">
             <num>1</num>
             <def>de acuerdo con la norma</def>,
-            <def>en forma civilizada</def>
+            <def>en forma civilizada</def><milestone unit="label"/>
             <cit>
               <quote xml:lang="grc">μνᾶσθαι</quote>
               <bibl xml:id="bibl549477"><title>Od.</title><biblScope>14.90</biblScope></bibl>.
@@ -2134,7 +2131,7 @@
           </sense>
           <sense rend="num">
             <num>2</num>
-            <def>con justicia</def> c. connotaciones religiosas
+            <def>con justicia</def> c. connotaciones religiosas<milestone unit="label"/>
             <cit>
               <quote xml:lang="grc">πνεόντων μεῖζον ἢ δ.</quote>
               <quote xml:lang="spa">de los que tienen más orgullo de lo que es justo</quote>
@@ -2144,7 +2141,7 @@
           <sense rend="num">
             <num>3</num>
             <def>con justicia</def> gener.,
-            <def>honestamente</def>
+            <def>honestamente</def><milestone unit="label"/>
             <cit>
               <quote xml:lang="grc">τόν τε δ. καὶ τὸν ἀκαίρως πόλιν οἰκουροῦντα πολιτῶν</quote>
               <bibl xml:id="bibl549479"><author>A.</author><title>A.</title><biblScope>808</biblScope></bibl>,
@@ -2167,7 +2164,7 @@
           <sense rend="num">
             <num>4</num>
             <def>con razón</def>,
-            <def>merecidamente</def>
+            <def>merecidamente</def><milestone unit="label"/>
             <cit>
               <quote xml:lang="grc">κατεγνωκότες ὅτι</quote>
               <bibl xml:id="bibl549488"><author>Th.</author><biblScope>6.34</biblScope></bibl>,
@@ -2183,7 +2180,7 @@
           </sense>
           <sense rend="num">
             <num>5</num>
-            <def>con exactitud</def>
+            <def>con exactitud</def><milestone unit="label"/>
             <cit>
               <quote xml:lang="grc">πάντα δ. ὑμῖν τετήρηται</quote>
               <bibl xml:id="bibl549494"><author>D.</author><biblScope>21.3</biblScope></bibl>, cf.

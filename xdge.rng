@@ -269,6 +269,11 @@
       <zeroOrMore>
         <choice>
           <ref name="richtext"/>
+          <element name="milestone">
+            <attribute name="unit">
+              <value>label</value>
+            </attribute>
+          </element>
           <!-- lexicographic -->
           <ref name="bibl"/>
           <ref name="cit"/>
