@@ -39,7 +39,75 @@
   <text>
       
     <body>
-      
+      <entry ana="subst" xml:id="ἐξέδρα">
+        <form>
+          <orth type="lemma">ἐξέδρα</orth><gramGrp>-ας, ἡ</gramGrp>
+        </form>
+        <dictScrap>arq.
+        </dictScrap>
+        <sense rend="num">
+          <num>I</num> <usg>como construcción exenta</usg><milestone unit="label"/>
+          <sense rend="num">
+            <num>1</num> <def>edificio exterior<hi> o </hi>anexo<hi> al principal</hi></def>, <def>pabellón<hi> o </hi>cobertizo exterior</def><milestone unit="label"/>
+            <cit>
+              <quote xml:lang="grc">ἔκλῃσεν ... τοὺς μὲν ἐν σταθμοῖσιν ἱππικοῖσι, τοὺς δ' ἐν ἐξέδραισι</quote>
+              <quote xml:lang="spa">encerró a unos en las cuadras de los caballos, a otros en pabellones exteriores</quote> <bibl xml:id="bib800311"><author>E.</author><title>Or.</title><biblScope>1450</biblScope></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">εἰς ἣν (ἐξέδραν) ἐνκλείσι (<hi>sic</hi>) χόρτο[ν</quote> <bibl xml:id="bib800312"><title>BGU</title> <biblScope>981.2.26</biblScope> <note>(<date>I d.C.</date>)</note></bibl>, cf. <bibl xml:id="bib800313"><author>Gal.</author><biblScope>14.18</biblScope></bibl>, <bibl xml:id="bib800314"><title>PLouvre</title> <biblScope>48.22</biblScope> <note>(<date>III d.C.</date>)</note></bibl>.
+            </cit>
+          </sense>
+          <sense rend="num">
+            <num>2</num> <def>exedra</def>, <def>templete<hi> con/o </hi>banco semicircular</def><milestone unit="label"/>
+            <cit><usg>de piedra al aire libre, empleado como mirador</usg>, <bibl xml:id="bib800315"><author>Str.</author><biblScope>13.4.5</biblScope></bibl>, <bibl xml:id="bib800316"><author>Nic.Dam.</author><biblScope>1</biblScope></bibl>,
+            </cit>
+            <cit><usg>en el jardín de una casa</usg>, <bibl xml:id="bib800317"><author>Sch.</author><title>Od.</title><biblScope>24.208</biblScope></bibl>,
+            </cit>
+            <cit><usg>en Asia Menor, frec. en complejos funerarios</usg>
+              <quote xml:lang="grc">τὸν προγονικὸν τάφον τῇ τε ἐξέδρῃ καὶ τοῖς λοιποῖς ἐκόσμησε</quote> <bibl xml:id="bib800318"><title>SEG</title> <biblScope>45.1698.13</biblScope> <note>(<placeName>Ancira</placeName> <date>II d.C.</date>)</note></bibl>,
+            </cit>
+            <cit>
+              <quote xml:lang="grc">κατεσκεύασεν τὸ θέμα πρὸς τῇ ἐξέδρᾳ τοῦ μνημίου</quote> <bibl xml:id="bib800319"><title>TAM</title> <biblScope>4(1).140</biblScope></bibl>, cf. <bibl xml:id="bib800320"><title>IEphesos</title> <biblScope>2261</biblScope> <note>(ambas <date>imper.</date>)</note></bibl>.
+            </cit>
+          </sense>
+        </sense>
+        <sense rend="num">
+          <num>II</num> <usg>como estancia</usg> <def>exedra</def>, <def>vestíbulo</def> o <def>sala<hi> con bancos corridos, abierta al peristilo de una casa o a un pórtico</hi></def> <usg>(a veces difícil de distinguir de <xr><ref><num>I</num></ref></xr>)</usg><milestone unit="label"/>,
+          <cit><usg>frec. lugar de conversación y enseñanza</usg>
+            <quote xml:lang="grc">καθήμενος λαλεῖ ... [ἐγγ]ύς τις ἐστὶν ἐ.</quote> <bibl xml:id="bib800321"><author>Men.</author><title>Con.</title><biblScope>10</biblScope></bibl>, cf. <bibl xml:id="bib800322"><title>PCair.Zen.</title><biblScope>847.33</biblScope> <note>(<date>III a.C.</date>)</note></bibl>,
+          </cit>
+          <cit>
+            <quote xml:lang="lat">in qua</quote> (
+            <quote xml:lang="lat">exedra</quote>)
+            <quote xml:lang="lat">Crassus posito lectulo recubuisset</quote> <bibl xml:id="bib800323"><author>Cic.</author><title>De or.</title><biblScope>3.17</biblScope></bibl>, cf. <bibl xml:id="bib800324"><title>Fin.</title><biblScope>5.2</biblScope></bibl>, <bibl xml:id="bib800325"><title>ND</title> <biblScope>1.15</biblScope></bibl>, <bibl xml:id="bib800326"><author>Vitr.</author><biblScope>6.7.3</biblScope></bibl>,
+          </cit>
+          <cit><usg>de rétores o filósofos</usg>
+            <quote xml:lang="grc">παρέλαβεν ἐξέδραν τε καὶ σχολήν</quote> <bibl xml:id="bib800327"><author>Apollod.</author><title>Hist.</title><biblScope>54.2</biblScope></bibl>, cf. <bibl xml:id="bib800328"><author>D.L.</author><biblScope>4.19</biblScope></bibl>, <bibl xml:id="bib800329"><title>POxy.</title><biblScope>912.13</biblScope> <note>(<date>III d.C.</date>)</note></bibl>, <bibl xml:id="bib800330"><title>PLond.</title><biblScope>1768.1</biblScope> <note>(<date>VI d.C.</date>)</note></bibl>, <bibl xml:id="bib800331"><author>Sch.Er.</author><title>Il.</title><biblScope>20.11b</biblScope></bibl>,
+          </cit>
+          <cit><usg>situada en el segundo piso</usg> <bibl xml:id="bib800332"><title>PStras.</title><biblScope>600.13</biblScope> <note>(<date>VI/VII d.C.</date>)</note></bibl>,
+          </cit>
+          <cit><usg>en templos y santuarios</usg> <bibl xml:id="bib800333"><title>ID</title> <biblScope>2255.5</biblScope> <note>(<date>I a.C.</date>)</note></bibl>, cf. <bibl xml:id="bib800334"><biblScope>1416A.1.21</biblScope> <note>(<date>II a.C.</date>)</note></bibl>,
+          </cit>
+          <cit><usg>en el templo de Jerusalén y en sinagogas</usg>
+            <quote xml:lang="grc">ἰδοῦ δύο ἐξέδραι ἐν τῇ αὐλῇ τῇ ἐσωτέρᾳ</quote>
+            <quote xml:lang="spa">he aquí que en el patio interior había dos salas</quote> <bibl xml:id="bib800335"><author>LXX</author> <title>E.</title><biblScope>40.44</biblScope></bibl>, cf. <bibl xml:id="bib800336"><author>I.</author><title>BI</title> <biblScope>5.203</biblScope></bibl>, <bibl xml:id="bib800337"><title>JIEgypt.</title><biblScope>28</biblScope> <note>(<date>II/I a.C.</date>)</note></bibl>, <bibl xml:id="bib800338"><author>Eus.</author><title>VC</title> <biblScope>3.39</biblScope></bibl>,
+          </cit>
+          <cit><usg>en edificios públicos</usg>
+            <quote xml:lang="grc">τὸ Μουσεῖον, ἔχον περίπατον καὶ ἐξέδραν καὶ οἶκον μέγαν</quote> <usg>en Alejandría</usg>, <bibl xml:id="bib800339"><author>Str.</author><biblScope>17.1.8</biblScope></bibl>,
+          </cit>
+          <cit><usg>en gimnasios, baños, etc.</usg>
+            <quote xml:lang="grc">ὁρῶμεν οὖν πάνυ πολλοὺς ἑστηκότας πρὸς τῇ ἐξέδρᾳ τοῦ Ἡρακλέους</quote> <bibl xml:id="bib800340"><author>D.Chr.</author><biblScope>28.2</biblScope></bibl>, cf. <bibl xml:id="bib800341"><title>IG</title> <biblScope>12(3).1091</biblScope> <note>(<placeName>Melos</placeName> <date>II/I a.C.</date>)</note></bibl>, <bibl xml:id="bib800342"><author>Vitr.</author><biblScope>5.11.2</biblScope></bibl>, <bibl xml:id="bib800343"><title>IPE</title> <biblScope>1<hi rend="sup">2</hi>.182</biblScope> <note>(<placeName>Olbia</placeName> <date>I d.C.</date>)</note></bibl>, <bibl xml:id="bib800344"><title>IEphesos</title> <biblScope>3005.17</biblScope> <note>(<date>I d.C.</date>)</note></bibl>, <bibl xml:id="bib800345"><biblScope>27.169</biblScope> <note>(<date>II d.C.</date>)</note></bibl>,
+          </cit>
+          <cit>
+            <quote xml:lang="grc">τὴν στοὰν σὺν ταῖς ἐν αὐτῇ ἐξέδραις</quote> <bibl xml:id="bib800346"><title>IG</title> <biblScope>5(2).281</biblScope> <note>(<placeName>Mantinea</placeName> <date>II d.C.</date>)</note></bibl>,
+          </cit>
+          <cit><usg>lugar de reunión del Senado en el teatro de Pompeyo de Roma</usg>
+            <quote xml:lang="grc">τῆς δὲ βουλῆς εἰς τὴν ἐξέδραν προεισελθούσης</quote> <bibl xml:id="bib800347"><author>Plu.</author><title>Brut.</title><biblScope>17</biblScope></bibl>,
+          </cit>
+          <cit><usg>para la administración de justicia en el palacio de Salomón</usg>, <bibl xml:id="bib800348"><author>I.</author><title>AI</title> <biblScope>8.134</biblScope></bibl>.
+          </cit>
+        </sense>
+      </entry>
       <entry ana="NP" xml:id="Διώξιππος">
         <form>
           <orth type="lemma">Διώξιππος</orth>
