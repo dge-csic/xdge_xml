@@ -483,18 +483,6 @@
   </define>
   <define name="anchors">
     <choice>
-      <element name="addStart">
-        <empty/>
-      </element>
-      <element name="addEnd">
-        <empty/>
-      </element>
-      <element name="delStart">
-        <empty/>
-      </element>
-      <element name="delEnd">
-        <empty/>
-      </element>
       <element name="ibStart">
         <empty/>
       </element>
@@ -521,10 +509,7 @@
       <optional>
         <attribute name="rend">
           <choice>
-            <!--
             <value>add</value>
-            <value>del</value>
-            -->
             <value>lc</value>
             <value>llcc</value>
           </choice>
@@ -557,10 +542,7 @@
       <optional>
         <attribute name="rend">
           <choice>
-            <!--
             <value>add</value>
-            <value>del</value>
-            -->
             <value>lc</value>
             <value>llcc</value>
           </choice>
@@ -575,6 +557,9 @@
           <ref name="date"/>
           <ref name="placeName"/>
           <ref name="xr"/>
+          <element name="del">
+            <text/>
+          </element>
         </choice>
       </zeroOrMore>
     </element>
@@ -650,6 +635,11 @@
   <define name="lbl">
     <element name="lbl">
       <a:documentation>Étiquette souvent une abréviation, par exemple, "cf.". Ne pas confondre avec les indications d'usage. TODO: développer</a:documentation>
+      <optional>
+        <attribute name="rend">
+            <value>add</value>
+        </attribute>
+      </optional>
       <zeroOrMore>
         <choice>
           <text/>

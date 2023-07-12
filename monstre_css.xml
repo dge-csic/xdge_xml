@@ -663,8 +663,8 @@
           <gramGrp>-ου, τό</gramGrp>
           <form type="prosodia">[ᾰβᾰ-]</form>
           <form type="grafia">ἀβάκειον
-            <bibl xml:id="bibl100313"><title>PMich.Zen.</title><biblScope>14.1</biblScope><addStart/> <note>(<date>III a.C.</date>)</note><addEnd/></bibl>,
-            <bibl xml:id="bibl100314"><title rend="add">PMich.Zen.</title><biblScope><num rend="add">14.</num>2</biblScope><addStart/> <note>(<date>III a.C.</date>)</note><addEnd/></bibl>,
+            <bibl xml:id="bibl100313"><title>PMich.Zen.</title><biblScope>14.1</biblScope> <note rend="add">(<date>III a.C.</date>)</note></bibl>,
+            <bibl xml:id="bibl100314"><title rend="add">PMich.Zen.</title><biblScope><num rend="add">14.</num>2</biblScope> <note rend="add">(<date>III a.C.</date>)</note></bibl>,
             <bibl xml:id="bibl100315"><title rend="add">PMich.Zen.</title><biblScope><num rend="add">14.</num>5</biblScope> <note>(<date>III a.C.</date>)</note></bibl>,
             <bibl xml:id="bibl100316"><title>PLond.</title><biblScope>1683.3</biblScope> <note>(<date>VI d.C.</date>)</note></bibl>, ἀβάκηον
             <bibl xml:id="bibl100317"><title>ISmyrna</title> <biblScope>753.11</biblScope> <note>(<date>I d.C.?</date>)</note></bibl>
@@ -938,9 +938,9 @@
             <cit>
               <quote xml:lang="grc">ὀνόματος κληρονόμων</quote>
               <quote xml:lang="spa">en el nombre de los herederos</quote>,
-              <bibl xml:id="bibl100013"><title>OBodl.</title><biblScope>1238.3</biblScope><addStart/> <note>(<date>II d.C.</date>)</note><addEnd/> en <title>BL</title> <biblScope>7.298</biblScope></bibl>,
-              <bibl xml:id="bibl100014"><title>Ostr.</title><biblScope>939.3</biblScope><addStart/> <note>(<date>II d.C.</date>)</note><addEnd/> en <title>BL</title> <biblScope>7.302</biblScope></bibl>,
-              <bibl xml:id="bibl100015"><title>SB</title> <biblScope>11546</biblScope> <note>(<delStart/>todos <delEnd/><date>II d.C.</date>)</note></bibl>.
+              <bibl xml:id="bibl100013"><title>OBodl.</title><biblScope>1238.3</biblScope> <note rend="add">(<date>II d.C.</date>)</note> en <title>BL</title> <biblScope>7.298</biblScope></bibl>,
+              <bibl xml:id="bibl100014"><title>Ostr.</title><biblScope>939.3</biblScope> <note rend="add">(<date>II d.C.</date>)</note> en <title>BL</title> <biblScope>7.302</biblScope></bibl>,
+              <bibl xml:id="bibl100015"><title>SB</title> <biblScope>11546</biblScope> <note>(<del>todos </del><date>II d.C.</date>)</note></bibl>.
             </cit>
           </sense>
           <sense rend="num">
@@ -2027,10 +2027,10 @@
               <def>bienes</def>
               <cit>
                 <quote xml:lang="grc">μισθώσασθ(αι) ... οἶκον ... μετὰ τῶν αὐτοῦ τόπων καὶ παντὸς τοῦ δικαίου</quote>
-                <bibl xml:id="bibl549468"><title>PSI</title> <biblScope>75.13</biblScope><addStart/> <note>(<date>VI d.C.</date>)</note><addEnd/></bibl>, cf.
-                <bibl xml:id="bibl549469"><title>PGiss.</title><biblScope>56.9</biblScope><addStart/> <note>(<date>VI d.C.</date>)</note><addEnd/></bibl>,
-                <bibl xml:id="bibl549470"><title>BGU</title> <biblScope>303.13</biblScope><addStart/> <note>(<date>VI d.C.</date>)</note><addEnd/></bibl>,
-                <bibl xml:id="bibl549471"><title>POxy.</title><biblScope>1910.25</biblScope> <note>(<delStart/>todos <delEnd/><date>VI d.C.</date>)</note></bibl>,
+                <bibl xml:id="bibl549468"><title>PSI</title> <biblScope>75.13</biblScope> <note rend="add">(<date>VI d.C.</date>)</note></bibl>, cf.
+                <bibl xml:id="bibl549469"><title>PGiss.</title><biblScope>56.9</biblScope> <note rend="add">(<date>VI d.C.</date>)</note></bibl>,
+                <bibl xml:id="bibl549470"><title>BGU</title> <biblScope>303.13</biblScope> <note rend="add">(<date>VI d.C.</date>)</note></bibl>,
+                <bibl xml:id="bibl549471"><title>POxy.</title><biblScope>1910.25</biblScope> <note>(<del>todos </del><date>VI d.C.</date>)</note></bibl>,
               </cit>
               <cit>
                 <usg>tb. en plu.</usg>
