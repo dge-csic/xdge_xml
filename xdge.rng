@@ -467,6 +467,8 @@
           <choice>
             <value>add</value>
             <value>del</value>
+            <value>lc</value>
+            <value>llcc</value>
           </choice>
         </attribute>
       </optional>
@@ -524,6 +526,7 @@
             <value>del</value>
             -->
             <value>lc</value>
+            <value>llcc</value>
           </choice>
         </attribute>
       </optional>
@@ -537,6 +540,7 @@
             <attribute name="rend">
               <choice>
                 <value>add</value>
+                <value>lc</value>
               </choice>
             </attribute>
             <zeroOrMore>
@@ -550,6 +554,18 @@
   <define name="note">
     <element name="note">
       <a:documentation>Toute sorte d'information supplémentaire reliée à une citation (date, lieu, variante dans apparat critique., etc.)</a:documentation>
+      <optional>
+        <attribute name="rend">
+          <choice>
+            <!--
+            <value>add</value>
+            <value>del</value>
+            -->
+            <value>lc</value>
+            <value>llcc</value>
+          </choice>
+        </attribute>
+      </optional>
       <zeroOrMore>
         <choice>
           <ref name="richtext"/>
