@@ -159,7 +159,7 @@
           <def>Ecrítica</def>
           <usg>territorio de Cólquide al norte de Fasis, quizás junto al actual río Inguri al este del mar Negro</usg>,
           <bibl xml:id="bibl702433"><author>Ptol.</author><title>Geog.</title><biblScope>5.9.4</biblScope></bibl>,
-          <bibl xml:id="bibl702434"><author>Plin.</author><lcStart/><title>HN</title> <biblScope>6.14</biblScope><lcEnd/></bibl>
+          <bibl xml:id="bibl702434"><author>Plin.</author><title rend="lc">HN</title> <biblScope rend="lc">6.14</biblScope></bibl>
         </sense>
       </entry>
       <entry ana="subst" xml:id="ἀγχιστεύς">
@@ -189,7 +189,7 @@
           <def>heredero legal</def><milestone unit="label"/>
           <bibl xml:id="bibl110635"><author>Hierocl.</author><title>in CA</title> <biblScope>5</biblScope></bibl>, cf.
           <bibl xml:id="bibl110636"><title>SB</title> <biblScope>7462.11</biblScope> <note>(<date>I d.C.</date>)</note></bibl>,
-          <bibl xml:id="bibl110637"><title>PDura</title> <lcStart/><biblScope>12.5</biblScope> <note>(<date>III d.C.</date>)</note><lcEnd/></bibl>,
+          <bibl xml:id="bibl110637"><title>PDura</title> <biblScope rend="lc">12.5</biblScope> <note rend="lc">(<date>III d.C.</date>)</note></bibl>,
           <bibl xml:id="bibl110638"><title>Exc.Cas.</title><biblScope>3</biblScope></bibl>.
         </sense>
         <sense rend="num">
@@ -809,7 +809,7 @@
             <cit>
               <quote xml:lang="grc">ἄβαξ ... ἐφ' οὗ τὰ πράγματα παρατιθέασιν· ἀβάκιον δέ, ἐφ' οὗ ψηφίζουσιν</quote>
               <bibl xml:id="bibl100321"><author>Ammon.</author><title>Diff.</title><biblScope>1</biblScope></bibl>, cf.
-              <bibl xml:id="bibl100322"><title>PLond.</title><lcStart/><biblScope>1683.3</biblScope> <note>(<date>VI d.C.</date>)</note><lcEnd/></bibl>,
+              <bibl xml:id="bibl100322"><title>PLond.</title><biblScope rend="lc">1683.3</biblScope> <note rend="lc">(<date>VI d.C.</date>)</note></bibl>,
             </cit>
             <cit>
               <quote xml:lang="grc">ἀ.· ... ἐφ' οὗ τοὺς λογισμοὺς ἐποιοῦντο</quote>
@@ -862,7 +862,7 @@
           <def>mesa votiva<hi> donde se depositaban las ofrendas</hi></def><milestone unit="label"/>
           <cit>
             <quote xml:lang="grc">ἀβάκηον μαρμάρινον πρὸς τὴν χρῆσιν τῶν θυσιαζόντων</quote>
-            <bibl xml:id="bibl100333"><title>ISmyrna</title> <lcStart/><biblScope>753.11</biblScope> <note>(<date>I d.C.?</date>)</note><lcEnd/></bibl>
+            <bibl xml:id="bibl100333"><title>ISmyrna</title> <biblScope rend="lc">753.11</biblScope> <note rend="lc">(<date>I d.C.?</date>)</note></bibl>
           </cit>
         </sense>
         <etym><xr><lbl>Cf.</lbl> <ref><num>1</num> ἄβαξ</ref></xr>.</etym>
@@ -899,7 +899,7 @@
           </cit>
           <cit>
             <quote xml:lang="grc">ποηφάγος αἰὲν ἄητος</quote>
-            <bibl xml:id="bibl100182"><author>Nic.</author><lcStart/><title>Th.</title><biblScope>783</biblScope><lcEnd/></bibl>, cf.
+            <bibl xml:id="bibl100182"><author>Nic.</author><title rend="lc">Th.</title><biblScope rend="lc">783</biblScope></bibl>, cf.
             <bibl xml:id="bibl100183"><author>Hsch.</author></bibl>,
             <bibl xml:id="bibl100184"><author>Hdn.Gr.</author><biblScope>1.220</biblScope></bibl>
           </cit>
@@ -1709,7 +1709,7 @@
                 </cit>
                 <cit>
                   <quote xml:lang="grc">ὠς ἄριστα κ[αὶ δ]ικαίτατα</quote>
-                  <bibl xml:id="bibl549374"><title>IG</title> <lcStart/><biblScope>12(2).526c.17</biblScope> <note>(<placeName>Ereso</placeName> <date>IV a.C.</date>)</note><lcEnd/></bibl>
+                  <bibl xml:id="bibl549374"><title>IG</title> <biblScope rend="lc">12(2).526c.17</biblScope> <note rend="lc">(<placeName>Ereso</placeName> <date>IV a.C.</date>)</note></bibl>
                 </cit>
               </sense>
             </sense>
@@ -2065,7 +2065,7 @@
                 <cit>
                   <quote xml:lang="grc">αἰ ζὲ μπιθεῖαν τὰ ζίκαια ὂρ μέγιστον τέλος ἔχοι καὶ τοὶ βασιλᾶες</quote>
                   <quote xml:lang="spa">si el magistrado principal y los reyes no le concediesen sus derechos</quote>,
-                  <bibl xml:id="bibl549447"><title>Schwyzer</title> <lcStart/><biblScope>409.2</biblScope> <note>(<placeName>Olimpia</placeName> <date>VI a.C.</date>)</note><lcEnd/></bibl>,
+                  <bibl xml:id="bibl549447"><title>Schwyzer</title> <biblScope rend="lc">409.2</biblScope> <note rend="lc">(<placeName>Olimpia</placeName> <date>VI a.C.</date>)</note></bibl>,
                 </cit>
                 <cit>
                   <quote xml:lang="grc">τοὐμὸν ... δ.</quote>

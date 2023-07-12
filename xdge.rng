@@ -453,6 +453,7 @@
           <choice>
             <value>add</value>
             <value>del</value>
+            <value>lc</value>
           </choice>
         </attribute>
       </optional>
@@ -487,12 +488,6 @@
         <empty/>
       </element>
       <element name="ibEnd">
-        <empty/>
-      </element>
-      <element name="lcStart">
-        <empty/>
-      </element>
-      <element name="lcEnd">
         <empty/>
       </element>
       <element name="llccStart">
