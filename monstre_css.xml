@@ -730,7 +730,7 @@
           <num>II</num>
           <def>plato grande</def>,
           <def>fuente</def>,
-          <bibl xml:id="bibl100330"><title>PMich.Zen.</title><llccStart/><biblScope>14.1</biblScope></bibl> + <bibl xml:id="bibl100330a"><title>PMich.Zen.</title><biblScope>14.2</biblScope><llccStart/></bibl>,
+          <bibl xml:id="bibl100330"><title>PMich.Zen.</title><biblScope rend="llcc">14.1</biblScope></bibl>, <bibl xml:id="bibl100330a"><title rend="llcc">PMich.Zen.</title><biblScope rend="llcc">14.2</biblScope></bibl>,
           <bibl xml:id="bibl100331"><author>Poll.</author><biblScope>6.90</biblScope></bibl>,
           <bibl xml:id="bibl100332"><author rend="add">Poll.</author><biblScope>10.105</biblScope></bibl>.
         </sense>
