@@ -455,6 +455,7 @@
             <value>del</value>
             <value>lc</value>
             <value>llcc</value>
+            <value>ib</value>
           </choice>
         </attribute>
       </optional>
@@ -471,6 +472,7 @@
             <value>del</value>
             <value>lc</value>
             <value>llcc</value>
+            <value>ib</value>
           </choice>
         </attribute>
       </optional>
@@ -485,12 +487,7 @@
   </define>
   <define name="anchors">
     <choice>
-      <element name="ibStart">
         <empty/>
-      </element>
-      <element name="ibEnd">
-        <empty/>
-      </element>
     </choice>
   </define>
   <define name="biblScope">
@@ -502,6 +499,7 @@
             <value>add</value>
             <value>lc</value>
             <value>llcc</value>
+            <value>ib</value>
           </choice>
         </attribute>
       </optional>
@@ -516,6 +514,7 @@
               <choice>
                 <value>add</value>
                 <value>lc</value>
+                <value>ib</value>
               </choice>
             </attribute>
             <zeroOrMore>
