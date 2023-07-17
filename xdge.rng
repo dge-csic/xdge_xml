@@ -401,12 +401,11 @@
   <define name="bibl">
     <element name="bibl">
       <a:documentation>Référence bibliographique.</a:documentation>
-      <choice>
-        <ref name="id"/>
+      <optional>
         <attribute name="type">
           <value>equiv</value>
         </attribute>
-      </choice>
+      </optional>
       <zeroOrMore>
         <choice>
           <text/>
