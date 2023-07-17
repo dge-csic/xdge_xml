@@ -2,7 +2,7 @@
 
 $src_file = $argv[1];
 $xml = file_get_contents($src_file);
-$xml = Normalizer::normalize($xml, Normalizer::FORM_C);
+$xml = indent($xml);
 $dst_file = $src_file;
 file_put_contents($dst_file, $xml);
 
@@ -28,7 +28,7 @@ return;
 
 /**
  * Automate spécifique pour indenter le dge, attention, pas très robuste
- * selon les sauts de lign
+ * selon les sauts de ligne
  */
 function indent($xml)
 {
