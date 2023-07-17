@@ -249,6 +249,7 @@
   </define>
   <define name="sense">
     <element name="sense">
+      <ref name="id"/>
       <optional>
         <attribute name="n">
           <data type="NMTOKEN"/>
